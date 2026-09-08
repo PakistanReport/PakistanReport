@@ -1,231 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>{{ page.title }} | Pakistan Report</title>
 
-  <meta name="description" content="{{ page.description }}">
+  <meta name="description" content="{{ page.description | escape }}">
+  <meta name="robots" content="index, follow">
 
-  <link rel="canonical"
-        href="{{ site.url }}{{ page.url }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
-  <meta property="og:title"
-        content="{{ page.title }}">
-
-  <meta property="og:description"
-        content="{{ page.description }}">
-
-  <meta property="og:type"
-        content="article">
-
-  <meta property="og:url"
-        content="{{ site.url }}{{ page.url }}">
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="Pakistan Report">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
   {% if page.image %}
-  <meta property="og:image"
-        content="{{ site.url }}{{ page.image }}">
+  <meta property="og:image" content="{{ site.url }}{{ page.image }}">
   {% endif %}
 
+  <!-- NewsArticle structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": {{ page.title | jsonify }},
+    "description": {{ page.description | jsonify }},
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{% if page.updated %}{{ page.updated | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "{{ page.author | default: 'Pakistan Report Editorial Desk' }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Pakistan Report",
+      "url": "{{ site.url }}"
+    }{% if page.image %},
+    "image": [
+      "{{ site.url }}{{ page.image }}"
+    ]{% endif %}
+  }
+  </script>
+
   <style>
+
+    :root {
+      --green: #064c3b;
+      --green-light: #08745a;
+      --ink: #111815;
+      --muted: #65716c;
+      --line: #dce2df;
+      --background: #fbfbf8;
+      --white: #ffffff;
+    }
+
     * {
       box-sizing: border-box;
     }
 
     body {
       margin: 0;
+      background: var(--background);
+      color: var(--ink);
       font-family: Arial, Helvetica, sans-serif;
-      background: #f7f7f7;
-      color: #202020;
-      line-height: 1.7;
+      line-height: 1.65;
     }
 
-    header {
-      background: #111;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    /* HEADER */
+
+    .top-strip {
+      background: var(--green);
       color: white;
-      padding: 18px 20px;
+      font-size: 12px;
     }
 
-    .header-inner {
-      max-width: 1100px;
+    .top-strip-inner,
+    .masthead-inner,
+    .nav-inner {
+      width: 92%;
+      max-width: 1180px;
       margin: auto;
+    }
+
+    .top-strip-inner {
+      padding: 7px 0;
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      gap: 20px;
+    }
+
+    .masthead {
+      background: white;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .masthead-inner {
+      padding: 22px 0 19px;
     }
 
     .logo {
-      font-size: 24px;
-      font-weight: 800;
-      text-decoration: none;
-      color: white;
+      color: var(--green);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      font-weight: 900;
+      letter-spacing: -1.5px;
     }
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin-left: 18px;
+    .logo span {
+      font-weight: 400;
+    }
+
+    .tagline {
+      color: var(--muted);
+      font-family: Georgia, serif;
+      font-size: 13px;
+    }
+
+    .nav {
+      background: white;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav-inner {
+      display: flex;
+      gap: 24px;
+      overflow-x: auto;
+    }
+
+    .nav a {
+      padding: 12px 0;
+      white-space: nowrap;
       font-size: 14px;
+      font-weight: 700;
     }
 
-    main {
-      max-width: 850px;
-      margin: 40px auto;
-      padding: 0 20px;
+    .nav a:hover {
+      color: var(--green-light);
+    }
+
+    /* ARTICLE HEADER */
+
+    .article-header {
+      width: 92%;
+      max-width: 900px;
+      margin: 55px auto 32px;
     }
 
     .category {
-      font-size: 13px;
-      font-weight: bold;
+      color: var(--green-light);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.4px;
       text-transform: uppercase;
-      letter-spacing: 1px;
-      color: #777;
     }
 
-    h1 {
-      font-size: clamp(32px, 6vw, 52px);
-      line-height: 1.15;
-      margin: 12px 0 15px;
+    .article-header h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(38px, 6vw, 61px);
+      line-height: 1.05;
+      letter-spacing: -1px;
+      margin: 12px 0 18px;
     }
 
-    .meta {
-      color: #777;
-      font-size: 14px;
-      margin-bottom: 30px;
+    .standfirst {
+      max-width: 790px;
+      color: #4e5b55;
+      font-family: Georgia, serif;
+      font-size: 21px;
+      line-height: 1.5;
+      margin-bottom: 24px;
     }
 
-    .hero {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 30px;
+    .byline {
+      border-top: 1px solid var(--line);
+      padding-top: 17px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .byline strong {
+      color: var(--ink);
+    }
+
+    /* HERO IMAGE */
+
+    .hero-wrap {
+      width: 92%;
+      max-width: 1050px;
+      margin: 0 auto 38px;
+    }
+
+    .hero-image {
       display: block;
+      width: 100%;
+      max-height: 620px;
+      object-fit: cover;
+      background: #e1e7e4;
     }
 
-    article {
-      background: white;
-      padding: 35px;
-      border-radius: 8px;
+    .image-caption {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 7px;
     }
 
-    article p {
-      font-size: 18px;
-      margin: 0 0 22px;
+    /* ARTICLE */
+
+    .article-layout {
+      width: 92%;
+      max-width: 1050px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: minmax(0, 720px) 1fr;
+      gap: 55px;
+      align-items: start;
     }
 
-    article h2 {
-      margin-top: 35px;
-      font-size: 27px;
+    .article-body {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 19px;
+      line-height: 1.78;
     }
 
-    article a {
-      color: #0645ad;
+    .article-body p {
+      margin: 0 0 25px;
     }
 
-    .sources {
+    .article-body h2 {
+      font-size: 29px;
+      line-height: 1.2;
+      margin: 42px 0 17px;
+    }
+
+    .article-body h3 {
+      font-size: 23px;
+      line-height: 1.25;
+      margin-top: 32px;
+    }
+
+    .article-body a {
+      color: var(--green-light);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .article-body blockquote {
+      border-left: 4px solid var(--green);
+      margin: 30px 0;
+      padding: 4px 0 4px 22px;
+      color: #46534d;
+      font-size: 21px;
+    }
+
+    .article-body ul,
+    .article-body ol {
+      padding-left: 25px;
+      margin-bottom: 26px;
+    }
+
+    .article-body li {
+      margin-bottom: 9px;
+    }
+
+    /* SIDEBAR */
+
+    .sidebar {
+      border-top: 3px solid var(--green);
+      padding-top: 15px;
+    }
+
+    .sidebar-title {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.3px;
+      text-transform: uppercase;
+    }
+
+    .sidebar p {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* AD */
+
+    .article-ad {
+      min-height: 130px;
+      margin: 45px 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #929b97;
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    /* SOURCES */
+
+    .article-footer {
+      border-top: 1px solid var(--line);
       margin-top: 45px;
       padding-top: 25px;
-      border-top: 1px solid #ddd;
+      font-family: Arial, sans-serif;
     }
 
-    footer {
-      margin-top: 60px;
-      padding: 30px 20px;
-      background: #111;
-      color: #aaa;
-      text-align: center;
+    .article-footer h2 {
+      font-family: Georgia, serif;
+      font-size: 22px;
+      margin: 0 0 10px;
+    }
+
+    .article-footer p {
+      color: var(--muted);
       font-size: 13px;
     }
 
-    footer a {
-      color: #ddd;
-      margin: 0 8px;
+    /* SITE FOOTER */
+
+    footer {
+      background: #111916;
+      color: #cbd4d0;
+      margin-top: 70px;
+      padding: 42px 0 22px;
     }
 
-    @media (max-width: 600px) {
-      nav {
+    .footer-inner {
+      width: 92%;
+      max-width: 1180px;
+      margin: auto;
+    }
+
+    .footer-logo {
+      color: white;
+      font-family: Georgia, serif;
+      font-size: 25px;
+      font-weight: 900;
+    }
+
+    .footer-links {
+      margin: 16px 0;
+    }
+
+    .footer-links a {
+      display: inline-block;
+      margin: 0 17px 8px 0;
+      font-size: 13px;
+    }
+
+    .copyright {
+      color: #8e9a94;
+      font-size: 12px;
+      border-top: 1px solid #35403b;
+      padding-top: 15px;
+    }
+
+    @media (max-width: 800px) {
+
+      .article-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
         display: none;
       }
 
-      main {
-        margin: 25px auto;
-      }
-
-      article {
-        padding: 22px;
-      }
-
-      article p {
-        font-size: 17px;
-      }
     }
+
+    @media (max-width: 650px) {
+
+      .top-strip {
+        display: none;
+      }
+
+      .logo {
+        font-size: 27px;
+      }
+
+      .nav-inner {
+        gap: 18px;
+      }
+
+      .article-header {
+        margin-top: 35px;
+      }
+
+      .article-header h1 {
+        font-size: 38px;
+      }
+
+      .standfirst {
+        font-size: 18px;
+      }
+
+      .article-body {
+        font-size: 18px;
+      }
+
+    }
+
   </style>
+
 </head>
+
 
 <body>
 
-<header>
-  <div class="header-inner">
+<div class="top-strip">
+  <div class="top-strip-inner">
+    <span>Independent digital publication</span>
+    <span>Pakistan. Explained.</span>
+  </div>
+</div>
 
-    <a class="logo" href="{{ site.url }}">
-      Pakistan Report
+
+<header class="masthead">
+
+  <div class="masthead-inner">
+
+    <a class="logo" href="{{ site.url }}/">
+      PAKISTAN <span>REPORT</span>
     </a>
 
-    <nav>
-      <a href="{{ site.url }}">Home</a>
-      <a href="{{ site.url }}/economy/">Economy</a>
-      <a href="{{ site.url }}/business/">Business</a>
-      <a href="{{ site.url }}/jobs/">Jobs</a>
-      <a href="{{ site.url }}/technology/">Technology</a>
-    </nav>
+    <div class="tagline">
+      Pakistan. Explained.
+    </div>
 
   </div>
+
 </header>
 
-<main>
 
+<nav class="nav">
+
+  <div class="nav-inner">
+
+    <a href="{{ site.url }}/">Home</a>
+    <a href="{{ site.url }}/pakistan/">Pakistan</a>
+    <a href="{{ site.url }}/politics/">Politics</a>
+    <a href="{{ site.url }}/economy/">Economy</a>
+    <a href="{{ site.url }}/business/">Business</a>
+    <a href="{{ site.url }}/jobs/">Jobs</a>
+    <a href="{{ site.url }}/technology/">Technology</a>
+    <a href="{{ site.url }}/world/">World</a>
+    <a href="{{ site.url }}/explainer/">Explainers</a>
+
+  </div>
+
+</nav>
+
+
+<header class="article-header">
+
+  {% if page.category %}
   <div class="category">
     {{ page.category }}
   </div>
+  {% endif %}
 
   <h1>{{ page.title }}</h1>
 
-  <div class="meta">
-    By {{ page.author }} ·
-    {{ page.date | date: "%B %-d, %Y" }}
+  {% if page.description %}
+  <div class="standfirst">
+    {{ page.description }}
   </div>
-
-  {% if page.image %}
-    <img
-      class="hero"
-      src="{{ page.image }}"
-      alt="{{ page.title }}"
-      onerror="this.style.display='none';">
   {% endif %}
 
-  <article>
+  <div class="byline">
+
+    By
+    <strong>
+      {{ page.author | default: "Pakistan Report Editorial Desk" }}
+    </strong>
+
+    &nbsp;·&nbsp;
+
+    Published {{ page.date | date: "%B %-d, %Y" }}
+
+    {% if page.updated %}
+      &nbsp;·&nbsp;
+      Updated {{ page.updated | date: "%B %-d, %Y at %-I:%M %p" }}
+    {% endif %}
+
+  </div>
+
+</header>
+
+
+{% if page.image %}
+
+<div class="hero-wrap">
+
+  <img
+    class="hero-image"
+    src="{{ page.image }}"
+    alt="{{ page.image_alt | default: page.title }}">
+
+  {% if page.image_caption %}
+  <div class="image-caption">
+    {{ page.image_caption }}
+  </div>
+  {% endif %}
+
+</div>
+
+{% endif %}
+
+
+<main class="article-layout">
+
+  <article class="article-body">
 
     {{ content }}
 
+    <div class="article-ad">
+      Advertisement
+    </div>
+
+    <div class="article-footer">
+
+      <h2>About this report</h2>
+
+      <p>
+        Pakistan Report aims to provide clear, accurate and useful
+        reporting with context. Material changes or corrections to
+        this article will be reflected on this page.
+      </p>
+
+    </div>
+
   </article>
+
+
+  <aside class="sidebar">
+
+    <div class="sidebar-title">
+      Pakistan Report
+    </div>
+
+    <p>
+      Independent reporting and explainers covering Pakistan's
+      economy, business, jobs, technology and major developments.
+    </p>
+
+  </aside>
 
 </main>
 
+
 <footer>
 
-  <div>© {{ site.time | date: "%Y" }} Pakistan Report</div>
+  <div class="footer-inner">
 
-  <div style="margin-top: 12px;">
-    <a href="{{ site.url }}/about/">About</a>
-    <a href="{{ site.url }}/editorial-policy/">Editorial Policy</a>
-    <a href="{{ site.url }}/corrections/">Corrections</a>
-    <a href="{{ site.url }}/privacy/">Privacy</a>
-    <a href="{{ site.url }}/contact/">Contact</a>
+    <div class="footer-logo">
+      PAKISTAN REPORT
+    </div>
+
+    <div class="footer-links">
+
+      <a href="{{ site.url }}/about/">About</a>
+      <a href="{{ site.url }}/editorial-policy/">Editorial Policy</a>
+      <a href="{{ site.url }}/corrections/">Corrections</a>
+      <a href="{{ site.url }}/privacy/">Privacy</a>
+      <a href="{{ site.url }}/contact/">Contact</a>
+
+    </div>
+
+    <div class="copyright">
+      © {{ site.time | date: "%Y" }} Pakistan Report.
+      All rights reserved.
+    </div>
+
   </div>
 
 </footer>
+
 
 </body>
 </html>
