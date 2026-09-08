@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<main class="container">
+
+  <section class="news-section">
+
+    <div class="section-heading">
+      <h2>{{ page.title }}</h2>
+    </div>
+
+    {% if page.description %}
+    <p style="max-width:700px; color:#66716c; font-size:17px; margin-bottom:30px;">
+      {{ page.description }}
+    </p>
+    {% endif %}
+
+    {% assign category_posts = site.posts | where: "category", page.category %}
+
+    {% if category_posts.size > 0 %}
+
+    <div class="articles">
+
+      {% for post in category_posts %}
+
+      <article class="card">
+
+        {% if post.image %}
+        <a href="{{ post.url | relative_url }}">
+          <img
+            class="card-image"
+            src="{{ post.image }}"
+            alt="{{ post.image_alt | default: post.title }}"
+            loading="lazy">
+        </a>
+        {% endif %}
+
+        <div class="card-content">
+
+          <div class="category">
+            {{ post.category }}
+          </div>
+
+          <h3>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+          {% if post.description %}
+          <p class="excerpt">
+            {{ post.description }}
+          </p>
+          {% endif %}
+
+          <div class="date">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </div>
+
+        </div>
+
+      </article>
+
+      {% endfor %}
+
+    </div>
+
+    {% else %}
+
+    <div class="empty">
+      <p>No stories have been published in this section yet.</p>
+    </div>
+
+    {% endif %}
+
+  </section>
+
+</main>
