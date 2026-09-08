@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<main class="container">
+
+  <article style="max-width:820px; margin:auto;">
+
+    <header style="margin-bottom:35px; border-bottom:2px solid #111815; padding-bottom:18px;">
+      <h1 style="font-family:Georgia,serif; font-size:42px; line-height:1.1; margin:0;">
+        {{ page.title }}
+      </h1>
+
+      {% if page.description %}
+      <p style="color:#66716c; font-size:17px; margin:14px 0 0;">
+        {{ page.description }}
+      </p>
+      {% endif %}
+    </header>
+
+    <div style="font-family:Georgia,serif; font-size:18px; line-height:1.75;">
+      {{ content }}
+    </div>
+
+  </article>
+
+</main>
