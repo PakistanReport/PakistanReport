@@ -4,95 +4,106 @@ title: "Pakistan Report"
 description: "Pakistan news, economy, business, jobs, technology and explainers."
 ---
 
-<section class="hero">
-
-  <div class="hero-inner">
-
-    <div class="hero-label">
-      PAKISTAN REPORT
-    </div>
-
-    <h1>Pakistan.<br>Explained.</h1>
-
-    <p>
-      News, economy, business, jobs, technology and explainers
-      covering the stories that matter in Pakistan.
-    </p>
-
-  </div>
-
-</section>
-
-
 <main class="container">
 
-  <section>
+  {% if site.posts.size > 0 %}
+
+  {% assign featured = site.posts.first %}
+
+  <!-- FEATURED STORY -->
+  <section class="featured-section">
 
     <div class="section-heading">
-
-      <h2>Latest Stories</h2>
-
-      <a href="{{ site.url }}/">View all</a>
-
+      <h2>Top Story</h2>
     </div>
 
+    <article class="featured-story">
 
-    {% if site.posts.size > 0 %}
+      {% if featured.image %}
+      <a href="{{ featured.url | relative_url }}">
+        <img
+          class="featured-image"
+          src="{{ featured.image }}"
+          alt="{{ featured.title }}">
+      </a>
+      {% endif %}
+
+      <div class="featured-content">
+
+        {% if featured.category %}
+        <div class="category">
+          {{ featured.category }}
+        </div>
+        {% endif %}
+
+        <h1>
+          <a href="{{ featured.url | relative_url }}">
+            {{ featured.title }}
+          </a>
+        </h1>
+
+        {% if featured.description %}
+        <p>
+          {{ featured.description }}
+        </p>
+        {% endif %}
+
+        <div class="date">
+          {{ featured.date | date: "%B %-d, %Y" }}
+        </div>
+
+      </div>
+
+    </article>
+
+  </section>
+
+
+  <!-- LATEST STORIES -->
+  <section class="news-section">
+
+    <div class="section-heading">
+      <h2>Latest Stories</h2>
+    </div>
 
     <div class="articles">
 
-      {% for post in site.posts limit: 12 %}
+      {% for post in site.posts offset:1 limit:6 %}
 
       <article class="card">
 
         {% if post.image %}
-
         <a href="{{ post.url | relative_url }}">
-
           <img
             src="{{ post.image }}"
             alt="{{ post.title }}"
             loading="lazy"
             class="card-image">
-
         </a>
-
         {% endif %}
-
 
         <div class="card-content">
 
           {% if post.category %}
-
           <div class="category">
             {{ post.category }}
           </div>
-
           {% endif %}
 
-
           <h3>
-
             <a href="{{ post.url | relative_url }}">
               {{ post.title }}
             </a>
-
           </h3>
 
-
           {% if post.description %}
-
           <p class="excerpt">
             {{ post.description }}
           </p>
-
           {% endif %}
 
-
           <div class="date">
-
             {{ post.date | date: "%B %-d, %Y" }}
-
           </div>
 
         </div>
@@ -103,53 +114,339 @@ description: "Pakistan news, economy, business, jobs, technology and explainers.
 
     </div>
 
+  </section>
 
-    {% else %}
 
-    <div class="empty">
+  <!-- PAKISTAN -->
+  <section class="news-section">
 
-      <h3>No stories published yet.</h3>
-
-      <p>
-        Pakistan Report's latest stories will appear here.
-      </p>
-
+    <div class="section-heading">
+      <h2>Pakistan</h2>
+      <a href="{{ site.url }}/pakistan/">More →</a>
     </div>
 
-    {% endif %}
+    <div class="articles">
+
+      {% assign pakistan_count = 0 %}
+
+      {% for post in site.posts %}
+
+        {% if post.category == "Pakistan" and pakistan_count < 3 %}
+
+        <article class="card">
+
+          {% if post.image %}
+          <a href="{{ post.url | relative_url }}">
+            <img
+              src="{{ post.image }}"
+              alt="{{ post.title }}"
+              loading="lazy"
+              class="card-image">
+          </a>
+          {% endif %}
+
+          <div class="card-content">
+
+            <div class="category">Pakistan</div>
+
+            <h3>
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            {% if post.description %}
+            <p class="excerpt">
+              {{ post.description }}
+            </p>
+            {% endif %}
+
+          </div>
+
+        </article>
+
+        {% assign pakistan_count = pakistan_count | plus: 1 %}
+
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
 
   </section>
 
 
+  <!-- ECONOMY -->
+  <section class="news-section">
+
+    <div class="section-heading">
+      <h2>Economy</h2>
+      <a href="{{ site.url }}/economy/">More →</a>
+    </div>
+
+    <div class="articles">
+
+      {% assign economy_count = 0 %}
+
+      {% for post in site.posts %}
+
+        {% if post.category == "Economy" and economy_count < 3 %}
+
+        <article class="card">
+
+          {% if post.image %}
+          <a href="{{ post.url | relative_url }}">
+            <img
+              src="{{ post.image }}"
+              alt="{{ post.title }}"
+              loading="lazy"
+              class="card-image">
+          </a>
+          {% endif %}
+
+          <div class="card-content">
+
+            <div class="category">Economy</div>
+
+            <h3>
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            {% if post.description %}
+            <p class="excerpt">
+              {{ post.description }}
+            </p>
+            {% endif %}
+
+          </div>
+
+        </article>
+
+        {% assign economy_count = economy_count | plus: 1 %}
+
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+
+  </section>
+
+
+  <!-- BUSINESS -->
+  <section class="news-section">
+
+    <div class="section-heading">
+      <h2>Business</h2>
+      <a href="{{ site.url }}/business/">More →</a>
+    </div>
+
+    <div class="articles">
+
+      {% assign business_count = 0 %}
+
+      {% for post in site.posts %}
+
+        {% if post.category == "Business" and business_count < 3 %}
+
+        <article class="card">
+
+          {% if post.image %}
+          <a href="{{ post.url | relative_url }}">
+            <img
+              src="{{ post.image }}"
+              alt="{{ post.title }}"
+              loading="lazy"
+              class="card-image">
+          </a>
+          {% endif %}
+
+          <div class="card-content">
+
+            <div class="category">Business</div>
+
+            <h3>
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            {% if post.description %}
+            <p class="excerpt">
+              {{ post.description }}
+            </p>
+            {% endif %}
+
+          </div>
+
+        </article>
+
+        {% assign business_count = business_count | plus: 1 %}
+
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+
+  </section>
+
+
+  <!-- JOBS + TECHNOLOGY -->
+  <section class="split-section">
+
+    <div>
+
+      <div class="section-heading">
+        <h2>Jobs</h2>
+        <a href="{{ site.url }}/jobs/">More →</a>
+      </div>
+
+      {% assign jobs_count = 0 %}
+
+      {% for post in site.posts %}
+
+        {% if post.category == "Jobs" and jobs_count < 4 %}
+
+        <article class="headline-row">
+
+          <div class="category">Jobs</div>
+
+          <h3>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+        </article>
+
+        {% assign jobs_count = jobs_count | plus: 1 %}
+
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+
+
+    <div>
+
+      <div class="section-heading">
+        <h2>Technology</h2>
+        <a href="{{ site.url }}/technology/">More →</a>
+      </div>
+
+      {% assign tech_count = 0 %}
+
+      {% for post in site.posts %}
+
+        {% if post.category == "Technology" and tech_count < 4 %}
+
+        <article class="headline-row">
+
+          <div class="category">Technology</div>
+
+          <h3>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+        </article>
+
+        {% assign tech_count = tech_count | plus: 1 %}
+
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+
+  </section>
+
+
+  <!-- EXPLAINERS -->
+  <section class="news-section">
+
+    <div class="section-heading">
+      <h2>Explainers</h2>
+      <a href="{{ site.url }}/explainer/">More →</a>
+    </div>
+
+    <div class="articles">
+
+      {% assign explainer_count = 0 %}
+
+      {% for post in site.posts %}
+
+        {% if post.category == "Explainer" and explainer_count < 3 %}
+
+        <article class="card">
+
+          <div class="card-content">
+
+            <div class="category">Explainer</div>
+
+            <h3>
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            {% if post.description %}
+            <p class="excerpt">
+              {{ post.description }}
+            </p>
+            {% endif %}
+
+          </div>
+
+        </article>
+
+        {% assign explainer_count = explainer_count | plus: 1 %}
+
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+
+  </section>
+
+
+  {% else %}
+
+  <section class="empty">
+    <h1>Pakistan Report</h1>
+    <p>Our latest reporting will appear here.</p>
+  </section>
+
+  {% endif %}
+
+
+  <!-- FUTURE AD POSITION -->
+  <section class="ad-placeholder">
+    Advertisement
+  </section>
+
+
+  <!-- TOPICS -->
   <section class="topics">
 
-    <h2>Explore Pakistan</h2>
+    <h2>Explore Pakistan Report</h2>
 
     <div class="topic-grid">
 
-      <a href="{{ site.url }}/economy/">
-        Economy
-      </a>
-
-      <a href="{{ site.url }}/business/">
-        Business
-      </a>
-
-      <a href="{{ site.url }}/politics/">
-        Politics
-      </a>
-
-      <a href="{{ site.url }}/jobs/">
-        Jobs
-      </a>
-
-      <a href="{{ site.url }}/technology/">
-        Technology
-      </a>
-
-      <a href="{{ site.url }}/explainer/">
-        Explainers
-      </a>
+      <a href="{{ site.url }}/pakistan/">Pakistan</a>
+      <a href="{{ site.url }}/politics/">Politics</a>
+      <a href="{{ site.url }}/economy/">Economy</a>
+      <a href="{{ site.url }}/business/">Business</a>
+      <a href="{{ site.url }}/jobs/">Jobs</a>
+      <a href="{{ site.url }}/technology/">Technology</a>
+      <a href="{{ site.url }}/world/">World</a>
+      <a href="{{ site.url }}/explainer/">Explainers</a>
 
     </div>
 
