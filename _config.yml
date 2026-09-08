@@ -4,6 +4,12 @@ url: "https://pakistanreport.pakistanreportnews.workers.dev"
 
 lang: "en"
 timezone: "Asia/Karachi"
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: feed.xml
 
 author:
   name: "Pakistan Report Editorial Desk"
