@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Pakistan Report | Pakistan. Explained.</title>
+
+<meta name="description"
+content="Pakistan Report brings you the latest news, analysis, explainers and useful information from Pakistan and around the world.">
+
+<meta name="robots" content="index,follow">
+
+<link rel="canonical" href="https://pakistanreport.pages.dev/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pakistan Report | Pakistan. Explained.">
+<meta property="og:description"
+content="News, context and clear explanations from Pakistan and the world.">
+<meta property="og:url" content="https://pakistanreport.pages.dev/">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pakistan Report">
+<meta name="twitter:description"
+content="Pakistan. Explained.">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"NewsMediaOrganization",
+  "name":"Pakistan Report",
+  "url":"https://pakistanreport.pages.dev/",
+  "description":"Independent digital news and explainers covering Pakistan and the world."
+}
+</script>
+
+<style>
+
+:root{
+ --green:#0b3d2e;
+ --green2:#0b6b4d;
+ --gold:#d8ad45;
+ --text:#17201d;
+ --muted:#66736d;
+ --border:#dfe4e1;
+ --bg:#fafaf7;
+ --white:#ffffff;
+}
+
+*{
+ box-sizing:border-box;
+ margin:0;
+ padding:0;
+}
+
+html{
+ scroll-behavior:smooth;
+}
+
+body{
+ font-family:Arial,Helvetica,sans-serif;
+ background:var(--bg);
+ color:var(--text);
+ line-height:1.55;
+}
+
+a{
+ color:inherit;
+ text-decoration:none;
+}
+
+button,
+input{
+ font:inherit;
+}
+
+.container{
+ width:min(1180px,92%);
+ margin:auto;
+}
+
+/* TOP BAR */
+
+.topbar{
+ background:var(--green);
+ color:white;
+ font-size:12px;
+}
+
+.topbar-inner{
+ display:flex;
+ justify-content:space-between;
+ padding:7px 0;
+}
+
+/* HEADER */
+
+header{
+ background:white;
+}
+
+.masthead{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ padding:24px 0;
+}
+
+.logo{
+ font-family:Georgia,serif;
+ font-size:34px;
+ font-weight:900;
+ letter-spacing:-1.5px;
+ color:var(--green);
+}
+
+.logo span{
+ font-weight:400;
+}
+
+.tagline{
+ color:var(--muted);
+ font-size:13px;
+ margin-top:2px;
+}
+
+.header-actions{
+ display:flex;
+ gap:10px;
+ align-items:center;
+}
+
+.search-button{
+ border:1px solid var(--border);
+ background:white;
+ padding:9px 14px;
+ cursor:pointer;
+}
+
+.menu-button{
+ display:none;
+ border:0;
+ background:none;
+ font-size:25px;
+ cursor:pointer;
+}
+
+/* NAV */
+
+.nav{
+ border-top:1px solid var(--border);
+ border-bottom:1px solid var(--border);
+}
+
+.nav-inner{
+ display:flex;
+ gap:23px;
+ overflow-x:auto;
+}
+
+.nav a{
+ padding:13px 0;
+ font-size:14px;
+ font-weight:bold;
+ white-space:nowrap;
+}
+
+.nav a:hover{
+ color:var(--green2);
+}
+
+/* HERO */
+
+.hero{
+ display:grid;
+ grid-template-columns:1.7fr 1fr;
+ gap:28px;
+ padding:38px 0;
+}
+
+.hero-main{
+ background:white;
+ border:1px solid var(--border);
+}
+
+.hero-image{
+ height:350px;
+ background:#dce5e0;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ color:#426257;
+ font-size:13px;
+ font-weight:bold;
+ letter-spacing:2px;
+}
+
+.hero-content{
+ padding:25px;
+}
+
+.category{
+ color:var(--green2);
+ font-size:11px;
+ font-weight:800;
+ letter-spacing:1.5px;
+}
+
+.hero h1{
+ font-family:Georgia,serif;
+ font-size:44px;
+ line-height:1.07;
+ margin:9px 0 15px;
+}
+
+.summary{
+ color:var(--muted);
+ font-size:17px;
+ margin-bottom:17px;
+}
+
+.read-more{
+ color:var(--green2);
+ font-weight:bold;
+}
+
+/* SIDE STORIES */
+
+.side-story{
+ padding-bottom:20px;
+ margin-bottom:20px;
+ border-bottom:1px solid var(--border);
+}
+
+.side-story h2{
+ font-family:Georgia,serif;
+ font-size:23px;
+ line-height:1.2;
+ margin:7px 0;
+}
+
+.time{
+ color:#7a8580;
+ font-size:12px;
+}
+
+/* SECTIONS */
+
+.section{
+ margin-bottom:48px;
+}
+
+.section-header{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ border-bottom:2px solid var(--text);
+ margin-bottom:0;
+}
+
+.section-header h2{
+ font-family:Georgia,serif;
+ font-size:28px;
+ padding-bottom:8px;
+}
+
+.section-header a{
+ color:var(--green2);
+ font-weight:bold;
+ font-size:13px;
+}
+
+/* LATEST */
+
+.latest article{
+ display:flex;
+ justify-content:space-between;
+ gap:20px;
+ padding:18px 0;
+ border-bottom:1px solid var(--border);
+}
+
+.latest h3{
+ font-family:Georgia,serif;
+ font-size:21px;
+ line-height:1.25;
+}
+
+.latest p{
+ color:var(--muted);
+ font-size:14px;
+ margin-top:4px;
+}
+
+/* CARDS */
+
+.cards{
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+ gap:20px;
+}
+
+.card{
+ background:white;
+ border:1px solid var(--border);
+ overflow:hidden;
+}
+
+.card-image{
+ height:165px;
+ background:#dce5e0;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ color:#426257;
+ font-weight:bold;
+ font-size:12px;
+ letter-spacing:1px;
+}
+
+.card-content{
+ padding:16px;
+}
+
+.card h3{
+ font-family:Georgia,serif;
+ font-size:20px;
+ line-height:1.2;
+ margin:7px 0;
+}
+
+.card p{
+ color:var(--muted);
+ font-size:14px;
+}
+
+/* EXPLAINERS */
+
+.explainers{
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+}
+
+.explainer{
+ padding:22px;
+ border-left:1px solid var(--border);
+}
+
+.explainer:first-child{
+ border-left:0;
+}
+
+.number{
+ color:var(--green2);
+ font-family:Georgia,serif;
+ font-size:22px;
+ font-weight:bold;
+}
+
+.explainer h3{
+ font-family:Georgia,serif;
+ margin:7px 0;
+}
+
+.explainer p{
+ color:var(--muted);
+ font-size:14px;
+}
+
+/* NEWSLETTER */
+
+.newsletter{
+ background:var(--green);
+ color:white;
+ padding:34px;
+ margin:10px 0 55px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ gap:30px;
+}
+
+.newsletter h2{
+ font-family:Georgia,serif;
+ font-size:30px;
+ margin:5px 0;
+}
+
+.newsletter p{
+ color:#cbdad4;
+}
+
+.newsletter form{
+ display:flex;
+ min-width:370px;
+}
+
+.newsletter input{
+ flex:1;
+ border:0;
+ padding:13px;
+}
+
+.newsletter button{
+ border:0;
+ background:var(--gold);
+ padding:13px 18px;
+ font-weight:bold;
+ cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+ background:#111916;
+ color:#cbd5d0;
+ padding:42px 0 20px;
+}
+
+.footer-grid{
+ display:grid;
+ grid-template-columns:2fr 1fr 1fr;
+ gap:30px;
+}
+
+footer h3{
+ color:white;
+ margin-bottom:10px;
+}
+
+footer a{
+ display:block;
+ margin:6px 0;
+}
+
+.footer-logo{
+ color:white;
+}
+
+.copyright{
+ border-top:1px solid #34403b;
+ margin-top:30px;
+ padding-top:15px;
+ font-size:12px;
+}
+
+/* SEARCH */
+
+.search-overlay{
+ position:fixed;
+ inset:0;
+ background:rgba(0,0,0,.65);
+ display:none;
+ align-items:flex-start;
+ justify-content:center;
+ padding-top:100px;
+ z-index:100;
+}
+
+.search-box{
+ width:min(650px,90%);
+ background:white;
+ padding:25px;
+}
+
+.search-box h2{
+ font-family:Georgia,serif;
+ margin-bottom:15px;
+}
+
+.search-box input{
+ width:100%;
+ padding:14px;
+ border:1px solid var(--border);
+}
+
+.close-search{
+ float:right;
+ border:0;
+ background:none;
+ font-size:24px;
+ cursor:pointer;
+}
+
+/* ARTICLE MODAL */
+
+.article-overlay{
+ position:fixed;
+ inset:0;
+ background:rgba(0,0,0,.65);
+ display:none;
+ overflow:auto;
+ z-index:90;
+ padding:40px 15px;
+}
+
+.article{
+ max-width:820px;
+ margin:auto;
+ background:white;
+ padding:40px;
+}
+
+.article h1{
+ font-family:Georgia,serif;
+ font-size:44px;
+ line-height:1.1;
+ margin:10px 0 15px;
+}
+
+.article-lead{
+ font-size:19px;
+ color:var(--muted);
+ margin-bottom:20px;
+}
+
+.article-image{
+ height:320px;
+ background:#dce5e0;
+ display:grid;
+ place-items:center;
+ margin:25px 0;
+ color:#426257;
+ font-weight:bold;
+}
+
+.article p,
+.article li{
+ font-size:17px;
+ margin-bottom:17px;
+}
+
+.article h2{
+ font-family:Georgia,serif;
+ font-size:28px;
+ margin:30px 0 12px;
+}
+
+.close-article{
+ float:right;
+ border:0;
+ background:none;
+ font-size:28px;
+ cursor:pointer;
+}
+
+/* MOBILE */
+
+@media(max-width:800px){
+
+ .topbar{
+  display:none;
+ }
+
+ .masthead{
+  padding:18px 0;
+ }
+
+ .logo{
+  font-size:27px;
+ }
+
+ .menu-button{
+  display:block;
+ }
+
+ .header-actions .search-button{
+  display:none;
+ }
+
+ .nav{
+  display:none;
+ }
+
+ .nav-open .nav{
+  display:block;
+ }
+
+ .nav-inner{
+  flex-wrap:wrap;
+  gap:16px;
+ }
+
+ .hero{
+  grid-template-columns:1fr;
+ }
+
+ .hero-image{
+  height:230px;
+ }
+
+ .hero h1{
+  font-size:34px;
+ }
+
+ .cards{
+  grid-template-columns:1fr;
+ }
+
+ .explainers{
+  grid-template-columns:1fr;
+ }
+
+ .explainer{
+  border-left:0;
+  border-bottom:1px solid var(--border);
+ }
+
+ .newsletter{
+  display:block;
+ }
+
+ .newsletter form{
+  min-width:0;
+  margin-top:20px;
+ }
+
+ .footer-grid{
+  grid-template-columns:1fr;
+ }
+
+ .article{
+  padding:25px;
+ }
+
+ .article h1{
+  font-size:35px;
+ }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+
+<div class="topbar">
+ <div class="container topbar-inner">
+  <span>Monday, September 7, 2026</span>
+  <span>Independent digital news &amp; explainers</span>
+ </div>
+</div>
+
+
+<!-- HEADER -->
+
+<header>
+
+ <div class="container masthead">
+
+  <div>
+   <a class="logo" href="#">PAKISTAN <span>REPORT</span></a>
+   <div class="tagline">Pakistan. Explained.</div>
+  </div>
+
+  <div class="header-actions">
+
+   <button
+    class="search-button"
+    onclick="openSearch()">
+    🔍 Search
+   </button>
+
+   <button
+    class="menu-button"
+    onclick="document.body.classList.toggle('nav-open')">
+    ☰
+   </button>
+
+  </div>
+
+ </div>
+
+
+ <nav class="nav">
+
+  <div class="container nav-inner">
+
+   <a href="#pakistan">Pakistan</a>
+   <a href="#politics">Politics</a>
+   <a href="#business">Business</a>
+   <a href="#economy">Economy</a>
+   <a href="#technology">Technology</a>
+   <a href="#world">World</a>
+   <a href="#jobs">Jobs</a>
+   <a href="#education">Education</a>
+   <a href="#culture">Culture</a>
+   <a href="#sports">Sports</a>
+   <a href="#explainers">Explainers</a>
+
+  </div>
+
+ </nav>
+
+</header>
+
+
+<main class="container">
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+ <article class="hero-main">
+
+  <div class="hero-image">
+   FEATURE IMAGE
+  </div>
+
+  <div class="hero-content">
+
+   <div class="category">TOP STORY</div>
+
+   <h1>
+    Pakistan Report: News, context and the stories that matter
+   </h1>
+
+   <p class="summary">
+    Fast news, useful context and clear explanations about Pakistan
+    and the world.
+   </p>
+
+   <a
+    class="read-more"
+    href="#"
+    onclick="openArticle();return false;">
+    Read the story →
+   </a>
+
+  </div>
+
+ </article>
+
+
+ <aside>
+
+  <article class="side-story">
+
+   <div class="category">POLITICS</div>
+
+   <h2>
+    The political developments readers need to know today
+   </h2>
+
+   <div class="time">6 min read</div>
+
+  </article>
+
+
+  <article class="side-story">
+
+   <div class="category">ECONOMY</div>
+
+   <h2>
+    Pakistan's economy: the numbers behind the headlines
+   </h2>
+
+   <div class="time">5 min read</div>
+
+  </article>
+
+
+  <article class="side-story">
+
+   <div class="category">TECHNOLOGY</div>
+
+   <h2>
+    How AI is changing work and business in Pakistan
+   </h2>
+
+   <div class="time">7 min read</div>
+
+  </article>
+
+ </aside>
+
+</section>
+
+
+<!-- LATEST -->
+
+<section class="section">
+
+ <div class="section-header">
+  <h2>Latest News</h2>
+  <a href="#">View all →</a>
+ </div>
+
+
+ <div class="latest">
+
+  <article>
+   <div>
+    <div class="category">PAKISTAN</div>
+    <h3>Today's major developments across Pakistan</h3>
+    <p>Concise reporting with context and links to primary sources.</p>
+   </div>
+   <span class="time">10:45 AM</span>
+  </article>
+
+
+  <article>
+   <div>
+    <div class="category">BUSINESS</div>
+    <h3>Markets, companies and economic developments to watch</h3>
+    <p>The key numbers and what they mean for households.</p>
+   </div>
+   <span class="time">10:12 AM</span>
+  </article>
+
+
+  <article>
+   <div>
+    <div class="category">WORLD</div>
+    <h3>The international stories most relevant to Pakistan</h3>
+    <p>What happened, why it matters and what comes next.</p>
+   </div>
+   <span class="time">9:40 AM</span>
+  </article>
+
+ </div>
+
+</section>
+
+
+<!-- PAKISTAN -->
+
+<section class="section" id="pakistan">
+
+ <div class="section-header">
+  <h2>Pakistan</h2>
+  <a href="#">More →</a>
+ </div>
+
+
+ <div class="cards">
+
+  <article class="card">
+
+   <div class="card-image">PAKISTAN</div>
+
+   <div class="card-content">
+
+    <div class="category">NATIONAL</div>
+
+    <h3>
+     What is happening across the country today
+    </h3>
+
+    <p>
+     Clear, concise coverage designed for mobile readers.
+    </p>
+
+   </div>
+
+  </article>
+
+
+  <article class="card">
+
+   <div class="card-image">POLITICS</div>
+
+   <div class="card-content">
+
+    <div class="category">POLITICS</div>
+
+    <h3>
+     The political developments you need to know
+    </h3>
+
+    <p>
+     Context first, sensationalism last.
+    </p>
+
+   </div>
+
+  </article>
+
+
+  <article class="card">
+
+   <div class="card-image">CITIES</div>
+
+   <div class="card-content">
+
+    <div class="category">CITIES</div>
+
+    <h3>
+     Stories from Lahore, Karachi, Islamabad and beyond
+    </h3>
+
+    <p>
+     Local developments with national relevance.
+    </p>
+
+   </div>
+
+  </article>
+
+ </div>
+
+</section>
+
+
+<!-- BUSINESS -->
+
+<section class="section" id="business">
+
+ <div class="section-header">
+  <h2>Business &amp; Economy</h2>
+  <a href="#">More →</a>
+ </div>
+
+
+ <div class="cards">
+
+  <article class="card">
+   <div class="card-image">MARKETS</div>
+   <div class="card-content">
+    <div class="category">MARKETS</div>
+    <h3>Pakistan's markets and the numbers investors are watching</h3>
+    <p>Useful context without the financial jargon.</p>
+   </div>
+  </article>
+
+
+  <article class="card">
+   <div class="card-image">BUSINESS</div>
+   <div class="card-content">
+    <div class="category">BUSINESS</div>
+    <h3>The companies and industries shaping Pakistan</h3>
+    <p>Stories about businesses, jobs and growth.</p>
+   </div>
+  </article>
+
+
+  <article class="card">
+   <div class="card-image">MONEY</div>
+   <div class="card-content">
+    <div class="category">MONEY</div>
+    <h3>What economic changes mean for ordinary Pakistanis</h3>
+    <p>Practical explanations of complicated developments.</p>
+   </div>
+  </article>
+
+ </div>
+
+</section>
+
+
+<!-- TECHNOLOGY -->
+
+<section class="section" id="technology">
+
+ <div class="section-header">
+  <h2>Technology &amp; AI</h2>
+  <a href="#">More →</a>
+ </div>
+
+
+ <div class="cards">
+
+  <article class="card">
+   <div class="card-image">AI</div>
+   <div class="card-content">
+    <div class="category">AI</div>
+    <h3>How artificial intelligence is changing Pakistan</h3>
+    <p>Technology stories with practical relevance.</p>
+   </div>
+  </article>
+
+
+  <article class="card">
+   <div class="card-image">TECH</div>
+   <div class="card-content">
+    <div class="category">TECH</div>
+    <h3>The latest technology developments to know</h3>
+    <p>From startups to smartphones and everything between.</p>
+   </div>
+  </article>
+
+
+  <article class="card">
+   <div class="card-image">DIGITAL</div>
+   <div class="card-content">
+    <div class="category">DIGITAL</div>
+    <h3>Pakistan's growing digital economy</h3>
+    <p>Companies, creators and opportunities.</p>
+   </div>
+  </article>
+
+ </div>
+
+</section>
+
+
+<!-- WORLD -->
+
+<section class="section" id="world">
+
+ <div class="section-header">
+  <h2>World</h2>
+  <a href="#">More →</a>
+ </div>
+
+
+ <div class="cards">
+
+  <article class="card">
+   <div class="card-image">WORLD</div>
+   <div class="card-content">
+    <div class="category">WORLD</div>
+    <h3>The global stories Pakistan should be watching</h3>
+    <p>International developments with Pakistani relevance.</p>
+   </div>
+  </article>
+
+
+  <article class="card">
+   <div class="card-image">REGION</div>
+   <div class="card-content">
+    <div class="category">REGION</div>
+    <h3>South Asia: the developments shaping the region</h3>
+    <p>Regional context in plain English.</p>
+   </div>
+  </article>
+
+
+  <article class="card">
+   <div class="card-image">GLOBAL</div>
+   <div class="card-content">
+    <div class="category">GLOBAL</div>
+    <h3>What international events mean for Pakistan</h3>
+    <p>Connecting global news to local impact.</p>
+   </div>
+  </article>
+
+ </div>
+
+</section>
+
+
+<!-- JOBS -->
+
+<section class="section" id="jobs">
+
+ <div class="section-header">
+  <h2>Jobs &amp; Opportunities</h2>
+  <a href="#">More →</a>
+ </div>
+
+
+ <div class="cards">
+
+  <article class="card">
+   <div class="card-image">REMOTE WORK</div>
+   <div class="card-content">
+    <div class="category">REMOTE WORK</div>
+    <h3>Remote opportunities Pakistanis should know about</h3>
+    <p>Jobs, skills and international opportunities.</p>
+   </div>
+  </article>
+
+
+  <article class="card">
+   <div class="card-image">CAREERS</div>
+   <div class="card-content">
+    <div class="category">CAREERS</div>
+    <h3>Skills employers are looking for</h3>
+    <p>Practical career information for Pakistani workers.</p>
+   </div>
+  </article>
+
+
+  <article class="card">
+   <div class="card-image">FREELANCE</div>
+   <div class="card-content">
+    <div class="category">FREELANCE</div>
+    <h3>How Pakistan's freelancers can find global clients</h3>
+    <p>Guides for building an international career online.</p>
+   </div>
+  </article>
+
+ </div>
+
+</section>
+
+
+<!-- EXPLAINERS -->
+
+<section class="section" id="explainers">
+
+ <div class="section-header">
+  <h2>Explainers</h2>
+  <a href="#">More →</a>
+ </div>
+
+
+ <div class="explainers">
+
+  <article class="explainer">
+
+   <div class="number">01</div>
+
+   <h3>
+    What does a change in petrol prices mean for your monthly budget?
+   </h3>
+
+   <p>
+    Simple calculations and practical examples.
+   </p>
+
+  </article>
+
+
+  <article class="explainer">
+
+   <div class="number">02</div>
+
+   <h3>
+    What do new visa rules mean for Pakistani applicants?
+   </h3>
+
+   <p>
+    Plain-English explanations of complicated announcements.
+   </p>
+
+  </article>
+
+
+  <article class="explainer">
+
+   <div class="number">03</div>
+
+   <h3>
+    Pakistan's electricity bill explained
+   </h3>
+
+   <p>
+    Tariffs, taxes, adjustments and what they mean.
+   </p>
+
+  </article>
+
+ </div>
+
+</section>
+
+
+<!-- NEWSLETTER -->
+
+<section class="newsletter">
+
+ <div>
+
+  <div class="category" style="color:#a8d1bf">
+   THE DAILY BRIEF
+  </div>
+
+  <h2>
+   Get the important stories in your inbox.
+  </h2>
+
+  <p>
+   A concise daily briefing from Pakistan Report.
+  </p>
+
+ </div>
+
+
+ <form onsubmit="subscribe(event)">
+
+  <input
+   id="email"
+   type="email"
+   placeholder="Your email address"
+   required>
+
+  <button type="submit">
+   Subscribe
+  </button>
+
+ </form>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+ <div class="container footer-grid">
+
+  <div>
+
+   <div class="logo footer-logo">
+    PAKISTAN <span>REPORT</span>
+   </div>
+
+   <p>Pakistan. Explained.</p>
+
+  </div>
+
+
+  <div>
+
+   <h3>Publication</h3>
+
+   <a href="#">About</a>
+   <a href="#">Editorial Policy</a>
+   <a href="#">Contact</a>
+   <a href="#">Corrections</a>
+
+  </div>
+
+
+  <div>
+
+   <h3>Legal</h3>
+
+   <a href="#">Privacy Policy</a>
+   <a href="#">Terms</a>
+
+  </div>
+
+ </div>
+
+
+ <div class="container copyright">
+
+  © 2026 Pakistan Report. All rights reserved.
+
+ </div>
+
+</footer>
+
+
+<!-- SEARCH -->
+
+<div
+ id="searchOverlay"
+ class="search-overlay"
+ onclick="closeSearch(event)">
+
+ <div
+  class="search-box"
+  onclick="event.stopPropagation()">
+
+  <button
+   class="close-search"
+   onclick="closeSearch()">
+   ×
+  </button>
+
+  <h2>Search Pakistan Report</h2>
+
+  <input
+   type="search"
+   placeholder="Search stories, topics or keywords..."
+   oninput="searchSite(this.value)">
+
+  <div id="searchResults"></div>
+
+ </div>
+
+</div>
+
+
+<!-- ARTICLE -->
+
+<div
+ id="articleOverlay"
+ class="article-overlay"
+ onclick="closeArticle(event)">
+
+ <article
+  class="article"
+  onclick="event.stopPropagation()">
+
+  <button
+   class="close-article"
+   onclick="closeArticle()">
+   ×
+  </button>
+
+  <div class="category">
+   PAKISTAN REPORT
+  </div>
+
+  <h1>
+   Pakistan Report: News, context and the stories that matter
+  </h1>
+
+  <p class="article-lead">
+   This is the article template for Pakistan Report. Real articles
+   will contain verified reporting, source attribution and original
+   context.
+  </p>
+
+  <div class="time">
+   By Pakistan Report · September 7, 2026
+  </div>
+
+  <div class="article-image">
+   ARTICLE FEATURE IMAGE
+  </div>
+
+  <p>
+   <strong>What happened?</strong>
+   Real reporting will begin with a concise explanation of the
+   confirmed facts and will identify the sources behind important
+   claims.
+  </p>
+
+  <h2>Why it matters</h2>
+
+  <p>
+   Pakistan Report will focus on giving readers useful context rather
+   than simply repeating a headline. Articles should explain what
+   happened, why it matters and what readers should watch next.
+  </p>
+
+  <h2>What we know</h2>
+
+  <ul>
+   <li>Important claims will be attributed.</li>
+   <li>Primary sources will be used where possible.</li>
+   <li>Figures and dates will be checked.</li>
+   <li>Corrections will be made transparently.</li>
+  </ul>
+
+  <h2>What happens next?</h2>
+
+  <p>
+   Follow-up coverage will link back to earlier reporting so readers
+   can understand how a developing story changes over time.
+  </p>
+
+ </article>
+
+</div>
+
+
+<script>
+
+/* SEARCH */
+
+function openSearch(){
+
+ document.getElementById("searchOverlay").style.display="flex";
+
+}
+
+function closeSearch(event){
+
+ if(!event || event.target.id==="searchOverlay"){
+  document.getElementById("searchOverlay").style.display="none";
+ }
+
+}
+
+function searchSite(query){
+
+ const results=document.getElementById("searchResults");
+
+ if(!query.trim()){
+
+  results.innerHTML="";
+
+  return;
+
+ }
+
+ results.innerHTML=
+ `
+ <div style="padding-top:20px">
+  <strong>Search:</strong> ${escapeHtml(query)}
+  <p style="color:#66736d;margin-top:8px">
+   Search functionality will be connected to the article database
+   when we move from the prototype to the production CMS.
+  </p>
+ </div>
+ `;
+
+}
+
+
+/* ARTICLE */
+
+function openArticle(){
+
+ document.getElementById("articleOverlay").style.display="block";
+
+ document.body.style.overflow="hidden";
+
+}
+
+function closeArticle(event){
+
+ if(!event || event.target.id==="articleOverlay"){
+
+  document.getElementById("articleOverlay").style.display="none";
+
+  document.body.style.overflow="";
+
+ }
+
+}
+
+
+/* NEWSLETTER */
+
+function subscribe(event){
+
+ event.preventDefault();
+
+ const email=document.getElementById("email").value;
+
+ alert(
+  "Thanks! Newsletter signup for "+email+
+  " will be connected when we add the mailing service."
+ );
+
+}
+
+
+/* SECURITY */
+
+function escapeHtml(text){
+
+ const div=document.createElement("div");
+
+ div.textContent=text;
+
+ return div.innerHTML;
+
+}
+
+
+/* ESC KEY */
+
+document.addEventListener("keydown",function(event){
+
+ if(event.key==="Escape"){
+
+  closeSearch();
+
+  closeArticle();
+
+ }
+
+});
+
+</script>
+
+</body>
+</html>
