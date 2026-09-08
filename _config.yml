@@ -1,0 +1,31 @@
+title: "Pakistan Report"
+description: "Pakistan. Explained."
+url: "pakistanreport.pakistanreportnews.workers.dev"
+
+lang: "en"
+timezone: "Asia/Karachi"
+
+author:
+  name: "Pakistan Report Editorial Desk"
+
+permalink: /:categories/:title/
+
+markdown: kramdown
+highlighter: rouge
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
+      author: "Pakistan Report Editorial Desk"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
