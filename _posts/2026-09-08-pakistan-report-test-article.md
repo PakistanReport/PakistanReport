@@ -5,7 +5,6 @@ category: "Pakistan"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-08
 description: "This is a test article for the Pakistan Report pilot."
-image: "/assets/images/default-news.jpg"
 ---
 
 # Pakistan Report Publishing System Test
