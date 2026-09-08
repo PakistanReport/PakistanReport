@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% else %}
+  <meta name="description" content="{{ site.description }}">
+  {% endif %}
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f5f5;
+      color: #171717;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 18px 20px;
+    }
+
+    .header-inner {
+      max-width: 1150px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: white;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: 800;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    main {
+      max-width: 1150px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      padding: 35px 20px;
+      text-align: center;
+      margin-top: 70px;
+      font-size: 13px;
+    }
+
+    footer a {
+      color: #ddd;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner">
+
+    <a class="logo" href="{{ site.url }}/">
+      Pakistan Report
+    </a>
+
+    <nav>
+      <a href="{{ site.url }}/">Home</a>
+      <a href="{{ site.url }}/economy/">Economy</a>
+      <a href="{{ site.url }}/business/">Business</a>
+      <a href="{{ site.url }}/jobs/">Jobs</a>
+      <a href="{{ site.url }}/technology/">Technology</a>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer>
+
+  <div>
+    © {{ site.time | date: "%Y" }} Pakistan Report
+  </div>
+
+  <div style="margin-top: 15px;">
+    <a href="{{ site.url }}/about/">About</a>
+    <a href="{{ site.url }}/editorial-policy/">Editorial Policy</a>
+    <a href="{{ site.url }}/corrections/">Corrections</a>
+    <a href="{{ site.url }}/privacy/">Privacy</a>
+    <a href="{{ site.url }}/contact/">Contact</a>
+  </div>
+
+</footer>
+
+</body>
+</html>
