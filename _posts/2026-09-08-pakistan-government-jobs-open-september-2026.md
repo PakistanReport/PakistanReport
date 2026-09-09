@@ -5,6 +5,9 @@ category: "Jobs"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-08 23:30:00 +0500
 description: "Several federal government and public-sector positions are currently open in Pakistan, with application deadlines running through mid-September 2026."
+image: "/assets/images/government-jobs-pakistan.png"
+image_alt: "Desk and job application materials representing public-sector employment opportunities in Pakistan."
+image_caption: "Pakistan Report illustration."
 ---
 
 Several federal government and public-sector job opportunities remain open in Pakistan this September, with vacancies ranging from management trainee positions to senior specialist and executive roles.
