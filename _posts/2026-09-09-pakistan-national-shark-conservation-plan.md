@@ -5,6 +5,9 @@ category: "Pakistan"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 15:55:00 +0500
 description: "Pakistan has announced its first national action plan for shark conservation, setting out a 10-year programme to protect vulnerable species and improve management of marine fisheries."
+image: "/assets/images/pakistan-national-shark-conservation-plan.png"
+image_alt: "Pakistan Report illustration representing shark conservation and marine ecosystem protection in Pakistani waters."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan has announced its first national action plan for shark conservation, setting out a 10-year programme aimed at protecting vulnerable marine species and improving the management of the country's fisheries.
