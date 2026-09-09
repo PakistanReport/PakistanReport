@@ -5,6 +5,9 @@ category: "Technology"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 15:10:00 +0500
 description: "A petition before Pakistan's Federal Constitutional Court seeks restrictions on social-media access for children under 16, including an age-verification system. No nationwide ban has been imposed."
+image: "/assets/images/pakistan-under-16-social-media-safety.png"
+image_alt: "Pakistan Report illustration representing the debate over children's online safety and social-media restrictions in Pakistan."
+image_caption: "Pakistan Report illustration."
 ---
 
 A petition filed before Pakistan's Federal Constitutional Court is seeking restrictions on social-media access for children under 16, adding to a growing debate over children's online safety and age verification.
