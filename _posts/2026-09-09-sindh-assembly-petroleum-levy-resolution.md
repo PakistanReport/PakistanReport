@@ -5,6 +5,9 @@ category: "Politics"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 16:00:00 +0500
 description: "The Sindh Assembly has unanimously adopted a resolution calling on the federal government to abolish the petroleum levy as Pakistan faces another increase in fuel prices."
+image: "/assets/images/sindh-assembly-petroleum-levy-resolution.png"
+image_alt: "Pakistan Report illustration representing the Sindh Assembly's call for abolition of the federal petroleum levy."
+image_caption: "Pakistan Report illustration."
 ---
 
 The Sindh Assembly has unanimously adopted a resolution calling on the federal government to abolish the petroleum levy amid concerns over the impact of high fuel prices on households and businesses.
