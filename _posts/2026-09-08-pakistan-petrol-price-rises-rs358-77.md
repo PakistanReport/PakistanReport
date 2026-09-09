@@ -5,6 +5,9 @@ category: "Economy"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-08 22:15:00 +0500
 description: "Petrol now costs Rs358.77 per litre in Pakistan after a Rs12.90 increase, while high-speed diesel has risen to Rs381.77 per litre."
+image: "/assets/images/petrol-price-pakistan.png"
+image_alt: "Fuel nozzle filling a vehicle at a petrol station in Pakistan."
+image_caption: "Pakistan Report illustration."
 ---
 
 Petrol prices in Pakistan have risen sharply, with the price of petrol increasing by **Rs12.90 per litre to Rs358.77 per litre**.
