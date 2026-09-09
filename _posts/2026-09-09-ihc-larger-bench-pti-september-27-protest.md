@@ -3,7 +3,7 @@ layout: article
 title: "IHC Forms Larger Bench Over PTI's Planned September 27 Protest"
 category: "Politics"
 author: "Pakistan Report Editorial Desk"
-date: date: 2026-09-09 14:35:00 +0500
+date: 2026-09-09 14:35:00 +0500
 description: "The Islamabad High Court has formed a three-member larger bench to hear a petition concerning PTI's planned September 27 protest, with the next hearing set for September 10."
 ---
 
