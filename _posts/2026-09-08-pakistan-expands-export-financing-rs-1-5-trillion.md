@@ -5,6 +5,9 @@ category: "Economy"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-08 21:30:00 +0500
 description: "Pakistan has expanded its Export Finance Scheme to Rs1.5 trillion for FY2026-27, with Rs300 billion earmarked for SME exporters, agri-SMEs and new borrowers."
+image: "/assets/images/export-finance-pakistan.png"
+image_alt: "Container ship and cargo terminal representing Pakistan's export trade."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan has expanded its Export Finance Scheme to **Rs1.5 trillion for FY2026-27**, increasing the pool of financing available to exporters as the government seeks to accelerate export-led economic growth.
