@@ -5,6 +5,9 @@ category: "Business"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-08 22:45:00 +0500
 description: "Pakistan's KSE-100 index closed 993.91 points lower as Middle East tensions and higher oil prices weighed on investor sentiment."
+image: "/assets/images/psx-market-pakistan.png"
+image_alt: "Illustration representing trading at the Pakistan Stock Exchange."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan's stock market ended lower on Tuesday as escalating tensions in the Middle East and higher oil prices weighed on investor sentiment.
