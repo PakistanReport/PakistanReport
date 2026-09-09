@@ -5,6 +5,9 @@ category: "World"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 15:45:00 +0500
 description: "Brent crude briefly crossed $100 a barrel on September 9 as escalating conflict in the Middle East renewed concerns about oil supplies and inflation."
+image: "/assets/images/oil-crosses-100-middle-east-2026.png"
+image_alt: "Pakistan Report illustration representing rising global oil prices and Middle East energy supply risks."
+image_caption: "Pakistan Report illustration."
 ---
 
 Global oil prices climbed above $100 a barrel on Wednesday as escalating conflict in the Middle East renewed concerns about energy supplies from the region.
