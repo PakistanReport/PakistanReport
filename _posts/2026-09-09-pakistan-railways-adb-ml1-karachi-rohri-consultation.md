@@ -5,6 +5,9 @@ category: "Business"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 14:45:00 +0500
 description: "Pakistan Railways and the Asian Development Bank have completed a second market consultation for the Karachi–Rohri section of ML-1 as preparations continue for the major railway upgrade."
+image: "/assets/images/ml1-karachi-rohri-railway.png"
+image_alt: "Pakistan Report illustration representing the planned ML-1 railway upgrade between Karachi and Rohri."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan Railways and the Asian Development Bank have completed another round of market consultations for the planned upgrade of the Karachi–Rohri section of Main Line-1, moving preparations for one of Pakistan's largest transport infrastructure projects forward.
