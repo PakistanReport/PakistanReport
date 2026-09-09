@@ -5,6 +5,9 @@ category: "Jobs"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 15:00:00 +0500
 description: "Several federal government vacancies remain open on Pakistan's National Jobs Portal, including trainee, management, specialist and senior positions with September 2026 deadlines."
+image: "/assets/images/pakistan-government-jobs-september-2026.png"
+image_alt: "Pakistan Report illustration representing federal government job opportunities and online applications in Pakistan."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan's National Jobs Portal is carrying a range of federal government vacancies with application deadlines approaching during September 2026.
