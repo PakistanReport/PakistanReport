@@ -5,6 +5,9 @@ category: "Economy"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 15:50:00 +0500
 description: "Prime Minister Shehbaz Sharif says Pakistan recovered Rs800 billion through enforcement measures over the past year as the government seeks proposals to accelerate export-led growth."
+image: "/assets/images/pm-tax-enforcement-export-growth-2026.png"
+image_alt: "Pakistan Report illustration representing government discussions on tax enforcement, exports and economic growth."
+image_caption: "Pakistan Report illustration."
 ---
 
 Prime Minister Shehbaz Sharif says the government recovered Rs800 billion through tax enforcement measures over the past year without imposing new taxes, as his administration pushes for stronger exports and further economic reforms.
