@@ -5,6 +5,9 @@ category: "Economy"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 15:35:00 +0500
 description: "Pakistan has raised the petrol price by Rs5.58 to Rs364.35 per litre for September 9, while high-speed diesel has increased by Rs4.18 to Rs385.95."
+image: "/assets/images/pakistan-petrol-price-september-9-2026.png"
+image_alt: "Pakistan Report illustration showing Pakistan's petrol price of Rs364.35 per litre and high-speed diesel price of Rs385.95 on September 9, 2026."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan has raised the price of petrol by Rs5.58 to Rs364.35 per litre for September 9, as the country's daily fuel-pricing system continues to pass changes in international petroleum costs into domestic prices.
