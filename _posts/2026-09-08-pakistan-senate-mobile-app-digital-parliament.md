@@ -5,6 +5,9 @@ category: "Technology"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-08 23:50:00 +0500
 description: "Pakistan's Senate has launched a new mobile application as part of a broader effort to digitise parliamentary work and improve access to official information."
+image: "/assets/images/senate-digital-pakistan.png"
+image_alt: "Illustration representing digital technology and parliamentary services in Pakistan."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan's Senate has launched a new mobile application as part of a wider effort to digitise parliamentary operations and make official information more accessible.
