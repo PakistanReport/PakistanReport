@@ -5,6 +5,9 @@ category: "Economy"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 14:50:00 +0500
 description: "Pakistan received $3.66 billion in workers' remittances in August 2026, taking inflows during the first two months of FY2026-27 to about $7.3 billion."
+image: "/assets/images/pakistan-remittances-august-2026.png"
+image_alt: "Pakistan Report illustration representing overseas workers' remittances flowing into Pakistan."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan received about $3.66 billion in workers' remittances in August 2026, extending a strong start to the fiscal year as overseas Pakistanis continued to send substantial foreign currency inflows into the country.
