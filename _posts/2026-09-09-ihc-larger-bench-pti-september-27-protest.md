@@ -5,6 +5,9 @@ category: "Politics"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 14:35:00 +0500
 description: "The Islamabad High Court has formed a three-member larger bench to hear a petition concerning PTI's planned September 27 protest, with the next hearing set for September 10."
+image: "/assets/images/ihc-pti-september-27-protest.png"
+image_alt: "Pakistan Report illustration representing court proceedings and political protest in Islamabad."
+image_caption: "Pakistan Report illustration."
 ---
 
 The Islamabad High Court has constituted a three-member larger bench to hear a petition seeking court intervention over Pakistan Tehreek-e-Insaf's planned September 27 protest.
