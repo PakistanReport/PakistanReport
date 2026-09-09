@@ -5,6 +5,9 @@ category: "Business"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 15:40:00 +0500
 description: "Pakistan's exchange companies sold $248.7 million to banks in August 2026, up from $174.9 million a year earlier, while the two-month total reached $479.5 million."
+image: "/assets/images/pakistan-exchange-companies-dollar-sales-august-2026.png"
+image_alt: "Pakistan Report illustration representing US dollar sales by exchange companies to Pakistan's banking system."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan's exchange companies sold $248.7 million to banks in August 2026, compared with $174.9 million in the same month last year, according to data from the Exchange Companies Association of Pakistan (ECAP).
