@@ -5,6 +5,9 @@ category: "Economy"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 14:40:00 +0500
 description: "Pakistan's tax authority is encouraging small shopkeepers and retailers to use a voluntary simplified tax scheme based on a one-page return and a 1% turnover tax."
+image: "/assets/images/fbr-small-shopkeepers-tax-scheme.png"
+image_alt: "Pakistan Report illustration representing a small Pakistani retailer and simplified tax compliance."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan's Federal Board of Revenue is encouraging small shopkeepers and retailers to opt for a simplified tax scheme designed to make it easier for smaller businesses to enter the formal tax system.
