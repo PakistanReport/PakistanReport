@@ -5,6 +5,9 @@ category: "Economy"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-08 23:10:00 +0500
 description: "NEPRA has approved uniform grid charges for open-access electricity users, clearing a key regulatory step toward Pakistan's first competitive power auction."
+image: "/assets/images/electricity-grid-pakistan.png"
+image_alt: "Electricity transmission towers and power infrastructure at sunset."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan has moved closer to launching a competitive wholesale electricity market after the National Electric Power Regulatory Authority approved uniform charges for consumers that use the national electricity network to buy power from alternative suppliers.
