@@ -5,6 +5,9 @@ category: "Politics"
 author: "Pakistan Report Editorial Desk"
 date: 2026-09-09 14:50:00 +0500
 description: "Debate over creating new provinces and administrative units has intensified, while the Sindh Assembly has formally invoked constitutional protections against altering the province's boundaries."
+image: "/assets/images/new-provinces-sindh-constitutional-debate.png"
+image_alt: "Pakistan Report illustration representing Pakistan's debate over federalism, provincial boundaries and constitutional safeguards."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan's debate over creating new provinces and administrative units is intensifying, with political leaders calling for the issue to be discussed in Parliament while the Sindh Assembly has formally rejected any attempt to alter the province's existing territorial boundaries.
