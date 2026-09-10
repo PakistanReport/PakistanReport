@@ -6,6 +6,9 @@ author: "Pakistan Report Editorial Desk"
 description: "A national consultation examined a draft safety framework covering formal and informal work, including risks linked to heat and changing technologies."
 date: 2026-09-11 02:35:00 +0500
 published: true
+image: "/assets/images/workplace-safety-framework.png"
+image_alt: "Pakistan Report illustration representing workers and workplace-safety consultation in Pakistan."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan has held a national consultation on a draft occupational safety and health policy, bringing workers, employers and public authorities into discussions on how a broader workplace-safety framework would operate.
