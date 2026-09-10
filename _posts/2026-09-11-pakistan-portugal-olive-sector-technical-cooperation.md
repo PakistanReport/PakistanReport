@@ -6,6 +6,9 @@ author: "Pakistan Report Editorial Desk"
 description: "September 10 talks outlined expert exchanges and a proposed working group for olive cultivation and processing; a formal agreement remains prospective."
 date: 2026-09-11 02:35:00 +0500
 published: true
+image: "/assets/images/pakistan-portugal-olive-cooperation.png"
+image_alt: "Pakistan Report illustration representing Pakistan-Portugal cooperation on olive-sector training and technology."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan and Portugal have discussed closer technical cooperation in olive cultivation and oil processing, including specialist training and exchanges between agricultural experts, according to a [September 10 official announcement](https://pid.gov.pk/site/press_detail/33896).
