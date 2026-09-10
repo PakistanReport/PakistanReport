@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{{ page.title }} | Pakistan Report</title>
+  <title>{{ page.title | escape }} | Pakistan Report</title>
 
   <meta name="description" content="{{ page.description | escape }}">
   <meta name="robots" content="index, follow">
@@ -38,7 +38,7 @@
     },
     "author": {
       "@type": "Organization",
-      "name": "{{ page.author | default: 'Pakistan Report Editorial Desk' }}"
+      "name": {{ page.author | default: 'Pakistan Report Editorial Desk' | jsonify }}
     },
     "publisher": {
       "@type": "Organization",
@@ -420,6 +420,7 @@
 
   </style>
 
+{% include analytics.html %}
 </head>
 
 
@@ -477,11 +478,11 @@
   </div>
   {% endif %}
 
-  <h1>{{ page.title }}</h1>
+  <h1>{{ page.title | escape }}</h1>
 
   {% if page.description %}
   <div class="standfirst">
-    {{ page.description }}
+    {{ page.description | escape }}
   </div>
   {% endif %}
 
@@ -513,7 +514,7 @@
   <img
     class="hero-image"
     src="{{ page.image }}"
-    alt="{{ page.image_alt | default: page.title }}">
+    alt="{{ page.image_alt | default: page.title | escape }}">
 
   {% if page.image_caption %}
   <div class="image-caption">
@@ -581,6 +582,7 @@
       <a href="{{ site.url }}/editorial-policy/">Editorial Policy</a>
       <a href="{{ site.url }}/corrections/">Corrections</a>
       <a href="{{ site.url }}/privacy/">Privacy</a>
+      <a href="{{ site.url }}/terms/">Terms</a>
       <a href="{{ site.url }}/contact/">Contact</a>
 
     </div>
@@ -592,8 +594,12 @@
 
   </div>
 
+  <div style="width:92%;max-width:1180px;margin:12px auto;">
+    <button type="button" class="pr-analytics-preferences" aria-controls="pr-analytics-notice">Analytics preferences</button>
+  </div>
 </footer>
 
 
+{% include analytics-consent.html %}
 </body>
 </html>

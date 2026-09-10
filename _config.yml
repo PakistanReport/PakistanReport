@@ -35,3 +35,14 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - wrangler.jsonc
+  - node_modules
+  - vendor
+  - package.json
+  - package-lock.json
+  - _newsroom
+
+# GA4 is configured for production; deployment remains on hold.
+analytics:
+  enabled: true
+  measurement_id: "G-8J4QNEXRW4"

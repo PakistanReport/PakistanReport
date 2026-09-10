@@ -1,33 +1,37 @@
 ---
 layout: page
 title: "Privacy Policy"
-description: "Privacy information for visitors to Pakistan Report."
+description: "How Pakistan Report handles website data and optional analytics."
 ---
 
-Pakistan Report respects the privacy of its readers.
+Pakistan Report is an independent digital publication. For privacy questions, contact [pakistanreportnews@gmail.com](mailto:pakistanreportnews@gmail.com).
 
-This policy explains, in general terms, the types of information that may be processed when you use the website.
+## Hosting and security
 
-## Website data
+Our Cloudflare hosting and security services may process technical information such as IP addresses, requested pages and browser information to deliver and protect the website. Declining optional analytics does not prevent this processing.
 
-Like most websites, Pakistan Report's hosting, security and analytics providers may process technical information such as IP addresses, browser information, device information, requested pages and approximate location.
+## Optional Google Analytics
 
-This information may be used for website security, reliability, analytics and performance.
+We use Google Analytics 4 only when you choose **Allow analytics**. Until then, our website does not load Google's analytics script or send analytics events through this integration. Choosing **Decline**, leaving the notice unanswered or browsing without JavaScript keeps this analytics integration off.
 
-## Analytics
+When allowed, Google Analytics uses first-party cookies, including `_ga` and `_ga_…`, and identifiers to help measure visits, page activity, referral sources, browser/device information and approximate geographic information. This helps us understand which reporting readers use and how they reach the publication. Google processes the information for analytics; see [how Google uses information from sites using its services](https://policies.google.com/technologies/partner-sites) and [Google's Privacy Policy](https://policies.google.com/privacy).
 
-Pakistan Report may use analytics services to understand how readers use the website, including information such as page views, referral sources, devices and general geographic information.
+This integration does not include advertising destinations, Google Signals, Meta Pixel or a Google Tag Manager container. We do not send names, email addresses or other contact information as analytics event fields.
 
-## Advertising
+## Your choice and changing it
 
-If advertising is introduced, advertising providers may use cookies or similar technologies subject to their own policies and applicable law.
+The notice offers **Allow analytics** and **Decline** with equal prominence. We save your selection in this browser's local storage under `pakistan-report.analytics-choice.v1` for **180 days from your selection**, after which we ask again. This preference stores your choice and its expiry, not an advertising identifier. It is separate from Google's analytics cookies.
 
-This policy will be updated before advertising or additional tracking technologies are introduced where necessary.
+You can change your choice at any time using **Analytics preferences** in the footer. Selecting Decline stops future collection through this integration, attempts to remove accessible first-party GA analytics cookies on this site, and reloads the page if analytics had already started. The saved decline prevents analytics from loading on later visits in that browser until you change it or the choice expires.
 
-## External links
+Withdrawal cannot recall information already sent to Google or cancel a request already in flight. Our code cannot remove cookies belonging to other websites or cookies that browser restrictions make inaccessible. Data already collected is subject to the analytics property's retention settings and Google's processing terms. Contact us with questions about retained information.
 
-Pakistan Report may link to third-party websites. We are not responsible for the privacy practices or content of external websites.
+Your choice applies to this browser and site origin. Other browsers, devices, private-browsing sessions or a future domain may require a new choice. Clearing local storage removes the saved choice. If browser storage is unavailable, analytics defaults to off on a new page unless you choose Allow again; a choice may not be remembered.
 
-## Changes
+## Correspondence
 
-This privacy policy may be updated as the publication and its services develop.
+If you email us, we receive the information you include and use it to handle your enquiry, news tip or correction request. Please avoid sending unnecessary sensitive personal information.
+
+## External links and changes
+
+Other websites linked from our articles have their own privacy practices. We will update this policy when our use of analytics or other services changes. New advertising or tracking integrations are not part of this launch setup.

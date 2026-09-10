@@ -8,13 +8,13 @@ Pakistan Report aims to correct meaningful factual errors promptly and transpare
 
 If a published story contains a significant factual error, we will update the article when the error is confirmed.
 
-Where appropriate, the article may include an updated publication time or a correction note explaining the material change.
+Material factual corrections receive a visible correction note explaining what was wrong and what has been corrected. We preserve the original publication time and record the time of significant updates separately.
 
 Minor spelling, grammar, formatting or style changes may be corrected without a formal correction notice when they do not change the meaning of the article.
 
 ## Reporting an error
 
-Readers who believe an article contains a factual error may contact Pakistan Report through our Contact page.
+Readers who believe an article contains a factual error may contact Pakistan Report through our [Contact page](/contact/) or at [pakistanreportnews@gmail.com](mailto:pakistanreportnews@gmail.com).
 
 Please include the article headline or URL and explain the information that you believe requires correction.
 

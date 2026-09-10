@@ -1,0 +1,35 @@
+---
+layout: article
+title: "REPLACE: factual plain-text headline"
+category: "REPLACE: existing category spelling"
+author: "Pakistan Report Editorial Desk"
+date: "REPLACE: actual publication date/time with +0500"
+description: "REPLACE: plain-text summary; the current layout uses this as its standfirst"
+image: "/assets/images/REPLACE.png"
+image_alt: "REPLACE: plain-text description of the visual concept"
+image_caption: "Pakistan Report illustration."
+published: false
+---
+
+REPLACE: original lead stating the verified development and its date. Attribute consequential claims inline: According to [ISSUER's DOCUMENT TITLE](EXACT_EVIDENCE_URL), VERIFIED_FACT.
+
+## What happened
+
+REPLACE: verified facts with direct links at significant claims. Distinguish an issuer's claim from an independent finding. For a document, identify relevant page/table/paragraph where needed. Do not insert generic homepages as proof.
+
+## Why it matters
+
+REPLACE: original explanation relevant to readers/Pakistan. Separate interpretation from facts. These headings are optional, not a word-count mandate.
+
+## What happens next
+
+REPLACE: confirmed next steps and clearly qualified unknowns. Do not invent forecasts or deadlines.
+
+## Sources
+
+- [ISSUER — EXACT DOCUMENT OR DATASET TITLE](EXACT_EVIDENCE_URL), published DATE; effective/reference period PERIOD where relevant; page/table LOCATOR where needed.
+- [ORIGINATING NEWSROOM — EXACT REPORT TITLE](EXACT_REPORT_URL), published DATE. Explicitly credit reporting used; include only sources actually inspected and relied upon.
+
+REPLACE/REMOVE: Use a compact Sources section where it adds useful traceability. One authoritative record can suffice for a routine fact; multiple sources are not automatically independent. Keep natural inline attribution even when a source list is present.
+
+REPLACE/REMOVE: For later material corrections, preserve the original publication time, set the existing `updated` field and add a visible dated correction note identifying the error and correction. A normal new development uses an Update note. Required editorial review must cover the exact revised version.
