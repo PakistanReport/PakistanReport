@@ -6,6 +6,9 @@ author: "Pakistan Report Editorial Desk"
 description: "FBR has explained the reporting framework for deposits or withdrawals exceeding Rs100 million during six months, including data safeguards and how discrepancies are handled."
 date: 2026-09-11 02:04:05 +0500
 published: true
+image: "/assets/images/fbr-bank-reporting-rules.png"
+image_alt: "Pakistan Report illustration representing FBR banking-data reporting rules for deposits or withdrawals exceeding Rs100 million."
+image_caption: "Pakistan Report illustration."
 ---
 
 The Federal Board of Revenue has explained the legal requirement for banks and electronic money institutions to report information about account holders whose deposits or withdrawals exceed Rs100 million during a six-month reporting period.
