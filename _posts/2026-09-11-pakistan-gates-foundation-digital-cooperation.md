@@ -6,6 +6,9 @@ author: "Pakistan Report Editorial Desk"
 description: "September 10 talks covered AI, data systems and financial inclusion, while leaving project budgets and launch schedules unspecified."
 date: 2026-09-11 02:35:00 +0500
 published: true
+image: "/assets/images/pakistan-gates-digital-cooperation.png"
+image_alt: "Pakistan Report illustration representing digital cooperation between Pakistan and the Gates Foundation."
+image_caption: "Pakistan Report illustration."
 ---
 
 Pakistan’s IT ministry and the Gates Foundation have agreed to expand cooperation on artificial intelligence, data systems and digital services, according to an [official account of their September 10 meeting](https://pid.gov.pk/site/press_detail/33882).
