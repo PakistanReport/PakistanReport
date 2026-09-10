@@ -6,6 +6,9 @@ author: "Pakistan Report Editorial Desk"
 description: "A new agreement will connect youth loan applicants with business-planning resources, training and outreach, with a focus on women and underserved regions."
 date: 2026-09-11 02:35:00 +0500
 published: true
+image: "/assets/images/smeda-youth-business-support.png"
+image_alt: "Pakistan Report illustration representing young Pakistani entrepreneurs and small-business support."
+image_caption: "Pakistan Report illustration."
 ---
 
 Young entrepreneurs and small businesses are to receive more coordinated help preparing for formal finance after the Small and Medium Enterprises Development Authority and the Prime Minister’s Youth Programme signed an agreement on September 10.
