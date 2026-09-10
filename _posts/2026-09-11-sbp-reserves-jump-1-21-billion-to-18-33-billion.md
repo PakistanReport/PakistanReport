@@ -6,6 +6,9 @@ author: "Pakistan Report Editorial Desk"
 description: "SBP-held reserves rose by $1.21 billion to $18.33 billion for the week ending September 4, with commercial loan proceeds driving the increase, according to its reported statement."
 date: 2026-09-11 02:04:05 +0500
 published: true
+image: "/assets/images/sbp-reserves-september-2026.png"
+image_alt: "Pakistan Report illustration representing the State Bank of Pakistan and the increase in foreign-exchange reserves."
+image_caption: "Pakistan Report illustration."
 ---
 
 Foreign-exchange reserves held by the State Bank of Pakistan rose by $1.21 billion to $18.33 billion during the week ending September 4, according to [Business Recorder’s report quoting the central bank’s weekly statement](https://www.brecorder.com/news/40438880/sbp-held-foreign-exchange-reserves-surge-121bn-to-1833bn).
