@@ -125,14 +125,14 @@ test("duplicate slug across dates", () => {
     old = e.article;
   e.article = f.manifest.items[0].article.replace(
     /\d{4}-\d{2}-\d{2}/,
-    "2026-09-13",
+    new Date(Date.parse(f.manifest.items[0].schedule) + 86400000 + 5*3600000).toISOString().slice(0,10),
   );
-  e.schedule = "2026-09-13T10:00:00+05:00";
+  e.schedule = e.article.slice(9,19) + "T10:00:00+05:00";
   f.files[e.article] = f.files[old];
   delete f.files[old];
   f.files["manifest.json"] = strToU8(JSON.stringify(f.manifest));
   assert.throws(
-    () => unpackBatch(f.zip(), Date.parse("2026-09-12T00:00:00Z")),
+    () => unpackBatch(f.zip()),
     /Duplicate slug/,
   );
 });
