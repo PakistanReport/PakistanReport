@@ -1,0 +1,24 @@
+{
+  "name": "pakistan-report-newsroom",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "node --test test/*.test.js",
+    "check": "wrangler deploy --dry-run",
+    "demo": "node scripts/demo.js",
+    "test:publisher": "npm --prefix ../publisher test",
+    "test:live": "node scripts/live-sources.js"
+  },
+  "dependencies": {
+    "fflate": "0.8.2",
+    "yaml": "2.9.1",
+    "fast-xml-parser": "5.3.8",
+    "linkedom": "0.18.12"
+  },
+  "devDependencies": {
+    "wrangler": "4.72.0",
+    "esbuild": "0.27.3",
+    "playwright": "1.58.2"
+  }
+}

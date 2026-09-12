@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pakistan-report-newsroom",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-12",
+  "workers_dev": true,
+  "durable_objects": {
+    "bindings": [{ "name": "NEWSROOM", "class_name": "Newsroom" }],
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Newsroom"] }],
+  "triggers": { "crons": ["*/15 * * * *"] },
+  "vars": {
+    "MONITOR_ENABLED": "false",
+    "DRAFT_PROVIDER": "disabled",
+    "MODEL_REQUESTS_PER_DAY": "10",
+  },
+}
