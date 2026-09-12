@@ -85,3 +85,7 @@ The application depends on the platform's free quotas. It does not buy a plan or
 ## Current limits and trial gate
 
 See TEST-RESULTS.md for exact executed results. Live PBS/SBP connector attempts did not establish reliable source monitoring. No live model, generated editorial image, Cloudflare deployment or public article was tested or created. The local demo and deterministic full workflow are implemented; **a live production-news trial is not yet recommended** until an editor validates source access, chooses/configures the drafting provider, supplies reviewed visuals, and evaluates real drafts in the private queue. Continue to require human Publisher approval throughout Phase 1.
+
+## Latest live verification
+
+See [12 September live verification](verification/2026-09-12.md) and its machine-readable record. PBS, Dawn and FBR returned live data through the local Node transport. Native local workerd networking failed; Cloudflare-hosted access remains unverified. Real primary research reached the missing-model boundary, without a generated draft or Ready for Review claim. The newer report supersedes the earlier two-source smoke-test outcome.

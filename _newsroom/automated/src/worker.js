@@ -409,6 +409,7 @@ export class Newsroom {
       }
     const candidate = s
       .list()
+      .sort((a, b) => b.selection.score - a.selection.score || a.created - b.created)
       .find(
         (c) =>
           c.state === "Detected" ||

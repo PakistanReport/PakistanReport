@@ -1,0 +1,2197 @@
+{
+  "date": "2026-09-12",
+  "environment": "Local Node live HTTP transport; local workerd HTTP/SQLite intake of fresh live captures and real primary research through Node outbound bridge. Not deployed Cloudflare egress.",
+  "sources": [
+    {
+      "source": {
+        "id": "sbp",
+        "name": "State Bank of Pakistan",
+        "type": "html-index",
+        "url": "https://www.sbp.org.pk/press/2026/index.htm",
+        "hosts": [
+          "www.sbp.org.pk",
+          "sbp.org.pk"
+        ],
+        "category": "Economy",
+        "role": "primary",
+        "owner": "SBP",
+        "authority": 1,
+        "priority": 100,
+        "intervalMinutes": 120,
+        "linkPattern": "/press/",
+        "restrictionNote": "Primary release index; PDF documents require manual evidence completion.",
+        "enabled": false,
+        "restrictionsReviewed": false
+      },
+      "requests": [
+        {
+          "url": "https://www.sbp.org.pk/robots.txt",
+          "status": 403,
+          "location": null
+        }
+      ],
+      "error": "Source access restricted: HTTP 403",
+      "items": 0
+    },
+    {
+      "source": {
+        "id": "pbs",
+        "name": "Pakistan Bureau of Statistics",
+        "type": "rss",
+        "url": "https://www.pbs.gov.pk/feed/",
+        "hosts": [
+          "www.pbs.gov.pk",
+          "pbs.gov.pk"
+        ],
+        "category": "Economy",
+        "role": "primary",
+        "owner": "PBS",
+        "authority": 1,
+        "priority": 95,
+        "intervalMinutes": 120,
+        "restrictionNote": "Official RSS discovery; verify statistical release dates and original tables.",
+        "enabled": false,
+        "restrictionsReviewed": false
+      },
+      "requests": [
+        {
+          "url": "https://www.pbs.gov.pk/robots.txt",
+          "status": 200,
+          "location": null
+        },
+        {
+          "url": "https://www.pbs.gov.pk/feed/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "error": null,
+      "items": 10
+    },
+    {
+      "source": {
+        "id": "fbr",
+        "name": "Federal Board of Revenue",
+        "type": "html-index",
+        "url": "https://www.fbr.gov.pk/",
+        "hosts": [
+          "www.fbr.gov.pk",
+          "fbr.gov.pk",
+          "download1.fbr.gov.pk"
+        ],
+        "category": "Business",
+        "role": "primary",
+        "owner": "FBR",
+        "authority": 1,
+        "priority": 95,
+        "intervalMinutes": 180,
+        "linkPattern": "/pr/|/sros",
+        "restrictionNote": "Restrict discovery to releases and regulatory notifications; PDF evidence is manual.",
+        "enabled": false,
+        "restrictionsReviewed": false
+      },
+      "requests": [
+        {
+          "url": "https://www.fbr.gov.pk/robots.txt",
+          "status": 404,
+          "location": null
+        },
+        {
+          "url": "https://www.fbr.gov.pk/",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "error": null,
+      "items": 2
+    },
+    {
+      "source": {
+        "id": "finance",
+        "name": "Finance Division",
+        "type": "html-index",
+        "url": "https://www.finance.gov.pk/",
+        "hosts": [
+          "www.finance.gov.pk",
+          "finance.gov.pk"
+        ],
+        "category": "Economy",
+        "role": "primary",
+        "owner": "Finance Division",
+        "authority": 1,
+        "priority": 95,
+        "intervalMinutes": 180,
+        "linkPattern": "press|notification",
+        "restrictionNote": "Official index; permission/robots review required before unattended polling.",
+        "enabled": false,
+        "restrictionsReviewed": false
+      },
+      "requests": [],
+      "error": "Source network failure or timeout",
+      "items": 0
+    },
+    {
+      "source": {
+        "id": "dawn",
+        "name": "Dawn discovery",
+        "type": "rss",
+        "url": "https://www.dawn.com/feeds/home",
+        "hosts": [
+          "www.dawn.com",
+          "dawn.com"
+        ],
+        "category": "Pakistan",
+        "role": "reporting",
+        "owner": "Dawn Media",
+        "authority": 0.85,
+        "priority": 70,
+        "intervalMinutes": 120,
+        "restrictionNote": "Discovery headlines/links only; do not crawl or rewrite newspaper articles.",
+        "enabled": false,
+        "restrictionsReviewed": false
+      },
+      "requests": [
+        {
+          "url": "https://www.dawn.com/robots.txt",
+          "status": 200,
+          "location": null
+        },
+        {
+          "url": "https://www.dawn.com/feeds/home",
+          "status": 200,
+          "location": null
+        }
+      ],
+      "error": null,
+      "items": 26
+    },
+    {
+      "source": {
+        "id": "pid",
+        "name": "pid",
+        "url": "https://pid.gov.pk/",
+        "type": "html-index",
+        "linkPattern": "/site/press_detail",
+        "category": "Pakistan",
+        "hosts": [
+          "pid.gov.pk"
+        ],
+        "role": "primary",
+        "owner": "pid",
+        "authority": 1,
+        "priority": 80,
+        "intervalMinutes": 180
+      },
+      "requests": [],
+      "error": "Source network failure or timeout",
+      "items": 0
+    },
+    {
+      "source": {
+        "id": "secp",
+        "name": "secp",
+        "url": "https://www.secp.gov.pk/feed/",
+        "type": "rss",
+        "linkPattern": null,
+        "category": "Business",
+        "hosts": [
+          "www.secp.gov.pk"
+        ],
+        "role": "primary",
+        "owner": "secp",
+        "authority": 1,
+        "priority": 80,
+        "intervalMinutes": 180
+      },
+      "requests": [],
+      "error": "Source network failure or timeout",
+      "items": 0
+    },
+    {
+      "source": {
+        "id": "na",
+        "name": "na",
+        "url": "https://www.na.gov.pk/",
+        "type": "html-index",
+        "linkPattern": "/en/press",
+        "category": "Politics",
+        "hosts": [
+          "www.na.gov.pk"
+        ],
+        "role": "primary",
+        "owner": "na",
+        "authority": 1,
+        "priority": 80,
+        "intervalMinutes": 180
+      },
+      "requests": [
+        {
+          "url": "https://www.na.gov.pk/robots.txt",
+          "status": 200,
+          "location": null
+        },
+        {
+          "url": "https://www.na.gov.pk/",
+          "status": 302,
+          "location": "en/index.php"
+        }
+      ],
+      "error": "Source redirected; review and update registry URL (not followed)",
+      "items": 0
+    },
+    {
+      "source": {
+        "id": "fpsc",
+        "name": "fpsc",
+        "url": "https://www.fpsc.gov.pk/",
+        "type": "html-index",
+        "linkPattern": "advertisement|jobs|notice",
+        "category": "Jobs",
+        "hosts": [
+          "www.fpsc.gov.pk"
+        ],
+        "role": "primary",
+        "owner": "fpsc",
+        "authority": 1,
+        "priority": 80,
+        "intervalMinutes": 180
+      },
+      "requests": [],
+      "error": "Source network failure or timeout",
+      "items": 0
+    },
+    {
+      "source": {
+        "id": "pta",
+        "name": "pta",
+        "url": "https://www.pta.gov.pk/",
+        "type": "html-index",
+        "linkPattern": "media|press|news",
+        "category": "Technology",
+        "hosts": [
+          "www.pta.gov.pk"
+        ],
+        "role": "primary",
+        "owner": "pta",
+        "authority": 1,
+        "priority": 80,
+        "intervalMinutes": 180
+      },
+      "requests": [],
+      "error": "Source network failure or timeout",
+      "items": 0
+    },
+    {
+      "source": {
+        "id": "mofa",
+        "name": "mofa",
+        "url": "https://mofa.gov.pk/",
+        "type": "html-index",
+        "linkPattern": "press|statement",
+        "category": "World",
+        "hosts": [
+          "mofa.gov.pk"
+        ],
+        "role": "primary",
+        "owner": "mofa",
+        "authority": 1,
+        "priority": 80,
+        "intervalMinutes": 180
+      },
+      "requests": [
+        {
+          "url": "https://mofa.gov.pk/robots.txt",
+          "status": 502,
+          "location": null
+        }
+      ],
+      "error": "Source temporary HTTP 502",
+      "items": 0
+    },
+    {
+      "source": {
+        "id": "na-canonical",
+        "name": "National Assembly",
+        "url": "https://www.na.gov.pk/en/index.php",
+        "type": "html-index",
+        "linkPattern": "pressrelease|press-release",
+        "category": "Politics",
+        "hosts": [
+          "www.na.gov.pk"
+        ],
+        "role": "primary",
+        "owner": "National Assembly",
+        "authority": 1,
+        "priority": 90,
+        "intervalMinutes": 180
+      },
+      "requests": [],
+      "error": "Source network failure or timeout",
+      "items": 0
+    },
+    {
+      "source": {
+        "id": "pbs-jobs",
+        "name": "PBS Jobs",
+        "url": "https://www.pbs.gov.pk/job-openings/",
+        "type": "html-index",
+        "linkPattern": ".pdf",
+        "category": "Jobs",
+        "hosts": [
+          "www.pbs.gov.pk"
+        ],
+        "role": "primary",
+        "owner": "PBS",
+        "authority": 1,
+        "priority": 80,
+        "intervalMinutes": 360
+      },
+      "requests": [],
+      "error": "Source network failure or timeout",
+      "items": 0
+    }
+  ],
+  "nativeWorkerd": "PID DNS lookup failed; no Cloudflare-hosted test was performed.",
+  "finalCodeReplay": {
+    "method": "Offline final-code evaluation of live connector captures; not a second live fetch",
+    "at": 1789249263000,
+    "observations": 38,
+    "clusters": 38,
+    "outcomes": [
+      {
+        "category": "Economy",
+        "selection": {
+          "concrete": true,
+          "score": 100,
+          "threshold": 65,
+          "advance": true,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "Economic/citizen impact",
+              "points": 20
+            },
+            {
+              "name": "Concrete development",
+              "points": 15
+            },
+            {
+              "name": "Timeliness",
+              "points": 5
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            },
+            {
+              "name": "Explanatory value",
+              "points": 5
+            }
+          ]
+        },
+        "risk": {
+          "level": "LOW",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Weekly Sensitive Price Indicator (SPI) for the week ended on 10-09-2026",
+            "url": "https://www.pbs.gov.pk/weekly-sensitive-price-indicator-spi-for-the-week-ended-on-10-09-2026/",
+            "publishedAt": "2026-09-11T09:33:38.000Z",
+            "sourceId": "pbs",
+            "contentHash": "dfa6695ae05911b0e7b8b30a113d32dc2d37762d9557b52a6008c7cacbfae896"
+          }
+        ]
+      },
+      {
+        "category": "Economy",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "LOW",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Monthly Summary on Foreign Trade Statistics for August, 2026",
+            "url": "https://www.pbs.gov.pk/monthly-summary-on-foreign-trade-statistics-for-august-2026/",
+            "publishedAt": "2026-09-03T09:21:40.000Z",
+            "sourceId": "pbs",
+            "contentHash": "f97be571b71084e9e2976f86dd54872490d16eabef83e99c1caf7f3addf4b2ed"
+          }
+        ]
+      },
+      {
+        "category": "Economy",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "Economic/citizen impact",
+              "points": 20
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "LOW",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Monthly Inflation Report for August 2026",
+            "url": "https://www.pbs.gov.pk/monthly-inflation-report-for-august-2026/",
+            "publishedAt": "2026-09-01T10:22:51.000Z",
+            "sourceId": "pbs",
+            "contentHash": "5460f1ad52cce79698054b55f195bb8c64626387e52fd597f8211f727a106934"
+          }
+        ]
+      },
+      {
+        "category": "Economy",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "Economic/citizen impact",
+              "points": 20
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "LOW",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Monthly Advance releases on Foreign Trade Statistics for July 2026",
+            "url": "https://www.pbs.gov.pk/monthly-advance-releases-on-foreign-trade-statistics-for-july-2026/",
+            "publishedAt": "2026-08-18T13:36:20.000Z",
+            "sourceId": "pbs",
+            "contentHash": "6397ea4477d3288c9326c80369030a54eb9151719c4d3bcfe2f4e5037acead0f"
+          }
+        ]
+      },
+      {
+        "category": "Economy",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "LOW",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Summary of Provisional Quantum Index Numbers of Large Scale Manufacturing Industries (QIM) for June 2026",
+            "url": "https://www.pbs.gov.pk/summary-of-provisional-quantum-index-numbers-of-large-scale-manufacturing-industries-qim-for-june-2026/",
+            "publishedAt": "2026-08-18T12:30:10.000Z",
+            "sourceId": "pbs",
+            "contentHash": "15c170cc543cba17d44d874907dfaa93a0783e320120148934db6de2e07c337f"
+          }
+        ]
+      },
+      {
+        "category": "Economy",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "LOW",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Monthly Summary on Foreign Trade Statistics for July, 2026",
+            "url": "https://www.pbs.gov.pk/monthly-summary-on-foreign-trade-statistics-for-july-2026/",
+            "publishedAt": "2026-08-05T12:21:09.000Z",
+            "sourceId": "pbs",
+            "contentHash": "45f1de855d51192e6c4ae5938ba9030789aff6b151d52a3deafce86ac4e2bf89"
+          }
+        ]
+      },
+      {
+        "category": "Economy",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "Economic/citizen impact",
+              "points": 20
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "LOW",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Monthly Inflation Report for July 2026",
+            "url": "https://www.pbs.gov.pk/monthly-inflation-report-for-july-2026/",
+            "publishedAt": "2026-08-03T07:00:39.000Z",
+            "sourceId": "pbs",
+            "contentHash": "462209de1bbe35c8a0119ef5212aff46bd43219356fadfba72a21e1edc1aae39"
+          }
+        ]
+      },
+      {
+        "category": "Economy",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "Economic/citizen impact",
+              "points": 20
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "LOW",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Monthly Advance releases on Foreign Trade Statistics for June 2026",
+            "url": "https://www.pbs.gov.pk/monthly-advance-releases-on-foreign-trade-statistics-for-june-2026/",
+            "publishedAt": "2026-07-15T14:45:42.000Z",
+            "sourceId": "pbs",
+            "contentHash": "648244e757767ecd3c6fa14440c303d72667ee56a1d312f1ed4fb59e04c0b9ca"
+          }
+        ]
+      },
+      {
+        "category": "Economy",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "LOW",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Summary of Provisional Quantum Index Numbers of Large Scale Manufacturing Industries (QIM) for May 2026",
+            "url": "https://www.pbs.gov.pk/summary-of-provisional-quantum-index-numbers-of-large-scale-manufacturing-industries-qim-for-may-2026/",
+            "publishedAt": "2026-07-15T12:57:05.000Z",
+            "sourceId": "pbs",
+            "contentHash": "faf85aca372c7c0f07e0f67381cd6b0f37dee97ddbe5fa5e1390352057671474"
+          }
+        ]
+      },
+      {
+        "category": "Economy",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "LOW",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Agricultural Census 2024 Report Launch",
+            "url": "https://www.pbs.gov.pk/agricultural-census-report-launch-2024-25/",
+            "publishedAt": "2026-07-09T05:29:10.000Z",
+            "sourceId": "pbs",
+            "contentHash": "8af80c02823eb52b92449c85222b68268c7f250efee4cd4c5e1f3439b0ddd6e4"
+          }
+        ]
+      },
+      {
+        "category": "Business",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "FBR\u2019s Member (Org. Audit) Retires After Distinguished Service",
+            "url": "https://www.fbr.gov.pk/pr/fbrs-member-org-audit-retires-after-distingui/174590",
+            "publishedAt": null,
+            "sourceId": "fbr",
+            "contentHash": "a5a85a07cfaaa7f4c710de59f0ed482ce63dcafd59b4784a50af5487d69ca012"
+          }
+        ]
+      },
+      {
+        "category": "Business",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 15
+            },
+            {
+              "name": "Primary source",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": -20
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "SROs / Notifications",
+            "url": "https://www.fbr.gov.pk/sros",
+            "publishedAt": null,
+            "sourceId": "fbr",
+            "contentHash": "a162951d4bef8921a8dfd866fce40d8b50708c77d386de221352e74ec7193048"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 8,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "Political/public significance",
+              "points": 20
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "political sensitivity"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "PML-N's Rana Sanaullah says Parliament to decide on more provinces",
+            "url": "https://www.dawn.com/news/2029377/pml-ns-rana-sanaullah-says-parliament-to-decide-on-more-provinces",
+            "publishedAt": "2026-09-12T17:55:15.000Z",
+            "sourceId": "dawn",
+            "contentHash": "92d1c758334707fc2b75f40cae884766e0406e882645ba463ee3560d6590eefb"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "BRICS nations call for 'maximum restraint' in Middle East war",
+            "url": "https://www.dawn.com/news/2029346/brics-nations-call-for-maximum-restraint-in-middle-east-war",
+            "publishedAt": "2026-09-12T19:00:54.000Z",
+            "sourceId": "dawn",
+            "contentHash": "56b02aba5ba30cc08ad3e315e565cb4d2951e813573a149e6c244a3f6f387a1d"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "death/security"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Pakistan urges UN to close gaps in fight against evolving terror threat",
+            "url": "https://www.dawn.com/news/2029415/pakistan-urges-un-to-close-gaps-in-fight-against-evolving-terror-threat",
+            "publishedAt": "2026-09-12T17:53:43.000Z",
+            "sourceId": "dawn",
+            "contentHash": "12e65ab6f257b2668262c22ded1874efc280db275dcda4ae20df702378f7db5d"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Hesson open to taking charge of Pakistan Test side",
+            "url": "https://www.dawn.com/news/2029418/hesson-open-to-taking-charge-of-pakistan-test-side",
+            "publishedAt": "2026-09-12T17:52:26.000Z",
+            "sourceId": "dawn",
+            "contentHash": "5158a1c2b1ea40c52f844b171bae737f805b09d86018a7403415452f814fb155"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "political sensitivity"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Coalition partners PPP, PML-N seek to bridge differences amid strained ties",
+            "url": "https://www.dawn.com/news/2029403/coalition-partners-ppp-pml-n-seek-to-bridge-differences-amid-strained-ties",
+            "publishedAt": "2026-09-12T15:30:31.000Z",
+            "sourceId": "dawn",
+            "contentHash": "034e46155507c7a60c3f6c48afa319a160da2696171470e663be2ebaf88ef7dd"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Anthropic boss calls for AI slowdown, Altman and Musk agree",
+            "url": "https://www.dawn.com/news/2029414/anthropic-boss-calls-for-ai-slowdown-altman-and-musk-agree",
+            "publishedAt": "2026-09-12T18:04:35.000Z",
+            "sourceId": "dawn",
+            "contentHash": "7e6dc90d76376419e00b8f0a810ff44d87193e4846b496b4d9c9c4514e067df4"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "England survive scare to seal 3-0 sweep against Pakistan",
+            "url": "https://www.dawn.com/news/2029383/england-survive-scare-to-seal-3-0-sweep-against-pakistan",
+            "publishedAt": "2026-09-12T15:55:34.000Z",
+            "sourceId": "dawn",
+            "contentHash": "ff47dee1659b1cd7b54110da921a399009ea38944b5259f35d016ce97862ba0a"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Tens of thousands protest against far right in Germany",
+            "url": "https://www.dawn.com/news/2029423/tens-of-thousands-protest-against-far-right-in-germany",
+            "publishedAt": "2026-09-12T18:50:52.000Z",
+            "sourceId": "dawn",
+            "contentHash": "bca51796adfb429721ef8aedd4dd1b2d3c4fe189bb3f1a255ce63ae55160be17"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": true,
+          "score": 93,
+          "threshold": 65,
+          "advance": true,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "Economic/citizen impact",
+              "points": 20
+            },
+            {
+              "name": "Political/public significance",
+              "points": 20
+            },
+            {
+              "name": "Concrete development",
+              "points": 15
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            },
+            {
+              "name": "Explanatory value",
+              "points": 5
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Nadra-linked vaccination certificate mandatory for pilgrims from Sept 14",
+            "url": "https://www.dawn.com/news/2029401/nadra-linked-vaccination-certificate-mandatory-for-pilgrims-from-sept-14",
+            "publishedAt": "2026-09-12T16:24:07.000Z",
+            "sourceId": "dawn",
+            "contentHash": "d91a3a24b1368405c5ff95a87c45762e415d471eb442d331a09100343cb5947b"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Islamabad IG Ali Nasir Rizvi transferred, appointed NCCIA director general",
+            "url": "https://www.dawn.com/news/2029405/islamabad-ig-ali-nasir-rizvi-transferred-appointed-nccia-director-general",
+            "publishedAt": "2026-09-12T16:51:47.000Z",
+            "sourceId": "dawn",
+            "contentHash": "65e86068078395959e8b7ebc995d67b2912acc809a1751b6bf3a7ffad1e76b39"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "political sensitivity"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "CM Bugti says 'no dialogue' with those taking up arms against state",
+            "url": "https://www.dawn.com/news/2029392/cm-bugti-says-no-dialogue-with-those-taking-up-arms-against-state",
+            "publishedAt": "2026-09-12T14:13:28.000Z",
+            "sourceId": "dawn",
+            "contentHash": "3ba92607784dad36554ce96ad7e338574f39481a7623fe9380bdf1dcf0811dae"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Trump says Houthis have asked US not to intervene in Yemen",
+            "url": "https://www.dawn.com/news/2029391/trump-says-houthis-have-asked-us-not-to-intervene-in-yemen",
+            "publishedAt": "2026-09-12T13:26:07.000Z",
+            "sourceId": "dawn",
+            "contentHash": "3c1823bb9c5b61c5f73a2853ebaca3baefce7b3e206caf41dfa2fb3e87b79be1"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": true,
+          "score": 68,
+          "threshold": 65,
+          "advance": true,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "Economic/citizen impact",
+              "points": 20
+            },
+            {
+              "name": "Concrete development",
+              "points": 15
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Govt approves \u2018extraordinary security allowance\u2019 for police, civil service officers in 26 KP districts",
+            "url": "https://www.dawn.com/news/2029376/govt-approves-extraordinary-security-allowance-for-police-civil-service-officers-in-26-kp-districts",
+            "publishedAt": "2026-09-12T12:26:40.000Z",
+            "sourceId": "dawn",
+            "contentHash": "81bd5db4311e86480db6ad83ae76062b1bdabc762231742f5327babd59ca8d0e"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "political sensitivity"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "ECP promotes four officers to BS-20, transfers 54 across country amid reshuffle",
+            "url": "https://www.dawn.com/news/2029397/ecp-promotes-four-officers-to-bs-20-transfers-54-across-country-amid-reshuffle",
+            "publishedAt": "2026-09-12T14:20:31.000Z",
+            "sourceId": "dawn",
+            "contentHash": "076682cf7b747650beb7196ef01d3872ca4db8708c8191214362a93fadd0eaa6"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Worst DR Congo Ebola epidemic ever passes 7,000 cases",
+            "url": "https://www.dawn.com/news/2029375/worst-dr-congo-ebola-epidemic-ever-passes-7000-cases",
+            "publishedAt": "2026-09-12T11:41:17.000Z",
+            "sourceId": "dawn",
+            "contentHash": "f1865ab84b3d6b97586b8e577503b0a0df7eda981ec05e414e96740859147926"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Saudi Arabia says Iraqi drones forced temporary closure of crucial oil pipeline",
+            "url": "https://www.dawn.com/news/2029319/saudi-arabia-says-iraqi-drones-forced-temporary-closure-of-crucial-oil-pipeline",
+            "publishedAt": "2026-09-12T09:29:45.000Z",
+            "sourceId": "dawn",
+            "contentHash": "55f7f731c6d2fb9b2a569fd57c0475110bb76704d63bb2b17fdc00e0f895eae7"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "death/security"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "'The real issue is her rising popularity': Marriyum defends Maryam amid criticism over jet use, terrorism remarks",
+            "url": "https://www.dawn.com/news/2029353/the-real-issue-is-her-rising-popularity-marriyum-defends-maryam-amid-criticism-over-jet-use-terrorism-remarks",
+            "publishedAt": "2026-09-12T10:22:43.000Z",
+            "sourceId": "dawn",
+            "contentHash": "20f00f9aee317bb5d65991ed7021c70a7104299be23bd6d02d31072c0c387353"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "Political/public significance",
+              "points": 20
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "political sensitivity"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "CJP Afridi calls for strengthening district judiciary, terms it 'backbone' of country's justice system",
+            "url": "https://www.dawn.com/news/2029339/cjp-afridi-calls-for-strengthening-district-judiciary-terms-it-backbone-of-countrys-justice-system",
+            "publishedAt": "2026-09-12T10:23:15.000Z",
+            "sourceId": "dawn",
+            "contentHash": "bb48259b4a3e1e023e5593daeffa98937454cd5f3724a0720c92662e78645b83"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": true,
+          "score": 68,
+          "threshold": 65,
+          "advance": true,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "Political/public significance",
+              "points": 20
+            },
+            {
+              "name": "Concrete development",
+              "points": 15
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "political sensitivity"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "IHC prohibits \u2018coercive measures\u2019 against legal sheesha cafes",
+            "url": "https://www.dawn.com/news/2029360/ihc-prohibits-coercive-measures-against-legal-sheesha-cafes",
+            "publishedAt": "2026-09-12T10:23:42.000Z",
+            "sourceId": "dawn",
+            "contentHash": "a8c908e41727a653f8fd464282d04f82d18ee17100857782f04305a101df0fc3"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "National relevance",
+              "points": 15
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Shafqat Ali Khan presents diplomatic credentials as Pakistan\u2019s first envoy to Armenia",
+            "url": "https://www.dawn.com/news/2029337/shafqat-ali-khan-presents-diplomatic-credentials-as-pakistans-first-envoy-to-armenia",
+            "publishedAt": "2026-09-12T06:23:06.000Z",
+            "sourceId": "dawn",
+            "contentHash": "2d51d721bee93f73bc9e0d3f216091afbc6c3c326195a843d2863822996c49f6"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Flawed NEV incentive",
+            "url": "https://www.dawn.com/news/2029306/flawed-nev-incentive",
+            "publishedAt": "2026-09-12T13:39:04.000Z",
+            "sourceId": "dawn",
+            "contentHash": "27635ce22e09b0ef0acca6e70175dfa378e25d326b51773be65a0beda345993b"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": true,
+          "score": 68,
+          "threshold": 65,
+          "advance": true,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "Economic/citizen impact",
+              "points": 20
+            },
+            {
+              "name": "Concrete development",
+              "points": 15
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Govt raises petrol price by Rs5.02 per litre, HSD by Rs5.28 amid rising global oil prices",
+            "url": "https://www.dawn.com/news/2029153/govt-raises-petrol-price-by-rs502-per-litre-hsd-by-rs528-amid-rising-global-oil-prices",
+            "publishedAt": "2026-09-12T02:10:09.000Z",
+            "sourceId": "dawn",
+            "contentHash": "2772cb767e8ded137c6cdea105d64dd685eb2db65b9d3e1795aa9fd9e0a30de8"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "death/security"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "OpenAI agents attacked software service RubyGems before Hugging Face incident, researchers say",
+            "url": "https://www.dawn.com/news/2029344/openai-agents-attacked-software-service-rubygems-before-hugging-face-incident-researchers-say",
+            "publishedAt": "2026-09-12T07:46:06.000Z",
+            "sourceId": "dawn",
+            "contentHash": "acb4ffb1af42f73c3c174031d2e0739f52770024563d64b3ed1cb9dcf0836dcb"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "Political/public significance",
+              "points": 20
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "political sensitivity"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "KP Assembly seeks Article 6 action against Punjab CM",
+            "url": "https://www.dawn.com/news/2029270/kp-assembly-seeks-article-6-action-against-punjab-cm",
+            "publishedAt": "2026-09-12T02:16:20.000Z",
+            "sourceId": "dawn",
+            "contentHash": "3b3b38d17ca090b62d80cb63104c657ff497b7cfd161762bf16e7546ec2c7bc0"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": true,
+          "score": 48,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "Concrete development",
+              "points": 15
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            }
+          ]
+        },
+        "risk": {
+          "level": "SENSITIVE",
+          "reasons": [
+            "political sensitivity"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Action ordered against PIA, ASF staff for misbehaving with lawmakers",
+            "url": "https://www.dawn.com/news/2029266/action-ordered-against-pia-asf-staff-for-misbehaving-with-lawmakers",
+            "publishedAt": "2026-09-11T23:56:39.000Z",
+            "sourceId": "dawn",
+            "contentHash": "d5d825a0d0a6481dfa6a44895633ac4ea34efccb97c83c19a956a4d4b0c95ad5"
+          }
+        ]
+      },
+      {
+        "category": "Pakistan",
+        "selection": {
+          "concrete": false,
+          "score": 0,
+          "threshold": 65,
+          "advance": false,
+          "factors": [
+            {
+              "name": "Source authority",
+              "points": 13
+            },
+            {
+              "name": "No demonstrated material change",
+              "points": -60
+            },
+            {
+              "name": "Timeliness",
+              "points": 10
+            },
+            {
+              "name": "Novel candidate",
+              "points": 10
+            },
+            {
+              "name": "Explanatory value",
+              "points": 5
+            }
+          ]
+        },
+        "risk": {
+          "level": "NORMAL",
+          "reasons": [
+            "No sensitive trigger detected; human factual review still required"
+          ],
+          "conflicts": []
+        },
+        "sources": [
+          {
+            "title": "Sikh pilgrims in Faisalabad stopped from flying to India over incomplete documents",
+            "url": "https://www.dawn.com/news/2029217/sikh-pilgrims-in-faisalabad-stopped-from-flying-to-india-over-incomplete-documents",
+            "publishedAt": "2026-09-12T04:12:42.000Z",
+            "sourceId": "dawn",
+            "contentHash": "96ee60d9c7118c39de77353293cc21badc7190b7051c8ac738633d38f0d5b135"
+          }
+        ]
+      }
+    ]
+  },
+  "duplicateReplay": {
+    "items": 38,
+    "allDuplicate": true
+  },
+  "research": {
+    "url": "https://www.pbs.gov.pk/weekly-sensitive-price-indicator-spi-for-the-week-ended-on-10-09-2026/",
+    "httpStatus": 200,
+    "documentHash": "6f33f1b02f7c301cc620723ff47de3f4cb81ed6e9ddd412a0706c99c59a97f51",
+    "retrievedAt": "2026-09-12T21:41:03.394Z",
+    "characters": 837,
+    "state": "Needs Attention",
+    "error": "Model drafting is disabled. Add verified evidence and editor-written structured copy, or configure an approved model endpoint.",
+    "factualSummary": "PBS reports SPI of 364.26 for the week ending 10 September 2026, changing 0.23% from the previous week.",
+    "verificationLimit": "Primary landing page retained. Underlying tables, drivers, independent corroboration and methodological context have not been verified."
+  },
+  "visualBrief": {
+    "status": "Awaiting visual",
+    "kind": "illustration",
+    "caption": "Pakistan Report illustration.",
+    "alt": "",
+    "brief": "Create a clearly illustrative, non-photographic editorial graphic about Weekly Sensitive Price Indicator (SPI) for the week ended on 10-09-2026. Use neutral conceptual shapes and relevant objects. Do not depict actual incidents, victims, named people, evidence, documents or official seals. Do not add unsupported figures. No event photography or misleading realism.",
+    "reviewed": false
+  },
+  "model": "No model request was made; no API key, endpoint, model or host allowlist configured."
+}

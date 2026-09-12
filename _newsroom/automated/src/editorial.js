@@ -32,34 +32,34 @@ export function rank(observations, sources, now = Date.now()) {
   );
   if (primary) add("Primary source", 15);
   if (
-    /pakistan|pakistani|sbp|state bank|fbr|parliament|supreme court|national|federal/.test(
+    /pakistan|pakistani|sbp|state bank|fbr|parliament|supreme court|national|federal|sensitive price indicator/.test(
       corpus,
     )
   )
     add("National relevance", 15);
   if (
-    /policy rate|inflation|tax|budget|reserves|electricity|petrol|diesel|exports|imports|jobs|employment|wage|tariff/.test(
+    /sensitive price indicator|policy rate|inflation|tax|budget|reserves|electricity|petrol|diesel|exports|imports|jobs|employment|wage|tariff|vaccination|allowance/.test(
       corpus,
     )
   )
     add("Economic/citizen impact", 20);
   if (
-    /bill|legislation|court|election|parliament|constitutional|cabinet decision|judgment|ruling/.test(
+    /bill|legislation|court|election|parliament|assembly|judiciary|ihc|mandatory|constitutional|cabinet decision|judgment|ruling/.test(
       corpus,
     )
   )
     add("Political/public significance", 20);
-  if (
-    /cut|raise|raised|rises|falls|approved|enacted|orders|announced|effective|released|published|changed|revised/.test(
-      corpus,
-    )
-  )
-    add("Concrete development", 15);
+  // Publication/announcement verbs alone establish no change in affairs.
+  const concrete = /\b(cut|cuts|hike|raised|raises|rises|falls|enacted|orders|ordered|revised|implemented|revoked|banned|prohibits|mandatory|ruled|passed|resigned|arrested|killed)\b/.test(corpus)
+    || /\b(approved|approves)\b.{0,70}\b(bill|law|budget|tax|tariff|regulation|funding|merger|allowance)\b/.test(corpus)
+    || /\b(sensitive price indicator|spi|inflation|reserves|exports|imports|gdp|unemployment|policy rate)\b.{0,65}\b(is|at|by|to|reached|rose|fell)\s+[0-9]/.test(corpus);
+  if (concrete) add("Concrete development", 15);
+  else add("No demonstrated material change", -60);
   const dates = observations
     .map((o) => Date.parse(o.publishedAt))
     .filter(Number.isFinite);
   const age = dates.length ? (now - Math.max(...dates)) / 3600000 : Infinity;
-  add("Timeliness", age <= 24 ? 10 : age <= 72 ? 5 : age <= 168 ? 0 : -20);
+  add("Timeliness", age >= 0 && age <= 24 ? 10 : age <= 72 ? 5 : age <= 168 ? 0 : -20);
   add("Novel candidate", 10);
   if (
     /because|effective|deadline|from|basis points|percent|%|million|billion/.test(
@@ -72,7 +72,7 @@ export function rank(observations, sources, now = Date.now()) {
   );
   if (owners.size >= 2) add("Independent source groups", 10);
   if (
-    /memorandum of understanding|\bmou\b|ceremonial|courtesy call|pledged cooperation|strengthen.*ties|routine meeting|goodwill visit/.test(
+    /memorandum of understanding|\bmou\b|ceremonial|courtesy call|presents credentials|high-level meetings|celebration|congratulat|agreed to explore|expressions of intent|generic cooperation|pledged cooperation|strengthen.*ties|routine meeting|goodwill visit/.test(
       corpus,
     )
   )
@@ -95,17 +95,21 @@ export function rank(observations, sources, now = Date.now()) {
       factors.reduce((sum, f) => sum + f.points, 0),
     ),
   );
-  return { score, threshold: THRESHOLD, advance: score >= THRESHOLD, factors };
+  return { concrete, score, threshold: THRESHOLD, advance: concrete && age >= 0 && age <= 168 && score >= THRESHOLD, factors };
 }
 export function sameEvent(a, b) {
   const ad = Date.parse(a.publishedAt || a.retrievedAt),
     bd = Date.parse(b.publishedAt || b.retrievedAt);
   if (Math.abs(ad - bd) > 72 * 3600000) return false;
-  const ac = a.title + " " + a.summary,
-    bc = b.title + " " + b.summary;
-  // Similarity is only a candidate-clustering aid. Differing figures remain evidence,
-  // never silently overwrite a report; editors can split a mistaken cluster.
-  return similarity(a.title, b.title) >= 0.58 || similarity(ac, bc) >= 0.72;
+  const jaccard = (a, b) => {
+    const aa = tokens(a), bb = tokens(b);
+    const overlap = [...aa].filter(t => bb.has(t)).length;
+    return overlap / (new Set([...aa, ...bb]).size || 1);
+  };
+  const titleMatch = jaccard(a.title, b.title);
+  // Shared feed boilerplate is not event identity. Require headline agreement.
+  return titleMatch >= 0.5 || (titleMatch >= 0.35 && jaccard(a.summary, b.summary) >= 0.72);
+
 }
 export function riskFor(candidate, claims = []) {
   const corpus = [
@@ -132,7 +136,7 @@ export function riskFor(candidate, claims = []) {
     ],
     [
       "political sensitivity",
-      /parliament|political|prime minister|opposition|minister accused/i,
+      /parliament|assembly|judiciary|\bihc\b|\bcjp\b|\bcm\b|\becp\b|pml-n|\bppp\b|lawmakers|diplomatic dispute|political|prime minister|opposition|minister accused/i,
     ],
   ])
     if (re.test(corpus)) matches.push(label);
