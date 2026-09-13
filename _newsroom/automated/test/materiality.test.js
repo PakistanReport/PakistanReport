@@ -14,9 +14,9 @@ test('older policy action outranks a newer official ceremony',()=>{
  const ceremony=rank([item('Pakistan ministry announced ceremonial meeting about budget','',0.08)],sources,now);
  assert(significant.advance);assert(significant.score>ceremony.score);
 });
-test('live PBS statistical release wording counts as measured change',()=>{
+test('routine PBS SPI figures do not establish standalone newsworthiness',()=>{
  const r=rank([item('Weekly Sensitive Price Indicator (SPI) for the week ended on 10-09-2026','Weekly SPI is 364.26 with 0.23% change over the previous week.',36)],sources,now);
- assert(r.advance);assert(r.concrete);
+ assert.equal(r.advance,false);assert(r.score<65);
 });
 test('undated and stale material cannot advance as current news',()=>{
  const o=item('Pakistan parliament passed a national tax bill');

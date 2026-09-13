@@ -89,3 +89,7 @@ See TEST-RESULTS.md for exact executed results. Live PBS/SBP connector attempts 
 ## Latest live verification
 
 See [12 September live verification](verification/2026-09-12.md) and its machine-readable record. PBS, Dawn and FBR returned live data through the local Node transport. Native local workerd networking failed; Cloudflare-hosted access remains unverified. Real primary research reached the missing-model boundary, without a generated draft or Ready for Review claim. The newer report supersedes the earlier two-source smoke-test outcome.
+
+## Current story-selection policy
+
+[Mainstream newsworthiness](NEWSWORTHINESS.md) supersedes the earlier SPI selection assessment: routine weekly figures no longer automatically advance. It documents material-development gates, Pakistan-independent World selection, legacy queue re-evaluation, discovery gaps and the latest regression results.

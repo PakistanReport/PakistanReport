@@ -65,7 +65,7 @@ test("two independent sources for same event form one candidate", async () => {
   assert(
     s
       .get(a.id)
-      .selection.factors.some((f) => f.name === "Independent source groups"),
+      .selection.factors.some((f) => f.name === "Additional source ownership (not verified corroboration)"),
   );
 });
 test("duplicate source delivery is idempotent", async () => {

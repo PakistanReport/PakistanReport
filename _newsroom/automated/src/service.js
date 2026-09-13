@@ -52,6 +52,24 @@ export class Service {
         JSON.stringify(s),
         "{}",
       );
+    // Re-evaluate pre-policy local queue entries once. Exported packages stay
+    // immutable; editorial rejections are never automatically revived.
+    this.storage.transactionSync(() => {
+      for (const c of this.list()) {
+        if (c.selection?.policy === "mainstream-v1" || c.export || c.handoff) continue;
+        const editorRejected = c.rejectedBy === "editor";
+        this.invalidate(c, "Selection policy updated to mainstream-v1; earlier approval invalidated");
+        c.selection = rank(c.observations, this.sources(), this.now());
+        if (editorRejected || !c.selection.advance) {
+          c.state = "Rejected";
+          c.rejectedBy = editorRejected ? "editor" : "system";
+        } else {
+          delete c.rejectedBy;
+          c.state = c.draft ? "Needs Attention" : "Detected";
+        }
+        this.save(c);
+      }
+    });
   }
   rows(sql, ...args) {
     return [...this.sql.exec(sql, ...args)];

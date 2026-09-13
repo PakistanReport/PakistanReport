@@ -14,89 +14,7 @@ export const SECTIONS = [
   "Why it matters",
   "What happens next",
 ];
-export function rank(observations, sources, now = Date.now()) {
-  const corpus = observations
-    .map((o) => o.title + " " + o.summary)
-    .join(" ")
-    .toLowerCase();
-  const factors = [];
-  const add = (name, points) => factors.push({ name, points });
-  const authority = Math.max(
-    ...observations.map(
-      (o) => sources.find((s) => s.id === o.sourceId)?.authority || 0,
-    ),
-  );
-  add("Source authority", Math.round(authority * 15));
-  const primary = observations.some(
-    (o) => sources.find((s) => s.id === o.sourceId)?.role === "primary",
-  );
-  if (primary) add("Primary source", 15);
-  if (
-    /pakistan|pakistani|sbp|state bank|fbr|parliament|supreme court|national|federal|sensitive price indicator/.test(
-      corpus,
-    )
-  )
-    add("National relevance", 15);
-  if (
-    /sensitive price indicator|policy rate|inflation|tax|budget|reserves|electricity|petrol|diesel|exports|imports|jobs|employment|wage|tariff|vaccination|allowance/.test(
-      corpus,
-    )
-  )
-    add("Economic/citizen impact", 20);
-  if (
-    /bill|legislation|court|election|parliament|assembly|judiciary|ihc|mandatory|constitutional|cabinet decision|judgment|ruling/.test(
-      corpus,
-    )
-  )
-    add("Political/public significance", 20);
-  // Publication/announcement verbs alone establish no change in affairs.
-  const concrete = /\b(cut|cuts|hike|raised|raises|rises|falls|enacted|orders|ordered|revised|implemented|revoked|banned|prohibits|mandatory|ruled|passed|resigned|arrested|killed)\b/.test(corpus)
-    || /\b(approved|approves)\b.{0,70}\b(bill|law|budget|tax|tariff|regulation|funding|merger|allowance)\b/.test(corpus)
-    || /\b(sensitive price indicator|spi|inflation|reserves|exports|imports|gdp|unemployment|policy rate)\b.{0,65}\b(is|at|by|to|reached|rose|fell)\s+[0-9]/.test(corpus);
-  if (concrete) add("Concrete development", 15);
-  else add("No demonstrated material change", -60);
-  const dates = observations
-    .map((o) => Date.parse(o.publishedAt))
-    .filter(Number.isFinite);
-  const age = dates.length ? (now - Math.max(...dates)) / 3600000 : Infinity;
-  add("Timeliness", age >= 0 && age <= 24 ? 10 : age <= 72 ? 5 : age <= 168 ? 0 : -20);
-  add("Novel candidate", 10);
-  if (
-    /because|effective|deadline|from|basis points|percent|%|million|billion/.test(
-      corpus,
-    )
-  )
-    add("Explanatory value", 5);
-  const owners = new Set(
-    observations.map((o) => sources.find((s) => s.id === o.sourceId)?.owner),
-  );
-  if (owners.size >= 2) add("Independent source groups", 10);
-  if (
-    /memorandum of understanding|\bmou\b|ceremonial|courtesy call|presents credentials|high-level meetings|celebration|congratulat|agreed to explore|expressions of intent|generic cooperation|pledged cooperation|strengthen.*ties|routine meeting|goodwill visit/.test(
-      corpus,
-    )
-  )
-    add("Routine PR / ceremonial announcement", -75);
-  if (
-    /speech|addressed.*conference/.test(corpus) &&
-    !/enacted|approved|effective|orders|policy rate/.test(corpus)
-  )
-    add("Speech without material action", -40);
-  if (
-    /minor administrative|retirement ceremony|transfer of.*officer/.test(corpus)
-  )
-    add("Minor administrative notice", -55);
-  if (/rumou?r|unconfirmed|speculat|may reportedly/.test(corpus))
-    add("Speculation", -45);
-  const score = Math.max(
-    0,
-    Math.min(
-      100,
-      factors.reduce((sum, f) => sum + f.points, 0),
-    ),
-  );
-  return { concrete, score, threshold: THRESHOLD, advance: concrete && age >= 0 && age <= 168 && score >= THRESHOLD, factors };
-}
+export { rank } from "./selection.js";
 export function sameEvent(a, b) {
   const ad = Date.parse(a.publishedAt || a.retrievedAt),
     bd = Date.parse(b.publishedAt || b.retrievedAt);
@@ -124,7 +42,7 @@ export function riskFor(candidate, claims = []) {
     ],
     [
       "death/security",
-      /\bdead\b|death|killed|casualt|terror|attack|military|security incident/i,
+      /\bdead\b|death|killed|casualt|terror|attack|military|security incident|\bwar\b|ceasefire|airstrike|earthquake|flood|disaster/i,
     ],
     [
       "judicial/election dispute",
