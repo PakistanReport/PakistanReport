@@ -11,3 +11,16 @@
 - Production file comparison against fetched `origin/main` is unchanged for articles, assets, configuration, layouts/includes and Search Console verification. Existing Publisher files are unchanged against `publisher-mvp`. No real articles, production secrets, main branch or live Worker were modified.
 
 The local/testable preparation-to-approved-package path passes. A live production-news trial still requires accessible reviewed sources, a deliberately configured model provider and editorial evaluation of real drafts. Monitoring and model calls ship disabled; no paid infrastructure has been activated.
+
+
+## Discovery / evidence boundary verification — 13 September 2026
+
+- Full Automated Newsroom suite: **107 passed, 0 failed, 0 skipped** (`npm test`).
+- Full existing Publisher suite: **35 passed, 0 failed, 0 skipped** (`npm test` in `_newsroom/publisher`).
+- Includes the actual local workerd private HTTP workflow and Review Queue DOM test, with synthetic evidence and mocked model/GitHub transports. No real model was invoked and no public article was written.
+- Sixteen new tests cover three independently owned outlets forming one event, sister-outlet ownership caps, twenty timestamp refreshes preserving event age/revision, common headline aliases, high-volume ceremonial rejection, World eligibility, discarded discovery article text, rejected legacy reporting prose, structured-fact limits, two-owner research, primary-first provenance, exact model-input boundaries, visible conflicts, source-like wording, fail-closed permission checks and radar-only automatic polling.
+- Existing mainstream-v1 selection fixtures still pass, including routine PBS weekly SPI scoring 0/65. Materiality cannot be rescued by popularity.
+- Public source audit: **26 requested outlets assessed** through public pages/feed directories/available terms. No additional mainstream connector permission was established; none enabled. These are web audit observations, not successful live feed or hosted-network tests. Full decisions and first-party links: [RADAR-AUDIT.md](RADAR-AUDIT.md).
+- No deployment, merge, public publication, production-secret changes, local credential access or model inference. Publisher implementation and all public-site paths remain unchanged from the starting branch commit `c66d62e`.
+
+Next: a supervised local test using permitted event metadata and separately assembled primary/structured reporting evidence. Broad automatic monitoring remains blocked on permission-reviewed Pakistan and World feeds plus successful exact-endpoint/runtime tests. Similarity and provenance checks require human judgment and do not certify copyright compliance or factual truth.

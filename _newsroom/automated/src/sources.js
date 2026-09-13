@@ -48,6 +48,15 @@ export function validateSource(s) {
     !s.enabled || s.restrictionsReviewed === true,
     "Review source restrictions before enabling monitoring",
   );
+  if (s.enabled && s.role === "reporting" && s.type !== "manual") {
+    const permission = s.discoveryPermission;
+    assert(permission?.status === "approved" &&
+      typeof permission.basis === "string" && permission.basis.trim().length >= 30 &&
+      typeof permission.reference === "string" && /^https:\/\//.test(permission.reference) &&
+      Number.isFinite(Date.parse(permission.reviewedAt)),
+      "Automated reporting discovery requires a documented permission basis, reference and review date; RSS availability alone is insufficient");
+  }
+  assert(!s.purpose || ["radar", "evidence"].includes(s.purpose), "Invalid source purpose");
   return s;
 }
 export function cleanHTML(html) {

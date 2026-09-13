@@ -45,7 +45,7 @@ export function rank(observations, sources, now=Date.now()) {
   const authority=Math.max(0,...current.map(({o})=>sources.find(s=>s.id===o.sourceId)?.authority || 0));
   add('Source authority (verification support only)',Math.round(authority*5));
   const owners=new Set(current.filter(x=>x.material).map(({o})=>sources.find(s=>s.id===o.sourceId)?.owner).filter(Boolean));
-  if(owners.size>1)add('Additional source ownership (not verified corroboration)',5);
+  if(owners.size>1)add('Additional source ownership (not verified corroboration)',Math.min(15,(owners.size-1)*5));
   add('Timeliness',now-Date.parse(chosen.o.publishedAt)<=24*3600000?5:0);
  } else {
   add('No demonstrated standalone mainstream development',0);

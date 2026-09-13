@@ -104,9 +104,21 @@ test("sensitive conflicts remain explicit and require review note and two source
   assert(c.checks.risk.conflicts.length);
   const wire = c.observations.find((o) => o.sourceId === "wire-fixture");
   c = await s.evidence(id, c.revision, wire.id, {
-    text: documents[wire.url],
+    facts: documents[wire.url].split("\n").slice(1,5).map((excerpt,i) => ({
+      statement: "Fixture editor independently recorded: " + excerpt,
+      excerpt, key: "court-" + i, value: excerpt,
+    })),
     editorConfirmed: true,
     note: "Fixture editor checked the synthetic original source and both conflicting totals.",
+  });
+  const report = c.observations.find(o => o.sourceId === "report-fixture");
+  c = await s.evidence(id, c.revision, report.id, {
+    facts: documents[report.url].split("\n").slice(5,9).map((line,i) => {
+      const excerpt = line.split(" Independent fixture")[0];
+      return {statement: "Fixture editor independently recorded: " + excerpt, excerpt, key: "court-" + (i+4), value: excerpt};
+    }),
+    editorConfirmed: true,
+    note: "Fixture editor separately checked the second synthetic reporting record.",
   });
   c = await completeVisual(s, c);
   assert.equal(

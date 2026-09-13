@@ -25,6 +25,7 @@ export const sources = [
     category: "Economy",
     role: "reporting",
     owner: "Fixture wire",
+    discoveryPermission: {status: "approved", basis: "Synthetic fixture transport only; no real publisher content or permission implied.", reference: "https://wire.example/fixture-permission", reviewedAt: "2026-09-12T00:00:00Z"},
     authority: 0.9,
     priority: 70,
     intervalMinutes: 60,
@@ -200,7 +201,8 @@ export function economyDraft(c) {
 }
 export function courtDraft(c) {
   const court = c.observations.find((o) => o.sourceId === "court-fixture"),
-    wire = c.observations.find((o) => o.sourceId === "wire-fixture");
+    wire = c.observations.find((o) => o.sourceId === "wire-fixture"),
+    report = c.observations.find((o) => o.sourceId === "report-fixture");
   const q = courtDocument.split("\n").slice(1);
   const claims = q.map((quote, i) => ({
     id: "c" + (i + 1),
@@ -209,7 +211,7 @@ export function courtDraft(c) {
     text: quote,
     evidence: [
       { observationId: court.id, quote },
-      { observationId: wire.id, quote },
+      { observationId: i < 4 ? wire.id : report.id, quote },
     ],
   }));
   claims.push(

@@ -1,3 +1,4 @@
+import { checkedFacts } from "./evidence.js";
 import { assert, NewsroomError, sha, text, similarity } from "./common.js";
 import { SOURCES } from "./registry.js";
 import {
@@ -206,6 +207,15 @@ export class Service {
         let candidate = sameURL
           ? this.get(sameURL.candidate)
           : all.find((c) => c.observations.some((o) => sameEvent(o, obs)));
+        // A timestamp refresh is not a new source or a reason to invalidate review.
+        // Retain the original event date so refreshes cannot rejuvenate old news.
+        if (candidate?.observations.some(o => o.sourceId === obs.sourceId &&
+            o.url === obs.url && o.contentHash === obs.contentHash)) {
+          this.sql.exec("INSERT INTO observations VALUES (?,?,?,?)",
+            obs.id, candidate.id, obs.url, obs.contentHash);
+          out.push({id: candidate.id, duplicate: true});
+          continue;
+        }
         if (candidate) {
           assert(
             candidate.observations.length < 12,
@@ -386,9 +396,12 @@ export class Service {
     this.mutable(c, revision);
     const obs = c.observations.find((o) => o.id === observationId);
     assert(obs, "Unknown observation");
+    const reporting = this.source(obs.sourceId).role === "reporting";
+    const facts = reporting ? checkedFacts(body.facts) : null;
+    if (reporting) body = {...body, text:facts.map(f=>f.excerpt).join("\n")};
     assert(
       typeof body.text === "string" &&
-        body.text.length >= 80 &&
+        body.text.length >= (reporting ? 15 : 80) &&
         body.text.length <= 12000,
       "Manual source text must be 80–12000 characters",
     );
@@ -402,7 +415,8 @@ export class Service {
     obs.document = {
       text: body.text,
       hash: await sha(body.text),
-      method: "manual",
+      method: reporting ? "editor-facts" : "manual",
+      ...(reporting ? {facts} : {}),
       editorConfirmed: true,
       note: body.note.slice(0, 1000),
       retrievedAt: new Date(this.now()).toISOString(),

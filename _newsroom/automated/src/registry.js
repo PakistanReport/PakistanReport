@@ -107,7 +107,7 @@ export const SOURCES = [
     priority: 70,
     intervalMinutes: 120,
     restrictionNote:
-      "Discovery headlines/links only; do not crawl or rewrite newspaper articles.",
+      "Disabled: documented permission for newsroom discovery is required; see RADAR-AUDIT.md. Earlier technical RSS access is not permission. Headlines/links only.",
   },
   {
     id: "reuters",
@@ -124,4 +124,4 @@ export const SOURCES = [
     restrictionNote:
       "Manual attributed evidence only; no paywall bypass or automated article copying.",
   },
-].map((s) => ({ ...s, enabled: false, restrictionsReviewed: false }));
+].map((s) => ({ ...s, purpose: s.role === "primary" ? "evidence" : "radar", enabled: false, restrictionsReviewed: false }));

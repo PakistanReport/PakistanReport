@@ -162,6 +162,7 @@ test("oversized feed response fails before parsing", async () => {
 test("model provider is disabled without configuration and never invents a draft", async () => {
   await assert.rejects(modelProvider({})({}), /disabled/);
 });
+const modelCandidate = () => ({id: "fixture", observations: [{id: "o1", sourceId: "primary-fixture", url: "https://sbp.example/decision", sourceSnapshot: {role: "primary", owner: "Fixture bank"}, document: {text: "The central bank cut its policy rate to 10 percent.", hash: "fixture-document"}}]});
 test("OpenAI-compatible adapter uses untrusted-source instructions and parses structured result", async () => {
   let seen;
   const result = await modelProvider(
@@ -180,7 +181,7 @@ test("OpenAI-compatible adapter uses untrusted-source instructions and parses st
         ],
       });
     },
-  )({ id: "fixture", observations: [], selection: {} });
+  )(modelCandidate());
   assert.equal(result.headline, "test");
   const payload = JSON.parse(seen.body);
   assert(payload.messages[0].content.includes("untrusted"));
@@ -201,7 +202,7 @@ test("unapproved model host and malformed response rejected", async () => {
   await assert.rejects(
     modelProvider(config, async () =>
       Response.json({ choices: [{ message: { content: "bad-json" } }] }),
-    )({ observations: [] }),
+    )(modelCandidate()),
     /Malformed/,
   );
 });

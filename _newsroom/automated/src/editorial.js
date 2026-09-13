@@ -1,3 +1,4 @@
+import { evidenceText, evidenceConflicts } from "./evidence.js";
 import { assert, similarity, tokens, text, words } from "./common.js";
 import { CATEGORIES } from "../../publisher/src/validation.js";
 export const THRESHOLD = 65;
@@ -19,8 +20,17 @@ export function sameEvent(a, b) {
   const ad = Date.parse(a.publishedAt || a.retrievedAt),
     bd = Date.parse(b.publishedAt || b.retrievedAt);
   if (Math.abs(ad - bd) > 72 * 3600000) return false;
+  // Small explicit aliases, not semantic translation or article-text clustering.
+  const eventTerms = value => String(value || "")
+    .replace(/\b(state bank of pakistan|state bank|sbp)\b/gi, "Pakistan central bank")
+    .replace(/\binterest rate\b/gi, "policy rate")
+    .replace(/\bbps\b/gi, "basis points")
+    .replace(/%/g, " percent")
+    .replace(/\bpm\b/gi, "prime minister")
+    .replace(/\bsteps down\b/gi, "resigns")
+    .replace(/\bcease-fire\b/gi, "ceasefire");
   const jaccard = (a, b) => {
-    const aa = tokens(a), bb = tokens(b);
+    const aa = tokens(eventTerms(a)), bb = tokens(eventTerms(b));
     const overlap = [...aa].filter(t => bb.has(t)).length;
     return overlap / (new Set([...aa, ...bb]).size || 1);
   };
@@ -59,7 +69,7 @@ export function riskFor(candidate, claims = []) {
   ])
     if (re.test(corpus)) matches.push(label);
   const conflicts = findConflicts(claims);
-  if (conflicts.length) matches.push("conflicting material reports");
+  if (conflicts.length || evidenceConflicts(candidate).length) matches.push("conflicting material reports");
   const level = matches.length
     ? "SENSITIVE"
     : /statistics|data release|application deadline|public timetable/i.test(
@@ -140,7 +150,7 @@ export function verifyClaims(claims, observations, sources) {
         issues.push("Unknown evidence/source");
         continue;
       }
-      const corpus = obs.document?.text || obs.summary || "";
+      const corpus = evidenceText(obs, source);
       if (
         typeof ref.quote !== "string" ||
         ref.quote.length < 15 ||
@@ -150,7 +160,7 @@ export function verifyClaims(claims, observations, sources) {
         issues.push("Evidence excerpt is not present in retained source text");
         continue;
       }
-      if (!obs.document && source.role !== "primary")
+      if (!corpus && source.role !== "primary")
         issues.push(
           "Reporting headline is discovery only, not factual evidence",
         );
@@ -297,6 +307,15 @@ export function editorialChecks(
     numbersOK,
     "All output numbers/dates must appear in retained supporting evidence.",
   );
+  const retainedConflicts = evidenceConflicts(candidate);
+  check(
+    "Evidence conflicts represented",
+    retainedConflicts.every(group => group.records.every(record =>
+      (d.claims || []).some(claim => claim.key === group.key && claim.value === record.value &&
+        (claim.evidence || []).some(ref => ref.observationId === record.observationId && record.excerpt.includes(ref.quote)) &&
+        paras.some(p => p.claimIds?.includes(claim.id))))),
+    "Every conflicting structured fact must remain in the draft with its own evidence and attribution; an editor must resolve scope errors explicitly.",
+  );
   const conflictIds = new Set(risk.conflicts.flatMap((c) => c.claims));
   const namedInBody = new Set(paras.flatMap((p) => p.claimIds || []));
   check(
@@ -315,8 +334,14 @@ export function editorialChecks(
     "Any quotation must match retained evidence exactly.",
   );
   const sourceTexts = candidate.observations
-    .map((o) => o.document?.text || o.summary)
+    .map((o) => [o.title, evidenceText(o), o.summary].filter(Boolean).join(" "))
     .filter(Boolean);
+  check(
+    "Original headline",
+    !candidate.observations.some(o => words(o.title).length >= 6 &&
+      words(o.title).join(" ") === words(d.headline).join(" ")),
+    "A copied source headline requires editorial revision; similarity checks cannot establish copyright compliance.",
+  );
   let copied = 0;
   const outputWords = words(body);
   const sourceWordStrings=sourceTexts.map(s=>words(s).join(" "));

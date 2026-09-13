@@ -397,6 +397,7 @@ export class Newsroom {
         (source) =>
           source.enabled &&
           source.type !== "manual" &&
+          (source.purpose || (source.role === "primary" ? "evidence" : "radar")) === "radar" &&
           (!source.poll.nextPollAt || source.poll.nextPollAt <= Date.now()),
       )
       .sort((a, b) => b.priority - a.priority);
