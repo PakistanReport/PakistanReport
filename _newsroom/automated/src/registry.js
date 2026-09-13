@@ -1,6 +1,7 @@
+import { DESIRED_RADAR } from "./radar-catalog.js";
 // Entries are inert until an editor reviews restrictions and explicitly enables them.
 // No credentials, story-specific URLs or account identifiers belong in this registry.
-export const SOURCES = [
+const EXISTING = [
   {
     id: "sbp",
     name: "State Bank of Pakistan",
@@ -125,3 +126,15 @@ export const SOURCES = [
       "Manual attributed evidence only; no paywall bypass or automated article copying.",
   },
 ].map((s) => ({ ...s, purpose: s.role === "primary" ? "evidence" : "radar", enabled: false, restrictionsReviewed: false }));
+
+// Preserve working endpoints. Desired placeholders have no polling connector.
+export const SOURCES = [
+ ...EXISTING.map(s=>{
+  const desired=DESIRED_RADAR.find(d=>d.id===s.id);
+  return desired ? {...s,...desired,type:s.type,url:s.url,hosts:s.hosts} :
+   {...s,desiredEditorialRole:"primary-evidence",priorityTier:null,coverage:[s.category],
+    disabledReason:s.restrictionNote,discovery:{mechanism:s.type,endpoint:s.type==="manual"?null:s.url,reference:s.url},
+    discoveryPermission:{status:"unreviewed",endpoint:null,hosts:[]}};
+ }),
+ ...DESIRED_RADAR.filter(d=>!EXISTING.some(s=>s.id===d.id)),
+];

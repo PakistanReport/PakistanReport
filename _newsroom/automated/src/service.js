@@ -77,6 +77,7 @@ export class Service {
   }
   sources() {
     return this.rows("SELECT data,poll FROM sources").map((r) => ({
+      ...SOURCES.find(s=>s.id===JSON.parse(r.data).id),
       ...JSON.parse(r.data),
       poll: JSON.parse(r.poll),
     }));
@@ -206,7 +207,7 @@ export class Service {
         )[0];
         let candidate = sameURL
           ? this.get(sameURL.candidate)
-          : all.find((c) => c.observations.some((o) => sameEvent(o, obs)));
+          : all.find((c) => sameEvent(c.observations[0], obs));
         // A timestamp refresh is not a new source or a reason to invalidate review.
         // Retain the original event date so refreshes cannot rejuvenate old news.
         if (candidate?.observations.some(o => o.sourceId === obs.sourceId &&

@@ -85,6 +85,8 @@ test(
           .every((c) => c.method === "GET"),
       );
       assert.equal((await r.call("/api/publish", {})).status, 404);
+      assert(r.calls.every(c => ["model.example", "sbp.example", "api.github.com"].includes(new URL(c.url).hostname)),
+        "No Publisher or other publication transport may be contacted");
     } finally {
       await r.mf.dispose();
     }

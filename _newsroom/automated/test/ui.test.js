@@ -5,6 +5,7 @@ import { parseHTML } from "linkedom";
 import { HTML, JS } from "../src/ui.js";
 import { harness, completeVisual } from "./helpers.js";
 import { important } from "./fixtures/events.js";
+import { SOURCES } from "../src/registry.js";
 test("private Review Queue DOM renders evidence, checks and human approval controls", async () => {
   const s = harness();
   const [{ id }] = await s.ingest("sbp-fixture", [important]);
@@ -31,7 +32,7 @@ test("private Review Queue DOM renders evidence, checks and human approval contr
     fetch: async (path) => {
       if (path === "/api/status")
         return Response.json({ monitoring: false, draftProvider: "disabled" });
-      if (path === "/api/sources") return Response.json(s.sources());
+      if (path === "/api/sources") return Response.json([...s.sources(),...SOURCES]);
       if (path === "/api/candidates")
         return Response.json([
           {
@@ -73,4 +74,8 @@ test("private Review Queue DOM renders evidence, checks and human approval contr
     !document.querySelector("#message").className.includes("error"),
     document.querySelector("#message").textContent,
   );
+  document.querySelector("#sources").click();
+  await new Promise(r=>setTimeout(r,30));
+  const registry=document.querySelector("#detail").textContent;
+  for(const text of ["Business Recorder","ProPakistani","Telecom","Tier 1","Tier 2","Tier 3","Discovery permission: unreviewed","Disabled","World"]) assert(registry.includes(text),text);
 });

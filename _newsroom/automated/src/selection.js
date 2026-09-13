@@ -1,3 +1,4 @@
+import { ownershipGroup } from "./ownership.js";
 // Conservative deterministic research triage, not verification or publication approval.
 const ACTION = /\b(rises?|rose|falls?|fell|reaches?|contracts?|shrinks?|surges?|cuts?|hike|raises?|raised|passes|passed|enacts?|enacted|approves?|approved|orders?|ordered|rules?|ruled|overturns?|strikes down|blocks?|bans?|resigns?|resigned|ousted|wins?|won|defeats?|collapses?|collapsed|defaults?|defaulted|disburses?|disbursed|acquires?|acquired|launches?|launched|halts?|halted|invades?|invaded|strikes|killed|hits?|hit|declares?|declared|signed|agreed|takes effect|enters into force|mandatory)\b/i;
 const ROUTINE = /\b(routine|adjournment|hearing date|mou|memorandum of understanding|ceremonial|courtesy|credentials|congratulat\w*|goodwill|retire\w*|routine appointment|administrative notice|reshuffle|publicity|consultations?|speech|meeting|meetings|cooperation|intentions?|plans?|proposes?|pledges?|urges?|explore|follow-up|reiterates?|unchanged)\b/i;
@@ -44,7 +45,7 @@ export function rank(observations, sources, now=Date.now()) {
   add(chosen.material.reason,20);
   const authority=Math.max(0,...current.map(({o})=>sources.find(s=>s.id===o.sourceId)?.authority || 0));
   add('Source authority (verification support only)',Math.round(authority*5));
-  const owners=new Set(current.filter(x=>x.material).map(({o})=>sources.find(s=>s.id===o.sourceId)?.owner).filter(Boolean));
+  const owners=new Set(current.filter(x=>x.material).map(({o})=>ownershipGroup(sources.find(s=>s.id===o.sourceId))).filter(Boolean));
   if(owners.size>1)add('Additional source ownership (not verified corroboration)',Math.min(15,(owners.size-1)*5));
   add('Timeliness',now-Date.parse(chosen.o.publishedAt)<=24*3600000?5:0);
  } else {

@@ -6,7 +6,7 @@
 
 The observations below are web-retrieval results, **not successful SourceClient polling or Cloudflare-hosted tests**. Search/web retrieval errors do not establish that an origin blocks Cloudflare. No newspaper article crawler, model call, paid service or production change was used. Where permission remained unresolved, no feed polling or robots probing was undertaken merely to prove technical access. Robots must additionally permit the exact endpoint before any approved source can be polled.
 
-“Disabled” means not approved for this project's automatic monitoring. Sources absent from the runtime registry stay absent; this audit is not a list of enabled connectors. Existing Dawn and Reuters entries remain disabled by default. A previously enabled reporting connector now also needs a documented `discoveryPermission` record before it can make a network request.
+“Disabled” means not approved for this project's automatic monitoring. The subsequent [discovery expansion](DISCOVERY-EXPANSION.md) represents all desired sources as disabled runtime entries; this audit is not a list of enabled connectors. Existing Dawn and Reuters entries remain disabled by default. A previously enabled reporting connector now also needs a documented `discoveryPermission` record before it can make a network request.
 
 ## Pakistan radar
 
@@ -67,7 +67,9 @@ Use the existing private Source registry JSON editor. An automatic reporting sou
     "status": "approved",
     "basis": "Describe the actual permission covering automated headline/link discovery and retention for Pakistan Report.",
     "reference": "https://source.example/actual-permission-reference",
-    "reviewedAt": "2026-09-13T00:00:00Z"
+    "reviewedAt": "2026-09-13T00:00:00Z",
+    "endpoint": "https://source.example/permission-reviewed-feed",
+    "hosts": ["source.example"]
   }
 }
 ```
@@ -88,3 +90,6 @@ This example is **not** permission and must not be copied as a substitute for on
 ## Supervised next test
 
 Run the updated local tests, then manually assemble one consequential event from permitted discovery metadata and independently checked primary material. Inspect the structured packet and its source references before a separately authorized local drafting test. Stop at human review, with no Publisher contact. Broader automated local/hosted monitoring should wait for a permission-reviewed domestic pair plus a World feed and actual endpoint/robots/runtime tests. Nothing in this audit establishes hosted retrieval or real model quality.
+
+
+The expansion preserves these access decisions. Its [ownership review and supervised-test preparation](DISCOVERY-EXPANSION.md) record the new machine-readable catalog, unknown-owner behavior and endpoint-bound permission checks. No new access right was established.

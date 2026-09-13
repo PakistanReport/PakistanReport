@@ -24,3 +24,14 @@ The local/testable preparation-to-approved-package path passes. A live productio
 - No deployment, merge, public publication, production-secret changes, local credential access or model inference. Publisher implementation and all public-site paths remain unchanged from the starting branch commit `c66d62e`.
 
 Next: a supervised local test using permitted event metadata and separately assembled primary/structured reporting evidence. Broad automatic monitoring remains blocked on permission-reviewed Pakistan and World feeds plus successful exact-endpoint/runtime tests. Similarity and provenance checks require human judgment and do not certify copyright compliance or factual truth.
+
+
+## Desired radar expansion — 13 September 2026
+
+- Full newsroom suite: **124 passed, 0 failed, 0 skipped** (`npm test`). Seventeen new expansion cases plus extended runtime/UI assertions; prior materiality, evidence isolation and Publisher-package tests remain passing.
+- Full Publisher regression suite: **35 passed, 0 failed, 0 skipped** (`npm test` in `_newsroom/publisher`). Publisher implementation unchanged.
+- Actual local workerd bundle/HTTP and Review Queue DOM tests passed with synthetic evidence and intercepted model/source/GitHub transports. Allowed transport assertions exclude the Publisher and any public-writing endpoint. No Wrangler dry-run or deployment command was run.
+- Default `npm run test:live`: **33 disabled entries**, zero feed requests. This verifies that the probe cannot self-enable or self-authorize sources; it is not live feed verification. Approved/unapproved endpoint and failure-continuation cases use deterministic transport doubles.
+- First-party ownership/brand pages were inspected through web retrieval. No new automated publisher-access permission was established. No article body was retained for discovery, real model invoked, public illustration generated, or production content/secret changed.
+- Regression coverage includes five differently worded court headlines forming one event; shared/unknown ownership denying independent credit; routine multi-outlet meetings/SPI failing materiality; major court, IMF, company and World developments advancing; fixed 15-point prominence cap; explicit case/date/subject distinctions; bounded anchor clustering; all disabled sources failing before network; endpoint-bound permission; registry visibility; persistent editor rejection and protected export history.
+- [DISCOVERY-EXPANSION.md](DISCOVERY-EXPANSION.md) contains the exact supervised real-event preparation and remaining permission, evidence, local-model and visual gates. No real-event drafting run was performed.

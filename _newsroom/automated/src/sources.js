@@ -56,6 +56,12 @@ export function validateSource(s) {
       Number.isFinite(Date.parse(permission.reviewedAt)),
       "Automated reporting discovery requires a documented permission basis, reference and review date; RSS availability alone is insufficient");
   }
+  if (s.enabled && s.role === "reporting" && s.type !== "manual") {
+    const p = s.discoveryPermission;
+    assert(p.endpoint === s.url && Array.isArray(p.hosts) &&
+      s.hosts.every(h=>p.hosts.includes(h)),
+      "Discovery permission must cover the exact endpoint and every allowed host");
+  }
   assert(!s.purpose || ["radar", "evidence"].includes(s.purpose), "Invalid source purpose");
   return s;
 }
@@ -324,6 +330,7 @@ export async function normalizeObservation(item, s, now = Date.now()) {
       role: s.role,
       owner: s.owner,
       authority: s.authority,
+      ownership: s.ownership || null,
     },
     contentHash: await sha(title + "|" + summary),
   };

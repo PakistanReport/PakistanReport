@@ -1,3 +1,4 @@
+import { ownershipGroup } from "./ownership.js";
 import {assert} from './common.js';
 // Discovery metadata is never factual drafting evidence. Third-party narrative
 // cannot enter the packet through summary, text, or a legacy document field.
@@ -28,7 +29,7 @@ export function evidencePacket(candidate) {
   for(const f of facts)evidenceRecords.push({id:o.id+':'+f.id,observationId:o.id,sourceId:o.sourceId,url:o.url,source,documentHash:o.document.hash||null,retrievedAt:o.document.retrievedAt,publishedAt:o.publishedAt,statement:f.statement,excerpt:f.excerpt,key:f.key,value:f.value,status:source.role==='primary'?'primary-excerpt-awaiting-claim-verification':'editor-assembled-reporting-fact',attributionRequired:true,untrusted:true});
  }
  evidenceRecords.sort((a,b)=>Number(b.source.role==='primary')-Number(a.source.role==='primary'));
- const owners=new Set(evidenceRecords.map(e=>e.source.owner).filter(Boolean));
+ const owners=new Set(evidenceRecords.map(e=>ownershipGroup({...e.source,id:e.sourceId,url:e.url})).filter(Boolean));
  assert(evidenceRecords.length>0,'Independent evidence record required; discovery headlines/articles are not draft evidence',409);
  assert(evidenceRecords.some(e=>e.source.role==='primary')||owners.size>=2,'Without primary evidence require two independently owned reporting sources with editor-assembled facts',409);
  return {candidateId:candidate.id,observations:observations.map(o=>({id:o.id,sourceId:o.sourceId,url:o.url})),evidenceRecords,policy:'Draft original copy from factual evidence; prefer primary records; preserve conflicts with attribution; do not reproduce source narrative or infer missing facts.'};

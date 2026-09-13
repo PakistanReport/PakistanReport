@@ -12,7 +12,7 @@ const fact=(value='10')=>({statement:'The editor recorded a policy rate of '+val
 function record(id,owner,role='reporting',value='10') {
  const facts=checkedFacts([fact(value)]);
  return {id,sourceId:id,url:'https://'+id+'.example/decision',title:'A publisher headline that must never become drafting instructions',publishedAt:at,
-  sourceSnapshot:{role,owner},document:{method:role==='primary'?'manual':'editor-facts',editorConfirmed:true,
+  sourceSnapshot:{role,owner,ownership:{status:"reviewed",group:owner,reference:"https://fixture.example/ownership"}},document:{method:role==='primary'?'manual':'editor-facts',editorConfirmed:true,
    facts:role==='primary'?undefined:facts,text:role==='primary'?facts[0].excerpt:'FORBIDDEN FULL REPORTING ARTICLE TEXT',hash:'hash-'+id,retrievedAt:at}};
 }
 
@@ -23,11 +23,11 @@ test('three outlets form one event and ownership prominence grows only once per 
  const second={...sameEvent,url:'https://report.example/rate-cut'};
  assert.equal((await s.ingest('report-fixture',[second]))[0].id,id);
  const two=s.get(id).selection.score;
- s.sourceUpdate({...sources[1],id:'third-fixture',owner:'Third independent group',hosts:['third.example'],url:'https://third.example/feed'});
+ s.sourceUpdate({...sources[1],id:'third-fixture',owner:'Third independent group',ownership:{status:'reviewed',group:'third',reference:'https://third.example/ownership'},hosts:['third.example'],url:'https://third.example/feed',discoveryPermission:{...sources[1].discoveryPermission,endpoint:'https://third.example/feed',hosts:['third.example']}});
  assert.equal((await s.ingest('third-fixture',[{...sameEvent,url:'https://third.example/rate-cut'}]))[0].id,id);
  assert.equal(s.list().length,1);
  assert(s.get(id).selection.score>two && two>single);
- s.sourceUpdate({...sources[1],id:'sister-fixture',hosts:['sister.example'],url:'https://sister.example/feed'});
+ s.sourceUpdate({...sources[1],id:'sister-fixture',hosts:['sister.example'],url:'https://sister.example/feed',discoveryPermission:{...sources[1].discoveryPermission,endpoint:'https://sister.example/feed',hosts:['sister.example']}});
  const score=s.get(id).selection.score;
  await s.ingest('sister-fixture',[{...sameEvent,url:'https://sister.example/rate-cut'}]);
  assert.equal(s.get(id).selection.score,score);
@@ -73,7 +73,7 @@ test('legacy full reporting document cannot become evidence or pass claim proven
 test('one reporting owner cannot satisfy independent research; two can',()=>{
  const a=record('one','same'),b=record('two','same');
  assert.throws(()=>evidencePacket({observations:[a,b]}),/two independently owned/);
- b.sourceSnapshot.owner='independent';const packet=evidencePacket({id:'event',observations:[a,b]});
+ b.sourceSnapshot.owner='independent';b.sourceSnapshot.ownership.group='independent';const packet=evidencePacket({id:'event',observations:[a,b]});
  assert.equal(packet.evidenceRecords.length,2);
  assert(!JSON.stringify(packet).includes('FORBIDDEN'));
 });

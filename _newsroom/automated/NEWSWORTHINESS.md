@@ -14,7 +14,7 @@ Scoring: substantive development 45, recognized significance 20, source authorit
 
 On service startup, older unexported candidates are re-evaluated once. Old approvals are invalidated and revisions/history retained; routine SPI becomes Rejected. Editor rejections remain rejected. Exported packages/handoff history remain immutable. Restart the local newsroom after pulling this change to apply the policy to its stored queue.
 
-## Discovery coverage assessment
+## Original discovery coverage assessment (before catalog expansion)
 
 Repository inspection, not a new live-source test: the eight-entry registry has only five polling connectors (SBP, PBS, FBR, Finance and Dawn). Four of those are economic/government institutions. Courts, PSX and Reuters are manual. Reuters is the only World-category entry, so **automated World discovery is missing**. There is no dedicated Technology connector and domestic politics/general-news discovery depends on one reporting feed. Earlier successful local retrieval is not evidence of complete coverage or hosted reliability.
 
@@ -35,3 +35,6 @@ Each new endpoint needs a restrictions/robots review and successful parsing/curr
 - No model inference or credential access. Fixtures are deterministic and are not live-news verification.
 
 Human approval, evidence checks, visual review and the existing final Publisher validation remain mandatory. The automated preparation lane and manually prepared Sol/Astra/editor batches continue to coexist; no unattended publishing path was introduced. Return to a supervised local Workers AI draft test with a genuinely consequential, well-evidenced candidate. Passing these selection tests does not establish model writing quality or readiness for autonomous publishing.
+
+
+The subsequent [discovery expansion](DISCOVERY-EXPANSION.md) represents 33 disabled sources and makes gaps visible in the private registry. Materiality rules and all score caps are unchanged. Only documented ownership contributes independence; generic legacy reporting owner labels do not. This adds desired coverage, not permission or successful live monitoring.

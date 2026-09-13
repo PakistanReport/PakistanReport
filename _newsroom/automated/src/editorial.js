@@ -1,3 +1,4 @@
+import { ownershipGroup } from "./ownership.js";
 import { evidenceText, evidenceConflicts } from "./evidence.js";
 import { assert, similarity, tokens, text, words } from "./common.js";
 import { CATEGORIES } from "../../publisher/src/validation.js";
@@ -19,7 +20,7 @@ export { rank } from "./selection.js";
 export function sameEvent(a, b) {
   const ad = Date.parse(a.publishedAt || a.retrievedAt),
     bd = Date.parse(b.publishedAt || b.retrievedAt);
-  if (Math.abs(ad - bd) > 72 * 3600000) return false;
+  if (!Number.isFinite(ad) || !Number.isFinite(bd) || Math.abs(ad - bd) > 72 * 3600000) return false;
   // Small explicit aliases, not semantic translation or article-text clustering.
   const eventTerms = value => String(value || "")
     .replace(/\b(state bank of pakistan|state bank|sbp)\b/gi, "Pakistan central bank")
@@ -28,7 +29,33 @@ export function sameEvent(a, b) {
     .replace(/%/g, " percent")
     .replace(/\bpm\b/gi, "prime minister")
     .replace(/\bsteps down\b/gi, "resigns")
-    .replace(/\bcease-fire\b/gi, "ceasefire");
+    .replace(/\bcease-fire\b/gi, "ceasefire")
+    .replace(/\b(sc|top court)\b/gi, "supreme court")
+    .replace(/\bihc\b/gi, "islamabad high court")
+    .replace(/\blhc\b/gi, "lahore high court")
+    .replace(/\b(strikes down|struck down|annuls|invalidates)\b/gi, "overturns")
+    .replace(/declares (.+?) unconstitutional/gi, "overturns $1");
+  const at = eventTerms(a.title).toLowerCase(), bt = eventTerms(b.title).toLowerCase();
+  const matches = (t,re) => new Set(t.match(re) || []);
+  const disjoint = (aa,bb) => aa.size && bb.size && ![...aa].some(v=>bb.has(v));
+  const dates = t => new Set((t.match(/\b(?:\d{4}-\d{2}-\d{2}|\d{2}-\d{2}-\d{4})\b/g)||[])
+    .map(d=>d.split('-')[0].length===4?d:d.split('-').reverse().join('-')));
+  const cases = t => new Set([...t.matchAll(/\b(?:case|petition|appeal)\s+(?:no\.?\s*)?(\d+(?:[/-]\d+)?)\b/g)].map(m=>m[1]));
+  // Identifiers and explicit scope distinguish events. Casualty/price/amount
+  // disagreement alone is NOT a veto: it must remain available for review.
+  if (disjoint(dates(at),dates(bt)) || disjoint(cases(at),cases(bt))) return false;
+  for (const re of [
+    /\b(?:supreme court|islamabad high court|lahore high court)\b/g,
+    /\b(?:tax|election|tariff|privacy|telecom|budget)\b/g,
+    /\b(?:karachi|lahore|islamabad|iran|israel|ukraine|russia)\b/g,
+  ]) if (disjoint(matches(at,re),matches(bt,re))) return false;
+  const action = t => {
+    if (/\b(resigns?|resigned)\b/.test(t)) return 'resignation';
+    if (/\b(wins?|won|defeats?)\b/.test(t)) return 'electoral-result';
+    if (/\b(overturns?|upholds?|rules?|ruling)\b/.test(t)) return 'ruling';
+    return null;
+  };
+  if (action(at) && action(bt) && action(at)!==action(bt)) return false;
   const jaccard = (a, b) => {
     const aa = tokens(eventTerms(a)), bb = tokens(eventTerms(b));
     const overlap = [...aa].filter(t => bb.has(t)).length;
@@ -166,7 +193,8 @@ export function verifyClaims(claims, observations, sources) {
         );
       if (obs.document?.method === "manual" && !obs.document.editorConfirmed)
         issues.push("Manual evidence has not been confirmed by editor");
-      owners.add(source.owner);
+      const group = ownershipGroup(source);
+      if (group) owners.add(group);
       if (source.role === "primary") primary = true;
       quotes.push(ref.quote);
     }
