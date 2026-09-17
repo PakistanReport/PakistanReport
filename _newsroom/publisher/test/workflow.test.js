@@ -9,6 +9,7 @@ function harness() {
     env = {
       GITHUB_TOKEN: "server-secret",
       PUBLISHER_PASSWORD: "a".repeat(40),
+      PUBLISHER_API_TOKEN: "direct-api-test-token-12345678901234567890",
       FACEBOOK_PAGE_ID: "61593988122395",
       FACEBOOK_PAGE_ACCESS_TOKEN: "facebook-test-secret",
     },
@@ -44,6 +45,23 @@ async function request(h, path, body, headers = {}) {
       "Content-Type":
         body instanceof Uint8Array ? "application/zip" : "application/json",
       ...headers,
+    },
+    body:
+      body === undefined
+        ? undefined
+        : body instanceof Uint8Array
+          ? body
+          : JSON.stringify(body),
+  });
+  return worker.fetch(req, h.env);
+}
+async function directRequest(h, path, body, token = h.env.PUBLISHER_API_TOKEN) {
+  const req = new Request("https://publisher.example" + path, {
+    method: body === undefined ? "GET" : "POST",
+    headers: {
+      "X-Publisher-API-Token": token,
+      "Content-Type":
+        body instanceof Uint8Array ? "application/zip" : "application/json",
     },
     body:
       body === undefined
@@ -106,6 +124,74 @@ test("upload → review → approve → Publish Now → alarm → atomic GitHub 
       h.p.rows("SELECT COUNT(*) AS n FROM jobs WHERE status='Validated'")[0].n,
       2,
     );
+  } finally {
+    h.restore();
+  }
+});
+test("direct API accepts only authenticated validated ZIP submissions", async () => {
+  const h = harness();
+  try {
+    let r = await directRequest(
+      h,
+      "/api/direct/batches",
+      fixture().zip(),
+      "wrong-token",
+    );
+    assert.equal(r.status, 401);
+    assert.equal(h.p.rows("SELECT * FROM jobs").length, 0);
+
+    r = await directRequest(h, "/api/direct/batches", fixture().zip());
+    assert.equal(r.status, 201);
+    const batch = await r.json();
+    assert.equal(batch.status, "Validated");
+
+    const jobs = h.p.rows("SELECT data FROM jobs").map((r) => JSON.parse(r.data));
+    assert.equal(jobs.length, 2);
+    assert(jobs.every((job) => job.status === "Validated"));
+  } finally {
+    h.restore();
+  }
+});
+test("direct API token cannot access Publisher admin endpoints", async () => {
+  const h = harness();
+  try {
+    assert.equal(
+      (await directRequest(h, "/api/batches")).status,
+      401,
+    );
+    assert.equal(
+      (await directRequest(h, "/api/batches/fake/approve", {})).status,
+      401,
+    );
+    assert.equal(
+      (await directRequest(h, "/api/items/fake/now", {})).status,
+      401,
+    );
+    assert.equal(
+      (await directRequest(h, "/api/direct/batches")).status,
+      405,
+    );
+  } finally {
+    h.restore();
+  }
+});
+test("direct API preserves validation and collision protection", async () => {
+  const h = harness();
+  try {
+    let bad = fixture();
+    delete bad.files[bad.manifest.items[1].image];
+
+    let r = await directRequest(h, "/api/direct/batches", bad.zip());
+    assert.equal(r.status, 400);
+    assert.equal(h.p.rows("SELECT * FROM jobs").length, 0);
+
+    const good = fixture();
+    r = await directRequest(h, "/api/direct/batches", good.zip());
+    assert.equal(r.status, 201);
+
+    r = await directRequest(h, "/api/direct/batches", good.zip());
+    assert.equal(r.status, 400);
+    assert.equal(h.p.rows("SELECT * FROM jobs").length, 2);
   } finally {
     h.restore();
   }

@@ -45,6 +45,26 @@ async function authenticated(request, env) {
   for (let i = 0; i < a.length; i++) diff |= a[i] ^ b[i];
   return diff === 0;
 }
+async function machineAuthenticated(request, env) {
+  if (!env.PUBLISHER_API_TOKEN || env.PUBLISHER_API_TOKEN.length < 32)
+    return false;
+
+  const supplied = request.headers.get("X-Publisher-API-Token") || "";
+  const hash = async (text) =>
+    new Uint8Array(
+      await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text)),
+    );
+
+  const [a, b] = await Promise.all([
+    hash(supplied),
+    hash(env.PUBLISHER_API_TOKEN),
+  ]);
+
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) diff |= a[i] ^ b[i];
+  return diff === 0;
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -53,6 +73,25 @@ export default {
       !["localhost", "127.0.0.1"].includes(url.hostname)
     )
       return json({ error: "HTTPS required" }, 400);
+    if (url.pathname === "/api/direct/batches") {
+      if (request.method !== "POST")
+        return json({ error: "Method not allowed" }, 405);
+      if (!(await machineAuthenticated(request, env)))
+        return json({ error: "Unauthorized" }, 401);
+      if (
+        (request.headers.get("Content-Type") || "").split(";")[0] !==
+        "application/zip"
+      )
+        return json({ error: "Upload a ZIP" }, 400);
+
+      const response = await env.PUBLISHER.get(
+        env.PUBLISHER.idFromName("editorial-v1"),
+      ).fetch(request);
+      const secured = new Response(response.body, response);
+      for (const [k, v] of Object.entries(secureHeaders))
+        secured.headers.set(k, v);
+      return secured;
+    }
     if (!(await authenticated(request, env)))
       return new Response(
         "Private Pakistan Report Publisher. Sign in with username publisher.",
@@ -223,7 +262,11 @@ export class Publisher {
     });
   }
   async route(request) {
-    const path = new URL(request.url).pathname;
+    const requestedPath = new URL(request.url).pathname;
+    const path =
+      requestedPath === "/api/direct/batches"
+        ? "/api/batches"
+        : requestedPath;
     if (path === "/watchdog") {
       await this.arm();
       return json({ ok: true });
