@@ -1,16 +1,38 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import worker, { Publisher } from "../src/worker.js";
-import { FakeGitHub, fixture, state } from "./helpers.js";
+import { FakeGitHub, FakeFacebook, fixture, state } from "./helpers.js";
 function harness() {
   const gh = new FakeGitHub(),
+    fb = new FakeFacebook(),
     ctx = state(),
-    env = { GITHUB_TOKEN: "server-secret", PUBLISHER_PASSWORD: "a".repeat(40) },
+    env = {
+      GITHUB_TOKEN: "server-secret",
+      PUBLISHER_PASSWORD: "a".repeat(40),
+      FACEBOOK_PAGE_ID: "61593988122395",
+      FACEBOOK_PAGE_ACCESS_TOKEN: "facebook-test-secret",
+    },
     p = new Publisher(ctx, env);
+
   const real = globalThis.fetch;
-  globalThis.fetch = gh.fetch;
+
+  globalThis.fetch = (url, opts) => {
+    if (String(url).startsWith("https://graph.facebook.com/")) {
+      return fb.fetch(url, opts);
+    }
+    return gh.fetch(url, opts);
+  };
+
   env.PUBLISHER = { idFromName: (x) => x, get: () => p };
-  return { gh, ctx, p, env, restore: () => (globalThis.fetch = real) };
+
+  return {
+    gh,
+    fb,
+    ctx,
+    p,
+    env,
+    restore: () => (globalThis.fetch = real),
+  };
 }
 async function request(h, path, body, headers = {}) {
   const req = new Request("https://publisher.example" + path, {
@@ -215,6 +237,175 @@ test("archive retains audit and reservations; discard only unapproved batches", 
       (await request(h, "/api/batches/" + second.id + "/discard", {})).status,
       200,
     );
+  } finally {
+    h.restore();
+  }
+});
+
+test("Facebook delivery posts once and stored post ID prevents duplicates", async () => {
+  const h = harness();
+  try {
+    const job = {
+      id: crypto.randomUUID(),
+      batch: "facebook-test",
+      title: "Pakistan Report Facebook Test",
+      category: "Pakistan",
+      slug: "facebook-delivery-test",
+      status: "Published",
+      next: Date.now(),
+      due: Date.now(),
+      attempts: 1,
+      facebook: {
+        status: "Pending",
+        next: Date.now() - 1,
+        attempts: 0,
+        postId: null,
+        error: null,
+      },
+      history: [],
+    };
+
+    h.p.sql.exec(
+      "INSERT INTO jobs VALUES (?,?,?,?,?,?,?,?,?)",
+      job.id,
+      job.batch,
+      job.slug,
+      "_posts/facebook-delivery-test.md",
+      "assets/images/facebook-delivery-test.png",
+      job.status,
+      job.due,
+      job.next,
+      JSON.stringify(job),
+    );
+
+    await h.p.publishFacebook(job);
+
+    assert.equal(job.status, "Published");
+    assert.equal(job.facebook.status, "Posted");
+    assert.equal(job.facebook.postId, "61593988122395_1");
+    assert.equal(h.fb.calls.length, 1);
+
+    await h.p.publishFacebook(job);
+
+    assert.equal(job.status, "Published");
+    assert.equal(job.facebook.status, "Posted");
+    assert.equal(h.fb.calls.length, 1);
+  } finally {
+    h.restore();
+  }
+});
+
+test("temporary Facebook failure retries without changing article publication", async () => {
+  const h = harness();
+  try {
+    const job = {
+      id: crypto.randomUUID(),
+      batch: "facebook-retry-test",
+      title: "Pakistan Report Facebook Retry Test",
+      category: "Pakistan",
+      slug: "facebook-retry-test",
+      status: "Published",
+      next: Date.now(),
+      due: Date.now(),
+      attempts: 1,
+      facebook: {
+        status: "Pending",
+        next: Date.now() - 1,
+        attempts: 0,
+        postId: null,
+        error: null,
+      },
+      history: [],
+    };
+
+    h.p.sql.exec(
+      "INSERT INTO jobs VALUES (?,?,?,?,?,?,?,?,?)",
+      job.id,
+      job.batch,
+      job.slug,
+      "_posts/facebook-retry-test.md",
+      "assets/images/facebook-retry-test.png",
+      job.status,
+      job.due,
+      job.next,
+      JSON.stringify(job),
+    );
+
+    h.fb.fail = 1;
+
+    await h.p.publishFacebook(job);
+
+    assert.equal(job.status, "Published");
+    assert.equal(job.facebook.status, "Pending");
+    assert.equal(job.facebook.postId, null);
+    assert.equal(job.facebook.attempts, 1);
+    assert.ok(job.facebook.next > Date.now());
+    assert.equal(h.fb.calls.length, 1);
+
+    job.facebook.next = Date.now() - 1;
+    await h.p.publishFacebook(job);
+
+    assert.equal(job.status, "Published");
+    assert.equal(job.facebook.status, "Posted");
+    assert.equal(job.facebook.postId, "61593988122395_1");
+    assert.equal(job.facebook.attempts, 2);
+    assert.equal(h.fb.calls.length, 2);
+  } finally {
+    h.restore();
+  }
+});
+
+test("permanent Facebook failure leaves article published and stops retrying", async () => {
+  const h = harness();
+  try {
+    const job = {
+      id: crypto.randomUUID(),
+      batch: "facebook-permanent-test",
+      title: "Pakistan Report Facebook Permanent Failure Test",
+      category: "Pakistan",
+      slug: "facebook-permanent-failure-test",
+      status: "Published",
+      next: Date.now(),
+      due: Date.now(),
+      attempts: 1,
+      facebook: {
+        status: "Pending",
+        next: Date.now() - 1,
+        attempts: 0,
+        postId: null,
+        error: null,
+      },
+      history: [],
+    };
+
+    h.p.sql.exec(
+      "INSERT INTO jobs VALUES (?,?,?,?,?,?,?,?,?)",
+      job.id,
+      job.batch,
+      job.slug,
+      "_posts/facebook-permanent-failure-test.md",
+      "assets/images/facebook-permanent-failure-test.png",
+      job.status,
+      job.due,
+      job.next,
+      JSON.stringify(job),
+    );
+
+    h.fb.permanentFail = true;
+
+    await h.p.publishFacebook(job);
+
+    assert.equal(job.status, "Published");
+    assert.equal(job.facebook.status, "Failed");
+    assert.equal(job.facebook.postId, null);
+    assert.equal(job.facebook.attempts, 1);
+    assert.equal(job.facebook.next, null);
+    assert.equal(h.fb.calls.length, 1);
+
+    await h.p.arm();
+
+    assert.equal(job.status, "Published");
+    assert.equal(h.fb.calls.length, 1);
   } finally {
     h.restore();
   }

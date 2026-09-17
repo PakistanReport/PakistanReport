@@ -4,6 +4,7 @@
   "main": "src/worker.js",
   "compatibility_date": "2026-09-12",
   "workers_dev": true,
+"vars": { "FACEBOOK_PAGE_ID": "61593988122395" },
   "durable_objects": {
     "bindings": [{ "name": "PUBLISHER", "class_name": "Publisher" }],
   },

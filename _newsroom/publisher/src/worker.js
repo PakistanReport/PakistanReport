@@ -1,6 +1,7 @@
 import { HTML, CSS, JS } from "./ui.js";
 import { template } from "./template.js";
 import { GitHub } from "./github.js";
+import { Facebook } from "./facebook.js";
 import {
   unpackBatch,
   checkCollisions,
@@ -10,6 +11,8 @@ import {
   requireValid,
   MAX_ZIP,
 } from "./validation.js";
+const facebookArticleUrl = (job) =>
+  `https://pakistanreport.pakistanreportnews.workers.dev/${job.category.toLowerCase()}/${job.slug}/`;
 const secureHeaders = {
   "Cache-Control": "no-store",
   "X-Content-Type-Options": "nosniff",
@@ -170,13 +173,38 @@ export class Publisher {
     return out;
   }
   async arm() {
-    const row = this.rows(
-      "SELECT MIN(next) AS time FROM jobs WHERE status IN ('Scheduled','Publishing')",
-    )[0];
-    if (row?.time !== null && row?.time !== undefined)
-      await this.ctx.storage.setAlarm(Math.max(Date.now() + 100, row.time));
-    else await this.ctx.storage.deleteAlarm();
+  const article = this.rows(
+    "SELECT MIN(next) AS time FROM jobs WHERE status IN ('Scheduled','Publishing')",
+  )[0];
+
+  const facebookJobs = this.rows(
+    "SELECT data FROM jobs WHERE status='Published'",
+  );
+
+  let facebookTime = null;
+  for (const row of facebookJobs) {
+    const job = JSON.parse(row.data);
+    if (
+      job.facebook?.status === "Pending" &&
+      job.facebook.next !== null &&
+      (facebookTime === null || job.facebook.next < facebookTime)
+    ) {
+      facebookTime = job.facebook.next;
+    }
   }
+
+  const times = [article?.time, facebookTime].filter(
+    (time) => time !== null && time !== undefined,
+  );
+
+  if (times.length) {
+    await this.ctx.storage.setAlarm(
+      Math.max(Date.now() + 100, Math.min(...times)),
+    );
+  } else {
+    await this.ctx.storage.deleteAlarm();
+  }
+}
   fetch(request) {
     return this.serial(async () => {
       try {
@@ -284,6 +312,13 @@ export class Publisher {
             status: "Validated",
             next: item.due,
             attempts: 0,
+facebook: {
+  status: "Waiting",
+  next: null,
+  attempts: 0,
+  postId: null,
+  error: null,
+},
             history: [
               {
                 at: created,
@@ -428,6 +463,67 @@ export class Publisher {
     }
     return json({ error: "Not found" }, 404);
   }
+async publishFacebook(job) {
+  job.facebook ??= {
+    status: "Pending",
+    next: Date.now(),
+    attempts: 0,
+    postId: null,
+    error: null,
+  };
+
+  // A stored post ID is our idempotency guard: never intentionally post twice.
+  if (job.facebook.postId) {
+    job.facebook.status = "Posted";
+    job.facebook.next = null;
+    job.facebook.error = null;
+    this.save(job);
+    return;
+  }
+
+  job.facebook.attempts++;
+  job.facebook.status = "Posting";
+  job.facebook.next = Date.now() + 120000;
+  this.save(job);
+
+  try {
+    const facebook = new Facebook(
+      this.env.FACEBOOK_PAGE_ID,
+      this.env.FACEBOOK_PAGE_ACCESS_TOKEN,
+    );
+
+    job.facebook.postId = await facebook.publish({
+      message: job.title,
+      link: facebookArticleUrl(job),
+    });
+
+    job.facebook.status = "Posted";
+    job.facebook.next = null;
+    job.facebook.error = null;
+    this.history(job, "Facebook post published");
+  } catch (e) {
+    const retry = e.name === "FacebookError" &&
+      e.transient &&
+      job.facebook.attempts < 6;
+
+    job.facebook.status = retry ? "Pending" : "Failed";
+    job.facebook.next = retry
+      ? Date.now() +
+        Math.max(
+          Math.min(30 * 2 ** (job.facebook.attempts - 1), 900) * 1000,
+          e.retryAfter || 0,
+        )
+      : null;
+
+    job.facebook.error = retry
+      ? "Facebook delivery failed temporarily; automatic retry scheduled."
+      : "Facebook delivery failed; article remains published.";
+
+    this.history(job, job.facebook.error);
+  }
+
+  this.save(job);
+}
   alarm() {
     return this.serial(async () => {
       const row = this.rows(
@@ -435,9 +531,29 @@ export class Publisher {
         Date.now(),
       )[0];
       if (!row) {
-        await this.arm();
-        return;
-      }
+  const facebookRows = this.rows(
+    "SELECT data FROM jobs WHERE status='Published'",
+  );
+
+  const facebookJob = facebookRows
+    .map((r) => JSON.parse(r.data))
+    .filter(
+      (j) =>
+        j.facebook?.status === "Pending" &&
+        j.facebook.next !== null &&
+        j.facebook.next <= Date.now(),
+    )
+    .sort((a, b) => a.facebook.next - b.facebook.next)[0];
+
+  if (!facebookJob) {
+    await this.arm();
+    return;
+  }
+
+  await this.publishFacebook(facebookJob);
+  await this.arm();
+  return;
+}
       const job = JSON.parse(row.data);
       // Persistent recovery wake-up survives process termination, including during GitHub I/O.
       await this.ctx.storage.setAlarm(Date.now() + 120000);
@@ -465,6 +581,16 @@ export class Publisher {
         );
         job.status = "Published";
         job.error = null;
+job.facebook ??= {
+  status: "Waiting",
+  next: null,
+  attempts: 0,
+  postId: null,
+  error: null,
+};
+job.facebook.status = "Pending";
+job.facebook.next = Date.now() + 5 * 60 * 1000;
+job.facebook.error = null;
         this.history(
           job,
           "Committed article and image together: " +

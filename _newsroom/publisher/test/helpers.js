@@ -160,3 +160,38 @@ export class FakeGitHub {
     return Response.json(result);
   };
 }
+
+export class FakeFacebook {
+  constructor() {
+    this.calls = [];
+    this.fail = 0;
+    this.permanentFail = false;
+    this.nextId = 1;
+  }
+
+  fetch = async (url, opts = {}) => {
+    if (!url.startsWith("https://graph.facebook.com/")) {
+      throw Error("Unexpected Facebook operation " + url);
+    }
+
+    this.calls.push({ url, opts });
+
+    if (this.fail-- > 0) {
+      return Response.json(
+        { error: { message: "temporary", is_transient: true } },
+        { status: 503 },
+      );
+    }
+
+    if (this.permanentFail) {
+      return Response.json(
+        { error: { message: "permanent", is_transient: false } },
+        { status: 400 },
+      );
+    }
+
+    return Response.json({
+      id: "61593988122395_" + this.nextId++,
+    });
+  };
+}
