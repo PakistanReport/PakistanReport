@@ -472,7 +472,7 @@ facebook: {
       });
       return json({ ok: true });
     }
-    match = path.match(/^\/api\/items\/([a-f0-9-]+)\/(now|image)$/);
+    match = path.match(/^\/api\/items\/([a-f0-9-]+)\/(now|image|facebook-retry)$/);
     if (match) {
       const job = this.get(match[1]);
       if (match[2] === "image" && request.method === "GET")
