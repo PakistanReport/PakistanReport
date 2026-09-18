@@ -1,9 +1,11 @@
 export class FacebookError extends Error {
-  constructor(message, { transient = false, retryAfter = 0 } = {}) {
+  constructor(message, { transient = false, retryAfter = 0, code = null, type = null } = {}) {
     super(message);
     this.name = "FacebookError";
     this.transient = transient;
     this.retryAfter = retryAfter;
+    this.code = Number.isInteger(code) ? code : null;
+    this.type = typeof type === "string" && /^[A-Za-z0-9_.-]{1,80}$/.test(type) ? type : null;
   }
 }
 
@@ -48,7 +50,7 @@ export class Facebook {
     try {
       data = await response.json();
     } catch {
-      // Keep the error generic so response bodies cannot leak credentials.
+      // Never retain or expose the raw Graph response.
     }
 
     if (!response.ok || !data.id) {
@@ -62,10 +64,23 @@ export class Facebook {
         ? Number(retryAfterHeader) * 1000
         : 0;
 
-      throw new FacebookError("Facebook rejected the post.", {
-        transient,
-        retryAfter: Number.isFinite(retryAfter) ? retryAfter : 0,
-      });
+      const code = Number.isInteger(data?.error?.code) ? data.error.code : null;
+      const type =
+        typeof data?.error?.type === "string" ? data.error.type : null;
+      const diagnostic = [
+        code !== null ? `code ${code}` : null,
+        type && /^[A-Za-z0-9_.-]{1,80}$/.test(type) ? `type ${type}` : null,
+      ].filter(Boolean).join(", ");
+
+      throw new FacebookError(
+        diagnostic ? `Facebook rejected the post (${diagnostic}).` : "Facebook rejected the post.",
+        {
+          transient,
+          retryAfter: Number.isFinite(retryAfter) ? retryAfter : 0,
+          code,
+          type,
+        },
+      );
     }
 
     return data.id;
