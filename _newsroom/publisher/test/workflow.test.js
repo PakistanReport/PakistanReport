@@ -328,6 +328,42 @@ test("archive retains audit and reservations; discard only unapproved batches", 
   }
 });
 
+test("Facebook delivery uses custom article text and falls back to headline", async () => {
+  const h = harness();
+  try {
+    const custom = "Pakistan Report custom Facebook brief with context and restrained hashtags. #PakistanReport";
+    const makeJob = (id, facebookText) => ({
+      id,
+      batch: "facebook-copy-test",
+      title: "Fallback Facebook Headline",
+      facebookText,
+      category: "Pakistan",
+      slug: id,
+      status: "Published",
+      next: Date.now(),
+      due: Date.now(),
+      attempts: 1,
+      facebook: { status: "Pending", next: Date.now() - 1, attempts: 0, postId: null, error: null },
+      history: [],
+    });
+    for (const job of [makeJob("custom-facebook-copy", custom), makeJob("fallback-facebook-copy", undefined)]) {
+      h.p.sql.exec(
+        "INSERT INTO jobs VALUES (?,?,?,?,?,?,?,?,?)",
+        job.id, job.batch, job.slug, "_posts/" + job.slug + ".md",
+        "assets/images/" + job.slug + ".png", job.status, job.due, job.next, JSON.stringify(job),
+      );
+      await h.p.publishFacebook(job);
+    }
+    const first = new URLSearchParams(h.fb.calls[0].opts.body);
+    const second = new URLSearchParams(h.fb.calls[1].opts.body);
+    assert.equal(first.get("message"), custom);
+    assert.equal(second.get("message"), "Fallback Facebook Headline");
+    assert.match(first.get("link"), /custom-facebook-copy/);
+  } finally {
+    h.restore();
+  }
+});
+
 test("Facebook delivery posts once and stored post ID prevents duplicates", async () => {
   const h = harness();
   try {
