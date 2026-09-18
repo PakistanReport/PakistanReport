@@ -41,6 +41,7 @@ export function makePackage(candidate, image, schedule, now = Date.now()) {
       layout: "article",
       title: d.headline,
       description: d.deck,
+      facebook_text: d.facebookText || d.facebook_text || d.headline,
       category: d.category,
       author: "Pakistan Report Editorial Desk",
       published: true,
