@@ -536,7 +536,7 @@ async publishFacebook(job) {
     );
 
     job.facebook.postId = await facebook.publish({
-      message: job.title,
+      message: job.facebookText || job.title,
       link: facebookArticleUrl(job),
     });
 
