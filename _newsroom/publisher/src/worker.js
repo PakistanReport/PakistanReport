@@ -479,6 +479,19 @@ facebook: {
         return new Response(this.image(job.id), {
           headers: { ...secureHeaders, "Content-Type": job.mime },
         });
+      if (match[2] === "facebook-retry" && request.method === "POST") {
+        requireValid(job.status === "Published", "Only published articles can retry Facebook");
+        requireValid(job.facebook?.status === "Failed", "Facebook delivery is not failed");
+        requireValid(!job.facebook?.postId, "Facebook post already has a stored post ID");
+        job.facebook.status = "Pending";
+        job.facebook.next = Date.now();
+        job.facebook.attempts = 0;
+        job.facebook.error = null;
+        this.history(job, "Facebook retry approved");
+        this.save(job);
+        await this.arm();
+        return json({ status: job.facebook.status });
+      }
       if (match[2] === "now" && request.method === "POST") {
         if (["Publishing", "Published"].includes(job.status))
           return json({ status: job.status });
@@ -558,9 +571,10 @@ async publishFacebook(job) {
         )
       : null;
 
+    const diagnostic = e.name === "FacebookError" ? e.message : "";
     job.facebook.error = retry
-      ? "Facebook delivery failed temporarily; automatic retry scheduled."
-      : "Facebook delivery failed; article remains published.";
+      ? "Facebook delivery failed temporarily; automatic retry scheduled." + (diagnostic ? " " + diagnostic : "")
+      : "Facebook delivery failed; article remains published." + (diagnostic ? " " + diagnostic : "");
 
     this.history(job, job.facebook.error);
   }
