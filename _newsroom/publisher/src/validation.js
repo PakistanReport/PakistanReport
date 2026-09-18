@@ -124,6 +124,15 @@ export function validateArticle(raw, entry) {
     data.image === "/assets/" + entry.image,
     "Front matter image must be /assets/" + entry.image,
   );
+  if (data.facebook_text !== undefined) {
+    requireValid(
+      typeof data.facebook_text === "string" &&
+        data.facebook_text.trim().length >= 20 &&
+        data.facebook_text.length <= 2000 &&
+        !data.facebook_text.includes("\0"),
+      "facebook_text must be plain text between 20 and 2000 characters",
+    );
+  }
   if (data.date !== undefined) {
     requireValid(
       typeof data.date === "string",
@@ -150,6 +159,7 @@ export function validateArticle(raw, entry) {
   }
   return {
     title: data.title,
+    facebookText: data.facebook_text?.trim() || data.title,
     category: data.category,
     slug,
     filename,
