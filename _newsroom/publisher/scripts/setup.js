@@ -13,6 +13,7 @@ function run(args, input) {
       stdio: input === undefined ? "inherit" : ["pipe", "inherit", "inherit"],
       input,
       env: { ...process.env, WRANGLER_SEND_METRICS: "false" },
+      shell: process.platform === "win32",
     },
   );
   if (r.status !== 0) process.exit(r.status || 1);
