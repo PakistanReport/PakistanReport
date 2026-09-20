@@ -2,6 +2,7 @@
 layout: article
 title: "Pakistan Export Earnings Fall by More Than $1.2bn as Regional Tensions
   Add Pressure"
+description: "Pakistan’s export earnings fell by more than $1.2bn to about $30.8bn in FY2025-26, as exporters faced pressure from regional tensions, logistics costs and weaker trade flows."
 category: Economy
 author: Pakistan Report
 published: true
