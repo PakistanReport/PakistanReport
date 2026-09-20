@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Cotton Arrivals Rise 19% to Nearly 2.4m Bales by Mid-September"
+description: "Pakistan’s cotton arrivals reached nearly 2.4 million bales by September 15, up 19.17% from a year earlier, with both Punjab and Sindh reporting stronger early-season arrivals."
 category: Economy
 author: Pakistan Report
 published: true
