@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Aurangzeb Says Protest Disruptions Could Cost Economy Rs120bn a Day"
+description: "Finance Minister Muhammad Aurangzeb estimates strikes, sit-ins and road closures could cause around Rs120bn in daily economic losses, led by disruption to the services sector."
 category: Economy
 author: Pakistan Report
 published: true
