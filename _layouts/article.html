@@ -37,9 +37,10 @@
       "@id": "{{ site.url }}{{ page.url }}"
     },
     "author": {
-      "@type": "Organization",
-      "name": {{ page.author | default: 'Pakistan Report Editorial Desk' | jsonify }}
-    },
+  "@type": "Organization",
+  "name": {{ page.author | default: 'Pakistan Report Editorial Desk' | jsonify }},
+  "url": "{{ site.url }}/about/"
+},
     "publisher": {
       "@type": "Organization",
       "name": "Pakistan Report",
