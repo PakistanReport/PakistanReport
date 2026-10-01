@@ -335,6 +335,47 @@
       font-size: 13px;
     }
 
+    /* RELATED STORIES */
+
+    .related-stories {
+      border-top: 1px solid var(--line);
+      margin-top: 36px;
+      padding-top: 24px;
+      font-family: Arial, sans-serif;
+    }
+
+    .related-stories h2 {
+      font-family: Georgia, serif;
+      font-size: 22px;
+      margin: 0 0 12px;
+    }
+
+    .related-stories ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .related-stories li {
+      border-top: 1px solid var(--line);
+      margin: 0;
+      padding: 11px 0;
+    }
+
+    .related-stories li:first-child {
+      border-top: 0;
+    }
+
+    .related-stories a {
+      color: var(--ink);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .related-stories a:hover {
+      color: var(--green-light);
+    }
+
     /* SITE FOOTER */
 
     footer {
@@ -548,6 +589,22 @@
       </p>
 
     </div>
+
+    {% if page.category %}
+      {% assign related_posts = site.posts | where: "category", page.category %}
+      {% assign related_count = 0 %}
+      <section class="related-stories" aria-labelledby="related-stories-heading">
+        <h2 id="related-stories-heading">More from {{ page.category }}</h2>
+        <ul>
+          {% for post in related_posts %}
+            {% if post.url != page.url and related_count < 4 %}
+              <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+              {% assign related_count = related_count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
 
   </article>
 
