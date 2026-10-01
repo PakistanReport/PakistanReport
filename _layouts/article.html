@@ -47,7 +47,9 @@
       "url": "{{ site.url }}"
     }{% if page.image %},
     "image": [
-      "{{ site.url }}{{ page.image }}"
+      "{{ site.url }}{{ page.image }}"{% if page.image_4x3 %},
+      "{{ site.url }}{{ page.image_4x3 }}"{% endif %}{% if page.image_1x1 %},
+      "{{ site.url }}{{ page.image_1x1 }}"{% endif %}
     ]{% endif %}
   }
   </script>
