@@ -296,31 +296,51 @@ description: "Pakistan news, politics, economy, business, jobs, technology, worl
   </section>
 
 
-  <!-- JOBS + TECHNOLOGY -->
-  <section class="split-section">
+  <!-- JOBS -->
+  <section class="news-section">
 
-    <div>
+    <div class="section-heading">
+      <h2>Jobs</h2>
+      <a href="{{ site.url }}/jobs/">More →</a>
+    </div>
 
-      <div class="section-heading">
-        <h2>Jobs</h2>
-        <a href="{{ site.url }}/jobs/">More →</a>
-      </div>
+    <div class="articles">
 
       {% assign jobs_count = 0 %}
 
       {% for post in site.posts %}
 
-        {% if post.category == "Jobs" and jobs_count < 4 %}
+        {% if post.category == "Jobs" and jobs_count < 3 %}
 
-        <article class="headline-row">
+        <article class="card">
 
-          <div class="category">Jobs</div>
+          {% if post.image %}
+          <a href="{{ post.url | relative_url }}">
+            <img
+              src="{{ post.image }}"
+              alt="{{ post.image_alt | default: post.title | escape }}"
+              loading="lazy"
+              class="card-image">
+          </a>
+          {% endif %}
 
-          <h3>
-            <a href="{{ post.url | relative_url }}">
-              {{ post.title }}
-            </a>
-          </h3>
+          <div class="card-content">
+
+            <div class="category">Jobs</div>
+
+            <h3>
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            {% if post.description %}
+            <p class="excerpt">
+              {{ post.description }}
+            </p>
+            {% endif %}
+
+          </div>
 
         </article>
 
@@ -332,29 +352,54 @@ description: "Pakistan news, politics, economy, business, jobs, technology, worl
 
     </div>
 
+  </section>
 
-    <div>
 
-      <div class="section-heading">
-        <h2>Technology</h2>
-        <a href="{{ site.url }}/technology/">More →</a>
-      </div>
+  <!-- TECHNOLOGY -->
+  <section class="news-section">
+
+    <div class="section-heading">
+      <h2>Technology</h2>
+      <a href="{{ site.url }}/technology/">More →</a>
+    </div>
+
+    <div class="articles">
 
       {% assign tech_count = 0 %}
 
       {% for post in site.posts %}
 
-        {% if post.category == "Technology" and tech_count < 4 %}
+        {% if post.category == "Technology" and tech_count < 3 %}
 
-        <article class="headline-row">
+        <article class="card">
 
-          <div class="category">Technology</div>
+          {% if post.image %}
+          <a href="{{ post.url | relative_url }}">
+            <img
+              src="{{ post.image }}"
+              alt="{{ post.image_alt | default: post.title | escape }}"
+              loading="lazy"
+              class="card-image">
+          </a>
+          {% endif %}
 
-          <h3>
-            <a href="{{ post.url | relative_url }}">
-              {{ post.title }}
-            </a>
-          </h3>
+          <div class="card-content">
+
+            <div class="category">Technology</div>
+
+            <h3>
+              <a href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+            </h3>
+
+            {% if post.description %}
+            <p class="excerpt">
+              {{ post.description }}
+            </p>
+            {% endif %}
+
+          </div>
 
         </article>
 
