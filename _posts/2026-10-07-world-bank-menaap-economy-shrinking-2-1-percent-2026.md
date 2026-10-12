@@ -35,4 +35,6 @@ The central message of the update is that the conflict has materially weakened t
 
 The World Bank's figures therefore provide a regional measure of the economic damage from the conflict rather than a standalone assessment of Pakistan's economy.
 
+**Source:** [World Bank — Middle East Conflict Further Weakens Regional Outlook, with Gulf Oil Exporters Hit Hardest](https://www.worldbank.org/en/news/press-release/2026/10/06/middle-east-conflict-further-weakens-regional-outlook-with-gulf-oil-exporters-hit).
+
 *Pakistan Report illustration.*
