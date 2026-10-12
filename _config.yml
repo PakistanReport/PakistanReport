@@ -31,6 +31,9 @@ defaults:
       layout: "article"
       author: "Pakistan Report Editorial Desk"
 
+include:
+  - _redirects
+
 exclude:
   - README.md
   - Gemfile
