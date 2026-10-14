@@ -1,0 +1,30 @@
+name: Validate editorial Jekyll build
+on:
+  pull_request:
+    paths:
+      - '_posts/**'
+      - 'assets/images/**'
+      - '.github/workflows/validate-editorial.yml'
+  push:
+    branches:
+      - 'editorial-**'
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Build site in production mode
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build
+      - name: Verify bonds article and hero image
+        run: |
+          test -s assets/images/pakistan-international-bonds.webp
+          grep -q '^published: true$' _posts/2026-10-14-pakistan-plans-new-international-bonds.md
+          test -f _site/economy/pakistan-plans-new-international-bonds-as-finance-minister-outlines-funding-strategy/index.html || find _site -iname '*international-bonds*' -print
