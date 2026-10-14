@@ -3,12 +3,12 @@ layout: article
 title: "Pakistan Plans New International Bonds as Finance Minister Outlines Funding Strategy"
 category: "Economy"
 author: "Pakistan Report Editorial Desk"
-date: 2026-10-14 18:00:00 +0500
+date: 2026-10-14 17:09:00 +0500
 description: "Finance Minister Muhammad Aurangzeb has outlined plans to diversify Pakistan's international financing through further Panda bond issuances, Sukuk and a proposed rupee-denominated, dollar-settled bond."
 image: "/assets/images/pakistan-international-bonds.webp"
 image_alt: "Illustration of Pakistan's flag alongside symbolic Panda bond, Sukuk and international bond certificates, representing proposed financing plans."
 image_caption: "Pakistan Report illustration of proposed international financing instruments. The bond certificates are illustrative and do not depict securities that have been issued."
-published: false
+published: true
 ---
 
 Pakistan's finance minister has outlined plans for additional international bond issuances as the government seeks to diversify its financing sources and manage borrowing costs.
