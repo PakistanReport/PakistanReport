@@ -3,17 +3,17 @@ layout: article
 title: "Saudi Aramco Headquarters Damaged in Houthi Attack as Regional Fighting Escalates"
 category: "World"
 author: "Pakistan Report Editorial Desk"
-date: 2026-10-14 21:15:00 +0500
+date: 2026-10-14 21:13:00 +0500
 description: "Saudi Arabia confirms an attack and fire at an Aramco building in Dhahran, while Reuters and AP report extensive damage to executive offices amid renewed fighting with Yemen's Houthis."
 image: "/assets/images/saudi-aramco-houthi-missile-attack.webp"
 image_alt: "AI-generated editorial illustration of a generic Saudi corporate office complex with oil industry facilities in the background; not the actual Aramco headquarters or attack."
 image_caption: "Pakistan Report illustration of Saudi Arabia's energy sector. The buildings are fictional and do not depict Aramco's headquarters or damage from the attack."
-published: false
+published: true
 ---
 
 Saudi Arabia's state-owned oil company Aramco has suffered damage at its headquarters complex in Dhahran after an attack on Tuesday, October 13, as fighting between the kingdom and Yemen's Houthi movement intensifies.
 
-The Saudi Ministry of Energy acknowledged that an administrative building in the compound had been targeted and that a fire broke out. The ministry described the fire as limited and said there were no deaths or injuries, according to [Reuters' October 13 report](https://www.reuters.com/business/energy/saudi-led-coalition-orders-evacuation-yemen-oil-facility-sanaa-ahead-operation-2026-10-13/).
+The Saudi Ministry of Energy acknowledged that an administrative building in the compound had been targeted and that a fire broke out. The ministry described the fire as limited and said there were no deaths or injuries, according to [Reuters' account published on October 14](https://www.gmanetwork.com/news/topstories/world/1005854/missile-hits-headquarters-of-saudi-aramco-source-says-as-houthi-conflict-escalates/story/).
 
 Subsequent reporting on October 14 indicated that the physical damage was more extensive than the initial official description suggested.
 
@@ -59,7 +59,7 @@ Further information from Aramco or Saudi authorities would be needed to establis
 
 ## Sources
 
-- [Saudi Ministry of Energy statement as reported by Reuters, October 13, 2026](https://www.reuters.com/business/energy/saudi-led-coalition-orders-evacuation-yemen-oil-facility-sanaa-ahead-operation-2026-10-13/).
+- [Saudi Ministry of Energy statement as reported by Reuters, October 14, 2026](https://www.gmanetwork.com/news/topstories/world/1005854/missile-hits-headquarters-of-saudi-aramco-source-says-as-houthi-conflict-escalates/story/).
 - [Reuters — Aramco's Dhahran headquarters suffered extensive damage, sources say, October 14, 2026](https://www.reuters.com/world/middle-east/aramcos-dhahran-hq-suffered-extensive-damage-tuesdays-attack-sources-say-2026-10-14/).
 - [Associated Press — Houthi attack damages Aramco executive offices, October 14, 2026](https://apnews.com/article/c81a91347c00b17097c8fafde7e4eeec).
 - [Aramco — Official global contacts](https://www.aramco.com/en/global-contacts).
