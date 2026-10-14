@@ -3,12 +3,12 @@ layout: article
 title: "Trump Announces Major Greenland Oil, Gas and Mineral Exploration Plans"
 category: "World"
 author: "Pakistan Report Editorial Desk"
-date: 2026-10-14 18:00:00 +0500
+date: 2026-10-14 17:51:00 +0500
 description: "Donald Trump says large-scale oil, gas and mineral exploration is being prepared in Greenland, but has given no timetable or project details, and a recent security agreement grants no special US exploration rights."
 image: "/assets/images/greenland-exploration-plans.webp"
 image_alt: "AI-generated Pakistan Report editorial illustration of Greenland's Arctic coastline and mineral-rich terrain, symbolising proposed resource exploration."
 image_caption: "Pakistan Report illustration."
-published: false
+published: true
 ---
 
 US President Donald Trump has said large-scale exploration for oil, gas and minerals is being prepared in Greenland, renewing attention on the Arctic island's natural resources weeks after Washington reached a security agreement with Denmark and Greenland.
