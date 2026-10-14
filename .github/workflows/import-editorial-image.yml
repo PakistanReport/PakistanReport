@@ -1,0 +1,69 @@
+name: Import approved editorial image
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Existing editorial branch (never main)'
+        required: true
+        type: string
+      post_path:
+        description: 'Existing article path in _posts/'
+        required: true
+        type: string
+      image_path:
+        description: 'Image destination in assets/images/'
+        required: true
+        type: string
+      image_url:
+        description: 'HTTPS GitHub attachment URL containing the approved WebP'
+        required: true
+        type: string
+      sha256:
+        description: 'Optional expected image SHA-256'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: editorial-image-${{ inputs.branch }}
+  cancel-in-progress: false
+
+jobs:
+  import-image:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate branch input
+        env:
+          BRANCH: ${{ inputs.branch }}
+        run: |
+          if [[ "$BRANCH" == "main" || "$BRANCH" == "master" || "$BRANCH" == refs/* || "$BRANCH" == -* ]]; then
+            echo "Refusing to write to protected/default branch or unsafe ref"
+            exit 1
+          fi
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch }}
+          persist-credentials: true
+      - name: Download and validate image
+        env:
+          POST_PATH: ${{ inputs.post_path }}
+          IMAGE_PATH: ${{ inputs.image_path }}
+          IMAGE_URL: ${{ inputs.image_url }}
+          EXPECTED_SHA256: ${{ inputs.sha256 }}
+        run: python3 _newsroom/import-editorial-image.py
+      - name: Commit image to editorial branch
+        env:
+          IMAGE_PATH: ${{ inputs.image_path }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "$IMAGE_PATH"
+          if git diff --cached --quiet; then
+            echo "Image already matches repository; no commit needed"
+          else
+            git commit -m "Add approved editorial WebP image"
+            git push origin "HEAD:${{ inputs.branch }}"
+          fi
