@@ -53,7 +53,7 @@ def main():
 
     article = post_path.read_text(encoding="utf-8")
     expected_reference = "/" + image_path.relative_to(ROOT).as_posix()
-    if not re.search(r"(?m)^image:\\s*['\\\"]?" + re.escape(expected_reference) + r"['\\\"]?\\s*$", article):
+    if not re.search(r"(?m)^image:\s*['\"]?" + re.escape(expected_reference) + r"['\"]?\s*$", article):
         raise ValueError("Article image front matter does not match destination")
 
     opener = urllib.request.build_opener(SafeRedirects)
