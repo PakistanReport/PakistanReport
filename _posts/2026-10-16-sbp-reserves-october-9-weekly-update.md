@@ -1,4 +1,5 @@
 ---
+description: "State Bank foreign-exchange reserves rose $16 million to $21.469 billion in the week ending October 9, while Pakistan’s total liquid reserves reached $26.863 billion."
 layout: article
 title: "State Bank Reserves Rise $16 Million to $21.47 Billion in Latest Weekly
   Update"
