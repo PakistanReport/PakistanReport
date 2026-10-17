@@ -1,4 +1,5 @@
 ---
+description: "Prime Minister Shehbaz Sharif renewed his offer of opposition dialogue amid the KP emergency dispute, but opposition demands remain unresolved and formal talks have not resumed."
 layout: article
 title: "Prime Minister Renews Dialogue Offer as KP Emergency Deepens Political Rift"
 date: 2026-10-17 14:00:00 +0500
