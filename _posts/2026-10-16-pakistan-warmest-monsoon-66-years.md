@@ -1,4 +1,5 @@
 ---
+description: "Pakistan recorded its warmest monsoon in 66 years, with average temperatures reaching 30.7°C as nationwide rainfall fell 19% below normal, according to meteorological data."
 layout: article
 title: "Pakistan Records Warmest Monsoon in 66 Years as Rainfall Falls Below Normal"
 date: 2026-10-16 22:20:00 +0500
