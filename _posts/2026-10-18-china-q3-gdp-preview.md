@@ -1,4 +1,5 @@
 ---
+description: "Economists surveyed by Reuters forecast China’s third-quarter growth at 4.4%, ahead of the October 19 GDP release, as weak domestic demand offsets resilient exports."
 layout: article
 title: "China’s Third-Quarter Growth Forecast at 4.4% as Investors Await GDP Release"
 date: 2026-10-17 12:19:07 +0500
