@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Pakistan Report"
-description: "Pakistan news, politics, economy, business, jobs, technology, world developments and explainers."
+description: "Pakistan news, politics, economy, business, technology, world developments and explainers."
 ---
 
 <main class="container">
 
   {% if site.posts.size > 0 %}
 
-  {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict'" %}
+  {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs'" %}
   {% assign featured = regular_posts.first %}
 
   <!-- FEATURED STORY -->
@@ -113,23 +113,6 @@ description: "Pakistan news, politics, economy, business, jobs, technology, worl
     </div>
   </section>
 
-  <!-- JOBS -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Jobs</h2><a href="{{ site.url }}/jobs/">More →</a></div>
-    <div class="articles">
-      {% assign jobs_count = 0 %}
-      {% for post in site.posts %}
-        {% if post.category == "Jobs" and jobs_count < 3 %}
-        <article class="card">
-          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-          <div class="card-content"><div class="category">Jobs</div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}</div>
-        </article>
-        {% assign jobs_count = jobs_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-
   <!-- EXPLAINERS -->
   <section class="news-section">
     <div class="section-heading"><h2>Explainers</h2><a href="{{ site.url }}/explainer/">More →</a></div>
@@ -159,7 +142,6 @@ description: "Pakistan news, politics, economy, business, jobs, technology, worl
       <a href="{{ site.url }}/politics/">Politics</a>
       <a href="{{ site.url }}/economy/">Economy</a>
       <a href="{{ site.url }}/business/">Business</a>
-      <a href="{{ site.url }}/jobs/">Jobs</a>
       <a href="{{ site.url }}/technology/">Technology</a>
       <a href="{{ site.url }}/world/">World</a>
       <a href="{{ site.url }}/explainer/">Explainers</a>
