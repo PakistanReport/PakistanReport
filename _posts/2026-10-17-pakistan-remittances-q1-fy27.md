@@ -7,6 +7,8 @@ description: "Overseas Pakistanis sent about $10.9 billion in July–September
   2026, up 14% year on year, supporting foreign-exchange inflows even as the
   current account remained in deficit."
 image: /assets/images/pakistan-remittances-q1-fy27.webp
+image_width: 1536
+image_height: 1024
 image_caption: "AI-generated editorial illustration."
 published: true
 ---
