@@ -1,4 +1,5 @@
 ---
+description: "A Saudi-led coalition says it intercepted a cruise missile over Medina, while Yemen’s Houthis deny targeting the city; the missile’s origin remains unverified."
 layout: article
 title: "Saudi-Led Coalition Reports Cruise Missile Intercepted Over Medina as
   Houthis Deny Attack"
