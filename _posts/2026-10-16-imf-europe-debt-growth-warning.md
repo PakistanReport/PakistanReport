@@ -1,4 +1,5 @@
 ---
+description: "The IMF warned European governments to strengthen growth and restrain borrowing, projecting mounting debt pressures and calling for reforms alongside medium-term fiscal adjustments."
 layout: article
 title: "IMF Warns Europe Must Accelerate Growth or Cut Borrowing to Stabilise Debt"
 date: 2026-10-16 23:40:00 +0500
