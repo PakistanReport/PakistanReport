@@ -1,4 +1,5 @@
 ---
+description: "UNDP warned that 130 million additional people could have faced poverty without consumer price protections, as energy costs, borrowing pressures and climate risks strain developing economies."
 layout: article
 title: "UNDP Warns 130 Million More People Could Face Poverty Without Price
   Protections"
