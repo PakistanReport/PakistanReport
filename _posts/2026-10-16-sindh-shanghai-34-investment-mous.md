@@ -1,4 +1,5 @@
 ---
+description: "Sindh officials reported signing 34 investment memorandums at a Shanghai conference, highlighting industrial and technology opportunities while stressing that proposed projects still require implementation."
 layout: article
 title: "Sindh Signs 34 Investment MoUs at Shanghai Conference, Targets Chinese
   Partnerships"
