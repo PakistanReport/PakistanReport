@@ -1,4 +1,5 @@
 ---
+description: "An explainer on how emergency and governor’s rule affect Khyber Pakhtunkhwa’s elected government, provincial powers and courts, with legal challenges awaiting a hearing."
 layout: article
 title: "Who Governs Khyber Pakhtunkhwa Under Emergency and Governor’s Rule?"
 date: 2026-10-17 15:00:00 +0500
