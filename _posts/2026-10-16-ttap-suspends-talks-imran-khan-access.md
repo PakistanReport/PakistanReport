@@ -1,4 +1,5 @@
 ---
+description: "Opposition alliance TTAP suspended government negotiations, demanding family and doctor access to imprisoned Imran Khan and information about his health before talks resume."
 layout: article
 title: "Opposition Alliance Suspends Government Talks Over Access to Imran Khan"
 date: 2026-10-16 17:00:00 +0500
