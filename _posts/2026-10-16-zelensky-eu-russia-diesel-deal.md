@@ -1,4 +1,5 @@
 ---
+description: "Zelensky sought more European support for Ukraine as a US–Russia diesel arrangement exposed disagreements over sanctions; EU leaders reaffirmed backing without confirming new collective funding."
 layout: article
 title: "Zelensky Challenges US–Russia Diesel Deal as EU Reaffirms Support for Ukraine"
 date: 2026-10-16 21:00:00 +0500
