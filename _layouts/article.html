@@ -536,11 +536,11 @@
 
     &nbsp;·&nbsp;
 
-    Published {{ page.date | date: "%B %-d, %Y" }}
+    Published <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y at %-I:%M %p" }} PKT</time>
 
     {% if page.updated %}
       &nbsp;·&nbsp;
-      Updated {{ page.updated | date: "%B %-d, %Y at %-I:%M %p" }}
+      Updated <time datetime="{{ page.updated | date_to_xmlschema }}">{{ page.updated | date: "%B %-d, %Y at %-I:%M %p" }} PKT</time>
     {% endif %}
 
   </div>
@@ -555,6 +555,7 @@
   <img
     class="hero-image"
     src="{{ page.image }}"
+    {% if page.image_width and page.image_height %}width="{{ page.image_width }}" height="{{ page.image_height }}"{% endif %}
     alt="{{ page.image_alt | default: page.title | escape }}">
 
   {% if page.image_caption %}
