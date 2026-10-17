@@ -1,4 +1,5 @@
 ---
+description: "Parliament endorsed separate presidential proclamations for emergency and governor’s rule in Khyber Pakhtunkhwa, while opposition lawmakers disputed the federal intervention’s constitutional justification."
 layout: article
 title: "Parliament Endorses Emergency and Governor’s Rule in Khyber Pakhtunkhwa"
 date: 2026-10-16 16:00:00 +0500
