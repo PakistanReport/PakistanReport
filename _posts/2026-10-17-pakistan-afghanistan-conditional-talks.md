@@ -1,4 +1,5 @@
 ---
+description: "Pakistan says talks with Afghanistan remain possible, but demands verifiable action to prevent attacks from Afghan territory; no new negotiation timetable or agreement has been announced."
 layout: article
 title: "Pakistan Says Afghanistan Talks Require Verifiable Action Against Militancy"
 date: 2026-10-17 13:00:00 +0500
