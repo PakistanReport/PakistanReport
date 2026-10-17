@@ -8,7 +8,7 @@ description: "Overseas Pakistanis sent about $10.9 billion in July–September
   current account remained in deficit."
 image: /assets/images/pakistan-remittances-q1-fy27.webp
 image_width: 1536
-image_height: 1024
+image_height: 864
 image_caption: "AI-generated editorial illustration."
 published: true
 ---
