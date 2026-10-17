@@ -1,4 +1,5 @@
 ---
+description: "Gwadar’s marine-fuel service, launched in July, is attracting renewed attention as shipping firms explore refuelling alternatives amid disruptions affecting established Gulf hubs."
 layout: article
 title: "Gwadar Gains Role as Alternative Marine-Fuel Stop Amid Gulf Shipping
   Disruptions"
