@@ -180,6 +180,11 @@
       border-top: 1px solid #35403b; padding-top: 16px; color: #87938d; font-size: 12px;
     }
 
+    /* DESKTOP ONLY: uniform card thumbnails; smaller screens keep original image proportions. */
+    @media (min-width: 851px) {
+      .card-image { aspect-ratio: 16 / 9; height: auto; object-fit: cover; }
+    }
+
     /* TABLET */
     @media (max-width: 850px) {
       .featured-story { grid-template-columns: 1fr; }
