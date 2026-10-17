@@ -1,4 +1,5 @@
 ---
+description: "IESCO has requested a 54.4% increase in its proposed 2027 electricity tariff to Rs43.54 per unit; regulator NEPRA has not approved the increase."
 layout: article
 title: "IESCO Seeks More Than 54% Increase in 2027 Electricity Tariff"
 date: 2026-10-16 19:00:00 +0500
