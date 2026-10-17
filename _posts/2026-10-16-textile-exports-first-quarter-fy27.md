@@ -1,4 +1,5 @@
 ---
+description: "Pakistan’s textile and clothing exports rose 5.26% to $5.026 billion in July–September 2026, although exporters warned that costs and trade disruptions threaten future growth."
 layout: article
 title: "Pakistan Textile Exports Rise 5.26% in First Quarter as Exporters Warn
   of Slowdown"
