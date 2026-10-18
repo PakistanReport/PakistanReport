@@ -427,6 +427,22 @@
 
     }
 
+    /* Keep the hero and reading column on one mobile alignment grid.
+       Image dimensions and aspect ratio remain unchanged. */
+    @media (max-width: 800px) {
+      .hero-wrap,
+      .article-layout {
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .hero-image {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
     @media (max-width: 650px) {
 
       .top-strip {
