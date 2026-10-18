@@ -6,7 +6,7 @@ description: Pakistan's central bank has adopted AAOIFI Standard No. 30 and
   documented-need tests and Shariah oversight.
 category: Economy
 author: Pakistan Report Editorial Desk
-published: true
+published: false
 image: /assets/images/sbp-tawarruq-limits-islamic-banking.webp
 image_alt: Illustration of Islamic banking documents, finance books and a
   government-style building; not an actual State Bank document or photograph.
