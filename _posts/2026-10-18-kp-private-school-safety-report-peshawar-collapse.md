@@ -14,26 +14,22 @@ image_caption: Pakistan Report illustration.
 date: 2026-10-18 19:30:00 +0500
 ---
 
-Khyber Pakhtunkhwa Governor Faisal Karim Kundi has ordered a report on private-school safety legislation within 15 days after the deadly October 15 roof collapse at a private school in Peshawar, according to an [October 16 statement published by the Governor House](https://www.governor.kp.gov.pk/node/776).
+Khyber Pakhtunkhwa Governor Faisal Karim Kundi has called for a report on private-school safety legislation within 15 days after a deadly school roof collapse in Peshawar on October 15.
 
-The official statement says the governor directed strict enforcement of existing private-school safety regulations and called for preparation of new legislation. It followed a meeting attended by provincial and district officials, including representatives of the education administration.
+The governor also directed officials to enforce existing safety regulations and prepare proposals for new legislation, according to an [October 16 Governor House statement](https://www.governor.kp.gov.pk/node/776).
 
-## What the government itself says
+Officials told the meeting that the school operated on a leased 16-marla plot, had been registered in 2026 and had failed to follow prescribed safety procedures. Those details come from the government's account of the briefing.
 
-According to the Governor House account, officials briefed the meeting that the school's owner had obtained a **16-marla plot on a 10-year lease**, that the school had been registered in **2026**, and that its management had failed to comply with prescribed standard operating procedures. These are statements attributed to the government's briefing, **not findings independently established by Pakistan Report or a court**.
+## Focus turns to inspections
 
-The official announcement raises a practical accountability question: how will authorities check compliance at existing schools while the proposed legislative report is being prepared? A report or proposed law does not, by itself, demonstrate that unsafe classrooms have been inspected or closed.
+The governor's instructions raise an immediate question for education authorities: how quickly can they identify other school buildings that may be unsafe?
 
-## A separate audit order for government schools
+A legislative report may recommend changes, but inspections and enforcement will determine whether existing risks are addressed.
 
-[Dawn reported on October 18](https://www.dawn.com/news/2037891/education-dept-orders-safety-audit-of-school-buildings) that the provincial elementary and secondary education department had ordered an audit of **government** school buildings and directed that students in unsafe buildings be shifted to safer premises. Pakistan Report has not obtained the departmental letter directly, so those details are attributed to the newspaper's reporting rather than described as independently verified.
+Separately, the provincial education department has ordered a safety audit of government school buildings and directed officials to move pupils out of unsafe premises, [Dawn reported on October 18](https://www.dawn.com/news/2037891/education-dept-orders-safety-audit-of-school-buildings).
 
-The distinction between private-school enforcement and government-school audits matters: they involve different institutions, and readers should not assume that one directive covers every school in the province.
+That order concerns government schools, while the governor's request addresses private-school regulation. Both efforts will require follow-up from the relevant authorities.
 
-## What still needs public disclosure
+Officials have not yet published a comprehensive list of buildings inspected, schools closed or alternative classroom arrangements.
 
-Authorities have yet to provide Pakistan Report with school-by-school inspection findings, the precise criteria for declaring buildings unsafe, or a consolidated list of closures and alternative teaching arrangements. We do not treat preliminary media reports of unsafe classrooms as completed engineering assessments.
-
-**How we reported this:** Pakistan Report examined the October 16 Governor House statement directly and separately attributed reporting on the government-school audit. We did not visit the school, interview witnesses or independently establish a final casualty breakdown.
-
-**Primary source:** [Governor House KP, October 16, 2026](https://www.governor.kp.gov.pk/node/776).
+**Source:** [KP Governor House, October 16, 2026](https://www.governor.kp.gov.pk/node/776).
