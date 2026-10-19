@@ -13,22 +13,28 @@ image_caption: "Pakistan Report illustration."
 date: 2026-10-18 11:45:05 +0500
 ---
 
-Pakistan has suspended commercial trade through two official crossings with Iran, Taftan and Gabd-Rimdan, disrupting cargo movements and prompting traders to warn of financial losses and possible pressure on liquefied petroleum gas (LPG) supplies.
+Pakistan has suspended commercial trade through the **Taftan and Gabd-Rimdan crossings with Iran**, leaving cargo shipments stranded and raising concerns among traders about losses and supplies of liquefied petroleum gas (LPG).
 
-The suspension took effect on Saturday, October 17, after the Ministry of Commerce issued a memorandum on Friday withdrawing an earlier order dated October 3. [Dawn reported](https://www.dawn.com/news/2037865/pakistan-suspends-iran-trade-corridors-over-security-smuggling-concerns) that it had seen the ministry memorandum. The document did not itself specify a reason for the decision.
+The suspension began on Saturday, October 17, after the Ministry of Commerce withdrew an earlier order, according to [Dawn](https://www.dawn.com/news/2037865/pakistan-suspends-iran-trade-corridors-over-security-smuggling-concerns), which reported seeing the ministry's memorandum.
 
-Shahid Rind, an adviser to the Balochistan chief minister, said the temporary measure was intended to address security concerns, prevent smuggling and improve border management. Separately, Chagai Deputy Commissioner Bakhtiar Ismail described the suspension as temporary and linked it to security measures, according to [Arab News](https://www.arabnews.pk/pakistan/pakistan-suspends-trade-with-iran-over-security-concerns-stranding-thousands-of-containers-3004477).
+The memorandum did not specify a reason. Balochistan officials described the measure as temporary and linked it to security, smuggling and border-management concerns.
 
-## Cargo and LPG shipments affected
+## Trucks held up at crossings
 
-The two crossings handle commercial traffic between Pakistan and Iran, including food commodities and energy-related imports. Traders told news organisations that large numbers of trucks and containers had been held up by the interruption. Their estimates of stranded consignments have not been independently confirmed by Pakistan Report.
+Traders reported that large numbers of trucks and containers were stranded as commercial traffic stopped. The two crossings carry food, other goods and energy-related imports between Pakistan and Iran.
 
-The Gabd-Rimdan route is especially important for LPG imports. [Dawn reported](https://www.dawn.com/news/2037971/pakistan-closes-iran-border-crossings-for-trade) that trade sources feared a prolonged suspension could tighten supplies in Karachi and elsewhere. Those warnings concern a possible future impact; they do not establish that a nationwide LPG shortage or price increase has already occurred.
+The Gabd-Rimdan route is particularly important for LPG imports. Trade sources warned that a prolonged closure could put pressure on supplies in Karachi and other markets, [Dawn reported](https://www.dawn.com/news/2037971/pakistan-closes-iran-border-crossings-for-trade).
 
-The Quetta Chamber of Commerce and Industry advised businesses trading with Iran to avoid placing new import and export orders until further notice, according to the same report. Exporters also face uncertainty over the movement of rice, fruit and other consignments.
+The warnings do not mean an LPG shortage has already occurred.
 
-## What remains unclear
+The Quetta Chamber of Commerce and Industry advised importers and exporters to hold off on new orders until the situation becomes clearer. Traders shipping rice, fruit and other goods also face delays.
 
-Officials have not publicly set out a firm timetable for the resumption of commercial traffic. Reports also differ in how they describe the immediate border arrangements, making it important to distinguish the suspension of commercial trade from a blanket claim that every form of cross-border movement has stopped.
+## No reopening date announced
 
-The ministry memorandum was reported by established news outlets but has not been independently obtained by Pakistan Report. The status of individual cargo movements may change as officials on both sides coordinate the response. As of the reporting reviewed on October 18, the suspension remained the latest confirmed development.
+Officials have not announced when commercial trade will resume.
+
+The restriction concerns commercial cargo movements at the two crossings; reports reviewed on October 18 did not establish that all other forms of cross-border travel had stopped.
+
+Businesses are awaiting fresh instructions from border and commerce authorities before restarting shipments.
+
+**Sources:** [Dawn](https://www.dawn.com/news/2037865/pakistan-suspends-iran-trade-corridors-over-security-smuggling-concerns); [Arab News](https://www.arabnews.pk/pakistan/pakistan-suspends-trade-with-iran-over-security-concerns-stranding-thousands-of-containers-3004477).
