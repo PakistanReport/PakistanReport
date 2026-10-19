@@ -14,22 +14,24 @@ image_caption: "Pakistan Report illustration."
 date: 2026-10-18 13:00:00 +0500
 ---
 
-Pakistan's food exports increased by 25.31% to approximately $1.388 billion in the first quarter of fiscal year 2026–27, compared with $1.108 billion in the same July–September period a year earlier, according to figures attributed to the Pakistan Bureau of Statistics (PBS).
+Pakistan's food exports rose **25.31% to about $1.388 billion** in July–September 2026, up from $1.108 billion a year earlier, according to Pakistan Bureau of Statistics figures reported by [Dawn](https://www.dawn.com/news/2037910/food-exports-surge-25pc-in-july-sept).
 
-The increase was driven largely by rice shipments, according to an [October 18 analysis published by Dawn](https://www.dawn.com/news/2037910/food-exports-surge-25pc-in-july-sept). The headline rate and rounded dollar totals are drawn from that report; Pakistan Report has not independently reconciled each commodity row in the original PBS spreadsheet.
+Rice shipments were a major driver of the increase, providing a stronger start to fiscal year 2026–27 after a difficult previous year for agricultural exports.
 
-## Rice drives the quarterly increase
+## Rice helps lift export earnings
 
-Rice remains a major component of Pakistan's agricultural export earnings. Stronger rice shipment values helped lift the food category despite the weaker performance recorded in the previous full financial year.
+The latest quarterly gain follows a sharp fall in food exports during FY26. Pakistan exported $5.017 billion worth of food commodities that year, compared with $7.116 billion in FY25, according to [Associated Press of Pakistan](https://www.app.com.pk/business/food-commodities-worth-of-5-017-bln-exported-in-fy-2026/).
 
-For perspective, PBS-based figures reported by the [Associated Press of Pakistan](https://www.app.com.pk/business/food-commodities-worth-of-5-017-bln-exported-in-fy-2026/) showed food exports of $5.017 billion in FY26, down from $7.116 billion in FY25. The latest quarterly increase therefore follows a substantial decline in the preceding annual period; it should not be treated as proof that the full-year trend has reversed.
+The first-quarter figures suggest an improvement, although the full year's performance will depend on harvests, overseas demand and commodity prices.
 
-PBS published its [September 2026 foreign trade advance release](https://www.pbs.gov.pk/monthly-advance-releases-on-foreign-trade-statistics-for-september-2026-2/) on October 15. The release includes provisional export and import commodity tables, which may be revised in subsequent publications.
+PBS published its [September foreign trade release](https://www.pbs.gov.pk/monthly-advance-releases-on-foreign-trade-statistics-for-september-2026-2/) on October 15. The latest trade figures are provisional.
 
-## Food imports also increase
+## Food imports also rise
 
-Food imports reached approximately $2.330 billion during July–September 2026, compared with $2.252 billion in the corresponding period a year earlier, an increase of about 3.44%, according to the same PBS-based reporting.
+Food imports increased **3.44% to about $2.330 billion** in the same three-month period, compared with $2.252 billion a year earlier.
 
-On these rounded figures, the value of food imports exceeded food exports by roughly $942 million during the quarter. That is a comparison within the food category, **not** Pakistan's overall merchandise trade deficit.
+That left food imports around $942 million higher than food exports during the quarter. The comparison covers food commodities only, not Pakistan's overall trade deficit.
 
-The different rates of increase mean food exports grew faster than food imports during the quarter. Whether that pattern continues will depend on agricultural output, export demand, commodity prices and subsequent trade data. The figures describe export values rather than the quantity or domestic availability of food.
+Exports grew much faster than imports, but the country still spent considerably more on imported food than it earned from food shipments abroad.
+
+The next quarterly trade figures will show whether the export recovery is sustained.
