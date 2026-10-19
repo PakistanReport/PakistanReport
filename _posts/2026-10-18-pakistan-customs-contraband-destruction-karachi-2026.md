@@ -13,24 +13,18 @@ image_caption: Pakistan Report illustration.
 date: 2026-10-18 20:00:00 +0500
 ---
 
-Pakistan Customs says it destroyed seized and confiscated contraband valued at Rs7.711 billion during a joint operation in Karachi on Saturday, October 17. The announcement was made through an official government press release and describes a destruction ceremony held in Gadap Town.
+Pakistan Customs destroyed seized goods valued at Rs7.711 billion during an operation in Karachi's Gadap Town on October 17, according to a government announcement.
 
-According to the Press Information Department, the operation involved the Collectorate of Customs (Enforcement), Karachi, and the Collectorate of Customs (Airport) at Jinnah International Airport.
+The operation involved Customs enforcement officials in Karachi and the Customs collectorate at Jinnah International Airport.
 
-The goods included narcotics valued by Customs at approximately Rs7.124 billion, as well as liquor, expired and counterfeit products and other prohibited items valued at around Rs586.58 million. The combined total is approximately Rs7.711 billion, with minor differences possible because the component values are rounded.
+Narcotics made up the bulk of the goods destroyed, with Customs putting their value at Rs7.124 billion. Liquor, expired and counterfeit products and other prohibited items accounted for another Rs586.58 million.
 
-Narcotics accounted for more than 92% of the announced valuation, making them by far the largest category by stated monetary value. The government did not provide a detailed item-by-item inventory, seizure dates or valuation methodology in the cited release.
+The figures are official valuations of confiscated goods, not money recovered by the government.
 
-Customs said the destruction followed the procedures prescribed under the Customs Act, 1969, and Customs General Order No. 12/2002. The statement framed the operation as part of efforts to counter smuggling, protect public health and prevent illicit trade.
+Customs said the destruction was carried out under procedures prescribed by the Customs Act, 1969, and Customs General Order No. 12/2002.
 
-The valuation represents the government's stated value of confiscated goods; it should not be interpreted as tax revenue recovered or as money received by the treasury. Destroying seized goods is also distinct from making a new seizure on the day of the ceremony.
+The announcement did not provide a complete inventory of the goods, their seizure dates or the number of criminal cases connected to them.
 
-The release did not identify individual cases or provide enough detail to assess the number of investigations or convictions associated with the destroyed goods. Those figures would require additional records from Customs.
+The operation forms part of Customs' efforts to dispose of prohibited goods taken into custody during enforcement activities.
 
-**Primary source:** Press Information Department, Government of Pakistan, press release No. 279, October 17, 2026: https://pid.gov.pk/site/press_detail/34396
-
-**Verification note:** The official release directly supports the ceremony, location, participating units, valuations and legal references. No independent inventory or valuation audit was available.
-
-## Sources and attribution
-
-- https://pid.gov.pk/site/press_detail/34396
+**Source:** [Press Information Department, October 17, 2026](https://pid.gov.pk/site/press_detail/34396).

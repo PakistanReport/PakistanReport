@@ -14,24 +14,24 @@ image_caption: Pakistan Report illustration.
 date: 2026-10-18 16:30:00 +0500
 ---
 
-Banks and development finance institutions must give housing-finance borrowers a signed acknowledgement identifying the property title and ownership documents received, under a State Bank of Pakistan amendment dated October 9, 2026.
+Banks must give housing-loan customers a signed receipt listing the original property documents they have taken, under new instructions issued by the State Bank of Pakistan on October 9.
 
-The change to Prudential Regulation HF-7 also directs lenders to collect only title and ownership-related documents listed in Annexure B. The State Bank's [original circular](https://www.sbp.org.pk/circulars/shsfd-circular-no-06-of-2026), addressed to bank and DFI chief executives, says all other instructions remain unchanged.
+The requirement gives borrowers a written record of the title and ownership papers held by their lender.
 
-## Why the signed list matters
+The central bank has also told banks and development finance institutions to collect only the property documents listed in its prescribed schedule.
 
-For a borrower submitting original property documents, a signed inventory creates a record of what the lender holds. That is a practical accountability measure, but the circular does not guarantee quicker approvals, lower fees or approval of any individual application.
+## What changes for borrowers
 
-## What happens with loans up to Rs5 million?
+Customers handing over original title documents should receive a signed acknowledgement identifying the papers submitted. The rule is intended to make the process clearer and reduce disputes over documents held by banks.
 
-For housing finance up to **Rs5 million**, the regulator says banks and DFIs **may** extend financing by marking a lien on the property in the relevant land-record authority's records. The word *may* matters: the rule permits that route but does not oblige every bank to offer it in every case. The circular also retains equitable or registered mortgages for financed houses, apartments or plots.
+For housing loans of up to Rs5 million, lenders may also use a lien recorded with the relevant land authority instead of relying solely on other mortgage arrangements.
 
-The same amendment permits renewable-energy finance without security or against hypothecation of installed equipment, including solar panels, inverters and batteries. That provision should not be confused with a blanket waiver of security for housing loans.
+That option is permitted, not mandatory. Borrowers should ask their bank which security arrangement applies to their loan.
 
-## What borrowers should check
+The amendment also allows certain renewable-energy financing arrangements using installed equipment, such as solar panels and inverters, as security or without separate security.
 
-A borrower can ask the lender which Annexure B documents are required for their property and request the signed receipt when handing over title papers. They should separately confirm the lender's own eligibility, valuation and mortgage requirements. The circular alone does not establish whether a particular bank has changed its internal process.
+The new instructions do not automatically change loan eligibility, interest or profit rates, or approval times.
 
-**How we reported this:** Pakistan Report examined the text of SBP SH&SFD Circular No. 06 of 2026 dated October 9. We have not independently established a document-by-document comparison with the previous Annexure B, and make no claim that any particular deed or certificate was removed.
+Borrowers can consult the [State Bank circular](https://www.sbp.org.pk/circulars/shsfd-circular-no-06-of-2026) and ask their lender for the current list of required documents.
 
-**Source:** [State Bank of Pakistan — October 9, 2026 circular](https://www.sbp.org.pk/circulars/shsfd-circular-no-06-of-2026).
+**Source:** State Bank of Pakistan, Circular No. 06 of 2026, October 9.
