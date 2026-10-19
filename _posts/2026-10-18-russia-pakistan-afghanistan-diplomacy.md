@@ -9,26 +9,26 @@ image_caption: "Pakistan Report Illustration"
 published: true
 ---
 
-Pakistan says it would welcome sincere efforts by friendly countries to reduce tensions with Afghanistan, while stressing that no separate formal Russian mediation initiative is currently under discussion.
+Pakistan says it is open to efforts by friendly countries to ease tensions with Afghanistan, after Russian officials signalled a willingness to help bring the neighbours closer to dialogue.
 
-The clarification came at the Foreign Office's October 16 press briefing after questions about Russian diplomatic contacts and the possibility of Moscow facilitating dialogue between Islamabad and Kabul.
+At an October 16 briefing, the Foreign Office described Russia as an important regional partner but said **no formal Russian mediation initiative had been agreed**.
 
-Pakistan's Foreign Office spokesperson said Russia was an important regional stakeholder and that Islamabad valued engagement with Moscow on Afghanistan and regional security. The spokesperson also said Pakistan was not avoiding dialogue, but that any process must produce tangible results on its security concerns.
+Islamabad says any talks with Kabul must address its concerns about armed groups operating from Afghan territory. Afghanistan's Taliban authorities have disputed Pakistan's accusations.
 
-## Russian contacts raise diplomatic interest
+## Russian visits draw attention
 
-Russia's Interior Minister Vladimir Kolokoltsev visited Pakistan and met senior officials, while Russian intelligence chief Sergey Naryshkin held talks in Kabul, according to reporting published on October 16. The separate visits attracted attention as relations between Pakistan and Afghanistan remained strained.
+Russia's Interior Minister Vladimir Kolokoltsev visited Pakistan, while Russian intelligence chief Sergey Naryshkin held talks in Kabul, according to reports published on October 16.
 
-Russia also hosted the Moscow Format consultations on Afghanistan earlier in October. Discussions among regional participants highlighted the difficulty of addressing cross-border security concerns, but the meeting did not establish a new trilateral peace process.
+The separate diplomatic contacts prompted questions about whether Moscow could help reduce tensions between Pakistan and Afghanistan.
 
-Russian officials have indicated a willingness to assist in easing tensions. That willingness should not be confused with an agreed mediation framework or a scheduled round of Pakistan–Afghanistan negotiations under Russian sponsorship.
+Russia also hosted regional consultations on Afghanistan earlier in October, bringing officials together to discuss security and other issues.
 
-## Islamabad's condition for progress
+## Islamabad wants progress on security
 
-At the briefing, Pakistan's spokesperson said any substantive progress would require concrete, verifiable steps by Afghanistan's Taliban authorities against armed groups that Pakistan says operate from Afghan territory. The spokesperson emphasized that future talks would need to address these concerns rather than proceed without conditions.
+Pakistan's Foreign Office spokesperson said dialogue should produce practical results, including action by Afghan authorities against militant groups that Islamabad says threaten Pakistan.
 
-Afghan authorities have disputed Pakistan's accusations in the wider dispute. The two countries' disagreements over security and border issues have complicated previous attempts at dialogue.
+The dispute has strained relations between the neighbours and complicated earlier efforts to hold talks.
 
-For Islamabad, Russia's regional relationships may offer an additional diplomatic channel, but the decisive question is whether the parties can agree on practical steps to reduce violence and rebuild trust. As of October 16, Pakistan's stated position was openness to constructive engagement, not confirmation of a Russian-led mediation process.
+Russia maintains contacts across the region, giving it a potential diplomatic role. For now, its offer to help has not become a scheduled mediation process.
 
-**Sources:** Pakistan Ministry of Foreign Affairs, October 16, 2026: https://mofa.gov.pk/press-releases/transcript-of-the-press-briefing-by-the-spokesperson-on-thursday-16th-october-2026 ; Al Jazeera analysis, October 16, 2026: https://www.aljazeera.com/news/2026/10/16/can-russia-help-ease-tensions-between-pakistan-and-afghanistan ; Reuters Connect, October 5, 2026: https://www.reutersconnect.com/item/russia-hosts-new-round-of-consultations-on-afghanistan/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBNzUwODA1MTAyMDI2UlAx
+**Sources:** [Pakistan Ministry of Foreign Affairs briefing, October 16](https://mofa.gov.pk/press-releases/transcript-of-the-press-briefing-by-the-spokesperson-on-thursday-16th-october-2026); [Al Jazeera](https://www.aljazeera.com/news/2026/10/16/can-russia-help-ease-tensions-between-pakistan-and-afghanistan).
