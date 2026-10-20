@@ -24,3 +24,9 @@ The discussions do not amount to a completed Boeing 787 order or an approved EXI
 Aurangzeb had separately met Boeing Global President Brendan Nelson earlier in New York, where PIA fleet modernisation, aircraft availability, leasing options, engines, spare parts and maintenance were discussed.
 
 Any eventual aircraft acquisition or financing package would depend on further commercial and financing negotiations.
+
+## Official sources and subsequent clarification
+
+The [Finance Ministry's September 24 statement, published by the Press Information Department](https://pid.gov.pk/site/press_detail/34041), describes potential financing discussions involving aircraft, engines, refinery upgrades and Reko Diq. Its [September 22 statement](https://pid.gov.pk/site/press_detail/34019) covers the earlier meeting with Boeing.
+
+In a subsequent clarification reported on September 27, an adviser to the finance minister said the government was not itself buying aircraft for the privatised airline and had announced no sovereign guarantee or taxpayer-funded loan. Potential export-credit financing should therefore not be confused with an approved government borrowing arrangement.
