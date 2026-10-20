@@ -1,4 +1,5 @@
 ---
+description: "Pakistan seeks expanded legal migration routes for workers in talks with the EU, with no new visa programme or work-permit quota announced."
 layout: article
 title: "Pakistan Seeks More Legal Migration Routes for Workers in EU Talks"
 category: Pakistan
