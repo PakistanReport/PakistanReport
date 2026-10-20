@@ -59,7 +59,6 @@ For the five refineries, the next phase will depend on signed upgrade agreements
 
 For Pakistan, the broader test is whether a reform discussed for years can now attract the capital required to modernise a strategically important part of the energy system.
 
-Pakistan Explained.
 
 ## Sources
 
