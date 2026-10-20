@@ -1,4 +1,5 @@
 ---
+description: "Pakistan calls for more representative global financial institutions and better development financing at a G-24 ministers' meeting."
 layout: article
 title: "Pakistan Calls for Reform of Global Financial System at G-24 Meeting"
 category: Economy
