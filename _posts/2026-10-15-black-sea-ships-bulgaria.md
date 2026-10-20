@@ -10,9 +10,9 @@ date: 2026-10-14 12:24:52 +0500
 
 Eleven sailors were reported missing on October 13 after drone attacks struck two commercial vessels off Bulgaria’s Black Sea coast, according to reporting citing Bulgarian authorities.
 
-The Guinea-Bissau-flagged cargo vessel *HS Dignity* reportedly sank after being hit near Bulgaria’s northern coastline. Five crew members were rescued, while a search was reported to be under way for 11 others.
+The Guinea-Bissau-flagged cargo vessel *HS Dignity* reportedly sank after being hit near Bulgaria’s northern coastline. Five crew members were rescued, while 11 others were listed as missing in initial reports, according to [Reuters](https://www.reuters.com/world/europe/drone-sinks-ship-off-bulgaria-coast-prime-minister-says-2026-10-13/) and [AFP](https://www.afp.com/en/11-missing-after-ships-struck-bulgaria-latest-black-sea-attack).
 
-A second vessel, the Maltese-flagged *Chelsea 3*, was also struck. All 15 people aboard were reportedly rescued, with five treated for minor injuries.
+A second vessel, the Maltese-flagged *Chelsea 3*, was also struck. All 15 people aboard were rescued. Initial reports said five received medical attention; [Bulgarian News Agency later reported](https://www.bta.bg/en/news/bulgaria/1223416-three-crew-members-injured-in-black-sea-attack-admitted-to-hospital-in-varna) that three were admitted to hospital with burns and, in one case, a mild traumatic brain injury. The initial description of all injuries as minor should therefore be treated with caution.
 
 ## Investigation and maritime security
 
