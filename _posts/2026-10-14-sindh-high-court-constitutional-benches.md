@@ -4,14 +4,13 @@ title: "Judicial Commission Extends Sindh High Court Constitutional Benches for
   One Year"
 category: Pakistan
 image: "/assets/images/sindh-high-court-constitutional-benches.webp"
-description: "Judicial Commission Extends Sindh High Court Constitutional
-  Benches for One Year."
+description: "The Judicial Commission extended Sindh High Court constitutional benches for a year by a 14–1 vote at its October 13 meeting."
 date: 2026-10-14 15:00:00 +0500
 ---
 
 The Judicial Commission of Pakistan has extended the tenure of the Sindh High Court's constitutional benches by one year, following a meeting held in Islamabad on October 13.
 
-According to an official announcement, the commission re-nominated all existing judges serving on the constitutional benches and approved the extension by a majority of 14 votes to one.
+According to the [official October 13 Judicial Commission announcement](https://pid.gov.pk/site/press_detail/34283), the commission re-nominated all existing judges serving on the constitutional benches and approved the extension by a majority of 14 votes to one.
 
 The meeting was held at the Supreme Court building and chaired by Chief Justice of Pakistan Yahya Afridi.
 
