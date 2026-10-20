@@ -22,3 +22,7 @@ Consumers in Karachi continue to pay electricity rates under the federal governm
 The Rs32.37 figure is therefore important for K-Electric's regulated revenue requirement and the government's subsidy calculations rather than serving as a single retail rate for all customers.
 
 The base tariff is also subject to the mechanisms applying under the multiyear tariff regime, including adjustments linked to relevant economic variables over the tariff period.
+
+## Source and regulatory context
+
+The notification appears in [NEPRA's K-Electric distribution tariff records](https://nepra.org.pk/tariff/Distribution%20K-Electric.php), under the September 23, 2026 notification for the distribution multiyear tariff review. The notified average base tariff is a regulatory determination, not a flat per-unit rate for all consumer bills.
