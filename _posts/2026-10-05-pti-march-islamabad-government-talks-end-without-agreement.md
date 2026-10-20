@@ -20,7 +20,7 @@ The procession was led by Khyber Pakhtunkhwa Chief Minister Sohail Afridi. Assoc
 
 The figure is a reported estimate and may not represent the number of participants at every stage of the march.
 
-The march followed negotiations aimed at resolving the standoff before the planned mobilisation. The talks did not produce a breakthrough, and government and PTI representatives subsequently blamed each other for the failure to reach an agreement.
+The march followed negotiations aimed at resolving the standoff before the planned mobilisation. The talks did not produce a breakthrough, and government and PTI representatives subsequently blamed each other for the failure to reach an agreement. In an [October 4 statement reported by Radio Pakistan](https://www.radio.gov.pk/04-10-2026/govt-will-not-allow-repeat-of-may-9-like-events-naqvi), Interior Minister Mohsin Naqvi accused the KP chief minister of disrupting negotiations. This is the government's account, not an independently established explanation for the breakdown.
 
 Because the explanations are politically disputed, neither side’s account establishes on its own why the negotiations failed.
 
