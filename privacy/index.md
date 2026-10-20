@@ -28,6 +28,16 @@ Withdrawal cannot recall information already sent to Google or cancel a request 
 
 Your choice applies to this browser and site origin. Other browsers, devices, private-browsing sessions or a future domain may require a new choice. Clearing local storage removes the saved choice. If browser storage is unavailable, analytics defaults to off on a new page unless you choose Allow again; a choice may not be remembered.
 
+## Advertising and Google AdSense readiness
+
+Pakistan Report has applied to participate in Google AdSense. **AdSense advertisements are not currently described as active on this website by this policy.** An AdSense application, publisher verification tag or `ads.txt` entry does not by itself mean that advertising cookies are being set or ads are being served.
+
+**If Google AdSense advertising is activated**, Google and its advertising partners may use cookies, web beacons, IP addresses, browser or device information and other identifiers to deliver, measure and, where permitted, personalize advertisements. Third-party advertising vendors, including Google, may use cookies or similar technologies to serve ads based on visits to this website and other websites. Depending on the visitor's location and choices, ads may be personalized or non-personalized.
+
+Google explains [how it uses information from sites and apps that use its services](https://policies.google.com/technologies/partner-sites). Visitors can review advertising choices in [Google My Ad Center](https://myadcenter.google.com/) and learn about [Google's advertising technologies](https://policies.google.com/technologies/ads). Browser settings may also allow visitors to restrict cookies, although this can affect website functions.
+
+**Analytics consent is not advertising consent.** The existing **Allow analytics / Decline** controls govern the optional Google Analytics integration described above; they do not constitute consent for personalized ads. Before advertising is enabled in jurisdictions requiring additional consent or transparency, Pakistan Report will implement the applicable advertising privacy notices and consent controls, including any Google-certified consent-management platform requirements. This policy will be updated to reflect the advertising services actually in use.
+
 ## Correspondence
 
 If you email us, we receive the information you include and use it to handle your enquiry, news tip or correction request. Please avoid sending unnecessary sensitive personal information.
