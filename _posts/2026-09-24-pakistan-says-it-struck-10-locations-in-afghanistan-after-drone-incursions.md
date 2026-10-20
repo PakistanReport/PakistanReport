@@ -23,3 +23,10 @@ The minister said the subsequent Pakistani strikes targeted locations used for l
 The latest exchange adds to already heightened tensions between Pakistan and Afghanistan following a series of cross-border security incidents. Islamabad has repeatedly accused militant groups operating from Afghan territory of carrying out attacks in Pakistan, while Afghan authorities have disputed Pakistani allegations and protested previous cross-border strikes.
 
 The immediate focus will be on any response from Kabul and whether the latest action leads to further military activity or renewed diplomatic contacts between the two neighbours.
+
+
+## Source attribution and subsequent reporting
+
+Pakistan's state broadcaster [Radio Pakistan reported the information minister's September 24 statement](https://radio.gov.pk/24-09-2026/pakistan-condemns-deliberate-unlawful-incursion-into-its-territory-from-afghanistan). His account of the targets and operation is an official Pakistani claim, not independently verified evidence of the nature of every site struck.
+
+**Reporting update (September 24, 2026):** [Reuters reported](https://www.reuters.com/world/asia-pacific/pakistan-says-it-launched-air-strikes-afghanistan-over-drone-attacks-2026-09-24/) that Afghan authorities said four civilians had been killed in the strikes. Pakistan described its targets as military-related. The competing accounts of the targets and casualties should not be treated as independently resolved by Pakistan Report.
