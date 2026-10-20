@@ -1,4 +1,5 @@
 ---
+description: "Explainer: How Article 239 of Pakistan's Constitution governs the creation of new provinces and protects affected provinces' consent."
 layout: article
 title: "New Provinces Debate Tests Constitutional Rules and Provincial Autonomy"
 date: 2026-10-17 16:00:00 +0500
