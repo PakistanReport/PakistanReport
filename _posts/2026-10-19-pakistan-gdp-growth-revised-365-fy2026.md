@@ -51,3 +51,7 @@ Improved agricultural output helped support the economy, while slower growth in 
 The figures also underline the importance of examining individual sectors rather than relying on the headline GDP growth rate alone.
 
 The revised national accounts will provide a basis for assessing economic performance and planning for the current financial year, FY2027.
+
+## Official data source
+
+The [Pakistan Bureau of Statistics' 118th National Accounts Committee release, dated October 19, 2026](https://www.pbs.gov.pk/national-accounts-committee-nac-meeting/), confirms the revised FY2026 GDP growth estimate of 3.65% (previously 3.70%), the economy's size of US$450.4 billion, per-capita income of US$1,896, and fourth-quarter GDP growth of 2.0%. The same release lists the revised quarterly growth rates of 3.89%, 4.31% and 4.42% for the first three quarters. These are revised national-accounts estimates, not forecasts for FY2027.
