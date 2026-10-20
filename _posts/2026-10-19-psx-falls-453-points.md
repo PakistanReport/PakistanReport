@@ -45,3 +45,7 @@ The decline followed a modest gain on Friday, when the KSE-100 Index rose approx
 Monday's session reflected continued caution among investors as they assessed international commodity prices, domestic economic conditions and the outlook for listed companies.
 
 The next trading sessions will show whether buying interest returns after the latest decline.
+
+## Market data source
+
+The [Pakistan Stock Exchange's official market data portal](https://dps.psx.com.pk/) provides KSE-100 index data and a historical-data section for checking daily closing levels. Its October 20 market snapshot identifies **165,966.08** as the previous close, corroborating the October 19 closing level quoted above. The broader claims about intraday trading, company counts and brokerage commentary should be checked separately against the relevant day's archived exchange data and original brokerage note.
