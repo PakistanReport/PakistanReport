@@ -13,7 +13,7 @@ image_alt: "Pakistan Report financial graphic showing $1.703 billion in foreign
 date: 2026-09-23 19:00:00 +0500
 ---
 
-**ISLAMABAD:** Pakistan received **$1.703 billion** in foreign economic assistance during the first two months of FY27, an increase of 23.61 per cent from the corresponding period last year, according to data released by the Economic Affairs Division.
+**ISLAMABAD:** Pakistan received **$1.703 billion** in foreign economic assistance during the first two months of FY27, an increase of 23.61 per cent from the corresponding period last year, according to data released by the Economic Affairs Division. The ministry lists its [August 2026 monthly foreign economic assistance disbursement report](https://www.ead.gov.pk/Detail/Yzc2YTQ1ZjUtNzUwMy00YzAxLTk3ZmMtMDU3ZDBiOGI2ZWFj), published September 22, as the underlying government source. The detailed figures below should be checked against that report before reuse.
 
 The comparable figure for July-August FY26 was $1.377bn. The latest figures cover foreign economic assistance reported by the government and exclude IMF programme disbursements.
 
