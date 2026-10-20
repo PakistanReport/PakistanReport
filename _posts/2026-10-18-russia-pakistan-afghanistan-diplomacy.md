@@ -1,4 +1,5 @@
 ---
+description: "Pakistan says it is open to constructive dialogue on Afghanistan tensions, while clarifying that no formal Russian mediation has been agreed."
 layout: article
 title: "Pakistan Open to Constructive Dialogue as Russia Signals Readiness to
   Help Ease Afghan Tensions"
