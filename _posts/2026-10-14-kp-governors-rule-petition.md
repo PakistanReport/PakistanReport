@@ -3,11 +3,11 @@ layout: article
 title: "Petition Filed in Peshawar High Court Against KP Governor's Rule"
 category: Politics
 image: "/assets/images/kp-governors-rule-petition.webp"
-description: "Petition Filed in Peshawar High Court Against KP Governor's Rule."
+description: "A petition in Peshawar High Court challenges the legality of emergency measures and governor’s rule in KP; filing does not establish a court ruling."
 date: 2026-10-14 14:00:00 +0500
 ---
 
-A petition challenging the imposition of governor's rule in Khyber Pakhtunkhwa has been filed in the Peshawar High Court, according to reporting on the legal proceedings.
+A petition challenging the imposition of governor's rule in Khyber Pakhtunkhwa has been filed in the Peshawar High Court, according to [Business Recorder's report of the legal filing](https://www.brecorder.com/news/40444125/imposition-of-emergency-governors-rule-challenged-in-phc).
 
 The challenge concerns the constitutional basis and process for the decision. The petition asks the court to examine the legality of the measure.
 
