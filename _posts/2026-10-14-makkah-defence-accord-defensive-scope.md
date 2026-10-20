@@ -1,4 +1,5 @@
 ---
+description: "President Zardari says the Pakistan, Saudi Arabia and Türkiye defence agreement is defensive and not directed against another country."
 layout: article
 title: "Pakistan Says Makkah Defence Accord Is Not Directed Against Any Country"
 category: World
