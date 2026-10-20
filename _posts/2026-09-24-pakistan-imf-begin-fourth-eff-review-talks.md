@@ -21,3 +21,8 @@ Separately, Prime Minister Shehbaz Sharif met IMF Managing Director Kristalina G
 The New York meeting and the review mission are related to Pakistan's broader engagement with the IMF but are separate developments: Georgieva's meeting with the prime minister should not be read as her personally opening or conducting the review negotiations.
 
 The IMF completed Pakistan's third EFF review in May 2026. The current discussions will examine programme implementation as well as the economic outlook and policy framework under the Article IV process.
+
+
+## IMF confirmation and later outcome
+
+**Update (October 7, 2026):** The [IMF confirmed](https://www.imf.org/en/news/articles/2026/10/07/pr26326-pakistan-imf-complete-2026-aiv-consultation-reaches-sla-on-4th-review-eff-3rd-review-for-rsf) that its team, led by Iva Petrova, held discussions in Karachi and Islamabad from September 23 to October 7. IMF staff reached an agreement with Pakistani authorities on the fourth EFF review and third RSF review. The agreement remained **subject to IMF Executive Board approval**; a staff-level agreement is not the same as completed Board approval or a disbursement.
