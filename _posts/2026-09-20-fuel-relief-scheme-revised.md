@@ -1,4 +1,5 @@
 ---
+description: "Pakistan's revised fuel relief scheme removes the five-litre purchase requirement and SMS charges for eligible motorcycle and three-wheeler users."
 layout: article
 title: "Government Revises Fuel Relief Scheme, Removes Five-Litre Limit and SMS
   Charges"
