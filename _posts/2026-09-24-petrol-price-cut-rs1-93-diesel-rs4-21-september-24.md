@@ -21,3 +21,7 @@ The Petroleum Division said the adjustment reflected global developments, includ
 Fuel prices are closely watched because petrol directly affects household transport costs, while high-speed diesel is widely used in freight, agriculture and public transport and can feed into broader distribution costs.
 
 The new rates apply from September 24 under the government's current fuel-pricing framework.
+
+## Source verification
+
+The [Petroleum Division's September 24, 2026 petroleum-price announcement](https://www.petroleum.gov.pk/LatestNews) is the primary government source for the revised rates. [Associated Press of Pakistan](https://www.app.com.pk/national/petrol-diesel-prices-reduced-by-rs1-93-rs4-21-per-litre/) also reported the Petroleum Division's notice, confirming petrol at Rs390.12 per litre (down Rs1.93) and high-speed diesel at Rs414.75 per litre (down Rs4.21). These were the rates **effective September 24, 2026**, not necessarily current pump prices.
