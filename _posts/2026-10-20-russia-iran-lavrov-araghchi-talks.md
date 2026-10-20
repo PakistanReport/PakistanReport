@@ -2,7 +2,7 @@
 layout: article
 title: "Russian Foreign Minister Holds Talks in Iran as Tehran Calls for
   Diplomacy Over Hormuz Tensions"
-description: "Latest developments in international affairs and regional diplomacy."
+description: "Russian and Iranian foreign ministers met in Tehran on October 19 to discuss regional security, the Strait of Hormuz and diplomatic cooperation."
 category: World
 author: Pakistan Report Editorial Desk
 published: true
@@ -57,3 +57,6 @@ The Strait of Hormuz remains central to regional tensions because of its importa
 Araghchi's call for diplomacy signals Tehran's stated preference for negotiations, although differences with Washington remain unresolved.
 
 The next developments will depend on whether diplomatic contacts produce concrete proposals for reducing tensions and restoring confidence in regional maritime security.
+
+
+**Source verification:** [Russian Foreign Ministry's account of Lavrov's October 19 Tehran visit](https://t.me/s/MFARussia?before=32864). The visit and joint news conference were also independently reported by [Euronews](https://www.euronews.com/2026/10/19/lavrov-backs-iran-hours-after-trump-says-russia-doing-very-little-to-help-tehran).
