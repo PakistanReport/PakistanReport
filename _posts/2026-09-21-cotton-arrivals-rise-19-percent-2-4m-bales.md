@@ -34,5 +34,5 @@ Cotton remains an important input for Pakistan’s textile industry, so the fina
 
 ### Sources
 
-- Dawn, “Cotton arrivals rise 19pc to 2.4m bales by September mid,” September 20, 2026.
-- Business Recorder, “PCGA says cotton arrivals surge 19.17pc YoY,” September 19, 2026.
+- [Dawn, “Cotton arrivals rise 19pc to 2.4m bales by September mid,” September 20, 2026](https://pass.dawn.com/news/2031259/cotton-arrivals-rise-19pc-to-24m-bales-by-september-mid).
+- [Business Recorder, “PCGA says cotton arrivals surge 19.17pc YoY,” September 19, 2026](https://www.brecorder.com/news/40440187/pcga-says-cotton-arrivals-surge-1917pc-yoy).
