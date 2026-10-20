@@ -12,6 +12,12 @@ Our goal is not simply to repeat headlines. We aim to explain what happened, pro
 
 Pakistan Report publishes under the editorial byline **Pakistan Report Editorial Desk**.
 
+## Editorial responsibility
+
+The **Pakistan Report Editorial Desk** is the publication's collective editorial byline. It identifies material published under Pakistan Report's editorial responsibility; it is not a claim that a separately named journalist reported every article. The publication is responsible for the accuracy of material it publishes, including verification of significant claims and correction of confirmed factual errors.
+
+Readers can question an attribution, submit a primary document, or request a factual correction through our [Contact page](/contact/) or [Corrections Policy](/corrections/). We review correction requests against available evidence and update material errors in accordance with that policy. We do not publish invented individual bylines or credentials.
+
 ## Our approach
 
 We aim to produce reporting that is clear, accurate, useful and accessible.
