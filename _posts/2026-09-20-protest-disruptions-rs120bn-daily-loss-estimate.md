@@ -36,5 +36,5 @@ The Rs120bn figure should be read as a government estimate of the possible econo
 
 ### Sources
 
-- Business Recorder, “Strikes, road closures may cause Rs120bn daily economic loss: Aurangzeb,” September 20, 2026.
-- The Express Tribune, “Long marches, strikes, sit-ins may cost Pakistan’s economy Rs120b a day: Aurangzeb,” September 20, 2026.
+- [Business Recorder, “Strikes, road closures may cause Rs120bn daily economic loss: Aurangzeb,” September 20, 2026](https://www.brecorder.com/news/40440370/strikes-road-closures-may-cause-rs120bn-daily-economic-loss-aurangzeb).
+- [Dawn, “Finance minister says protests could cause daily loss of around Rs120bn,” September 20, 2026](https://www.dawn.com/news/2031342).
