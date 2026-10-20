@@ -15,7 +15,7 @@ date: 2026-09-23 19:30:00 +0500
 
 **GILGIT:** A **€54.24 million (Rs17.2 billion)** rural development and climate resilience project has been launched in Gilgit-Baltistan, targeting basic services, infrastructure and renewable energy across the region.
 
-The Gilgit-Baltistan Rural Development and Climate Resilience project is being supported through financing from Agence Française de Développement, a European Union grant, Aga Khan Foundation funding and community contributions.
+The Gilgit-Baltistan Rural Development and Climate Resilience project is being supported through financing from Agence Française de Développement, a European Union grant, Aga Khan Foundation funding and community contributions. The [Aga Khan Foundation's announcement](https://akf.org/article/akf-afd-and-eu-announce-e54-2-million-partnership-to-support-climate-resilience-and-clean-energy-in-northern-pakistan/) independently details the planned beneficiaries, water schemes, hydropower and housing improvements.
 
 The programme is expected to reach around **43,200 households, or approximately 325,600 people**, across all districts of Gilgit-Baltistan.
 
