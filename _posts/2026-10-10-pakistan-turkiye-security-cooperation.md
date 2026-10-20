@@ -5,7 +5,7 @@ category: "Pakistan"
 author: "Pakistan Report Editorial Desk"
 description: "Pakistan and Türkiye have signed an agreement to enhance
   cooperation against terrorism, narcotics trafficking and organised crime,
-  according to a."
+  according to Pakistan's Interior Ministry."
 published: true
 image: "/assets/images/pakistan-turkiye-security-cooperation.webp"
 image_alt: "Illustration of Pakistan and Türkiye flags with security cooperation
@@ -14,7 +14,7 @@ image_caption: "Pakistan Report illustration."
 date: 2026-10-10 20:00:00 +0500
 ---
 
-Pakistan and Türkiye have signed an agreement to enhance cooperation against terrorism, narcotics trafficking and organised crime, according to a government announcement dated October 9.
+Pakistan and Türkiye have signed an agreement to enhance cooperation against terrorism, narcotics trafficking and organised crime, according to the [Press Information Department's October 9 statement](https://pid.gov.pk/site/press_detail/34236).
 
 Interior Minister Mohsin Naqvi met Turkish counterpart Mustafa Çiftçi in Istanbul. The countries also agreed to establish a joint working group between their interior ministries, with discussions covering technical assistance, expert exchanges and cyber policing.
 
