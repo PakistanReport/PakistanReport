@@ -1,4 +1,5 @@
 ---
+description: "President Zardari urges stronger Pakistan-Russia trade, energy and transport links during talks with Russia's interior minister."
 layout: article
 title: "Zardari Calls for Stronger Pakistan-Russia Trade and Energy Cooperation"
 category: World
