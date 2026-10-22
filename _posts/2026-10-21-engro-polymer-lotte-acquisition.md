@@ -2,9 +2,7 @@
 layout: "article"
 title: "Competition Commission Clears Lotte Chemical's Rs19.62 Billion Engro
   Polymer Stake Acquisition"
-description: "ISLAMABAD: The Competition Commission of Pakistan has cleared
-  Lotte Chemical Pakistan Limited's proposed acquisition of Engro Corporation's
-  56.19% shareholding in Engro."
+description: "Pakistan's competition regulator has cleared Lotte Chemical Pakistan's proposed acquisition of Engro Corporation's stake in Engro Polymer."
 category: "Business"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-21 18:00:00 +0500"
