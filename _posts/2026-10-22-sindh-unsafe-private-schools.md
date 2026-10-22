@@ -1,9 +1,7 @@
 ---
 layout: "article"
 title: "Sindh Orders Action Against Private Schools Operating in Unsafe Buildings"
-description: "The Sindh government has directed education authorities to take
-  immediate action against private schools operating in dangerous or
-  structurally unsafe."
+description: "Sindh has ordered action against private schools operating in unsafe buildings to improve student safety."
 category: "Pakistan"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-22 15:00:00 +0500"
