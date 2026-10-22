@@ -2,9 +2,7 @@
 layout: "article"
 title: "Cybercrime Agency Arrests 200 Foreign Nationals in Islamabad Financial
   Fraud Crackdown"
-description: "Pakistan's National Cyber Crime Investigation Agency has reported
-  the arrest of 200 foreign nationals during a series of raids in Islamabad
-  targeting."
+description: "Pakistan's cybercrime agency says it arrested 200 foreign nationals during raids targeting suspected digital financial fraud operations in Islamabad."
 category: "Technology"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-22 18:00:00 +0500"
