@@ -2,9 +2,7 @@
 layout: article
 title: EU Urges Pakistan to Demonstrate GSP+ Reform Progress as Textile
   Exporters Face New Scrutiny
-description: 'KARACHI: The European Union has urged Pakistan to show measurable
-  progress in implementing commitments associated with the Generalised Scheme of
-  Preference'
+description: "The European Union has urged Pakistan to demonstrate measurable progress on reforms linked to its preferential GSP+ trade access."
 category: Business
 author: Pakistan Report Editorial Desk
 date: 2026-10-22 18:40:00 +0500
