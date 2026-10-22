@@ -50,8 +50,4 @@ Authorities should also distinguish between schools requiring immediate evacuati
 
 A transparent inspection process will be important to prevent uncertainty for families and school operators.
 
-The enforcement drive could become a significant test of private-school regulation in Sindh, particularly if inspections reveal widespread maintenance problems.
-
-Its success will ultimately be measured not by the number of notices issued but by whether students can attend classes in buildings that are demonstrably safe.
-
 **Sources:** Sindh School Education and Literacy Department notifications dated October 19, 2026; contemporaneous reporting by Pakistan Observer and ProPakistani.
