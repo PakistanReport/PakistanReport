@@ -2,9 +2,7 @@
 layout: article
 title: Petrol Falls to Rs379.31 as Pakistan Raises Diesel Price Slightly for
   October 22
-description: 'ISLAMABAD: The federal government has reduced petrol by Rs2.71 per
-  litre while increasing high-speed diesel by 31 paisas under revised petroleum
-  prices tak'
+description: "Pakistan has reduced petrol to Rs379.31 per litre while raising diesel slightly to Rs390.11 under revised prices effective October 22."
 category: Economy
 author: Pakistan Report Editorial Desk
 date: 2026-10-22 18:15:00 +0500
