@@ -1,9 +1,7 @@
 ---
 layout: article
 title: SBP and WWF Launch Green Financing Toolkit for Pakistan's Textile SMEs
-description: 'KARACHI: The State Bank of Pakistan and WWF-Pakistan have
-  introduced an SME Green Transition Toolkit for the Textile Sector to help
-  lenders evaluate and fi'
+description: "The State Bank of Pakistan and WWF-Pakistan have launched a green financing toolkit to help textile SMEs secure funding for cleaner, more sustainable operations."
 category: Business
 author: Pakistan Report Editorial Desk
 date: 2026-10-22 21:00:00 +0500
