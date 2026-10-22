@@ -2,9 +2,7 @@
 layout: article
 title: Punjab Approves Rs1.995 Trillion Industrial Plan Targeting More Than
   162,000 Jobs
-description: 'LAHORE: The Punjab cabinet has approved key features of PIVOT —
-  Punjab Innovative for Value, Opportunity and Transformation, an industrial
-  development and '
+description: 'Punjab’s PIVOT industrial development plan targets Rs1.995 trillion in investment and more than 162,000 jobs through manufacturing, infrastructure and export promotion initiatives.'
 category: Pakistan
 author: Pakistan Report Editorial Desk
 date: 2026-10-22 23:00:00 +0500
