@@ -2,9 +2,7 @@
 layout: article
 title: Pakistan Proposes $2.3 Billion Smart Meter Project for 16.2 Million
   Electricity Connections
-description: 'ISLAMABAD: The Private Power and Infrastructure Board (PPIB) has
-  begun consultations on a proposed $2.3 billion smart electricity metering
-  project that cou'
+description: "Pakistan is considering a $2.3 billion smart metering project covering approximately 16.2 million electricity connections across five distribution companies."
 category: Economy
 author: Pakistan Report Editorial Desk
 date: 2026-10-22 19:00:00 +0500
