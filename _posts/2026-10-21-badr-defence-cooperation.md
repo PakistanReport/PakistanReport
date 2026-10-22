@@ -1,9 +1,7 @@
 ---
 layout: "article"
 title: "Pakistan Joins Turkiye, Qatar and Indonesia in Badr Defence Cooperation Pact"
-description: "Pakistan has joined Turkiye, Qatar and Indonesia in a four-country
-  defence cooperation initiative aimed at expanding military production,
-  technical training and research, adding a."
+description: "Pakistan has joined Turkiye, Qatar and Indonesia in a defence cooperation initiative covering production, training and research."
 category: "World"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-21 21:00:00 +0500"
