@@ -35,6 +35,6 @@ Better meter data cannot alone eliminate illegal connections, non-payment or ine
 
 ## Next steps
 
-A pilot is expected next month, with further consultations planned in major cities. The proposed 16.2-million-meter rollout is **not yet an approved, completed installation programme**. Its future depends on financing, regulation and evidence that the expected benefits justify the cost.
+A pilot is expected next month, with further consultations planned in major cities. 
 
 **Source:** https://www.brecorder.com/news/40445205/ppib-holds-talks-with-stakeholders-usd23bn-project-to-deploy-162m-ami-meters-envisaged
