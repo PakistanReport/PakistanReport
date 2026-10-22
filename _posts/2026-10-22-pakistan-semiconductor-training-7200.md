@@ -2,9 +2,7 @@
 layout: "article"
 title: "Pakistan Builds Semiconductor Training Network With Target of 7,200
   Professionals by 2030"
-description: "Pakistan is moving ahead with its national semiconductor skills
-  programme, aiming to train more than 7,200 professionals by 2030 as it seeks a
-  foothold in."
+description: "Pakistan plans to train more than 7,200 semiconductor professionals by 2030 as it expands its chip-design skills programme."
 category: "Technology"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-22 13:00:00 +0500"
