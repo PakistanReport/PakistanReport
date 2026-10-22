@@ -2,9 +2,7 @@
 layout: "article"
 title: "BYD Pakistan Production to Start With Imported Parts as Hubco Targets
   80% Localisation"
-description: "Pakistan's electric-vehicle industry is approaching an important
-  test as Hub Power Company outlines a phased production strategy for BYD
-  vehicles: begin with imported parts and mat."
+description: "Hubco plans to begin BYD vehicle production using imported parts before gradually increasing local manufacturing."
 category: "Business"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-22 00:00:00 +0500"
