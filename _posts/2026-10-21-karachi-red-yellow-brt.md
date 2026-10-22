@@ -2,9 +2,7 @@
 layout: "article"
 title: "Sindh Orders Faster Work on Karachi BRT Lines as New Electric Buses
   Expected in November"
-description: "KARACHI: The Sindh government has directed transport authorities
-  to accelerate work on Karachi's Red and Yellow bus rapid transit corridors and
-  prepare new routes for."
+description: "Sindh has directed authorities to accelerate work on Karachi's Red and Yellow BRT corridors and prepare additional bus routes."
 category: "Pakistan"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-21 17:00:00 +0500"
