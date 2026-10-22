@@ -1,9 +1,7 @@
 ---
 layout: "article"
 title: "Punjab Approves Rs580 Million Autism Care Centre in Rawalpindi"
-description: "The Punjab government has approved a project worth approximately
-  Rs580.6 million to establish a dedicated autism care facility in Rawalpindi,
-  with plans."
+description: "Punjab has approved a Rs580.6 million autism care centre in Rawalpindi, with plans to provide free support services for children."
 category: "Pakistan"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-22 16:00:00 +0500"
