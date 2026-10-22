@@ -1,9 +1,7 @@
 ---
 layout: "article"
 title: "IMF Urges Pakistan to Broaden Tax Base and Reduce Unequal Burden on Taxpayers"
-description: "ISLAMABAD: The International Monetary Fund has called for a
-  broader, fairer and more predictable tax system in Pakistan, arguing that
-  reforming exemptions and bringing."
+description: "The IMF has called for a broader and more predictable tax system in Pakistan, including reforms to exemptions and compliance."
 category: "Economy"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-21 15:00:00 +0500"
