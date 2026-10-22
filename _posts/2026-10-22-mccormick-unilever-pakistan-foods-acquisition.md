@@ -1,9 +1,7 @@
 ---
 layout: article
 title: McCormick Plans to Acquire 76.55% Stake in Unilever Pakistan Foods
-description: 'KARACHI: US food and flavour company McCormick & Company has
-  announced its intention to acquire control of Unilever Pakistan Foods Limited,
-  proposing to pu'
+description: "McCormick & Company plans to acquire at least 76.55% of Unilever Pakistan Foods Limited as part of a proposed transaction."
 category: Business
 author: Pakistan Report Editorial Desk
 date: 2026-10-22 20:00:00 +0500
