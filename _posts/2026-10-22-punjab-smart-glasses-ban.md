@@ -2,9 +2,7 @@
 layout: "article"
 title: "Punjab Bans Camera-Enabled Smart Glasses and Disguised Recording Devices
   for 30 Days"
-description: "Punjab has imposed a 30-day restriction on camera-enabled smart
-  glasses with concealed recording capabilities and miniature cameras disguised
-  as ordinary objects, bringing a growin."
+description: "Punjab has imposed a 30-day restriction on certain camera-enabled smart glasses and concealed recording devices."
 category: "Technology"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-22 09:00:00 +0500"
