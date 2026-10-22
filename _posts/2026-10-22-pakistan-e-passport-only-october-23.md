@@ -1,9 +1,7 @@
 ---
 layout: "article"
 title: "Pakistan to Issue Only E-Passports From October 23 as New Policy Takes Effect"
-description: "Pakistan will stop accepting new applications for conventional
-  machine-readable passports from October 23, 2026, as the country moves to an
-  electronic."
+description: "Pakistan will accept only e-passport applications from October 23, ending new applications for conventional machine-readable passports."
 category: "Pakistan"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-22 12:00:00 +0500"
