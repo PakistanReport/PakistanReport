@@ -2,9 +2,7 @@
 layout: "article"
 title: "National Bank of Pakistan Partners With Habib University to Support 13
   Female Students"
-description: "National Bank of Pakistan and Habib University Foundation have
-  entered into a partnership to support the undergraduate education of 13 female
-  students,."
+description: "National Bank of Pakistan and Habib University Foundation have partnered to support four-year undergraduate education for 13 female students."
 category: "Pakistan"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-22 17:00:00 +0500"
