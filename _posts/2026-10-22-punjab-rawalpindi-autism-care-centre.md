@@ -37,8 +37,6 @@ Families seeking autism-related services often face practical challenges, includ
 
 A publicly funded centre offering free services could help reduce some of those barriers for eligible families in Rawalpindi and surrounding areas.
 
-However, the approval of a building project is only the first stage.
-
 The government will also need to establish how children will be assessed, what services will be offered, whether appointments or referrals will be required and how families can obtain information.
 
 Clear eligibility rules and accessible communication will be essential once the centre approaches completion.
@@ -50,8 +48,6 @@ The next immediate milestone is the award of the construction contract.
 Subsequent stages will include completing the building, installing equipment, recruiting staff and preparing the facility to receive children.
 
 The government has not yet established an operational opening date in the reporting reviewed for this article.
-
-That means families should not interpret the project approval as an announcement that services are already available.
 
 If delivered as planned, the Rawalpindi centre could strengthen Punjab's network of specialised developmental support facilities and offer families another public-sector option for autism care.
 
