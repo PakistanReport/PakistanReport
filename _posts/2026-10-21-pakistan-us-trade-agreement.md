@@ -2,9 +2,7 @@
 layout: "article"
 title: "Pakistan and US Pursue Revised Trade Agreement as Bilateral Commerce
   Reaches $11.5 Billion"
-description: "ISLAMABAD: Pakistan and the United States are pursuing a revised
-  bilateral trade arrangement aimed at expanding market access and investment,
-  with two-way trade in goods and."
+description: "Pakistan and the United States are pursuing revised trade arrangements aimed at expanding market access and investment."
 category: "Business"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-21 16:00:00 +0500"
