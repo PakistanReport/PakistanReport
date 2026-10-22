@@ -26,8 +26,6 @@ Although the world's largest chip manufacturers require enormous investments in 
 
 Pakistan's programme is primarily a human-resource and research initiative rather than an announcement of a new commercial chip-manufacturing plant.
 
-That distinction matters because design and engineering capabilities offer a more achievable entry point for a country seeking to develop semiconductor expertise without immediately financing the construction of advanced fabrication facilities.
-
 ### Universities take the lead
 
 According to the IT ministry, the current intake across the three regional clusters is expected to train 270 students.
@@ -45,8 +43,6 @@ Pakistan has developed an export-oriented software and IT services industry, but
 Graduates need practical exposure to industry tools, verification processes and international design standards if training is to translate into commercial work.
 
 The programme could eventually help Pakistani engineers compete for specialised international assignments and encourage local technology companies to expand into higher-value services.
-
-However, the 7,200 figure remains a programme target, not a count of professionals already trained.
 
 The next meaningful measures of progress will be student completion rates, industry placements, research output and whether Pakistani firms secure real semiconductor-related business.
 
