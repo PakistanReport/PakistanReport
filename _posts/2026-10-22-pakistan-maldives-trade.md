@@ -2,9 +2,7 @@
 layout: "article"
 title: "Pakistan and Maldives Sign 20 Agreements, Aim to Lift Bilateral Trade to
   $200 Million"
-description: "Pakistan and the Maldives have set an ambitious target to raise
-  bilateral trade to $200 million within two years, following high-level talks
-  in Islamabad that produced 20 agreement."
+description: "Pakistan and the Maldives signed 20 agreements and set a target of raising bilateral trade to $200 million within two years."
 category: "World"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-22 10:30:00 +0500"
