@@ -27,10 +27,6 @@ Environmental upgrades often require significant upfront capital. Smaller manufa
 
 Textiles are central to Pakistan's export economy. Buyers in international markets increasingly seek information about supply-chain emissions, resource consumption and compliance with environmental standards. Manufacturers that can document genuine improvements may be better positioned to respond.
 
-## Not a guarantee of funding
-
-Launching the toolkit does **not** mean individual factories have already been approved for loans, nor does it guarantee export contracts or compliance with every overseas requirement. Results will depend on actual investment, lender adoption and measurable changes at production sites.
-
 ## Pilot implementation
 
 Banks are expected to pilot the toolkit with textile clients, supported by additional training and guidance. Its effectiveness will be measured by whether suitable projects secure financing and deliver verifiable improvements in energy efficiency and environmental performance.
