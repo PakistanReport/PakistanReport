@@ -2,9 +2,7 @@
 layout: article
 title: Pakistan Advances E-Sports Plans With National Federation and
   Championship Framework
-description: 'ISLAMABAD: Pakistan is working toward a more formal framework for
-  competitive gaming, with government plans covering a national e-sports
-  federation, organi'
+description: 'Pakistan is developing a national e-sports federation and championship framework, with a government task force overseeing plans and gaming equipment already supplied to five Islamabad schools.'
 category: Technology
 author: Pakistan Report Editorial Desk
 date: 2026-10-23 00:00:00 +0500
