@@ -31,8 +31,6 @@ The platform is designed to allow eligible businesses to open and manage account
 
 The bank also plans to expand its offering to include business debit and virtual cards, payroll services, invoice-based payments, transaction analytics and bookkeeping capabilities.
 
-Those planned features should be distinguished from the services available at launch.
-
 ### Why the SME market matters
 
 Pakistan's small-business sector is large but underserved by conventional finance.
@@ -43,8 +41,6 @@ Digital banking tools can help create more consistent records of sales, collecti
 
 Mashreq has also outlined longer-term ambitions involving invoicing, tax facilitation, supply-chain services and cash-flow-based financing.
 
-Whether these features ultimately improve access to credit will depend on their implementation, pricing and adoption by businesses.
-
 ### Competition in digital financial services
 
 Pakistan's banking industry has been expanding digital payments and remote account services as more consumers and merchants move away from cash-only transactions.
@@ -54,7 +50,5 @@ NEO BIZ enters a market where banks and fintech companies are competing to serve
 Mashreq's challenge will be to make the service practical for businesses with different levels of digital familiarity, including those outside major urban centres.
 
 For prospective customers, the key questions will be eligibility, charges, transaction limits and which services are immediately operational.
-
-The launch adds another competitor to Pakistan's growing digital business-banking market, with its longer-term impact depending on whether it can turn convenience into measurable benefits for smaller enterprises.
 
 **Sources:** Mashreq launch announcement reported by Business Recorder and Daily Pakistan, October 21–22, 2026.
