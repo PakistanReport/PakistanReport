@@ -2,9 +2,7 @@
 layout: "article"
 title: "SECP Opens Security Operations Centre to Strengthen Protection of
   Financial Regulatory Systems"
-description: "ISLAMABAD: The Securities and Exchange Commission of Pakistan has
-  launched a Security Operations Centre to monitor its digital infrastructure,
-  identify cyber threats and."
+description: "The SECP has launched a Security Operations Centre to monitor digital systems and detect cybersecurity threats."
 category: "Technology"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-21 19:00:00 +0500"
