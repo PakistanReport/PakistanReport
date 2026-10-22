@@ -1,9 +1,7 @@
 ---
 layout: article
 title: ECC Approves Rs2bn for Election Materials Against ECP's Rs17.873bn Proposal
-description: Pakistan Report calculates the share of an ECP procurement proposal
-  covered by an ECC-approved immediate grant and distinguishes approval from
-  payment.
+description: "The ECC approved Rs2 billion for election materials against the ECP's Rs17.873 billion funding proposal."
 category: Pakistan
 author: Pakistan Report Editorial Desk
 date: 2026-10-18 21:00:00 +0500
