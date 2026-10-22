@@ -2,9 +2,7 @@
 layout: "article"
 title: "Mashreq Launches NEO BIZ Digital Banking Platform for Pakistan’s Small
   Businesses"
-description: "Mashreq has introduced NEO BIZ in Pakistan, a digital banking
-  platform designed for small and medium-sized enterprises, sole proprietors and
-  self-employed."
+description: "Mashreq has launched NEO BIZ, a digital banking platform for small businesses and self-employed professionals."
 category: "Business"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-22 14:00:00 +0500"
