@@ -2,8 +2,7 @@
 layout: article
 title: 'Upper Kurram border fighting: Pakistan''s account and the unanswered
   questions'
-description: A carefully attributed account of the October 17 Upper Kurram
-  border exchange and what remains unverified.
+description: "Reports of an October 17 border exchange in Upper Kurram include conflicting claims that have not been independently verified."
 category: Pakistan
 author: Pakistan Report Editorial Desk
 published: true
