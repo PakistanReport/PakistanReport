@@ -23,7 +23,7 @@ The government statement placed current bilateral trade at about $13.4 million, 
 
 The two sides exchanged 20 documents covering fields including healthcare, education, technical training, tourism, civil aviation, agriculture, fisheries, defence, maritime security, law enforcement and cultural cooperation. The breadth of the package reflects an attempt to deepen relations beyond ceremonial diplomacy.
 
-Economic results will depend on implementation. Businesses need workable transport routes, competitive prices, clear import requirements and reliable payment arrangements. Without those practical foundations, a large headline trade target may prove difficult to achieve.
+ Businesses need workable transport routes, competitive prices, clear import requirements and reliable payment arrangements. 
 
 The leaders also discussed improving air and maritime connectivity and convening the Joint Economic Commission at an early date. Better transport links would be particularly relevant for time-sensitive goods and tourism-related services.
 
@@ -41,7 +41,7 @@ As Indian Ocean states, Pakistan and the Maldives have a shared interest in mari
 
 The leaders also discussed international developments and reiterated support for dialogue and respect for sovereignty, according to the Pakistani statement.
 
-The central question now is how quickly ministries, regulators and businesses turn the 20 agreements into operational programmes. Progress towards $200 million in trade will require sustained growth from a low base, not simply the signing of additional documents.
+ Progress towards $200 million in trade will require sustained growth from a low base, not simply the signing of additional documents.
 
 For Pakistan, the visit offers a chance to build a more substantial relationship with a smaller but strategically situated Indian Ocean partner.
 
