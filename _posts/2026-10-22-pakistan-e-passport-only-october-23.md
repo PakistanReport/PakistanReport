@@ -35,14 +35,10 @@ The policy also extends to Pakistani embassies and consulates abroad. That makes
 
 Applicants should check the instructions issued by their relevant passport office or mission before submitting an application, particularly regarding fees, appointments, documentation and processing times.
 
-The new policy should not be confused with a requirement to replace every existing passport. The validity of an already issued document and the type of passport available for a new application are separate matters.
-
 ### A nationwide transition
 
 Pakistan's passport authorities had previously identified October 15 as the transition date before revising it to October 23.
 
 The immediate test will be how consistently the new system is implemented across domestic passport offices and overseas missions, especially in locations serving large numbers of Pakistani travellers.
-
-For applicants, the most important point is straightforward: from October 23, new passport issuance will move to the electronic format, while valid older passports can continue to be used until expiry.
 
 **Sources:** Directorate General of Immigration and Passports policy notice published by the Pakistan Consulate in Hong Kong; Business Recorder, October 21, 2026.
