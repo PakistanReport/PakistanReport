@@ -2,9 +2,7 @@
 layout: article
 title: Pakistan Reviews Rabi Fertiliser Supply as Urea Demand Approaches 3.6
   Million Tonnes
-description: 'ISLAMABAD: The federal government has reviewed fertiliser
-  availability for the 2026–27 Rabi cropping season, with official estimates
-  putting urea demand at'
+description: "Government projections show sufficient urea stocks for the Rabi season, while DAP availability may fall short of demand, raising concerns about fertiliser access during wheat planting."
 category: Economy
 author: Pakistan Report Editorial Desk
 date: 2026-10-22 22:00:00 +0500
