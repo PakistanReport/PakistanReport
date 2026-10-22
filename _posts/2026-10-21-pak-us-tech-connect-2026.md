@@ -2,9 +2,7 @@
 layout: "article"
 title: "Pakistan Expands US Technology Outreach Through Multi-City Tech Connect
   Programme"
-description: "ISLAMABAD: Pakistan is taking its technology investment outreach
-  to several American cities through Pak–US Tech Connect 2026, bringing software
-  businesses, entrepreneurs and."
+description: "Pak–US Tech Connect 2026 will bring Pakistani technology businesses and entrepreneurs to several American cities."
 category: "Technology"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-21 20:00:00 +0500"
