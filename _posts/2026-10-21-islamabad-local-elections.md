@@ -2,9 +2,7 @@
 layout: "article"
 title: "Islamabad Local Government Elections Set for December 20 as ECP Issues
   Detailed Schedule"
-description: "Islamabad's long-delayed local government elections have been
-  given a new polling date, with the Election Commission of Pakistan announcing
-  that voters in the federal capital are s."
+description: "The Election Commission has announced a new polling date for Islamabad's long-delayed local government elections."
 category: "Politics"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-21 23:00:00 +0500"
