@@ -2,9 +2,7 @@
 layout: "article"
 title: "National Savings Raises Returns on Key Schemes From October 21: New
   Rates Explained"
-description: "Pakistan's National Savings organisation has raised returns on
-  several popular investment products from October 21, providing higher stated
-  income for pensioners, senior citizens a."
+description: "Pakistan has increased profit rates on several National Savings products, including schemes used by pensioners and senior citizens."
 category: "Economy"
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-21 22:00:00 +0500"
