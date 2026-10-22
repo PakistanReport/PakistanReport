@@ -1,7 +1,7 @@
 ---
 layout: "article"
 title: "Punjab Bans Camera-Enabled Smart Glasses and Disguised Recording Devices
-  for 30 Days"
+ for 30 Days"
 description: "Punjab has imposed a 30-day restriction on certain camera-enabled smart glasses and concealed recording devices."
 category: "Technology"
 author: "Pakistan Report Editorial Desk"
@@ -22,7 +22,7 @@ The measure applies across Punjab and takes immediate effect, according to the r
 
 The order identifies smart glasses capable of hidden recording as well as miniature recording devices concealed in objects such as pens and keychains. It is directed at covert recording capabilities, not every device with a camera.
 
-The notification specifically excludes laptops, handheld tablets, mobile phones and terminal equipment approved by the Pakistan Telecommunication Authority. That distinction matters for consumers and retailers: the restriction should not be interpreted as a blanket ban on smartphones or ordinary computer cameras.
+The notification specifically excludes laptops, handheld tablets, mobile phones and terminal equipment approved by the Pakistan Telecommunication Authority. 
 
 The order also addresses commercial distribution. Retailers, wholesalers, traders and distributors have been told not to sell or offer the specified products, whether online or in physical outlets, during the restriction period.
 
@@ -40,6 +40,6 @@ The 30-day order is a preventive measure rather than a permanent legislative fra
 
 Longer-term regulation will have to distinguish between transparent, consent-based use of wearable cameras and deliberately concealed surveillance. It will also need to address practical questions: how authorities identify prohibited products, what notice retailers receive, and how consumers can understand which devices remain lawful.
 
-For now, sellers and users in Punjab should consult the actual Home Department notification before trading in or using camera-equipped wearable products. The case highlights how quickly consumer technology can outpace existing privacy safeguards — and how difficult it can be to respond without drawing overly broad restrictions.
+For now, sellers and users in Punjab should consult the actual Home Department notification before trading in or using camera-equipped wearable products. 
 
 **Source:** Dawn reporting on Punjab Home Department notification and Lahore High Court proceedings (21 October 2026): https://www.dawn.com/news/2038582
