@@ -29,8 +29,6 @@ For students from underserved areas, admission to a university is only one part 
 
 Longer-term educational support can therefore be more meaningful than a one-time award.
 
-The announcement does not, however, provide a complete public breakdown of the expenses covered for each student. Those details should be confirmed before describing the arrangement as a full scholarship.
-
 ### Expanding opportunities for women
 
 Women's participation in higher education has implications beyond individual academic achievement.
@@ -47,14 +45,10 @@ Habib University representatives also welcomed the agreement as a step towards s
 
 The announcement establishes the scale and broad purpose of the partnership but does not set out a public application process in the material reviewed.
 
-It remains unclear whether the initial group of 13 students has already been selected or whether separate applications will be invited.
-
 Prospective applicants should therefore rely on official announcements from Habib University and NBP rather than assuming that a new scholarship application window is open.
 
 Further details about eligibility, selection criteria and covered expenses would help families assess the programme.
 
 Although the initial number of beneficiaries is limited, the arrangement provides a model for cooperation between financial institutions and universities.
-
-Its longer-term significance will depend on the outcomes for participating students and whether similar opportunities are expanded in future years.
 
 **Sources:** National Bank of Pakistan–Habib University Foundation partnership announcement, October 21, 2026; Business Recorder coverage.
