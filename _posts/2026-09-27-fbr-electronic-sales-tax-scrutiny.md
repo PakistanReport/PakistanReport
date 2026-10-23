@@ -13,16 +13,24 @@ image_alt: "AI-generated Pakistan Report editorial illustration of FBR
 date: 2026-09-27 16:00:00 +0500
 ---
 
-**ISLAMABAD —** The Federal Board of Revenue has introduced a procedure for electronic scrutiny of sales tax returns, allowing its computerised system to identify discrepancies and communicate them to registered taxpayers through the IRIS portal.
+The Federal Board of Revenue has introduced an electronic system for examining sales tax returns and notifying businesses when possible discrepancies are detected.
 
-The change was introduced through SRO 1655(I)/2026, which amends the Sales Tax Rules, 2006 by adding a new chapter titled “Procedure for Electronic Scrutiny and Intimation of Issues Detected by the Computerized System.”
+The procedure was established through SRO 1655(I)/2026, which adds new rules to the Sales Tax Rules, 2006.
 
-Under the mechanism, the system may identify factual or legal issues in a return and issue online advice or an advance intimation through IRIS. The procedure is designed to give the registered person an opportunity to explain the discrepancy or take corrective action before the matter moves into formal legal or penal proceedings.
+Under the system, FBR's computerised checks can identify possible errors or inconsistencies in information submitted by registered taxpayers. Businesses will receive notifications through the IRIS online tax portal.
 
-The measure expands the use of automated checks in tax administration, but a computer-generated flag is not in itself the same as a final tax determination or penalty. The significance of the new procedure is that potential issues can be surfaced electronically at an earlier stage of the compliance process.
+The purpose is to give taxpayers an opportunity to explain an issue or correct their return before the matter proceeds to formal legal action.
 
-For businesses, the change increases the importance of consistency between declared sales, input and output tax information, invoices and other data available to the tax authority. Taxpayers receiving an electronic intimation will need to review the issue raised and respond through the prescribed process rather than treating the system alert as a completed assessment.
+For example, a business may be asked to clarify differences between sales figures, purchase records, invoices and the tax amounts declared in its return.
 
-The FBR has increasingly relied on digital systems to administer filings and taxpayer communications. The new chapter formalises a specific electronic-scrutiny route for sales tax returns and sets out how issues detected by the computerised system can be brought to a taxpayer’s attention.
+An electronic notification does not automatically mean a taxpayer has committed an offence or owes additional tax. It indicates that the system has identified an issue requiring attention.
 
-The practical effect will depend on how the system is implemented and the types of discrepancies it identifies. The notification, however, establishes a clearer digital stage between automated detection of a possible problem and the initiation of formal proceedings.
+The new procedure could make tax administration more efficient by reducing the need for manual examination of every return and allowing possible problems to be raised earlier.
+
+It also places greater importance on accurate recordkeeping. Businesses will need to ensure that their invoices and sales tax declarations are consistent with the information available to FBR.
+
+Taxpayers receiving a notification should review the details and respond through the prescribed IRIS process.
+
+The effectiveness of the system will depend on how accurately it identifies discrepancies and how fairly taxpayers' explanations are handled.
+
+For Pakistan's businesses, the immediate change is a more formal digital process for identifying and addressing sales tax issues before they become enforcement cases.
