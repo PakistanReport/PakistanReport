@@ -14,24 +14,20 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-ISLAMABAD: Pakistan’s headline consumer price inflation eased to 10.3 per cent year on year in September 2026, down from 11.1 per cent in August, according to the Pakistan Bureau of Statistics.
+**ISLAMABAD —** Pakistan's annual inflation rate fell to 10.3% in September 2026, down from 11.1% in August, according to figures released by the Pakistan Bureau of Statistics (PBS).
 
-The official CPI release shows that prices still increased on a monthly basis. National CPI rose 1.27 per cent in September compared with August, while the year-on-year rate was 10.26 per cent before rounding. Average inflation during July to September 2026-27 stood at 10.20 per cent compared with the same period a year earlier.
+The decline means prices increased more slowly than they had a month earlier when compared with the previous year. It does not mean that everyday goods became cheaper overall.
 
-The figures show a moderation in the annual inflation rate rather than a fall in the overall price level. Consumers continued to face higher prices than a year earlier, and the index also moved higher during September itself.
+In fact, prices rose by 1.3% between August and September. The annual figure compares September's prices with those recorded in September 2025.
 
-Urban inflation was 10.1 per cent year on year in September, compared with 10.4 per cent in August. Urban prices increased 1.3 per cent month on month. Rural inflation was higher at 10.5 per cent year on year, but it eased more sharply from 12.2 per cent in August. Rural prices increased 1.2 per cent during September.
+Food inflation slowed significantly, helping bring down the national rate. In cities, food inflation fell to 8.1% from 12.1% in August. In rural areas, it declined to 7.7% from 13.2%.
 
-Other price indicators presented a mixed picture. The Sensitive Price Indicator rose 8.4 per cent year on year, easing from 9.5 per cent in August. Wholesale Price Index inflation, however, accelerated to 13.3 per cent from 11.8 per cent a month earlier.
+The overall inflation rate was 10.1% in urban areas and 10.5% in rural areas. Both were lower than the previous month's readings.
 
-The September reading is important for households, businesses and policymakers because inflation affects purchasing power, wage demands, financing conditions and expectations for interest rates. A lower year-on-year CPI rate can reduce some of that pressure, but the 1.27 per cent monthly increase shows that price momentum has not disappeared.
+However, households continued to face higher costs in other areas. Transport prices rose during September, while electricity and fuel costs also added pressure to family budgets.
 
-Pakistan’s inflation trajectory has remained sensitive to food prices, energy costs, exchange-rate movements and administered price changes. These factors can produce significant differences between monthly and annual readings, and between urban and rural households.
+For a household, the figures mean that the pace of price increases has eased, although shopping, travel and utility bills may still be more expensive than a year ago.
 
-For consumers, the headline number therefore needs to be read alongside the composition of the index and the month-on-month movement. A 10.3 per cent annual rate means the CPI basket was still materially more expensive than in September 2025 even though the pace of annual increase slowed from August.
+Inflation is an important measure for the government and the State Bank of Pakistan because it affects household spending, business costs and decisions about interest rates.
 
-The latest data also provide a fresh benchmark for the State Bank of Pakistan and fiscal authorities as they assess the balance between inflation control and economic activity. Monetary policy decisions depend on a wider set of indicators, however, and a single monthly CPI reading does not by itself determine the policy-rate outlook.
-
-PBS calculates the national CPI using urban and rural price baskets under the 2015-16 base year. The urban index covers 35 cities and 356 consumer items, while the rural index covers 27 rural centres and 244 items.
-
-September’s result leaves Pakistan with double-digit headline inflation, but with a lower annual rate than the previous month. The next readings will show whether that moderation is sustained or whether monthly price increases feed back into the year-on-year measure.
+The latest PBS report shows an improvement in the annual inflation rate, with food prices playing a major role in September's slowdown.
