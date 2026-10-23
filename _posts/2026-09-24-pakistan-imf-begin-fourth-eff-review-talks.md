@@ -12,17 +12,32 @@ image_alt: "AI-generated editorial representation of Pakistan-IMF talks, with
 date: 2026-09-24 17:00:00 +0500
 ---
 
-Pakistan and the International Monetary Fund have begun discussions on the fourth review of the country's programme under the Extended Fund Facility, alongside a review under the Resilience and Sustainability Facility and the IMF's Article IV consultation.
+Pakistan and the International Monetary Fund began discussions in September on the fourth review of the country's Extended Fund Facility, alongside a review of its climate-focused financing arrangement and a broader assessment of economic policy.
 
-The review mission is led by Iva Petrova. The fourth EFF review is tied to end-June 2026 programme targets and forms part of Pakistan's 37-month arrangement, which was approved in September 2024.
+The mission, led by Iva Petrova, was reviewing programme commitments linked to the end of June 2026. Pakistan's 37-month EFF was approved in September 2024.
 
-Separately, Prime Minister Shehbaz Sharif met IMF Managing Director Kristalina Georgieva in New York on the sidelines of the United Nations General Assembly. The prime minister reiterated Pakistan's commitment to economic reforms and continued engagement with the Fund.
+The discussions covered fiscal performance, monetary policy and structural reforms. The separate Resilience and Sustainability Facility review focused on measures intended to strengthen Pakistan's response to climate-related risks.
 
-The New York meeting and the review mission are related to Pakistan's broader engagement with the IMF but are separate developments: Georgieva's meeting with the prime minister should not be read as her personally opening or conducting the review negotiations.
+### Two separate IMF engagements
 
-The IMF completed Pakistan's third EFF review in May 2026. The current discussions will examine programme implementation as well as the economic outlook and policy framework under the Article IV process.
+Prime Minister Shehbaz Sharif also met IMF Managing Director Kristalina Georgieva in New York during the United Nations General Assembly.
 
+The prime minister reiterated the government's commitment to reforms. However, the New York meeting was separate from the technical review conducted by the IMF mission in Pakistan.
 
-## IMF confirmation and later outcome
+The distinction matters because programme assessments are negotiated by IMF staff and Pakistani officials, not decided solely through meetings between political leaders.
 
-**Update (October 7, 2026):** The [IMF confirmed](https://www.imf.org/en/news/articles/2026/10/07/pr26326-pakistan-imf-complete-2026-aiv-consultation-reaches-sla-on-4th-review-eff-3rd-review-for-rsf) that its team, led by Iva Petrova, held discussions in Karachi and Islamabad from September 23 to October 7. IMF staff reached an agreement with Pakistani authorities on the fourth EFF review and third RSF review. The agreement remained **subject to IMF Executive Board approval**; a staff-level agreement is not the same as completed Board approval or a disbursement.
+### October 7 update: Staff-level agreement
+
+On October 7, the IMF confirmed that its team had held discussions in Karachi and Islamabad from September 23 to October 7.
+
+The Fund said staff reached an agreement with Pakistani authorities on the fourth EFF review and the third review of the Resilience and Sustainability Facility.
+
+The outcome marked progress, but it was not the final approval required for financing. Staff-level agreements remain subject to consideration by the IMF Executive Board.
+
+For Pakistan, successful programme reviews can help maintain access to external financing and provide reassurance about the direction of economic policy.
+
+They also involve commitments that can affect taxation, public spending, energy reforms and other parts of the economy.
+
+The October announcement therefore represents an important step in the review process, while any associated disbursement depends on subsequent Board approval.
+
+**Source:** [IMF statement, October 7, 2026](https://www.imf.org/en/news/articles/2026/10/07/pr26326-pakistan-imf-complete-2026-aiv-consultation-reaches-sla-on-4th-review-eff-3rd-review-for-rsf).
