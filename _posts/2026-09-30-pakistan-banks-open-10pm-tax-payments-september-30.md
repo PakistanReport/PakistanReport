@@ -14,34 +14,32 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-Commercial bank branches across Pakistan will remain open until **10pm on Wednesday, September 30**, to facilitate over-the-counter payments of government duties and taxes, according to instructions issued by the State Bank of Pakistan.
+Commercial bank branches across Pakistan were instructed to remain open until 10pm on September 30 to facilitate payments of government taxes and duties.
 
-The extended hours were arranged at the request of the Federal Board of Revenue as taxpayers make payments at the end of the month and quarter.
+The State Bank of Pakistan issued the directions at the request of the Federal Board of Revenue as the month and quarter came to a close.
 
-The measure is specifically intended to facilitate **government duty and tax payments**. It should not be read as a general extension of normal banking services until 10pm.
+The extended hours were specifically for government duty and tax collections. They did not amount to a general extension of all normal banking services.
 
-## Branches open for tax payments
+### What banks were asked to do
 
-The central bank instructed commercial banks to keep their branches open until 10pm for over-the-counter collection of government taxes and duties.
+Commercial banks were directed to accept over-the-counter government payments until 10pm.
 
-Banks were also advised to keep the branches concerned open for as long as required to facilitate the special clearing of government transactions conducted through National Institutional Facilitation Technologies, or NIFT.
+Relevant branches were also advised to remain available as needed for special clearing arrangements involving National Institutional Facilitation Technologies, or NIFT.
 
-The arrangement is designed to ensure that payments received late in the day can be processed within the relevant government collection cycle.
+The aim was to ensure that tax and duty payments received late in the day could be processed through the government's collection system.
 
-## Online payment channels to remain available
+The SBP also instructed banks to maintain uninterrupted online channels for these payments, including internet banking, mobile applications and ATMs.
 
-The SBP also directed banks to ensure uninterrupted availability of their online payment channels for government duty and tax payments.
+Taxpayers using a digital channel still needed to check that their bank supported the relevant payment method.
 
-Those channels include internet banking, mobile applications, ATMs and other digital platforms offered by banks.
+### Why September 30 mattered
 
-For taxpayers who do not need to make an over-the-counter payment, the digital channels may provide an alternative to visiting a branch. Availability of a particular tax-payment option can still depend on the taxpayer’s bank and the payment method required for the relevant government transaction.
+The date coincided with the published income-tax return filing deadline for individuals and associations of persons.
 
-## September 30 is a key tax date
+Filing a return and paying a tax liability are related but separate requirements. The extended banking hours were designed to help people make government payments, not to change the filing deadline itself.
 
-The extended banking hours come as the Federal Board of Revenue’s September 30 income-tax filing deadline creates heavier demand for tax-related payments and services.
+Taxpayers visiting a branch needed the correct payment reference and supporting information to complete a transaction.
 
-The FBR has separately been urging taxpayers to complete their filing obligations by the deadline. The bank-hours decision deals with collection of government duties and taxes; filing a return and making a payment are related but distinct steps, depending on the taxpayer’s circumstances.
+The special arrangement was limited to September 30. It should not be interpreted as a permanent change to bank opening hours.
 
-Taxpayers using a branch should therefore make sure they have the correct payment reference or other required documentation before arriving. Those filing electronically should also allow time to complete any associated payment before the relevant deadline.
-
-The practical change for September 30 is that taxpayers needing an in-person government tax or duty payment have a longer branch window than on an ordinary banking day, while banks have also been told to keep digital tax-payment channels available.
+The FBR subsequently extended the Tax Year 2026 return filing deadline for affected taxpayers to October 15, but that later filing decision was separate from the SBP's September 30 banking instructions.
