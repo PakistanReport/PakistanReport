@@ -13,20 +13,26 @@ image_alt: "Pakistan Report financial graphic showing $1.703 billion in foreign
 date: 2026-09-23 19:00:00 +0500
 ---
 
-**ISLAMABAD:** Pakistan received **$1.703 billion** in foreign economic assistance during the first two months of FY27, an increase of 23.61 per cent from the corresponding period last year, according to data released by the Economic Affairs Division. The ministry lists its [August 2026 monthly foreign economic assistance disbursement report](https://www.ead.gov.pk/Detail/Yzc2YTQ1ZjUtNzUwMy00YzAxLTk3ZmMtMDU3ZDBiOGI2ZWFj), published September 22, as the underlying government source. The detailed figures below should be checked against that report before reuse.
+**ISLAMABAD —** Pakistan received $1.703 billion in foreign economic assistance during July and August 2026, up 23.61% from the same two months a year earlier, according to the Economic Affairs Division.
 
-The comparable figure for July-August FY26 was $1.377bn. The latest figures cover foreign economic assistance reported by the government and exclude IMF programme disbursements.
+The comparable figure for July–August 2025 was $1.377 billion.
 
-The increase came as commercial borrowing resumed and inflows through Naya Pakistan Certificates strengthened.
+The increase was driven partly by commercial borrowing and investments in Naya Pakistan Certificates, which allow eligible overseas Pakistanis and other investors to place funds in government-backed savings instruments.
 
-A $300m commercial loan from UBL Dubai was among the major inflows during the period. Investments through conventional and Islamic Naya Pakistan Certificates together reached about $630m, compared with roughly $365m in the corresponding period last year.
+A $300 million commercial loan from UBL Dubai was among the major inflows. Conventional and Islamic Naya Pakistan Certificates attracted approximately $630 million, compared with about $365 million a year earlier.
 
-The headline increase nevertheless masks a decline in financing from traditional multilateral and bilateral sources.
+However, the rise in total assistance did not extend to every source of financing.
 
-Combined multilateral and bilateral loans and grants amounted to about $626m during July-August, down substantially from the same period a year earlier. Multilateral assistance stood at about $591m, while bilateral inflows were around $35m.
+Loans and grants from multilateral and bilateral partners amounted to around $626 million. Of that, approximately $591 million came from multilateral institutions and $35 million from bilateral sources.
 
-Of the overall $1.703bn received during the two months, around $1.218bn was classified as non-project assistance and approximately $485m as project financing.
+The government classified roughly $1.218 billion of the overall inflows as non-project assistance, while about $485 million was allocated to project financing.
 
-The Economic Affairs Division released its August disbursement report on September 22.
+Non-project assistance can support broader financing requirements, whereas project financing is generally tied to specific development activities.
 
-Foreign financing remains an important part of Pakistan's external and budgetary financing framework. The government has set a substantially larger foreign economic assistance target for FY27, although actual inflows will depend on project disbursements, commercial financing and Pakistan's ability to maintain access to external lenders.
+The figures exclude disbursements under Pakistan's International Monetary Fund programme, so they should not be treated as a complete record of all foreign financing received by the country.
+
+Foreign economic assistance helps Pakistan meet financing needs and fund development work. But the type of inflow matters: commercial loans and certificates can create repayment obligations, while grants do not.
+
+The first two months of the fiscal year show stronger overall inflows, supported by renewed commercial borrowing. Future financing will depend on lender commitments, project progress and continued access to international markets.
+
+**Source:** [Economic Affairs Division, August 2026 foreign assistance report](https://www.ead.gov.pk/Detail/Yzc2YTQ1ZjUtNzUwMy00YzAxLTk3ZmMtMDU3ZDBiOGI2ZWFj).
