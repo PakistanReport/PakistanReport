@@ -13,4 +13,36 @@ image_caption: Pakistan Report illustration.
 date: 2026-10-09 18:00:00 +0500
 ---
 
-Pakistan's Finance Ministry has clarified that the Rs10.1 trillion reported debt of federal state-owned enterprises represents a consolidated stock of interest-bearing obligations rather than new bank borrowing. In an October 8 statement, the ministry said the Central Monitoring Unit's broader debt measure cannot be directly compared with the State Bank of Pakistan's narrower public-sector enterprise bank-credit series. The ministry put the SBP banking measure at Rs2.954 trillion and said bank and private loans accounted for about Rs3.1 trillion of the broader consolidated figure. The remaining obligations principally include government lending, foreign re-lent loans, accrued mark-up, rollover costs and other interest-bearing liabilities. The ministry said a rise in the consolidated stock from approximately Rs8.8 trillion to Rs10.1 trillion should not be interpreted as Rs1.3 trillion of new borrowing. It put fresh or additional loans during the period at about Rs164 billion. Changes to legacy liabilities and accrued costs can affect the stock even without equivalent new borrowing. The clarification does not eliminate fiscal risk from SOE debts; it explains the scope of the accounting measure. These figures should be attributed to the ministry's statement rather than represented as an independent audit of all enterprises.
+Pakistan's Finance Ministry has clarified that the Rs10.1 trillion debt figure reported for federal state-owned enterprises does not represent new borrowing from commercial banks.
+
+In a statement issued on October 8, the ministry said the figure reflects the total stock of interest-bearing obligations recorded by the Finance Division's Central Monitoring Unit.
+
+The State Bank of Pakistan's narrower measure of public-sector enterprise borrowing from banks stood at Rs2.954 trillion.
+
+These two figures cover different types of debt and cannot be compared directly.
+
+### What makes up Rs10.1 trillion?
+
+According to the ministry, the consolidated figure includes approximately Rs3.1 trillion in bank and private loans.
+
+The remaining obligations include government lending, foreign loans passed on to public enterprises, accumulated interest, rollover costs and other liabilities.
+
+The ministry said the increase in the overall debt stock from around Rs8.8 trillion to Rs10.1 trillion should not be interpreted as Rs1.3 trillion in fresh loans.
+
+Instead, it put additional borrowing during the reporting period at approximately Rs164 billion.
+
+The wider increase also reflected changes to existing obligations and accumulated financing costs.
+
+### Why the distinction matters
+
+State-owned enterprises can carry financial obligations from several sources. A report measuring all these liabilities will naturally show a higher figure than one tracking only bank credit.
+
+Confusing the two measures could create an inaccurate impression of how much new money public enterprises have borrowed.
+
+The clarification does not mean SOE debt poses no risk. Existing loans and unpaid financing costs can still place pressure on public finances.
+
+The ministry says its broader reporting method is designed to help the government monitor those risks more completely.
+
+The Rs10.1 trillion figure should therefore be understood as a consolidated debt stock, while the Rs164 billion figure describes additional borrowing during the period.
+
+**Source:** [Finance Ministry clarification, October 8, 2026](https://pid.gov.pk/site/press_detail/34214).
