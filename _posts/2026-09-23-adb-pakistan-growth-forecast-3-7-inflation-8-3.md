@@ -14,16 +14,30 @@ image_alt: "Pakistan Report editorial graphic showing ADB's 3.7% Pakistan growth
 date: 2026-09-23 17:00:00 +0500
 ---
 
-**ISLAMABAD:** The Asian Development Bank has kept Pakistan's economic growth forecast at 3.7 per cent for the current fiscal year while projecting average inflation of 8.3pc, as higher energy costs and regional uncertainty continue to weigh on the economy.
+**ISLAMABAD —** The Asian Development Bank expects Pakistan's economy to grow by 3.7% during the 2026–27 fiscal year, while average inflation is projected to reach 8.3%.
 
-The growth projection is below the government's budget target of 4pc for FY27. ADB's latest Asian Development Outlook maintains the 3.7pc growth estimate it issued in July, after the lender had projected a stronger expansion earlier in the year.
+The lender maintained its growth estimate from July, but the outlook remains below the government's 4% growth target.
 
-Pakistan's economy is estimated to have expanded by 3.7pc in FY26, supported by industry and services alongside more modest gains in agriculture. For FY27, however, ADB expects elevated energy costs and pressure on remittance flows to constrain growth.
+ADB estimates that Pakistan's economy expanded by 3.7% in FY26, supported by industry and services, with more modest growth in agriculture.
 
-The inflation outlook presents a separate challenge. ADB expects average inflation to rise to 8.3pc in FY27, above the State Bank of Pakistan's medium-term target range of 5pc to 7pc and the government's budget assumption of 7pc.
+The latest forecast suggests the recovery could continue, although higher energy costs and regional uncertainty may limit the pace of expansion.
 
-The lender has linked the higher projection to energy, logistics and agricultural input costs, with the Middle East conflict creating additional risks for economies dependent on imported fuel. ADB's regional assessment also points to disruption in crude oil, refined products and shipping routes as a significant source of uncertainty.
+### Inflation remains a concern
 
-For Pakistan, the projections suggest that the recovery is continuing but remains exposed to external price shocks. More expensive fuel can feed through to transport, electricity and production costs, while also putting pressure on the country's import bill and foreign-exchange requirements.
+ADB's 8.3% inflation forecast is higher than the government's budget assumption of 7% and the State Bank's medium-term target range of 5% to 7%.
 
-The latest forecasts come as Pakistan begins another round of programme reviews with the International Monetary Fund, with inflation, fiscal policy and broader economic performance among the issues under discussion.
+Energy prices are a major risk because Pakistan imports much of the fuel used in transport, electricity generation and industry.
+
+When international fuel prices rise, the effects can spread through freight charges, factory costs and the prices consumers pay for everyday goods.
+
+The bank also identified pressure on remittance flows and disruption to international shipping as risks associated with regional tensions.
+
+### What the forecasts mean
+
+Economic growth and inflation measure different things. An expanding economy can create jobs and business opportunities, but higher prices may still reduce the purchasing power of household incomes.
+
+The ADB forecast is not a confirmed outcome. Actual performance will depend on agricultural production, industrial activity, global commodity markets and domestic economic policies.
+
+Pakistan is also engaged in programme discussions with the International Monetary Fund, making inflation control and public finances important considerations for policymakers.
+
+The outlook points to continued growth, but not an easy recovery. For households and businesses, the balance between economic expansion and the cost of living will remain crucial throughout FY27.
