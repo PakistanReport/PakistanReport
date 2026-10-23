@@ -12,20 +12,22 @@ image_alt: "Pakistan Report export graphic showing growth in raw-food and rice
 date: 2026-09-23 18:30:00 +0500
 ---
 
-**ISLAMABAD:** Pakistan's exports of raw food products rose 7.68 per cent year-on-year during July and August, led by a strong rebound in rice shipments, according to data compiled by the Pakistan Bureau of Statistics.
+Pakistan's raw food exports increased by 7.68% during July and August 2026, led by stronger rice shipments, according to Pakistan Bureau of Statistics figures.
 
-The improvement in the first two months of FY27 follows a difficult previous fiscal year, when raw food exports fell sharply.
+Rice export earnings rose 24.68% from a year earlier. Basmati exports increased 53.03% in value, while non-basmati rice exports grew 9.99%.
 
-Rice was the main contributor to the latest recovery, with the value of exports rising **24.68pc** from a year earlier. Basmati exports increased 53.03pc in value, while non-basmati rice exports rose 9.99pc.
+Shipment volumes also improved, with basmati exports rising 42.91% and non-basmati rice shipments increasing 14.74%.
 
-The increase was also visible in shipment volumes. Basmati exports rose 42.91pc by quantity and non-basmati shipments increased 14.74pc.
+Other products delivered mixed results. Meat exports rose 22.53% and fish exports increased 3.23%, but vegetable exports fell 27.28% and fruit exports declined 36.42%.
 
-Other food categories produced a mixed picture. Meat exports increased 22.53pc and fish products 3.23pc, while tobacco exports more than doubled. Vegetable exports, however, fell 27.28pc and fruit exports declined 36.42pc.
+Pakistan's food import bill rose 2.23% to $1.503 billion during the same two months. Tea imports increased, while palm oil import values edged lower.
 
-Pakistan's food import bill also increased during the period, although at a slower pace. Imports rose 2.23pc to **$1.503bn**, compared with $1.470bn in July-August last year. Higher purchases of tea and milk products contributed to the increase.
+The rebound comes after a difficult FY26, when raw food exports fell to $5.017 billion from $7.116 billion a year earlier.
 
-Palm oil remained the largest food import category, although its value declined 1.41pc year-on-year. Pulse imports also fell, while tea imports rose 28.74pc.
+Rice has therefore provided an encouraging start to the new fiscal year, but the broader agricultural export picture remains uneven.
 
-The recovery in food exports is significant after raw food shipments dropped to $5.017bn in FY26 from $7.116bn a year earlier. Whether the improvement can be sustained will depend in part on agricultural output, international prices and demand in Pakistan's major export markets.
+The difference between export values and volumes is important. Earnings can increase because more goods are shipped, because prices rise, or through a combination of both. In the latest rice figures, shipment volumes also increased, supporting the reported improvement in export receipts.
 
-PBS published its latest August external trade data on September 18.
+Pakistan's agricultural exports provide foreign currency and support farmers, processors and trading businesses. However, declines in fruit and vegetable shipments show that gains are not being shared evenly across food categories.
+
+Future performance will depend on harvests, international prices and demand from overseas buyers. Two months of growth are not yet enough to establish a sustained recovery.
