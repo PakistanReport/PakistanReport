@@ -15,24 +15,28 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-Pakistan's Securities and Exchange Commission has proposed raising financing limits for microenterprise and housing loans provided by non-bank microfinance companies to Rs5 million, as part of draft amendments opened for public consultation.
+The Securities and Exchange Commission of Pakistan has proposed increasing financing limits for housing and microenterprise loans offered by non-bank microfinance companies to Rs5 million.
 
-The proposed changes would also increase the annual income threshold for an individual borrower from Rs1.2 million to Rs1.5 million, according to reporting on the draft amendments.
+The regulator has also proposed raising the annual income threshold for individual borrowers from Rs1.2 million to Rs1.5 million.
 
-The changes are proposals and are not yet final rules. Existing limits continue to apply unless and until the amendments complete the regulatory process and take effect.
+Both changes are part of draft amendments released for public consultation. They are not final rules, and borrowers should not assume the higher limits are already available.
 
-## Higher limits for housing and microenterprise finance
+### Who could benefit?
 
-The proposed Rs5 million ceiling would expand the amount that qualifying customers could potentially borrow for housing and microenterprise purposes from non-bank microfinance companies.
+A higher financing ceiling could give eligible small businesses and households access to larger loans through regulated non-bank microfinance providers.
 
-The proposal does not mean every borrower would automatically qualify for Rs5 million. Loan approval would continue to depend on the lender's assessment of income, repayment capacity, credit risk and other applicable requirements.
+For a microenterprise, additional financing may help purchase equipment, maintain stock or expand operations. Housing borrowers may seek funds for construction or improvements.
 
-## Income threshold would also rise
+However, a maximum loan limit is not a guaranteed entitlement. Lenders would still assess applicants' income, ability to repay and credit risk.
 
-SECP has also proposed increasing the individual borrower income threshold to Rs1.5 million from Rs1.2 million.
+Interest rates, repayment schedules, collateral requirements and other conditions would also remain important.
 
-The draft amendments are subject to consultation, allowing stakeholders to submit feedback before SECP finalises the regulatory changes.
+The proposed higher income threshold could expand the group of borrowers eligible under the regulatory framework, but it would not remove lenders' responsibility to evaluate individual applications.
 
-For consumers, the key point is that the proposed limits should not be treated as currently available loan entitlements. Actual financing terms can vary by institution and borrower, while rates, collateral requirements, repayment periods and credit assessments remain separate from the headline ceiling.
+### What happens next?
 
-The consultation therefore represents a potential expansion of Pakistan's regulated microfinance and housing-finance framework rather than an immediate across-the-board increase in loans.
+Stakeholders can submit comments during the consultation process before SECP decides whether to finalise the amendments.
+
+The proposals are aimed at widening access to regulated financing. Their practical effect will depend on the final rules and on whether lenders offer suitable products to eligible borrowers.
+
+Until the regulatory process is completed, the existing limits and requirements continue to apply.
