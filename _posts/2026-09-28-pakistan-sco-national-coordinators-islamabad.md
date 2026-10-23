@@ -13,30 +13,18 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-**ISLAMABAD —** Pakistan has begun hosting the first meeting of the Shanghai Cooperation Organization’s Council of National Coordinators under its 2026–27 chairmanship, opening a three-day round of discussions on the organisation’s work programme and preparations for upcoming high-level meetings.
+**ISLAMABAD —** Pakistan has opened the Shanghai Cooperation Organization's Council of National Coordinators meeting in Islamabad, beginning three days of discussions under its 2026–27 chairmanship.
 
-The meeting is being held in Islamabad from September 28 to 30 and is chaired by Pakistan’s SCO national coordinator. National coordinators from member states and representatives of the SCO Secretariat are attending, according to the Ministry of Foreign Affairs.
+The meeting, scheduled for September 28–30, brings together national coordinators from SCO member states and representatives of the organisation's Secretariat, according to the Ministry of Foreign Affairs. Pakistan's national coordinator is chairing the proceedings.
 
-The Council of National Coordinators is one of the SCO’s principal working mechanisms, handling coordination among member states and preparing issues for consideration at higher political levels.
-
-### Chairmanship programme on the agenda
-
-The Foreign Office said participants would discuss a range of issues covering SCO cooperation and coordination, including the programme of activities under Pakistan’s chairmanship, preparations for forthcoming meetings and events, and other matters on the organisation’s agenda.
+Delegates are discussing the SCO's programme of activities, preparations for forthcoming meetings and priorities for cooperation during Pakistan's chairmanship. The Council of National Coordinators helps coordinate work among member states and prepares matters for consideration by ministers and heads of state.
 
 Pakistan is chairing the SCO Council of Heads of State for 2026–27 under the theme “Turning Vision into Action: Connectivity, Innovation and Shared Prosperity.”
 
-The government has identified connectivity, innovation, economic cooperation and people-to-people contacts among the priorities it intends to advance during the chairmanship.
+The government has identified regional connectivity, innovation, economic cooperation and people-to-people exchanges as priorities for its term. The Islamabad discussions will help organise the meetings and coordination needed to advance those areas.
 
-The Islamabad meeting is an early organisational step in that programme. National coordinators are expected to work through scheduling, policy coordination and preparations required before ministerial and leaders’ meetings take place.
+Pakistan is also due to host the SCO Council of Heads of State meeting in August 2027. Preparations for that gathering form part of the wider programme being developed during the current chairmanship.
 
-### Pakistan to host leaders’ meeting in 2027
+The SCO provides a forum for cooperation on political, security and economic issues across Eurasia. Pakistan's Foreign Office said it intends to work closely with member states and the SCO Secretariat throughout its term.
 
-The chairmanship is due to culminate in Pakistan hosting a meeting of the SCO Council of Heads of State in August 2027, the Foreign Office said.
-
-That gives the current coordinators’ meeting a practical role in setting the sequence of engagements that will lead into next year’s summit and in aligning member states around the agenda to be taken forward during Pakistan’s term.
-
-The SCO includes major Eurasian states and provides a forum covering political, security, economic and regional cooperation. Its decisions depend on coordination among a diverse membership, making the national coordinators’ mechanism important for preparing consensus before issues reach foreign ministers or heads of state.
-
-Pakistan has said it intends to work with all member states and the SCO Secretariat to translate the chairmanship’s stated priorities into practical initiatives.
-
-The September 28–30 meeting therefore marks the start of the operational phase of Pakistan’s chairmanship rather than a standalone summit. Its immediate task is to organise the work ahead, while the larger test will be the projects, agreements and high-level outcomes developed over the coming year.
+The Islamabad meeting is an early step in preparing the organisation's activities and high-level engagements over the coming year.
