@@ -15,30 +15,30 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-Pakistan's Federal Board of Revenue has rejected a circular circulating in the media that claims the deadline for filing income tax returns for Tax Year 2026 has been extended, saying it did not issue the document.
+The Federal Board of Revenue said on September 30 that a circular circulating online and claiming an extension of the Tax Year 2026 income-tax return deadline was fake.
 
-The clarification is significant because September 30 is the statutory due date for income tax returns for individuals and associations of persons, while companies with a special tax year also have a September 30 due date under FBR's published guidance.
+The authority said it had not issued the document. At the time of the clarification, its published filing timetable continued to show September 30 as the deadline for individuals and associations of persons.
 
-FBR said the circulating extension circular was not genuine and that no such circular had been issued by the tax authority.
+Companies with a special tax year also had a September 30 date under FBR guidance, while companies generally faced a December 31 deadline.
 
-## September 30 remains the published due date
+### Why the warning mattered
 
-FBR's official income-tax due-date guidance lists September 30 as the deadline for individuals and associations of persons. Companies generally have a December 31 due date, while companies operating on a special tax year are listed with a September 30 deadline.
+The purported extension circulated as taxpayers were trying to complete their returns before the deadline.
 
-The clarification concerns income tax returns for Tax Year 2026. It should not be confused with separate FBR notices dealing with sales tax or federal excise returns, which operate under different filing periods and can be subject to separate extensions.
+Messages shared on social media can resemble official notices, but an unauthenticated document does not change a legal filing requirement.
 
-The distinction is particularly important on the final filing day, when taxpayers can encounter social-media posts, forwarded messages and documents that appear to carry official formatting.
+Taxpayers were advised to rely on the FBR's official channels for any announcement.
 
-For a deadline change to be treated as official, taxpayers should rely on an announcement or notification issued through FBR's recognised channels rather than an unauthenticated circular circulating online.
+Trade bodies had separately requested more time. The Pakistan Chemicals and Dyes Merchants Association cited difficulties involving the IRIS filing system when seeking a one-month extension.
 
-## Businesses had sought more time
+A request from a business association, however, is not the same as an extension formally issued by the tax authority.
 
-The false circular emerged against a backdrop of genuine calls for an extension.
+### What happened afterwards?
 
-The Pakistan Chemicals and Dyes Merchants Association had asked FBR to extend the filing deadline by one month, citing difficulties that it said taxpayers and tax practitioners were experiencing with the IRIS filing system.
+The FBR subsequently granted a genuine extension until October 15 for taxpayers whose returns were due on September 30.
 
-That request did not itself change the deadline. A request by a trade body and an official extension by FBR are separate developments.
+That later decision does not make the earlier circulating document authentic. The authority's September 30 warning concerned the particular circular it said it had not issued.
 
-Business Recorder reported FBR as saying it had received around 4.7 million income tax returns for Tax Year 2026 at the time of its clarification, compared with about 3.2 million in the corresponding period a year earlier. Return counts reported at different times can vary as filings continue, so those figures should be read with their stated reporting cut-off rather than as a final total.
+The distinction is useful for taxpayers reviewing reports from the final filing day: the original document was rejected, and an official extension followed separately.
 
-For taxpayers filing on September 30, the practical point is straightforward: FBR says the extension circular circulating in the media is not authentic, while its published due-date guidance continues to list September 30 for individuals and associations of persons.
+For any filing deadline, the safest reference remains the latest notice published through recognised FBR channels.
