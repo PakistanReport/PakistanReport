@@ -14,22 +14,22 @@ image_alt: An AI-generated illustration of small businesses and finance,
 date: 2026-10-08 20:00:00 +0500
 ---
 
-ISLAMABAD: The government is aiming to increase outstanding financing for small and medium-sized enterprises to Rs2 trillion by June 30, 2028, after loans to the sector reached Rs1.137 trillion in the first quarter of the current financial year.
+**ISLAMABAD —** Pakistan aims to increase bank financing for small and medium-sized businesses to Rs2 trillion by June 2028, as the government works to improve access to loans for entrepreneurs and growing companies.
 
-The target was discussed at the fifth meeting of the Access to Finance Steering Committee, chaired by Finance Minister Muhammad Aurangzeb, according to the Finance Division statement dated 7 October 2026.
+Finance Minister Muhammad Aurangzeb discussed the target at a meeting of the Access to Finance Steering Committee, according to a Finance Division statement issued on October 7.
 
-Officials said outstanding SME loans rose by Rs23 billion during July to September 2026, while the number of borrowers increased by more than 25,000 to approximately 350,862. The government's medium-term objective is to lift the borrower count to 775,000 by the end of June 2028.
+Outstanding loans to small and medium-sized enterprises (SMEs) reached Rs1.137 trillion during the first quarter of the 2026–27 financial year, an increase of Rs23 billion over the three months.
 
-The figures describe lending outstanding at the end of the period, not the value of entirely new loans issued during the quarter. They also indicate that the Rs2 trillion objective remains a target rather than a financing commitment already delivered to businesses.
+The number of SME borrowers also grew by more than 25,000 to approximately 350,862. The government wants to increase that figure to 775,000 by June 2028.
 
-The steering committee reviewed financing across four priority areas: housing, small and medium-sized enterprises, agriculture and electric vehicles. Together, these sectors received about Rs222 billion during the July–September quarter, according to the reported statement.
+These figures measure loans that businesses still owe, rather than the total value of new loans issued during the quarter.
 
-The government is seeking wider participation from commercial banks, microfinance institutions and other financial service providers. The approach reflects the difficulty smaller enterprises can face in obtaining formal credit, particularly when lenders have limited reliable information about borrowers' cash flow and financial history.
+Access to bank financing can help small businesses buy equipment, purchase supplies, employ workers and expand into new markets. Many smaller firms, however, find it difficult to secure loans because they lack the financial records or guarantees that lenders require.
 
-Aurangzeb emphasised the need for improved data availability and information-sharing to support credit assessment. He also called for safeguards and limits on how data may be used, acknowledging that expanding access to information must be balanced with appropriate protections.
+The committee also reviewed lending for housing, agriculture and electric vehicles. Together with SMEs, these priority sectors received around Rs222 billion in financing during July to September.
 
-The minister asked the committee to place greater emphasis on implementation, measurable results and follow-up on recommendations made by its subcommittees. That instruction shifts attention from setting objectives to determining whether lending actually reaches more businesses.
+Aurangzeb called for better information-sharing to help banks assess loan applications, while emphasising safeguards for the use of financial data.
 
-For small firms, access to finance can influence the ability to purchase equipment, manage working capital and expand operations. Whether the policy produces those benefits will depend on lending conditions, credit risk assessments and the willingness of financial institutions to serve new borrowers.
+He also urged officials to focus on implementing proposals and measuring results.
 
-The next useful indicators will be changes in the number of SME borrowers, the amount of outstanding lending and the distribution of credit across different types of businesses. The latest figures establish a baseline against which the government's June 2028 targets can be measured.
+The government's targets are ambitious: reaching Rs2 trillion in SME lending would require a substantial increase from current levels. Progress will depend on banks expanding access to suitable financing and more businesses meeting lending requirements.
