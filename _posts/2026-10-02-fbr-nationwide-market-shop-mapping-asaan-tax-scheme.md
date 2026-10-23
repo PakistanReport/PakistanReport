@@ -13,26 +13,36 @@ image_alt: "AI-generated Pakistan Report editorial illustration representing FBR
 date: 2026-10-02 12:30:00 +0500
 ---
 
-The Federal Board of Revenue has begun a nationwide exercise to map markets and individual shops from October 2 as the government moves to expand registration under its simplified tax scheme for small shopkeepers.
+The Federal Board of Revenue began a nationwide exercise on October 2 to identify markets and individual shops as part of efforts to bring more small retailers into the tax system.
 
-Minister of State for Finance and Railways Bilal Azhar Kayani directed FBR field officials to carry out the mapping jointly with representatives of the business community, according to the Associated Press of Pakistan. Officials are expected to visit markets according to a daily schedule, identify individual shops and brief traders about the scheme during the exercise.
+Minister of State for Finance and Railways Bilal Azhar Kayani directed FBR field teams to work alongside representatives of the business community during the mapping process, according to the Associated Press of Pakistan.
 
-The mapping marks a more active phase in implementation of the scheme after the FBR said on September 29 that it remained in its initial implementation stage. The tax authority said at the time that it was working with traders, market representatives and trade bodies to address practical and technical problems arising during registration.
+Officials were expected to visit markets on a daily schedule, identify shops and explain the simplified tax scheme to traders.
 
-According to current reporting, the FBR told the review meeting that Pakistan has around 4.3 million commercial electricity meters, while only about 600,000 commercial meter holders have filed tax returns. Business Recorder reported that the tax authority intends to target between 500,000 and one million retailers, with around 200,000 expected to enter the scheme voluntarily and the remainder to be pursued through enforcement.
+### Moving from registration to outreach
 
-Those figures were reported from the implementation meeting and have not been separately published in the FBR’s September 29 statement.
+The exercise follows FBR's September 29 statement that the scheme was still in an early implementation phase.
 
-Kayani instructed tax officials to work alongside traders’ representatives during the mapping process and address concerns relating to registration and return filing. The meeting was also informed that a technical problem involving the “Other Income” column in tax returns, which traders had raised, had been resolved.
+The authority said it was working with traders and business organisations to resolve registration and filing difficulties.
 
-The minister urged shopkeepers to use the 15-day extension granted for filing income tax returns. According to APP and Radio Pakistan, he said a shopkeeper missing the extended deadline could face a fine of Rs10,000 in the first month, Rs25,000 in the second and Rs50,000 in the third month.
+During a review meeting, officials discussed the gap between the number of commercial electricity connections and the number of commercial meter holders filing tax returns.
 
-The government and FBR have presented the simplified scheme as a way to bring small retailers into the documented tax system through a less complicated compliance framework.
+Business Recorder reported that officials cited approximately 4.3 million commercial electricity meters and around 600,000 commercial meter holders who had filed returns.
 
-In its September 29 statement, the FBR said the scheme was designed to encourage voluntary compliance while providing greater certainty and ease of doing business for small traders. It also asked traders experiencing registration difficulties to contact the tax authority for assistance.
+Those figures came from reporting on the meeting and should not be treated as a separately verified count of unregistered businesses. A commercial electricity connection does not necessarily correspond to one taxable shop.
 
-The latest mapping exercise indicates that implementation is now moving beyond registration facilitation towards identifying shops and markets that could fall within the scheme.
+### What traders were told
 
-The review meeting was attended by trader leaders including Ajmal Baloch, Kashif Chaudhry and Habib Fakhruddin, as well as senior FBR officials. Chief commissioners and commissioners from across the country participated through video link.
+Kayani asked officials to address concerns raised by shopkeepers and their representatives.
 
-The government has decided to continue review meetings to monitor implementation of the scheme.
+The meeting was informed that a technical problem involving the “Other Income” field in tax returns had been resolved.
+
+The minister also urged shopkeepers to use the newly announced October 15 income-tax filing extension. According to APP and Radio Pakistan, he warned of escalating penalties for missing applicable deadlines.
+
+The simplified scheme is intended to reduce compliance complexity for eligible small retailers while encouraging more businesses to register.
+
+Mapping shops is an administrative step, not proof that every business visited owes additional tax.
+
+The outcome will depend on whether officials can explain the rules clearly, resolve technical issues and apply requirements consistently.
+
+Further review meetings were planned to monitor the scheme's implementation.
