@@ -14,22 +14,34 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-ISLAMABAD: The Federal Board of Revenue has extended the deadline for filing income tax returns for Tax Year 2026 to October 15, giving eligible taxpayers another 15 days to submit returns that were due by September 30.
+**ISLAMABAD —** The Federal Board of Revenue extended the Tax Year 2026 income-tax return deadline to October 15, giving affected taxpayers another 15 days beyond the original September 30 date.
 
-The extension applies to people who were required to file their returns by the September 30 deadline. FBR said the decision was taken after requests from trade bodies and tax bar associations and was made under Section 214A of the Income Tax Ordinance, 2001.
+The decision applies to taxpayers whose returns were due on September 30. FBR said it acted after requests from trade bodies and tax bar associations, using its powers under Section 214A of the Income Tax Ordinance, 2001.
 
-The move changes the position taxpayers faced earlier on September 30, when FBR had rejected a separate circular circulating online that purported to extend the filing deadline. That document was described by the tax authority as fake. A genuine extension was subsequently issued by FBR, making October 15 the new deadline for the affected Tax Year 2026 filers.
+### An official extension after a false circular
 
-The distinction is important for taxpayers because the earlier denial related to an unauthorised circular, rather than a decision that the deadline could not later be changed. The official extension issued afterwards is the measure now in force.
+The announcement followed confusion on September 30, when a purported deadline-extension circular circulated online.
 
-According to figures reported after the original deadline, FBR received 5.767 million income tax returns by midnight on September 30. That compared with 3.980 million returns filed during the corresponding period a year earlier, an increase of about 45 per cent.
+The FBR rejected that earlier document as fake. It subsequently issued its own formal extension.
 
-The additional filing period gives taxpayers who had not completed their returns by the end of September more time to comply. It also gives tax practitioners and businesses additional time after professional and trade organisations sought an extension.
+These were separate developments: the rejection of an unauthorised notice did not prevent the authority from extending the deadline later.
 
-FBR has been trying to expand the number of return filers while increasing revenue collection in the 2026-27 fiscal year. The filing campaign is part of a broader effort to improve tax compliance and widen the documented tax base.
+Taxpayers should therefore distinguish between the false circular and the official decision setting October 15 as the revised date.
 
-Taxpayers using the extension should rely on notices and circulars issued through official FBR channels, particularly after the circulation of the false extension notice before the genuine decision was announced.
+### Filing numbers rise
 
-The revised October 15 date does not mean every tax deadline has automatically moved. It specifically covers persons whose Tax Year 2026 income tax returns were required to be filed by September 30.
+According to figures reported after the original deadline, the FBR had received 5.767 million returns by midnight on September 30.
 
-For those filers, however, the practical position is now clear: the filing window remains open until October 15 under FBR’s formally announced extension.
+That compared with approximately 3.980 million returns during the corresponding period a year earlier, an increase of about 45%.
+
+The figures show stronger filing activity at that point, although they do not by themselves establish how many taxpayers ultimately complied during the extended period.
+
+### Who is covered?
+
+The extension applies to people whose Tax Year 2026 returns were originally due on September 30. It should not be assumed to change deadlines for every company or every type of tax return.
+
+Affected taxpayers can use the additional time to reconcile income records, tax deductions and any required wealth statements before submitting through the IRIS portal.
+
+FBR has been seeking to expand the documented tax base, and timely filing remains a central part of that effort.
+
+For taxpayers, the practical message is to rely on the authority's official notices and complete the return within the revised deadline.
