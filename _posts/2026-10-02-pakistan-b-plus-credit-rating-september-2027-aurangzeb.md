@@ -35,3 +35,5 @@ The government expects the current account deficit to remain within its original
 A future rating upgrade would depend on the agencies' own assessments of Pakistan's finances, external payments position and economic outlook.
 
 The finance minister's comments indicate the government's confidence in further progress. Whether Pakistan reaches B+ by September 2027 will ultimately be decided by credit rating agencies, not the government.
+
+For Pakistan, the cost of international borrowing matters because debt payments must be met alongside spending on public services and development. Better ratings can make it easier to attract investors, but they do not remove repayment obligations.
