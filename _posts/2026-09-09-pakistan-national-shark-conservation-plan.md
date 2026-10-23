@@ -16,10 +16,10 @@ Maritime Affairs Minister Muhammad Junaid Anwar Chaudhry announced the programme
 
 Proposals include species-specific protections, safeguards for important habitats, shark sanctuaries and mangrove restoration. The plan also envisages requiring shark fins to remain naturally attached to landed animals, alongside stronger research and fisheries data collection.
 
-Implementation is planned in three phases. The government estimates that the first five years will require between $3.8 million and $5 million.
+Implementation is planned in three phases. The government estimates that the first five years will require between $3.8 million and $5 million. Those funds would support the early stages of a programme extending across fisheries management, habitat protection and scientific monitoring.
 
 A 2021 WWF-Pakistan assessment found that reported shark landings had declined by more than 85% over five decades, highlighting concern about pressure on marine fisheries. Landing figures can also reflect changes in fishing activity and reporting, rather than population size alone.
 
-The programme includes support for coastal fishing communities whose livelihoods depend on marine resources. Its success will depend on enforcement at landing sites, reliable species data and cooperation with fishers as conservation measures are introduced.
+The programme includes support for coastal fishing communities whose livelihoods depend on marine resources. Measures to reduce accidental catches and enforce fishing rules will affect how fishing vessels operate and how catches are handled when they reach shore.
 
-The announcement sets out the government's proposed approach; implementation and funding will determine how much protection reaches Pakistan's coastal waters.
+The plan sets out the government's proposed approach, with enforcement, research and cooperation with fishing communities central to putting its conservation measures into practice.
