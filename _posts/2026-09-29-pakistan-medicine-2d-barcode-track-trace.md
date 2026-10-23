@@ -14,30 +14,18 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-**ISLAMABAD —** Pakistan’s health authorities have reviewed progress on implementation of a 2D barcode system for medicines and the wider pharmaceutical track-and-trace programme, as officials work on measures intended to improve product traceability across the supply chain.
+**ISLAMABAD —** Federal Health Minister Syed Mustafa Kamal has reviewed progress on Pakistan's pharmaceutical track-and-trace programme, including plans to introduce standardised 2D barcodes on medicine packaging.
 
-The review was chaired by Federal Health Minister Syed Mustafa Kamal and also covered steps required for Pakistan to move towards World Health Organization Level-3 regulatory status in the pharmaceutical sector.
+The meeting examined work under way to strengthen medicine identification and monitoring across the supply chain. Officials also discussed steps towards achieving World Health Organization Level-3 regulatory maturity in the pharmaceutical sector.
 
-Officials were briefed on work completed so far and discussed further implementation of the barcode and traceability system. The review indicates that implementation is continuing; it should not be read as confirmation that every medicine pack in Pakistan is already covered by a fully operational nationwide system.
+The federal cabinet approved nationwide implementation of the pharmaceutical Track & Trace System in June, alongside changes to the Drug Labeling and Packing Rules, 1978.
 
-### 2D codes are part of a wider traceability framework
+The programme provides for 2D barcodes and serialisation information on medicine packaging, enabling products to be identified and checked as they move from manufacturers and importers through distribution channels.
 
-The federal cabinet approved nationwide implementation of a pharmaceutical Track & Trace System in June, along with amendments to the Drug Labeling and Packing Rules, 1978. The framework requires standardised 2D barcodes and serialisation data on medicine packaging for manufacturers and importers.
+Health authorities intend to use the system to improve oversight of medicines and help prevent counterfeit and substandard products from reaching patients. Standardised digital identification can also support more efficient record-keeping and product tracing within the pharmaceutical industry.
 
-A 2D code can carry structured product information in a machine-readable format. When combined with serialisation and a supporting database, it can allow individual packs or batches to be identified and checked as they move through manufacturing, distribution and sale.
+The September review covered implementation progress and further work required from the institutions involved. Manufacturers, importers, distributors and regulators will all have roles in establishing the systems used to record and verify medicine information.
 
-The policy objective is to strengthen monitoring and make it harder for counterfeit, fake or substandard products to circulate undetected. Achieving that objective, however, depends on more than printing a code: manufacturers, importers, distributors, pharmacies, regulators and information systems all have to operate within a functioning verification chain.
+The government is pursuing the barcode initiative alongside broader improvements to pharmaceutical regulation. WHO Level-3 maturity is an international benchmark for a stable and functioning regulatory system.
 
-### Implementation remains the key issue
-
-The September review focused on progress and the steps still required. Officials discussed improved tracking and identification mechanisms and further work needed to strengthen medicine traceability.
-
-That implementation phase is important because Pakistan’s pharmaceutical market includes a large number of products and supply-chain participants. Standardisation, data quality and the ability of regulators and market participants to scan or verify codes will determine how useful the system becomes in practice.
-
-The government is also linking the work to its objective of achieving WHO Level-3 maturity for pharmaceutical regulation. WHO’s regulatory maturity framework assesses whether a national regulatory system has stable, well-functioning processes across core functions. The barcode initiative is one part of the broader regulatory effort rather than a standalone route to that status.
-
-### Next steps will determine coverage
-
-The latest meeting did not announce completion of nationwide deployment or a date by which every medicine will be traceable through the system. Instead, it reviewed progress and requirements for further implementation.
-
-For patients and the pharmaceutical industry, the key milestones will therefore be the rollout timetable, compliance requirements for manufacturers and importers, and the availability of systems that can reliably verify the data encoded on medicine packaging throughout the supply chain.
+Officials are expected to continue work on the rollout and related regulatory measures as Pakistan strengthens medicine safety and supply-chain monitoring.
