@@ -21,8 +21,6 @@ Treasury bills are short-term government borrowing instruments. Pakistan Investm
 
 Investors from the United Arab Emirates accounted for about $100 million of the inflows, including $90 million in PIBs. UK investors purchased $60.7 million in Treasury bills, while investors from Luxembourg, the United States and Bahrain also participated.
 
-During the first 11 days of September alone, foreign investors placed $49.7 million in PIBs, compared with $12 million in Treasury bills.
-
 Attractive returns are one reason overseas investors buy Pakistani government debt. Market participants cited yields of around 12%, although actual returns also depend on exchange-rate movements and other risks.
 
 These purchases are different from foreign direct investment, which generally involves businesses, factories or other productive assets. Money invested in government securities can leave when bonds mature or investors decide to withdraw.
