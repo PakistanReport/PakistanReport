@@ -13,22 +13,20 @@ image_alt: "AI-generated Pakistan Report editorial illustration representing
 date: 2026-10-02 14:45:00 +0500
 ---
 
-Pakistan’s manufacturing sector remained in expansion in September, but the pace of growth slowed as weaker domestic demand weighed on new orders, according to the latest HBL Pakistan Manufacturing Purchasing Managers’ Index.
+Pakistan's manufacturing sector continued to grow in September 2026, although the pace slowed as local demand weakened, according to the latest HBL Manufacturing Purchasing Managers' Index (PMI).
 
-The HBL Manufacturing PMI fell to 50.9 in September from 51.8 in August, marking the slowest expansion in three months. A PMI reading above 50 indicates expansion in manufacturing activity, while a reading below 50 signals contraction.
+The index fell to 50.9 from 51.8 in August, its lowest reading in three months. A score above 50 means manufacturing activity is expanding; below 50 indicates a decline.
 
-The latest survey therefore points to continued growth in the sector, but at a weaker pace than in August.
+Factories were still producing more overall, but business conditions were less favourable than the previous month.
 
-New orders contracted for the first time since June, with manufacturers reporting pressure from elevated fuel prices and weaker household purchasing power. The decline in domestic demand was partly offset by export orders, which increased for a fifth consecutive month.
+New orders from Pakistani customers fell for the first time since June. Manufacturers cited higher fuel costs and pressure on household spending as factors affecting demand.
 
-Manufacturers also increased purchasing activity at the fastest pace in seven months. The survey linked the rise to efforts by firms to strengthen inventories and protect against possible supply disruptions.
+Overseas orders provided some encouragement. Export orders increased for a fifth consecutive month, suggesting that international customers continued to support parts of the manufacturing sector.
 
-Price pressures remained mixed. Input price inflation continued to ease during September, but fuel costs remained an important source of pressure for manufacturers. Companies increased their selling prices at a faster rate as they passed higher operating costs on to customers.
+Companies also bought more raw materials and other supplies, with purchasing activity rising at its fastest pace in seven months. Some firms were building stocks to prepare for possible supply disruptions.
 
-The survey said continuing tensions in the Middle East were contributing to elevated global oil and transportation costs, creating risks for manufacturers and the wider inflation outlook.
+Although the rate of increase in raw material costs eased, manufacturers reported continued pressure from fuel prices. Selling prices rose more quickly as companies passed some of their expenses on to customers.
 
-Despite softer new orders, business confidence improved to its highest level of 2026, supported by expectations of stronger demand and sales in the coming months.
+Despite the challenges, business confidence improved to its highest level of 2026. Manufacturers expressed greater optimism about demand and sales in the coming months.
 
-The September reading is important because the PMI provides a monthly indication of operating conditions in Pakistan’s manufacturing sector. The fall from 51.8 to 50.9 does not mean manufacturing activity contracted; rather, it shows that the sector continued to expand, but more slowly.
-
-The combination of weaker domestic orders, continued export growth and higher selling-price pressures suggests manufacturers are facing an uneven operating environment. Future activity will depend partly on domestic demand, energy costs and external conditions affecting trade and supply chains.
+The September figures point to an industry that remains active and growing, but is dealing with weaker domestic orders and uncertain energy costs. Stronger demand at home and continued export growth would help sustain the sector's expansion.
