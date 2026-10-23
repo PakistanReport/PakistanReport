@@ -13,24 +13,24 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-Pakistan’s weekly Sensitive Price Indicator rose 0.99% in the week ended September 24, according to the latest release from the Pakistan Bureau of Statistics.
+Prices of essential consumer goods rose on average during the week ending September 24, 2026, with Pakistan's Sensitive Price Indicator increasing by 0.99%, according to the Pakistan Bureau of Statistics.
 
-PBS put the SPI at 369.69 on the 2015-16=100 base, compared with 366.05 in the preceding week ended September 17. The earlier week had itself recorded a 0.49% increase.
+The weekly index climbed to 369.69 from 366.05 in the preceding week. The previous reading had also shown an increase, of 0.49%.
 
-The latest reading provides a high-frequency measure of changes in prices for a basket of essential consumer items. It is published weekly and is separate from the monthly Consumer Price Index, which covers a broader range of goods and services.
+The Sensitive Price Indicator, or SPI, tracks price changes in a basket of frequently purchased items, including food and other household necessities.
 
-Because the SPI is designed to track frequently purchased necessities, movements in food, fuel and other essential items can have a visible effect on the headline index from one week to the next.
+It differs from the monthly Consumer Price Index, which measures inflation across a broader selection of goods and services.
 
-A 0.99% weekly increase is therefore a useful indication of near-term price pressure, but it should not be treated as equivalent to Pakistan’s overall monthly inflation rate. The CPI remains the principal broad measure used to assess economy-wide consumer inflation.
+A weekly SPI increase signals short-term pressure on essential prices, but it should not be presented as Pakistan's overall monthly inflation rate.
 
-The SPI can also be volatile. Prices for perishable food items can move quickly because of seasonal supply, weather, transport conditions and changes in wholesale markets. Administered prices and energy costs can also affect the weekly basket.
+Food prices can change quickly because of seasonal supply, weather and transport conditions. Changes in energy and other regulated prices can also affect the weekly basket.
 
-PBS publishes the index across expenditure groups to show how price movements affect households at different income levels. The aggregate headline figure offers the broadest snapshot, while the detailed annexures provide item-by-item changes.
+The bureau publishes figures for different household spending groups to show how price changes affect consumers with different expenditure levels.
 
-For households, weekly price movements are particularly relevant when they affect staples that account for a large share of regular spending. Persistent increases over several weeks can place additional pressure on household budgets even when the broader monthly inflation rate is comparatively stable.
+For families, even a brief rise in the cost of staple goods can place pressure on budgets. The effect is particularly important for lower-income households that spend a larger share of their income on necessities.
 
-For policymakers and businesses, the SPI is one of several indicators used to monitor inflationary conditions between monthly CPI releases. It can provide an early signal of price changes, but one week’s movement is not sufficient to establish a sustained trend.
+The latest reading follows another weekly increase, but two consecutive gains are not enough to establish a lasting trend.
 
-The latest figures show the index rising from 366.05 to 369.69 over one week. That increase follows the 0.49% rise recorded in the previous PBS release and keeps attention on short-term consumer price pressures.
+Further SPI releases will show whether prices continue rising at a similar pace, while the next monthly CPI report will provide a broader picture of inflation in Pakistan.
 
-Further weekly releases will show whether the latest increase proves temporary or develops into a more persistent sequence of gains. The next monthly CPI reading will provide a broader assessment of inflation across Pakistan’s consumer basket.
+The immediate finding is a 0.99% rise in the weekly cost indicator, not a change of the same size in all consumer prices.
