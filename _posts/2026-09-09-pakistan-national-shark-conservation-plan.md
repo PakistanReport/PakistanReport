@@ -10,54 +10,16 @@ image_alt: "Pakistan Report illustration representing shark conservation and mar
 image_caption: "Pakistan Report illustration."
 ---
 
-Pakistan has announced its first national action plan for shark conservation, setting out a 10-year programme aimed at protecting vulnerable marine species and improving the management of the country's fisheries.
+Pakistan has announced its first national action plan for shark conservation, a 10-year programme intended to protect vulnerable marine species and improve fisheries management through 2035.
 
-Federal Minister for Maritime Affairs Muhammad Junaid Anwar Chaudhry announced the National Plan of Action for the Conservation and Management of Sharks, which is intended to run through 2035.
+Maritime Affairs Minister Muhammad Junaid Anwar Chaudhry announced the programme, which covers sharks, rays, skates and chimaeras in Pakistani waters. It seeks to curb illegal finning, reduce accidental catches and improve monitoring of fishing activity.
 
-The plan covers sharks as well as rays, skates and chimaeras found in Pakistani waters.
+Proposals include species-specific protections, safeguards for important habitats, shark sanctuaries and mangrove restoration. The plan also envisages requiring shark fins to remain naturally attached to landed animals, alongside stronger research and fisheries data collection.
 
-## What the plan proposes
+Implementation is planned in three phases. The government estimates that the first five years will require between $3.8 million and $5 million.
 
-The government says the programme will focus on restoring declining shark populations, reducing illegal finning and limiting the accidental capture of sharks and related species as bycatch.
+A 2021 WWF-Pakistan assessment found that reported shark landings had declined by more than 85% over five decades, highlighting concern about pressure on marine fisheries. Landing figures can also reflect changes in fishing activity and reporting, rather than population size alone.
 
-Proposed measures include species-specific protections, improved monitoring of fishing activity, protection of important marine habitats and a policy requiring shark fins to remain naturally attached to landed animals.
+The programme includes support for coastal fishing communities whose livelihoods depend on marine resources. Its success will depend on enforcement at landing sites, reliable species data and cooperation with fishers as conservation measures are introduced.
 
-The plan also envisages shark sanctuaries and mangrove restoration, alongside improved scientific research and data collection.
-
-Implementation is expected to take place in three phases.
-
-The government estimates that between $3.8 million and $5 million will be required during the first five years of the programme.
-
-## Why Pakistan's sharks matter
-
-Sharks and rays form an important part of marine ecosystems, but many species face pressure from fishing and accidental capture.
-
-A 2021 assessment by WWF-Pakistan found that reported shark landings in Pakistan had declined by more than 85% over five decades.
-
-A decline in landings does not by itself provide a complete measurement of shark populations, because fishing activity, reporting and other factors can also influence landing figures. But the long-term trend has contributed to concern about the sustainability of Pakistan's shark fisheries.
-
-## Fishing communities are part of the plan
-
-Conservation measures can also affect people who depend on fishing for their livelihoods.
-
-The government's plan therefore includes support for coastal fishing communities while seeking to make shark-related fisheries more sustainable.
-
-A National Advisory Committee involving multiple stakeholders is expected to oversee implementation.
-
-Progress is intended to be assessed annually using indicators including monitoring at landing sites, stock assessments, vessel-monitoring systems and changes in bycatch mortality. More comprehensive reviews are planned every three years.
-
-## Why it matters beyond sharks
-
-The programme could have implications for Pakistan's wider marine environment.
-
-Better monitoring of fishing vessels, improved fisheries data and stronger protection of mangroves and other habitats could benefit species beyond those directly covered by the shark plan.
-
-The initiative also aligns Pakistan with the Food and Agriculture Organisation's international framework encouraging shark-fishing countries to establish conservation and management plans.
-
-## What happens next
-
-The announcement establishes the policy framework, but its effectiveness will depend on implementation.
-
-Funding, enforcement at sea and at landing sites, cooperation with fishing communities and reliable scientific monitoring will determine whether the programme produces measurable improvements.
-
-The first annual assessments should provide an early indication of whether the conservation measures are being put into practice.
+The announcement sets out the government's proposed approach; implementation and funding will determine how much protection reaches Pakistan's coastal waters.
