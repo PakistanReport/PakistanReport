@@ -37,3 +37,7 @@ Tax revenue finances public services and government operations. When collections
 The first-quarter result gives FBR a positive start, but the Rs30 billion surplus is relatively small compared with the full-year target.
 
 Sustained revenue growth, including stronger performance in income tax and customs duties, will be important in determining whether the authority can meet its annual goal.
+
+The Rs203 billion in refunds and rebates was Rs44 billion higher than in the corresponding quarter last year. Timely refunds can help businesses manage cash flow, particularly those awaiting repayment of eligible taxes.
+
+The gap between the overall result and the individual tax categories shows why the headline surplus needs context. Sales tax performed strongly, but income tax and customs receipts still require attention.
