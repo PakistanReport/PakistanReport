@@ -16,23 +16,40 @@ facebook_text: "Pakistan’s cotton arrivals reached 2,388,682 bales by Septembe
 date: 2026-09-21 01:56:00 +0500
 ---
 
-Pakistan’s cotton arrivals reached 2,388,682 bales by September 15, an increase of 19.17% from 2,004,384 bales at the same point last year, according to the Pakistan Cotton Ginners Association.
+Pakistan's cotton arrivals reached 2,388,682 bales by September 15, up 19.17% from 2,004,384 bales at the same stage last year, according to the Pakistan Cotton Ginners Association.
 
-Punjab recorded 860,942 bales, representing a 24.73% year-on-year increase. Sindh reported 1,527,740 bales, up 16.25%.
+The figures indicate a stronger start to the season, although arrivals at ginning factories are not the same as a final estimate of national cotton production.
 
-The stronger early-season arrivals have provided a more encouraging start for the cotton sector after difficult recent seasons. Dawn reported that Cotton Ginners Forum Chairman Ihsanul Haq said the figures represented a significant improvement and that national production could exceed six million bales if conditions remain favourable.
+### Punjab and Sindh both improve
 
-The improvement is not uniform across the country. Sanghar alone recorded 888,607 bales by September 15 — more than the total received by ginning factories across Punjab at that point.
+Punjab recorded 860,942 bales, an increase of 24.73% from a year earlier.
 
-### Risks remain
+Sindh reported 1,527,740 bales, up 16.25%, and accounted for the larger share of the national total.
 
-Industry specialists have cautioned that the early increase does not guarantee the final size or quality of the crop. Pest pressure, including pink bollworm, as well as rainfall, timely picking and lint quality could influence output over the remainder of the season.
+Sanghar district alone contributed 888,607 bales by September 15, more than the total received by ginning factories across Punjab.
 
-Business Recorder reported that 412 ginning factories were operating nationwide and unsold stocks stood at 260,789 bales.
+The distribution of arrivals shows how strongly individual growing regions can influence the national picture.
 
-Cotton remains an important input for Pakistan’s textile industry, so the final crop outcome can affect farmers, ginners, textile manufacturers and the country’s export supply chain.
+### What the industry expects
 
-### Sources
+Dawn reported that Cotton Ginners Forum Chairman Ihsanul Haq viewed the increase as encouraging and said national production could exceed six million bales if conditions remained favourable.
 
-- [Dawn, “Cotton arrivals rise 19pc to 2.4m bales by September mid,” September 20, 2026](https://pass.dawn.com/news/2031259/cotton-arrivals-rise-19pc-to-24m-bales-by-september-mid).
-- [Business Recorder, “PCGA says cotton arrivals surge 19.17pc YoY,” September 19, 2026](https://www.brecorder.com/news/40440187/pcga-says-cotton-arrivals-surge-1917pc-yoy).
+That is a conditional industry expectation, not a confirmed harvest total.
+
+The final outcome will depend on weather, pest control, crop quality and the pace at which farmers harvest and deliver cotton.
+
+Pink bollworm and untimely rainfall remain potential risks.
+
+Business Recorder reported that 412 ginning factories were operating nationwide, with unsold stocks of 260,789 bales.
+
+### Why cotton matters
+
+Cotton is a key input for Pakistan's textile industry, which supports manufacturing jobs and export earnings.
+
+A stronger domestic crop can improve supplies for spinning mills and other manufacturers, although quality and prices also influence purchasing decisions.
+
+The next arrival reports will help show whether the early improvement continues as the season progresses.
+
+For now, the data point to a better start than last year, without guaranteeing the final crop size.
+
+**Sources:** [Dawn](https://pass.dawn.com/news/2031259/cotton-arrivals-rise-19pc-to-24m-bales-by-september-mid); [Business Recorder](https://www.brecorder.com/news/40440187/pcga-says-cotton-arrivals-surge-1917pc-yoy).
