@@ -14,24 +14,24 @@ image_alt: "AI-generated Pakistan Report editorial illustration representing
 date: 2026-10-02 15:30:00 +0500
 ---
 
-Pakistan could reach a B+ sovereign credit rating by the end of the current fiscal year or the first quarter of FY28 if macroeconomic stability and structural reforms continue, Finance Minister Muhammad Aurangzeb said on Thursday.
+Pakistan could achieve a B+ sovereign credit rating by September 2027 if economic stability and structural reforms continue, Finance Minister Muhammad Aurangzeb has said.
 
-Speaking to the media at the Overseas Investors Chamber of Commerce and Industry in Karachi, Aurangzeb said he was optimistic that continued stability and reform progress could allow Pakistan to reach B+ by the end of FY27 or during the July-September quarter of FY28.
+Speaking at the Overseas Investors Chamber of Commerce and Industry in Karachi, Aurangzeb expressed confidence that Pakistan could receive a further rating improvement by the end of the 2026–27 financial year or during the following quarter.
 
-His comments describe a possible future improvement in Pakistan’s sovereign rating. They do not represent a rating action by any credit rating agency.
+His comments were an expectation, not an announcement of a new rating by an independent agency.
 
-S&P Global Ratings upgraded Pakistan’s long-term sovereign credit rating to B from B- on July 22, 2026 and assigned a stable outlook. S&P said at the time that stronger institutional capacity, implementation of reforms, higher foreign exchange reserves and fiscal consolidation had improved the country’s credit profile.
+In July 2026, S&P Global Ratings upgraded Pakistan's long-term sovereign rating from B- to B, with a stable outlook. Moody's subsequently raised its rating from Caa1 to B3 in August, also assigning a stable outlook.
 
-Moody’s subsequently raised Pakistan’s sovereign rating to B3 from Caa1 in August 2026, also with a stable outlook, according to current reporting.
+Credit ratings help investors assess a country's ability to repay its debts. An improved rating can strengthen investor confidence and may reduce the cost of borrowing, although market conditions also affect interest rates.
 
-Aurangzeb linked the possibility of further rating improvement to continued macroeconomic stability and structural reforms. He also said the government’s longer-term objective was to move into the BB rating category.
+Aurangzeb linked the prospect of another upgrade to stronger public finances, improved foreign exchange reserves and continued economic reforms.
 
-Credit ratings are assessments by independent rating agencies of a borrower’s creditworthiness and ability to meet its financial obligations. Higher sovereign ratings can affect how investors assess risk and can influence a government’s access to international capital markets and borrowing costs.
+The finance minister also said Pakistan's longer-term ambition was to enter the BB rating category.
 
-S&P’s July rating action showed that further improvement would depend on stronger fiscal and external indicators. The agency said an upgrade could become possible if fiscal deficits narrow on a sustained basis, government revenue continues to rise, financing costs moderate and external indicators strengthen further.
+He discussed the country's $7 billion International Monetary Fund programme and said it was too early to determine whether Pakistan would need another IMF arrangement after the current one.
 
-Aurangzeb also discussed Pakistan’s external financing position and the country’s relationship with the International Monetary Fund. He said it was premature to determine whether the current $7 billion Extended Fund Facility would be Pakistan’s final IMF programme, while stressing the need to gradually reduce dependence on external financing.
+The government expects the current account deficit to remain within its original target of zero to 1% of gross domestic product during FY27, according to the minister.
 
-The finance minister said continued economic stability and stronger sovereign ratings could help improve investor confidence. He also said Pakistan’s current account deficit was expected to remain within the government’s original target of zero to 1% of GDP in FY27.
+A future rating upgrade would depend on the agencies' own assessments of Pakistan's finances, external payments position and economic outlook.
 
-Any move to B+ would require a future decision by a sovereign rating agency after assessing Pakistan’s economic, fiscal, external and institutional conditions. Aurangzeb’s September 2027 timeframe is therefore a conditional expectation rather than an announced upgrade.
+The finance minister's comments indicate the government's confidence in further progress. Whether Pakistan reaches B+ by September 2027 will ultimately be decided by credit rating agencies, not the government.
