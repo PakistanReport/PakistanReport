@@ -36,3 +36,7 @@ Foreign economic assistance helps Pakistan meet financing needs and fund develop
 The first two months of the fiscal year show stronger overall inflows, supported by renewed commercial borrowing. Future financing will depend on lender commitments, project progress and continued access to international markets.
 
 **Source:** [Economic Affairs Division, August 2026 foreign assistance report](https://www.ead.gov.pk/Detail/Yzc2YTQ1ZjUtNzUwMy00YzAxLTk3ZmMtMDU3ZDBiOGI2ZWFj).
+
+Commercial borrowing can provide financing, but repayment terms and costs must be considered alongside the amount received. Development loans may also be linked to specific projects and released as work progresses. The mix of funding therefore matters when assessing how much support is available for long-term economic needs.
+
+The next monthly reports will indicate whether assistance from traditional lenders improves and whether investment in savings certificates remains strong.
