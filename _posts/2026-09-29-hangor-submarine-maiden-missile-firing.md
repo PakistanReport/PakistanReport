@@ -14,36 +14,16 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-**ISLAMABAD —** Pakistan Navy’s newly inducted PNS/M Hangor has conducted its maiden live-weapon firing in the North Arabian Sea, launching an anti-ship cruise missile against a designated long-range target, according to the military’s media wing.
+**ISLAMABAD —** Pakistan Navy's newly inducted PNS/M Hangor has carried out its first live-weapon firing in the North Arabian Sea, launching an anti-ship cruise missile at a designated long-range target, the military's media wing said.
 
-Chief of the Naval Staff Admiral Naveed Ashraf witnessed the firing, which the Inter-Services Public Relations described as a demonstration of the submarine’s operational capabilities.
+Chief of the Naval Staff Admiral Naveed Ashraf witnessed the exercise. According to Inter-Services Public Relations, the missile accurately engaged its target, demonstrating the submarine's weapons capabilities.
 
-The military said the missile engaged the designated target accurately. Pakistan Report could not independently verify the performance claims from the exercise.
+The firing marks a milestone for Hangor following its induction into Pakistan Navy service. Admiral Ashraf praised the crew and highlighted the importance of modern submarine capabilities for maritime defence and deterrence.
 
-### First live firing after induction
+Hangor is the lead submarine in Pakistan's new Hangor-class programme, which covers eight conventionally powered boats. Construction is divided between China and Pakistan under the acquisition arrangement, with additional submarines expected to join the fleet as work and trials progress.
 
-The event marks the first reported live-weapon firing by the newly inducted submarine following its entry into Pakistan Navy service.
+The first submarine was commissioned in Sanya, China, earlier in 2026. The programme is intended to strengthen Pakistan's underwater fleet and expand its ability to conduct surveillance, protect maritime approaches and operate across important sea routes.
 
-Hangor is the lead boat of Pakistan’s new Hangor-class submarine programme. The class is intended to expand the Navy’s underwater fleet as older platforms are supplemented by a new generation of conventionally powered submarines.
+The North Arabian Sea is a major operating area for Pakistan Navy, close to commercial shipping routes serving the country's ports. Maritime security remains particularly important to Pakistan because of its reliance on seaborne trade and imported energy.
 
-The Navy has placed particular emphasis on subsurface warfare because submarines can provide surveillance, sea-denial and strike options while operating with a lower observable profile than surface vessels.
-
-During the exercise, Admiral Ashraf praised the submarine’s combat power and emphasised what the Navy described as the strategic importance of strengthening subsurface capabilities for maritime deterrence.
-
-Those assessments represent the Navy’s position on the exercise and the role of the platform rather than an independent evaluation of its combat effectiveness.
-
-### Hangor programme expands submarine fleet
-
-Pakistan’s Hangor-class programme covers eight submarines, with construction divided between China and Pakistan under the broader acquisition arrangement.
-
-The first submarine was commissioned earlier in 2026 in Sanya, China. The programme is expected to progressively add new boats to the fleet as construction, trials and induction milestones are completed.
-
-Submarine programmes typically move through a sequence of harbour trials, sea trials, weapons integration and operational work-up before reaching full fleet readiness. A live firing is therefore an important training and integration milestone, but it does not by itself establish the performance of a platform across all operational conditions.
-
-### Focus on North Arabian Sea
-
-The firing took place in the North Arabian Sea, a central operating area for Pakistan Navy and a maritime zone linked to the country’s principal commercial ports and sea lines of communication.
-
-Pakistan’s economy depends heavily on maritime trade and imported energy, making protection of shipping routes and port approaches a core naval responsibility.
-
-The Navy said the Hangor firing reflected its commitment to maintaining a modern and combat-ready force and to protecting Pakistan’s maritime frontiers. The exercise adds a visible weapons milestone to the submarine’s induction process as the wider Hangor-class programme continues.
+The Navy said the exercise reflected its efforts to maintain a modern, combat-ready fleet. The successful firing announced by the military adds a significant weapons milestone to the Hangor programme as the remaining submarines move towards completion and induction.
