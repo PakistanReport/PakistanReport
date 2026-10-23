@@ -15,34 +15,16 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-The federal government plans to establish a major public facilitation centre in Karachi where citizens could access **passport, CNIC, arms-licence, NOC and other Interior Ministry services under one roof**.
+The federal government plans to establish a public facilitation centre in Karachi bringing passport, national identity card and other Interior Ministry services together at one location.
 
-The Interior Ministry announced the project after Interior Minister Mohsin Naqvi visited the ministry’s office on I.I. Chundrigar Road on September 29.
+Interior Minister Mohsin Naqvi announced the initiative during a visit to the ministry's office on I.I. Chundrigar Road on September 29. He directed officials to prepare a master plan for the project within 10 days, according to the Press Information Department.
 
-According to the Press Information Department, counters for departments and organisations operating under the Interior Ministry are to be brought together at the proposed centre. Naqvi directed officials to prepare and submit a master plan within **10 days**.
+The proposed centre would provide counters for passports, computerised national identity cards, arms licences and no-objection certificates, along with services handled by other organisations under the Interior Ministry.
 
-## Services planned under one roof
+The government intends to make these services more accessible by reducing the need for residents to visit separate offices for different documents and approvals. Bringing multiple departments together could simplify routine administrative work for people using federal services in Karachi.
 
-The government says the centre is intended to reduce the need for citizens to visit separate offices for different Interior Ministry services.
+The historic Karachi Cotton Exchange building on I.I. Chundrigar Road has been identified as the proposed location, according to Dawn. The property has been the subject of an ownership dispute involving several organisations, with proceedings reported before the Sindh High Court.
 
-The announced services include passports, computerised national identity cards, arms licences and various no-objection certificates. Other services handled by organisations under the ministry are also expected to be represented, although the government has not yet published a complete list of counters or a launch date.
+The project is currently in the planning stage. Officials have been asked to develop the master plan, after which arrangements for service counters and the facility's operation can be taken forward.
 
-That distinction matters: the centre has been **announced and is being planned**, but it is not yet an operational public-service facility.
-
-## Cotton Exchange building identified as proposed site
-
-The proposed location adds a significant legal and administrative complication to the project.
-
-Dawn reported that officials identified the historic **Karachi Cotton Exchange building on I.I. Chundrigar Road** as the intended site. The property has been involved in an ownership dispute involving the Karachi Metropolitan Corporation, the Evacuee Trust Property Board, the Karachi Cotton Association and other parties.
-
-The ownership matter is pending before the Sindh High Court, according to the report. The Federal Investigation Agency has already moved sections into the building under an arrangement with the ETPB.
-
-The government’s announcement therefore establishes the intention to create the facilitation centre, but it does not by itself resolve the outstanding property dispute.
-
-## What happens next
-
-The immediate next step is preparation of the master plan ordered by the interior minister. The plan is expected to address the requirements for establishing multiple public-service counters at the site.
-
-No opening date was included in the official announcement, and the government has not yet set out detailed operating hours, appointment procedures or the full range of services that would be available when the centre opens.
-
-If implemented as announced, the project would consolidate several high-demand federal services in central Karachi. For now, however, citizens should continue using existing passport, identity-card and other government service channels until authorities announce that the new centre is operational.
+The Interior Ministry has not announced an opening date or detailed service hours. Until the centre begins operations, residents can continue using existing government offices and service channels for passports, identity documents and other applications.
