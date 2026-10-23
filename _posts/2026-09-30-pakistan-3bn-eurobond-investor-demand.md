@@ -22,8 +22,6 @@ The first raised $1.75 billion, with a maturity of five and a half years and an 
 
 Together, the bonds provided $3 billion in financing. The nearly $6 billion order book means investors expressed interest in buying almost twice the amount offered; it does not mean Pakistan received $6 billion.
 
-The London Stock Exchange marked the bonds' listing on September 29.
-
 Eurobonds allow governments to borrow money from international investors. For Pakistan, the issuance provides another source of foreign currency financing alongside loans from international institutions and other lenders.
 
 The strong level of orders indicates substantial investor interest in the transaction. However, borrowing costs are equally important because the government must pay interest and eventually repay the principal.
