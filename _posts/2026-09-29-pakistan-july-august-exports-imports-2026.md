@@ -35,3 +35,7 @@ The latest statistics are provisional and may be revised as the bureau receives 
 For the government, improving export competitiveness remains a priority. Stronger sales abroad can help Pakistan earn more foreign currency and reduce pressure from its import requirements.
 
 The July–August figures cover only the beginning of the fiscal year. They show an early trade imbalance, not necessarily the direction of trade for the entire year.
+
+The figures are reported in rupees, so movements in international prices and the exchange rate can affect trade values even when the quantity of goods shipped changes less sharply.
+
+For exporters, electricity costs, access to raw materials and overseas demand all influence competitiveness. Stronger export performance would help Pakistan earn the foreign currency needed for essential imports and external payments.
