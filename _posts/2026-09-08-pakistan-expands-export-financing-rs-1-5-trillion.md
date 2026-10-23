@@ -10,54 +10,34 @@ image_alt: "Container ship and cargo terminal representing Pakistan's export tra
 image_caption: "Pakistan Report illustration."
 ---
 
-Pakistan has expanded its Export Finance Scheme to **Rs1.5 trillion for FY2026-27**, increasing the pool of financing available to exporters as the government seeks to accelerate export-led economic growth.
+Pakistan has expanded its Export Finance Scheme (EFS) to Rs1.5 trillion for FY2026–27, increasing the financing available to eligible exporters by Rs500 billion.
 
-The Export Finance Scheme, or EFS, previously had an envelope of Rs1 trillion. Under the expanded programme, Rs300 billion has been specifically earmarked for SME exporters, agricultural SMEs and new borrowers.
+The programme previously had a Rs1 trillion financing envelope. Of the new total, Rs300 billion has been earmarked for small and medium-sized exporters, agricultural SMEs and new borrowers.
 
-According to the government, the enhanced limits have been allocated to participating financial institutions and are available to eligible exporters.
+The government says the enhanced limits have been allocated to participating financial institutions.
 
-## What has changed?
+### Two different financing needs
 
-The expansion increases the EFS financing envelope by Rs500 billion, from Rs1 trillion to Rs1.5 trillion.
+The EFS primarily supports working capital, which exporters need to purchase materials, pay suppliers and produce goods before receiving payment from overseas customers.
 
-The scheme is intended primarily to improve exporters' access to working capital.
+Alongside the expansion, the government has introduced a separate Rs350 billion Long-Term Export Growth Financing Facility.
 
-The government says the Rs300 billion allocation for SMEs, agri-SMEs and new borrowers is designed to widen access for businesses that have traditionally had more limited access to export financing.
+That facility is intended to support investment in machinery, new production capacity and upgrades to existing factories. It may also help exporters meet environmental and sustainability standards required in overseas markets.
 
-Pakistan's Export-Import Bank, or Pak EXIM, administers the export financing schemes in coordination with the State Bank of Pakistan.
+Pakistan's Export-Import Bank administers export financing arrangements in coordination with the State Bank of Pakistan.
 
-## New Rs350 billion long-term facility
+### Why the expansion matters
 
-Alongside the expanded EFS, the government has introduced a **Rs350 billion Long-Term Export Growth Financing Facility**, or LTEGFF.
+Smaller exporters often struggle to secure financing on suitable terms, particularly when they need to fulfil orders before receiving payment.
 
-Unlike short-term working-capital financing, the new facility is intended to support longer-term investment by exporters.
+Setting aside Rs300 billion for SMEs and new borrowers could widen participation beyond established export businesses.
 
-Eligible investments can include new plant and machinery, locally manufactured or imported equipment, and the modernization or replacement of existing production facilities.
+The long-term facility addresses a different constraint: outdated equipment and limited production capacity. Investment in modern machinery may help firms improve efficiency and produce higher-value goods.
 
-The facility can also support investments connected with environmental and sustainability standards, which are becoming increasingly important for companies selling into international markets.
+However, the larger financing envelope is not the same as money already disbursed. The outcome will depend on loan eligibility, borrowing costs, banks' implementation and actual demand from exporters.
 
-## Why it matters
+The measures form part of the government's broader effort to increase export earnings and reduce reliance on external borrowing.
 
-Access to affordable financing can be a significant constraint for Pakistani exporters, particularly smaller businesses that may struggle to obtain financing on commercially viable terms.
-
-The larger EFS envelope could therefore help existing exporters finance production while creating more room for SMEs and new exporters to participate.
-
-The long-term facility addresses a different problem: investment in productive capacity.
-
-If businesses use the financing to modernize equipment, expand production and improve compliance with international standards, the programme could potentially strengthen their ability to compete abroad.
-
-However, the size of a financing programme alone does not guarantee higher exports. Its impact will ultimately depend on how widely businesses can access the facilities, the cost and terms of financing, implementation by participating institutions and whether firms can translate additional financing into competitive exports.
-
-## Part of a wider export push
-
-The financing expansion comes as the government places greater emphasis on export-led growth.
-
-The government has also introduced a performance-based rebate on incremental exports, while officials have been pushing for greater participation by SMEs and more investment in value-added production.
-
-Prime Minister Shehbaz Sharif reiterated the government's export-led growth objective during a meeting with business and industrial representatives in Islamabad on Tuesday.
-
-For Pakistan, stronger exports could help generate additional foreign exchange and support economic growth. Whether the latest financing measures produce a meaningful increase in exports will become clearer as businesses begin using the expanded facilities.
-
----
+For Pakistan, the test will be whether easier access to financing translates into more competitive products, additional overseas orders and sustained foreign exchange earnings.
 
 **Sources:** Press Information Department, Government of Pakistan; Export-Import Bank of Pakistan.
