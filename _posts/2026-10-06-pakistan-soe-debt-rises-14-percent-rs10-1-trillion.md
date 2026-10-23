@@ -12,24 +12,24 @@ image_alt: "AI-generated Pakistan Report editorial illustration for Pakistan SOE
 date: 2026-10-06 11:00:00 +0500
 ---
 
-Pakistan's state-owned enterprises carried Rs10.1 trillion in debt at the end of December 2025, an increase of about 14% from a year earlier, highlighting the continuing financial burden created by the federal SOE portfolio.
+Pakistan's state-owned companies had accumulated Rs10.1 trillion in debt by the end of December 2025, an increase of about 14% compared with a year earlier.
 
-The figure is contained in the Finance Division's Federal State-Owned Enterprises Bi-Annual Report for the first half of FY2025-26, covering July through December 2025. The Finance Ministry has published the report through its Central Monitoring Unit.
+The figures were published in the Finance Division's report on federal state-owned enterprises for July to December 2025.
 
-Total SOE debt excluding guarantees increased by around Rs1.3 trillion from a year earlier. The Rs10.1tn total included approximately Rs2.58tn in foreign re-lent loans, Rs3.10tn in bank borrowing and Rs2.10tn in cash development loans. Accrued interest stood at Rs2.18tn.
+State-owned enterprises are businesses controlled by the government. They operate in important sectors, including electricity and other public services.
 
-The report also shows the scale of accumulated financial stress. Cumulative SOE losses reached Rs7.22tn by the end of December, compared with Rs5.89tn a year earlier.
+The report shows that their combined debt increased by around Rs1.3 trillion over the year. The total includes bank borrowing, government-related loans and interest owed on existing debts.
 
-During the six-month reporting period itself, loss-making SOEs recorded aggregate losses of Rs342.8bn, broadly unchanged from Rs342.9bn in the corresponding period a year earlier. Profitable SOEs generated Rs423.3bn. After adjusting the two sides, net aggregate profit fell to Rs80.5bn from Rs114.3bn, a contraction of about 30%.
+Accumulated losses across these companies reached Rs7.22 trillion, compared with Rs5.89 trillion a year earlier.
 
-The government provided Rs804bn in fiscal support to SOEs during the half year through subsidies, grants, loans and equity injections. The Finance Division has separately cautioned that these fiscal flows should not be treated as identical to SOE operating performance, noting that government support and receipts from SOEs are separate from measures such as profitability.
+However, several state-owned businesses remained profitable. Profitable enterprises earned a combined Rs423.3 billion during the six-month period, while loss-making companies recorded losses of Rs342.8 billion.
 
-Power remains one of the most consequential areas of financial pressure.
+Together, the companies reported a net profit of Rs80.5 billion for the period, down from Rs114.3 billion a year earlier.
 
-The report says power-sector circular debt increased by Rs374bn on a gross-flow basis during the first half of FY26, despite restructuring measures. Distribution-sector inefficiencies, weak recoveries and tariff-related problems continue to expose the government's balance sheet to substantial risk.
+The government provided Rs804 billion in financial support through measures including subsidies, loans and grants.
 
-Across the SOE portfolio, total equity declined 3% to Rs6.41tn and total assets fell 2% to Rs37.11tn, while liabilities remained about Rs30.7tn.
+Electricity-sector finances remained a major challenge. The report recorded a Rs374 billion increase in power-sector circular debt during the six months. Circular debt refers to unpaid amounts that build up between electricity companies and other participants in the power system.
 
-The figures matter beyond the companies themselves because SOE borrowing, losses and government support can ultimately affect federal finances and reduce the fiscal space available for other expenditure.
+The figures underline the importance of improving the financial performance of government-owned companies.
 
-The latest report therefore shows a mixed picture: profitable SOEs continue to generate substantial earnings, but high debt, accumulated losses and continuing power-sector pressures remain major risks.
+Stronger management, better bill collection and reforms in the power sector could help reduce pressure on public finances and improve essential services.
