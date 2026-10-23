@@ -16,22 +16,40 @@ image_caption: "Pakistan Report illustration representing fiscal reform; not a
 published: true
 ---
 
-The World Bank has assessed implementation progress on Pakistan's public-resource reform programme as **moderately satisfactory**, while retaining a **substantial** overall risk rating, according to its published project documents and reporting on 15 October 2026.
+**ISLAMABAD —** The World Bank says Pakistan is making progress on reforms intended to improve tax collection and public spending, although important challenges remain.
 
-The Pakistan Public Resources for Inclusive Development – Multiphase Programmatic Approach (PRID-MPA) is intended to strengthen the fiscal system, support macroeconomic stability and improve the quality of public services. The programme includes reforms to domestic revenue mobilisation and public spending.
+In its latest assessment, the lender rated implementation of the Pakistan Public Resources for Inclusive Development programme as **moderately satisfactory**. It also described the overall risks to the programme as **substantial**.
 
-The World Bank approved **$700 million** in initial financing in December 2025, including **$600 million for federal programmes and $100 million for Sindh**, within a broader multi-phase framework that could provide up to $1.35 billion. Approval of financing does not mean the entire amount has been disbursed.
+The ratings mean the reform effort is moving forward, but problems involving administration, government institutions and economic conditions could affect its delivery.
 
-## Progress and obstacles
+The programme is designed to help Pakistan collect revenue more effectively, improve the use of public money and strengthen services provided to citizens.
 
-The Bank's publicly available implementation status report for the federal programme assigned a moderately satisfactory rating to both progress towards its development objective and overall implementation, with an overall risk rating of substantial.
+In December 2025, the World Bank approved an initial $700 million financing package, including $600 million for federal reforms and $100 million for Sindh. The broader programme has a potential financing framework of up to $1.35 billion.
 
-The review underscores that administrative and institutional reforms can be difficult to deliver even when financing has been approved. The broader programme seeks stronger tax collection, more effective use of public funds and improved services, but its outcomes depend on government implementation and measurable results.
+Approval does not mean all the money has been paid out. Financing is released according to the relevant arrangements and implementation requirements.
 
-Dawn's 15 October report said the Bank had identified concerns around implementation timetables and institutional appointments, including the position of chief statistician at the Pakistan Bureau of Statistics.
+### Improving tax collection
 
-## Why the assessment matters
+One important objective is to increase the share of Pakistan's economy represented by tax revenue.
 
-A moderately satisfactory rating is **not a declaration that Pakistan has achieved its tax-revenue targets**. Nor is a substantial risk rating a finding that the programme has failed. Together, the ratings suggest implementation is advancing while material risks remain.
+The programme aims to raise the tax-to-GDP ratio from 12.3% in June 2025 to 15% by June 2030.
 
-The World Bank's [programme announcement](https://www.worldbank.org/en/news/press-release/2025/12/19/pakistan-world-bank-supports-efforts-to-strengthen-fiscal-systems-and-enhance-service-delivery) explains the financing and objectives. Its [federal implementation report](https://documents1.worldbank.org/curated/en/099041326204015750/pdf/P509827-1c4bcae0-ef99-4a2d-b207-4f5818c93c61.pdf) records the ratings. The latest reporting and institutional concerns were covered by [Dawn on 15 October](https://www.dawn.com/news/2037220/world-bank-sees-moderate-progress-in-tax-reforms).
+In everyday terms, this means increasing government tax collections relative to the size of the national economy, rather than simply collecting more because prices have risen.
+
+Higher and more reliable revenue can give the government greater capacity to fund public services and development projects.
+
+### Administrative challenges
+
+The World Bank identified delays involving the Pakistan Bureau of Statistics, including the formation of its governing council and the appointment of a chief statistician.
+
+The lender also highlighted risks involving governance, institutional capacity and the wider economic environment.
+
+At the same time, its assessment noted progress on several reform measures, showing that implementation has continued despite those difficulties.
+
+The government and World Bank are working to address delays and improve implementation arrangements.
+
+For Pakistan, the next test will be whether improvements in tax administration translate into stronger revenue collection and better public spending.
+
+The World Bank's findings indicate that the reform programme has made headway, but meeting its longer-term targets will require sustained implementation and coordination between government institutions.
+
+**Sources:** [World Bank programme announcement](https://www.worldbank.org/en/news/press-release/2025/12/19/pakistan-world-bank-supports-efforts-to-strengthen-fiscal-systems-and-enhance-service-delivery); [World Bank implementation report](https://documents1.worldbank.org/curated/en/099041326204015750/pdf/P509827-1c4bcae0-ef99-4a2d-b207-4f5818c93c61.pdf); [Dawn, October 15](https://www.dawn.com/news/2037220/world-bank-sees-moderate-progress-in-tax-reforms).
