@@ -13,22 +13,28 @@ image_alt: "Pakistan Report illustration representing Pakistan's state-owned
 date: 2026-09-15 16:40:00 +0500
 ---
 
-Pakistan's loss-making federal state-owned enterprises recorded aggregate losses of Rs342.8 billion in the first half of fiscal year 2025-26, according to a government review that also highlighted continuing fiscal, governance and operational risks across the SOE portfolio.
+Pakistan's loss-making federal state-owned enterprises recorded Rs342.8 billion in combined losses during July–December 2025, according to a government review of public-sector companies.
 
-The figures cover July through December 2025 and were presented to the Cabinet Committee on State-Owned Enterprises by the Finance Division's Central Monitoring Unit. Profitable federal SOEs generated aggregate profits of Rs423.3 billion during the same six-month period.
+The Finance Division's Central Monitoring Unit presented the figures to the Cabinet Committee on State-Owned Enterprises, chaired by Finance Minister Muhammad Aurangzeb.
 
-The headline profit and loss figures do not by themselves describe the government's overall fiscal relationship with the sector. According to the official review, government support to SOEs amounted to Rs804 billion during the period, while SOE contributions to the government totaled Rs839 billion. The government described the difference as a positive net fiscal flow of Rs35 billion in its favour.
+Profitable federal enterprises earned Rs423.3 billion during the same period.
 
-That distinction matters because the Rs342.8 billion figure refers specifically to the combined losses of loss-making enterprises, rather than a net loss for the entire federal SOE portfolio.
+The two figures represent different groups of companies. The Rs342.8 billion is not a net loss for the entire state-owned enterprise sector.
 
-The Cabinet Committee, chaired by Finance Minister Muhammad Aurangzeb, reviewed financial and operational performance, implementation of business plans, fiscal flows, governance, financial reporting and progress against key performance targets.
+The government reported providing Rs804 billion in support to SOEs while receiving Rs839 billion in contributions from them. Under the review's fiscal-flow measure, that left a positive difference of Rs35 billion in the government's favour.
 
-The review identified circular debt and other fiscal risks among the areas requiring continued attention. It also pointed to operational weaknesses in parts of the power and infrastructure sectors, corporate-governance gaps and the need for stronger boards and accountability.
+The positive fiscal-flow figure does not remove the financial problems at companies that continue to make losses.
 
-For Pakistan's public finances, the numbers underline the mixed position of the state-enterprise sector. Some entities remain profitable and make substantial payments to the government, while persistent losses elsewhere continue to require corrective action and can create demands on public resources.
+State-owned enterprises operate in important sectors, including energy, transport and infrastructure. Poor financial performance can increase demands on public funds and create additional debt-related risks.
 
-The government has made reducing dependence on public support, improving commercial performance and strengthening financial discipline central elements of its SOE reform agenda. The committee said underperforming entities require continued corrective measures and structural reforms.
+The committee reviewed business plans, governance, financial reporting and progress towards performance targets.
 
-The next question is whether the monitoring and reform process produces sustained improvements at the enterprises responsible for recurring losses. Aggregate figures can improve because of strong results at profitable companies even while weaker entities continue to generate fiscal risk.
+Among the continuing concerns were circular debt, operational weaknesses and gaps in corporate oversight.
 
-The six-month review therefore provides both sides of the SOE picture: Rs423.3 billion in profits from profitable enterprises and Rs342.8 billion in losses from loss-making ones, alongside hundreds of billions of rupees moving between the government and the state-owned sector.
+Circular debt refers to unpaid bills and obligations building up across the energy supply chain. It can affect the finances of several companies at once.
+
+The government has been pursuing reforms to improve management and reduce reliance on financial support.
+
+The latest figures show a mixed picture: profitable companies are generating substantial earnings, while weaker enterprises remain a burden.
+
+The central question is whether reforms can reduce recurring losses without disrupting essential public services.
