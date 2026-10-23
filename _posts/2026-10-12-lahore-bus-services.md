@@ -5,7 +5,7 @@ category: Pakistan
 author: Pakistan Report Editorial Desk
 description: Intercity bus services from Lahore were suspended on Sunday after
   reports that city authorities sealed general bus terminals, leaving passengers
-  facin
+  facing cancellations and disruption.
 published: true
 image: /assets/images/lahore-bus-services.webp
 image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
