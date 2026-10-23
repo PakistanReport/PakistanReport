@@ -16,40 +16,28 @@ image_caption: "Pakistan Report illustration representing fiscal reform; not a
 published: true
 ---
 
-**ISLAMABAD —** The World Bank says Pakistan is making progress on reforms intended to improve tax collection and public spending, although important challenges remain.
+**ISLAMABAD —** The World Bank says Pakistan is making progress on reforms to improve tax collection and public spending, although significant challenges remain.
 
-In its latest assessment, the lender rated implementation of the Pakistan Public Resources for Inclusive Development programme as **moderately satisfactory**. It also described the overall risks to the programme as **substantial**.
+The lender rated implementation of the Pakistan Public Resources for Inclusive Development programme as **moderately satisfactory** while retaining a **substantial** overall risk rating.
 
-The ratings mean the reform effort is moving forward, but problems involving administration, government institutions and economic conditions could affect its delivery.
+The programme aims to strengthen government revenue, improve management of public funds and support better services for citizens.
 
-The programme is designed to help Pakistan collect revenue more effectively, improve the use of public money and strengthen services provided to citizens.
+In December 2025, the World Bank approved an initial $700 million financing package, including $600 million for federal reforms and $100 million for Sindh. The wider programme could provide up to $1.35 billion over multiple phases.
 
-In December 2025, the World Bank approved an initial $700 million financing package, including $600 million for federal reforms and $100 million for Sindh. The broader programme has a potential financing framework of up to $1.35 billion.
+Approval does not mean the full amount has already been paid to Pakistan.
 
-Approval does not mean all the money has been paid out. Financing is released according to the relevant arrangements and implementation requirements.
+### Progress on reforms
 
-### Improving tax collection
+The World Bank's assessment indicates that implementation is advancing, but government departments still face administrative and institutional difficulties.
 
-One important objective is to increase the share of Pakistan's economy represented by tax revenue.
+The programme focuses partly on increasing tax revenue relative to the size of Pakistan's economy. More effective tax collection could give the government greater capacity to finance essential services without relying as heavily on borrowing.
 
-The programme aims to raise the tax-to-GDP ratio from 12.3% in June 2025 to 15% by June 2030.
+According to reporting on the assessment, delays involving the Pakistan Bureau of Statistics include the appointment of a chief statistician and arrangements for its governing council.
 
-In everyday terms, this means increasing government tax collections relative to the size of the national economy, rather than simply collecting more because prices have risen.
+Such institutional issues matter because reliable statistics and effective public administration support economic planning and reform.
 
-Higher and more reliable revenue can give the government greater capacity to fund public services and development projects.
+A moderately satisfactory rating is not confirmation that Pakistan has already met its revenue targets. Equally, a substantial risk rating does not mean the programme has failed.
 
-### Administrative challenges
-
-The World Bank identified delays involving the Pakistan Bureau of Statistics, including the formation of its governing council and the appointment of a chief statistician.
-
-The lender also highlighted risks involving governance, institutional capacity and the wider economic environment.
-
-At the same time, its assessment noted progress on several reform measures, showing that implementation has continued despite those difficulties.
-
-The government and World Bank are working to address delays and improve implementation arrangements.
-
-For Pakistan, the next test will be whether improvements in tax administration translate into stronger revenue collection and better public spending.
-
-The World Bank's findings indicate that the reform programme has made headway, but meeting its longer-term targets will require sustained implementation and coordination between government institutions.
+The findings point to progress alongside difficulties that still need attention. The next measure of success will be whether reforms produce stronger revenue collection, more effective public spending and improvements that citizens can see.
 
 **Sources:** [World Bank programme announcement](https://www.worldbank.org/en/news/press-release/2025/12/19/pakistan-world-bank-supports-efforts-to-strengthen-fiscal-systems-and-enhance-service-delivery); [World Bank implementation report](https://documents1.worldbank.org/curated/en/099041326204015750/pdf/P509827-1c4bcae0-ef99-4a2d-b207-4f5818c93c61.pdf); [Dawn, October 15](https://www.dawn.com/news/2037220/world-bank-sees-moderate-progress-in-tax-reforms).
