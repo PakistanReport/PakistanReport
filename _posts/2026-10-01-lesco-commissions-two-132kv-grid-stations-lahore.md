@@ -15,28 +15,16 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-LAHORE: Lahore Electric Supply Company has commissioned two new 132kV grid stations at Ittihad Town and Audit and Accounts, expanding transmission capacity in Lahore and shifting load away from existing facilities.
+**LAHORE —** Lahore Electric Supply Company (LESCO) has commissioned two new 132kV grid stations at Ittihad Town and Audit and Accounts, expanding the city's electricity distribution infrastructure.
 
-LESCO said the projects are intended to strengthen its transmission network, reduce pressure on nearby grid stations and improve electricity supply for consumers served by the affected feeders.
+The company said the new facilities will strengthen its network, reduce pressure on existing grid stations and improve electricity supply to consumers in areas served by the connected feeders.
 
-The 132kV Ittihad Town Grid Station was constructed at a cost of Rs588 million, according to information released by the company and reported on Thursday.
+The Ittihad Town grid station was built at a cost of Rs588 million. Four 11kV feeders — Ittihad Town F-1, F-2, F-3 and Azimabad — are already being supplied through the station, with another 11 feeders scheduled to be transferred to the facility.
 
-Four 11kV feeders — Ittihad Town F-1, F-2, F-3 and Azimabad — are currently being supplied through the new Ittihad Town station. LESCO said another 11 feeders are expected to be shifted to the facility later, increasing the amount of local distribution load served through the new grid point.
+LESCO Board Chairman Amir Zia inaugurated the two stations alongside Chief Executive Officer Muhammad Ramzan Butt and other senior officials.
 
-LESCO Board of Directors Chairman Amir Zia formally inaugurated the two stations in the presence of Chief Executive Officer Muhammad Ramzan Butt and other senior officials.
+Grid stations connect higher-voltage electricity infrastructure to the distribution network supplying homes, businesses and industrial consumers. Additional grid capacity allows electricity demand to be shared more effectively between facilities and supports expanding residential and commercial areas.
 
-Grid stations form a critical link between the high-voltage transmission system and the lower-voltage distribution network that supplies homes, businesses and industrial consumers. Adding new grid capacity can improve the way load is distributed across a city and reduce the burden on facilities that have experienced growth in demand.
+The projects are part of efforts to reinforce Lahore's electricity network as demand patterns change across the city. Shifting feeders to newly commissioned stations can ease pressure on existing equipment and provide greater flexibility in managing local supply.
 
-For Lahore, where urban expansion and new commercial and residential developments continually change electricity demand patterns, network reinforcement is necessary even when overall power-sector demand is weak or uneven nationally.
-
-The commissioning is separate from electricity generation. The new stations do not create new power supply themselves; instead, they provide infrastructure to receive, transform and distribute electricity through LESCO’s network.
-
-That distinction matters for consumers because local outages and voltage problems can result from constraints at different points in the system. Generation shortages, transmission bottlenecks, overloaded distribution equipment and feeder-level faults have different causes and require different remedies.
-
-By transferring feeders to newly commissioned grid stations, LESCO can redistribute demand and create additional operational flexibility. The practical impact for individual areas will depend on which feeders are shifted, the condition of downstream distribution equipment and actual load patterns.
-
-Pakistan’s electricity distribution companies are under pressure to improve service while reducing technical and commercial losses. Investments in grid stations, feeders, transformers and related equipment are part of the infrastructure needed to support those goals.
-
-The Ittihad Town project’s disclosed Rs588 million cost provides a concrete measure of the investment involved. LESCO’s announcement did not mean every consumer in Lahore would experience an immediate change, since the benefits are concentrated in the parts of the network connected to the new facilities.
-
-The two 132kV stations nevertheless add capacity at an important level of Lahore’s distribution system. The planned transfer of additional feeders to Ittihad Town will determine how extensively the new infrastructure is used as LESCO integrates it into normal operations.
+The two stations represent an investment in the infrastructure needed to deliver electricity to consumers. LESCO plans to bring more feeders onto the Ittihad Town station as the new facilities are integrated into regular operations.
