@@ -23,8 +23,5 @@ Section 144 allows district authorities to impose temporary restrictions to prev
 
 The administration has cited intelligence assessments as the basis for its action. Those assessments are official claims and do not establish that a specific attack has occurred.
 
----
 
-**Editorial verification sources:** Dawn, October 10, 2026 — https://www.dawn.com/news/2036197
-
-**Editorial caution:** Confirm any later modification, court challenge or expiry date before publishing.
+The restrictions were reported by [Dawn on October 10](https://www.dawn.com/news/2036197).
