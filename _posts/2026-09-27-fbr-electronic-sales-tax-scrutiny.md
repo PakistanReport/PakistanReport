@@ -25,8 +25,6 @@ For example, a business may be asked to clarify differences between sales figure
 
 An electronic notification does not automatically mean a taxpayer has committed an offence or owes additional tax. It indicates that the system has identified an issue requiring attention.
 
-The new procedure could make tax administration more efficient by reducing the need for manual examination of every return and allowing possible problems to be raised earlier.
-
 It also places greater importance on accurate recordkeeping. Businesses will need to ensure that their invoices and sales tax declarations are consistent with the information available to FBR.
 
 Taxpayers receiving a notification should review the details and respond through the prescribed IRIS process.
