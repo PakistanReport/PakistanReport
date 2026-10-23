@@ -13,28 +13,14 @@ image_alt: "Pakistan Report illustration representing the Sindh Assembly and
 date: 2026-09-13 20:30:00 +0500
 ---
 
-The Sindh Assembly has unanimously approved another one-year extension of Pakistan Rangers' deployment in the province, keeping the paramilitary force in place through July 19, 2027.
+The Sindh Assembly has unanimously approved a one-year extension of Pakistan Rangers' deployment in the province, authorising the paramilitary force to assist the civil administration until July 19, 2027.
 
-The resolution extends the deployment from July 20, 2026 to July 19, 2027 under Article 147 of the Constitution, with Rangers continuing to assist the provincial civil administration.
+The resolution covers July 20, 2026, to July 19, 2027, and cites Article 147 of the Constitution. Lawmakers supported the extension in view of continuing security threats and the province's law-and-order situation.
 
-The assembly cited the prevailing law-and-order situation and continuing security threats in support of the extension.
+The assembly's resolution credited Rangers operations with helping reduce targeted killings and street crime, while noting that proscribed organisations and wanted suspects continued to pose risks.
 
-## What changed
+Rangers have maintained a substantial security presence in Sindh, particularly Karachi, working alongside provincial police. The latest decision continues that arrangement rather than introducing a new force or replacing the civilian administration.
 
-The provincial legislature has formally authorised another year of Rangers deployment rather than allowing the existing period to expire.
+The unanimous vote provides political backing for the continued deployment, although policing and public security remain matters of public accountability. The provincial authorities will have to assess the force's contribution against crime and security indicators during the renewed period.
 
-The resolution said Rangers' operations had contributed to reductions in targeted killings and street crime while maintaining that proscribed organisations and absconding suspects continued to pose threats.
-
-## Why it matters
-
-Rangers have played a long-running security role in Sindh, particularly in Karachi. Extending their deployment preserves the province's existing model in which a federal paramilitary force assists civilian authorities and police.
-
-The unanimous vote also indicates broad legislative support for continuing that arrangement despite recurring political debate over policing, provincial authority and the role of paramilitary forces.
-
-For residents, the practical issue is whether the extended deployment produces sustained improvements in street crime and other security indicators.
-
-## What happens next
-
-Rangers will remain deployed under the renewed authorisation until July 19, 2027 unless the arrangement is changed earlier.
-
-Attention will now turn to how the force is used alongside Sindh Police, the security threats identified by the provincial government and whether authorities can demonstrate measurable improvements in public safety during the extended period.
+The extension runs through July 19, 2027, unless the competent authorities change the arrangement earlier.
