@@ -12,20 +12,26 @@ image_alt: "Pakistan Report illustration of the State Bank of Pakistan and
 date: 2026-09-15 17:00:00 +0500
 ---
 
-The State Bank of Pakistan has kept its policy rate unchanged at 11.5%, maintaining its monetary-policy stance as inflation moved back into double digits and the central bank weighed domestic conditions against elevated external risks.
+The State Bank of Pakistan kept its benchmark policy rate unchanged at 11.5% at its September 14 meeting, as rising inflation and uncertainty over global energy prices prompted a cautious approach.
 
-The Monetary Policy Committee made the decision at its September 14 meeting, with seven of its 10 members voting to hold the rate. The decision confirms the 11.5% level rather than extending expectations based only on the meeting calendar.
+Seven of the Monetary Policy Committee's ten members voted to maintain the rate.
 
-Headline inflation rose to 11.1% year-on-year in August from 9.2% in July, according to the central bank's policy assessment. Core inflation was reported at 8.7%, while inflation expectations among consumers and businesses also increased in September.
+Annual consumer inflation reached 11.1% in August, up from 9.2% in July. The central bank also reported core inflation of 8.7%, indicating price pressures beyond the most volatile food and energy items.
 
-The MPC nevertheless judged that the current policy stance remained appropriate for guiding inflation toward the State Bank's medium-term target range of 5% to 7%. The central bank expects inflation to ease gradually toward the upper end of that range by June 2027, although the path remains exposed to commodity prices and supply disruptions.
+The bank's medium-term inflation target is 5% to 7%. It expects inflation to ease towards the upper end of that range by June 2027, although higher international commodity prices could complicate that outlook.
 
-External buffers have strengthened at the same time. The MPC said SBP-held foreign-exchange reserves had risen to about $21.4 billion, supported by Pakistan's September Eurobond issuance and continued foreign-exchange purchases by the central bank.
+### Why the rate was held
 
-The combination leaves policymakers balancing two competing signals. Higher inflation and renewed global commodity-price pressures argue for caution, while stronger reserves and continued external inflows provide more room than Pakistan had during earlier periods of balance-of-payments stress.
+The policy rate influences borrowing costs across the economy. Keeping it unchanged avoids an immediate additional increase in financing costs for businesses and households, but borrowing remains relatively expensive.
 
-The MPC also noted that economic activity had continued to pick up. At the same time, developments in the Middle East and disruptions to international supply chains have increased uncertainty around energy and other commodity prices, which can feed quickly into Pakistan's inflation outlook.
+The central bank must balance efforts to control inflation with the need to support economic activity.
 
-Holding the rate at 11.5% means borrowing conditions remain restrictive even as the economy recovers. For businesses and households, the decision avoids an immediate additional increase in financing costs, but it also signals that the central bank is not yet prepared to loosen policy while inflation remains elevated.
+Pakistan's foreign exchange position has improved. The committee noted that State Bank reserves had risen to about $21.4 billion, helped by proceeds from the government's Eurobond issuance and the central bank's foreign currency purchases.
 
-The next policy decisions will depend heavily on whether the August inflation increase proves persistent, how global commodity prices evolve and whether the improvement in Pakistan's external position continues. For now, the State Bank has chosen stability in the policy rate while keeping its focus on bringing inflation back toward target.
+Stronger reserves can help Pakistan manage payments for imports and external debt. They do not, however, prevent imported fuel and other commodities from becoming more expensive.
+
+The committee also observed a pickup in economic activity, while warning that Middle East tensions and disruptions to supply chains could push up costs.
+
+Future decisions will depend on consumer prices, international energy markets and Pakistan's broader economic conditions.
+
+For now, the bank has chosen to hold interest rates steady rather than risk adding to inflationary pressure through an early reduction.
