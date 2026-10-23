@@ -23,4 +23,6 @@ Social spending includes Rs1 billion for social protection, Rs4 billion for a so
 
 Development projects across the region's 10 districts have been allocated Rs5.034 billion. The government also plans to direct 1% of development funds to a climate account and has announced a policy encouraging hybrid vehicles.
 
-The allocations reflect competing demands on the region's finances: recurrent salaries and services, infrastructure investment and programmes for vulnerable residents. With a deficit above Rs52 billion, the release and use of development funds will be central to whether the announced projects proceed during the financial year.
+The spending plan combines infrastructure investment with recurrent expenses such as salaries and public services. It also places new emphasis on social protection and climate-related funding, despite the substantial gap between projected spending and available resources.
+
+The deficit presents a challenge for implementing the announced measures. Timely funding releases will be important for development projects, while departments will have to manage the ordered cuts to their routine budgets without disrupting essential services.
