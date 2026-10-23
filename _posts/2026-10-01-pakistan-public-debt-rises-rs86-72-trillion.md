@@ -14,24 +14,20 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-ISLAMABAD: Pakistan’s public debt rose 7.7 per cent to Rs86.72 trillion by the end of June 2026, although the debt burden relative to the size of the economy declined over the year.
+**ISLAMABAD —** Pakistan's public debt reached Rs86.72 trillion at the end of June 2026, an increase of 7.7% over the previous year, according to the Finance Ministry's Annual Debt Review.
 
-Figures from the Finance Ministry’s Annual Debt Review for fiscal year 2025-26 show domestic debt at Rs59.441 trillion, while external public debt stood at $98.075 billion.
+The report also shows an improvement in a key measure of the country's debt burden. Public debt fell to 68.3% of the size of Pakistan's economy, compared with 70.6% a year earlier.
 
-In nominal terms, total public debt increased as the government continued to finance its borrowing requirements through domestic and external sources. The debt-to-GDP ratio, however, moved in the opposite direction, falling to 68.3 per cent at the end of FY26 from 70.6 per cent a year earlier.
+This means the total amount owed increased, but debt became smaller relative to the overall economy.
 
-That distinction is important. A rise in the rupee value of debt does not necessarily mean the debt burden is increasing at the same pace relative to the economy. Nominal GDP, exchange rates, borrowing costs and the composition of debt all affect the ratio.
+Domestic debt accounted for Rs59.44 trillion of the total. This is money the government has borrowed within Pakistan, largely through financial instruments purchased by banks and other investors.
 
-Domestic borrowing remained the largest component of the public debt stock. The Rs59.441 trillion domestic total reflects the government’s continued reliance on local debt instruments to meet financing needs.
+External public debt stood at approximately $98.08 billion. This represents borrowing from overseas lenders and is affected by foreign exchange rates and international financing conditions.
 
-External public debt of $98.075 billion is additionally exposed to exchange-rate movements and international financing conditions. Changes in the rupee’s value can alter the domestic-currency value of foreign debt even when the underlying dollar amount moves less sharply.
+Government borrowing helps finance spending and meet existing obligations. However, interest payments also take up a substantial share of public funds, making the cost of borrowing important for the federal budget.
 
-Pakistan’s debt strategy has increasingly focused on extending maturities, reducing refinancing risks and improving the borrowing mix. Those factors matter because the cost and maturity structure of debt can have major consequences for annual interest payments and the federal budget.
+The Finance Ministry has been working to improve debt management, including by spreading repayments over longer periods and managing financing costs.
 
-Debt servicing remains a central fiscal challenge, with interest expenditure absorbing a large share of federal revenue. Domestic interest rates therefore directly affect the cost of rolling over government debt.
+The latest figures present two developments together: Pakistan's total public debt increased during the financial year, while its share of the economy declined.
 
-The latest figures should also be distinguished from broader measures of national liabilities. Public debt is a defined government-debt measure and is not interchangeable with every liability carried by the public sector or state-owned entities.
-
-The key figures are Rs86.72 trillion in total public debt at end-June 2026, including Rs59.441 trillion in domestic debt and $98.075 billion in external public debt.
-
-The nominal stock increased 7.7 per cent over the fiscal year, while public debt as a share of GDP fell to 68.3 per cent from 70.6 per cent. Taken together, those movements provide a fuller picture than the headline increase alone.
+The government's future borrowing costs, repayments and economic growth will influence how the debt position changes in coming years.
