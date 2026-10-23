@@ -14,26 +14,18 @@ image_alt: "Pakistan Report editorial illustration of Pakistani, Saudi and
 date: 2026-09-26 17:30:00 +0500
 ---
 
-Military leaders from Pakistan, Saudi Arabia and Türkiye have met in Riyadh to discuss deeper intelligence sharing, military coordination and capability integration under the Makkah Joint Defence Agreement.
+Military leaders from Pakistan, Saudi Arabia and Türkiye met in Riyadh to discuss intelligence sharing, military coordination and closer cooperation under the Makkah Joint Defence Agreement.
 
-The meeting brought together the chiefs of defence forces and chiefs of general staff of the three states party to the agreement, according to an official account carried by Radio Pakistan.
+The meeting brought together senior defence officials from the three countries, according to an official account carried by Radio Pakistan. Participants reviewed the regional security situation and threats facing Saudi Arabia, including attacks on its territory and infrastructure.
 
-The participants reviewed the security situation and threats facing Saudi Arabia and discussed ways to strengthen cooperation among their armed forces. The talks covered intelligence sharing, military coordination and the integration of capabilities, with the stated aim of strengthening deterrence and collective defence.
+The discussions focused on coordinating military capabilities, sharing intelligence and strengthening collective defence arrangements. The military leaders reaffirmed their commitment to Saudi Arabia's security, sovereignty and territorial integrity.
 
-## Defence pact moves towards military coordination
+The talks represent a further step in putting the Makkah Joint Defence Agreement into practice. Senior commanders discussed how the countries' armed forces could work more closely together under the framework established by their governments.
 
-The meeting is significant because it moves the Makkah Joint Defence Agreement from high-level political commitments towards discussions among the countries' senior military leadership about practical cooperation.
+Participants condemned attacks targeting the holy city of Makkah and civilian and economic infrastructure. They also praised the response of Saudi armed forces to security threats.
 
-The participants said the Riyadh meeting reflected their determination to translate the agreement's commitments into effective military cooperation. They also reaffirmed their commitment to the security, sovereignty and territorial integrity of Saudi Arabia.
+Prime Minister Shehbaz Sharif, speaking separately at the United Nations General Assembly, described the defence agreement as a commitment to stability and peace. He said the arrangement was not directed against any country.
 
-The talks took place against a backdrop of attacks targeting Saudi territory and infrastructure. The military leaders expressed opposition to attacks on the holy city of Makkah as well as civilian and economic infrastructure, while praising the Saudi armed forces' response.
+The Riyadh meeting centred on coordination rather than the announcement of a troop deployment. The official account outlined discussions on intelligence, operational cooperation and capability integration without naming units or setting a deployment schedule.
 
-Prime Minister Shehbaz Sharif, speaking separately at the United Nations General Assembly, described the Makkah Joint Defence Agreement as a collective commitment to defence, stability and peace and said it was not directed against any country.
-
-## No specific troop deployment announced
-
-The official account of the Riyadh meeting does not announce the deployment of Pakistani or Turkish forces, identify specific military units or set out an operational timetable. The discussions instead focus on coordination, intelligence sharing, capability integration and collective defence.
-
-That distinction is important as the three countries begin translating a political defence framework into military-level cooperation. Further steps will depend on decisions taken under the agreement and on the regional security environment.
-
-For Pakistan, the meeting places its military leadership directly inside the pact's emerging coordination mechanism alongside Saudi Arabia and Türkiye, while leaving the precise form of future operational cooperation to subsequent decisions.
+For Pakistan, the meeting expands defence engagement with Saudi Arabia and Türkiye and establishes a basis for further military-level consultations under the agreement.
