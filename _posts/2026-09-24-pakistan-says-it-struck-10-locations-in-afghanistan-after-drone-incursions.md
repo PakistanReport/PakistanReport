@@ -14,19 +14,14 @@ image_alt: "AI-generated editorial illustration of Pakistan-Afghanistan
 date: 2026-09-24 16:30:00 +0500
 ---
 
-Pakistan says it carried out aerial and drone strikes against 10 locations in Afghanistan after drones were launched from Afghan territory into Pakistan a day earlier, according to Information Minister Attaullah Tarar.
+Pakistan carried out aerial and drone strikes at 10 locations in Afghanistan following drone incursions into its territory, Information Minister Attaullah Tarar said on September 24.
 
-Tarar said Pakistan's air-defence systems detected, tracked and neutralised the incoming drones before they reached their intended targets. He described the incursions as a violation of Pakistan's sovereignty.
+Tarar said Pakistan's air-defence systems had detected, tracked and intercepted drones launched from Afghan territory the previous day. He described the incursions as a violation of Pakistan's sovereignty and said the subsequent strikes targeted sites used to launch and store drones.
 
-The minister said the subsequent Pakistani strikes targeted locations used for launching and storing the drones. His assertions about the targets, the purpose of the sites and the proportionality of the operation are claims by the Pakistani government and have not been independently established by Pakistan Report.
+Afghan authorities reported civilian casualties from the Pakistani operation. According to [Reuters](https://www.reuters.com/world/asia-pacific/pakistan-says-it-launched-air-strikes-afghanistan-over-drone-attacks-2026-09-24/), Afghan officials said four civilians were killed. Pakistan described the sites it struck as military-related.
 
-The latest exchange adds to already heightened tensions between Pakistan and Afghanistan following a series of cross-border security incidents. Islamabad has repeatedly accused militant groups operating from Afghan territory of carrying out attacks in Pakistan, while Afghan authorities have disputed Pakistani allegations and protested previous cross-border strikes.
+The operation comes amid strained relations between the neighbouring countries, which have repeatedly exchanged accusations over militant activity and cross-border security. Islamabad says armed groups operating from Afghan territory have carried out attacks inside Pakistan. Afghan authorities have disputed Pakistani allegations and condemned previous strikes across the border.
 
-The immediate focus will be on any response from Kabul and whether the latest action leads to further military activity or renewed diplomatic contacts between the two neighbours.
+The latest confrontation raises the possibility of further military exchanges along a frontier where security incidents have repeatedly complicated diplomatic relations. Any response from Kabul could influence whether tensions intensify or the two governments return to talks.
 
-
-## Source attribution and subsequent reporting
-
-Pakistan's state broadcaster [Radio Pakistan reported the information minister's September 24 statement](https://radio.gov.pk/24-09-2026/pakistan-condemns-deliberate-unlawful-incursion-into-its-territory-from-afghanistan). His account of the targets and operation is an official Pakistani claim, not independently verified evidence of the nature of every site struck.
-
-**Reporting update (September 24, 2026):** [Reuters reported](https://www.reuters.com/world/asia-pacific/pakistan-says-it-launched-air-strikes-afghanistan-over-drone-attacks-2026-09-24/) that Afghan authorities said four civilians had been killed in the strikes. Pakistan described its targets as military-related. The competing accounts of the targets and casualties should not be treated as independently resolved by Pakistan Report.
+Pakistan's [state broadcaster reported Tarar's statement](https://radio.gov.pk/24-09-2026/pakistan-condemns-deliberate-unlawful-incursion-into-its-territory-from-afghanistan) on September 24. Reuters separately reported the Afghan account of civilian deaths, leaving the two sides with different descriptions of the operation and its consequences.
