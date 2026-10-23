@@ -14,26 +14,20 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-KARACHI: Foreign exchange reserves held by the State Bank of Pakistan stood at $21.4003 billion as of September 18, 2026, according to the central bank’s latest published economic data.
+**KARACHI —** Foreign exchange reserves held by the State Bank of Pakistan stood at $21.4 billion on September 18, 2026, according to the central bank's published figures.
 
-The figure puts SBP-held reserves at about $21.4 billion, the level highlighted by Prime Minister Shehbaz Sharif during remarks on the economy on Thursday.
+Commercial banks held another $5.41 billion, bringing Pakistan's total liquid foreign exchange reserves to approximately $26.81 billion.
 
-The central bank’s data also show $5.4103 billion in reserves held by commercial banks. Pakistan’s total liquid foreign exchange reserves therefore stood at $26.8106 billion on the reporting date.
+Prime Minister Shehbaz Sharif highlighted the State Bank's $21.4 billion reserve figure while speaking virtually at an event at the Pakistan Stock Exchange in Karachi.
 
-The distinction between the figures is important. The $21.4 billion number refers specifically to reserves held by the State Bank, not the combined foreign exchange reserves of the entire banking system.
+Foreign exchange reserves are funds held in foreign currencies that help Pakistan meet international payments, including imports and external debt obligations.
 
-Foreign exchange reserves are closely watched because they provide a buffer for external payments and can influence perceptions of Pakistan’s ability to meet import bills, debt obligations and other foreign-currency commitments. Reserve accumulation can also reduce immediate pressure on the balance of payments, although the quality and durability of reserve gains depend on the underlying sources of foreign exchange.
+A stronger reserve position provides an important financial buffer. It can help the country manage unexpected increases in import costs or changes in international financial conditions.
 
-Speaking virtually to an event at the Pakistan Stock Exchange in Karachi, the prime minister cited the reserve level while discussing macroeconomic conditions and called for stronger export-led growth. He also referred to remittances, information technology exports and Roshan Digital Accounts.
+The State Bank's reserves and the foreign currency held by commercial banks are reported separately. The $21.4 billion figure refers to the central bank alone, while $26.81 billion represents their combined holdings on the reporting date.
 
-The official reserve data provide an independent benchmark for the headline figure. They do not, by themselves, show whether the increase in reserves is driven by export receipts, remittances, official financing, debt inflows, central-bank purchases or a combination of factors.
+During his remarks, the prime minister also emphasised the importance of expanding exports and referred to overseas remittances, information technology exports and Roshan Digital Accounts.
 
-Pakistan’s external position remains linked to several moving parts, including the current account, debt repayments, multilateral and bilateral financing, foreign investment, energy import costs and movements in the rupee.
+These sources of foreign currency play an important role in Pakistan's economy. Export earnings and money sent home by overseas Pakistanis help pay for imported goods and support external finances.
 
-A higher reserve stock generally gives the central bank more room to manage external shocks, but analysts also track future repayment schedules and the country’s capacity to generate foreign exchange through exports and other recurring sources.
-
-For businesses, reserve adequacy matters because periods of severe foreign exchange stress can affect import financing, access to letters of credit and the availability of raw materials and machinery. Improved reserve buffers can reduce those risks, though commercial conditions also depend on banking rules and foreign exchange market liquidity.
-
-The State Bank’s published snapshot listed the rupee’s mark-to-market revaluation rate at Rs277.1144 per US dollar as of September 30. Exchange-rate movements can affect the rupee value of external obligations but should not be confused with the dollar-denominated reserve stock itself.
-
-The latest data leave SBP reserves above $21 billion, with another $5.4 billion held by commercial banks. Future weekly releases will show whether the reserve position continues to strengthen after accounting for external inflows and payments.
+The latest official figures show that Pakistan's combined foreign exchange reserves stood above $26 billion, with the State Bank holding the largest share.
