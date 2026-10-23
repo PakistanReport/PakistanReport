@@ -5,7 +5,7 @@ category: "Pakistan"
 author: "Pakistan Report Editorial Desk"
 description: "Karachi residents reported electricity outages on Friday night in
   neighbourhoods normally exempt from loadshedding, with K-Electric attributing
-  additional."
+  additional load management to an LNG supply shortage."
 published: true
 image: "/assets/images/karachi-ke-electric-lng-power-cuts.webp"
 image_alt: "Illustration of Karachi power infrastructure amid LNG supply constraints"
