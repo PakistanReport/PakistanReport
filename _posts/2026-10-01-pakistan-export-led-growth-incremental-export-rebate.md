@@ -16,30 +16,24 @@ image_caption: "Pakistan Report illustration."
 published: true
 ---
 
-KARACHI: Pakistan’s government is putting renewed emphasis on export-led growth as a performance-based rebate scheme offers exporters an incentive tied directly to increases in annual overseas sales.
+**KARACHI —** Pakistan is encouraging businesses to increase exports through a government rebate scheme that rewards companies for selling more goods and services overseas.
 
-Prime Minister Shehbaz Sharif called for stronger export-led growth while virtually addressing a ceremony at the Pakistan Stock Exchange in Karachi on Thursday, highlighting the role of private businesses in increasing production and exports of goods and services.
+Prime Minister Shehbaz Sharif highlighted the importance of export-led economic growth while addressing a ceremony at the Pakistan Stock Exchange in Karachi.
 
-The policy backdrop includes the Performance Based Rebate on Incremental Exports scheme, which the State Bank of Pakistan says took effect from July 1, 2026.
+Under the scheme, which took effect on July 1, 2026, exporters can receive a rebate based on how much their annual overseas sales increase.
 
-Under the scheme, exporters recording annual export growth of up to 10 per cent over the preceding fiscal year can qualify for a rebate equal to 1 per cent of the incremental export value achieved during the year.
+Businesses that grow exports by up to 10% compared with the previous financial year can qualify for a rebate equal to 1% of the additional export value.
 
-Exporters whose annual growth exceeds 10 per cent can qualify for a rebate equal to 2 per cent of the incremental export value. Businesses that record no annual export growth are not eligible for the rebate.
+Those that increase exports by more than 10% can qualify for a 2% rebate on the additional value. Companies whose exports do not grow are not eligible.
 
-The scheme applies to exporters of both goods and services, according to the State Bank circular. Its structure is designed to reward additional exports rather than provide the same benefit regardless of performance.
+For example, if a business exports Rs10 million more than it did the previous year and qualifies for the 1% rate, its rebate on that increase would be Rs100,000.
 
-That distinction is important for understanding the incentive. The rebate is calculated on incremental export value — the increase over the preceding fiscal year — rather than on an exporter’s entire annual sales abroad.
+The State Bank of Pakistan has outlined the scheme for exporters of both goods and services.
 
-The prime minister also referred to tax relief provided to exporters, manufacturers and industries in the current fiscal year’s budget and said private-sector expansion would be important for economic progress.
+Export growth is important because selling products and services abroad brings foreign currency into Pakistan. It also supports jobs, manufacturing and business investment.
 
-Pakistan has long sought to increase exports as a way to generate more recurring foreign exchange and reduce reliance on external borrowing. Export performance affects the current account, industrial activity, employment and the country’s ability to finance imports of fuel, machinery and other essential goods.
+Higher export earnings can help the country pay for imported fuel, machinery and other essential products.
 
-The challenge is not simply increasing shipments for a short period. Sustainable export-led growth generally requires firms to remain competitive on price, quality and delivery while dealing with energy costs, financing conditions, taxation, logistics and access to international markets.
+The government's approach aims to encourage Pakistani businesses to reach more overseas customers and expand their existing markets.
 
-The incremental rebate gives businesses a measurable financial incentive to expand exports, but its eventual fiscal cost and impact will depend on how many exporters qualify and how much additional export value they generate.
-
-The State Bank circular sets out the core eligibility thresholds, providing a more concrete policy measure than the broader political objective of export-led growth. It also creates a difference between firms that maintain existing export volumes and those that expand them.
-
-The government’s emphasis comes as policymakers seek to strengthen Pakistan’s external position and build foreign exchange buffers. Higher exports can contribute to those objectives if gains are sustained and are not offset by a larger increase in imports.
-
-For exporters, the immediate calculation is straightforward: growth up to 10 per cent can attract a 1 per cent rebate on the incremental amount, while growth above 10 per cent can attract 2 per cent. The effectiveness of the programme will become clearer once full-year export data and rebate claims are available.
+The scheme links financial support to actual growth in exports, giving participating businesses a direct incentive to increase international sales.
