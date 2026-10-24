@@ -5,7 +5,7 @@ category: Economy
 author: "Pakistan Report Editorial Desk"
 date: "2026-10-24 09:00:00 +0500"
 description: "Pakistan's stronger foreign-exchange reserves offer greater protection against external shocks, but oil prices, financing needs and debt obligations remain risks."
-published: true
+published: false
 ---
 
 Pakistan's stronger foreign-exchange reserves have given policymakers greater confidence in the country's ability to withstand external shocks. But higher energy costs, external debt obligations and uncertain global conditions remain significant tests of that stability.
