@@ -16,7 +16,7 @@ layout: default
     </p>
     {% endif %}
 
-    {% assign category_posts = site.posts | where: "category", page.category %}
+    {% assign category_posts = page.category_page_posts %}
 
     {% if category_posts.size > 0 %}
 
@@ -65,6 +65,30 @@ layout: default
       {% endfor %}
 
     </div>
+
+    {% assign paging = page.category_pagination %}
+    {% if paging and paging.total_pages > 1 %}
+    <nav class="category-pagination" aria-label="Category pages" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;margin:32px 0;">
+      {% if paging.previous_url %}
+      <a rel="prev" href="{{ paging.previous_url | relative_url }}" style="padding:9px 13px;border:1px solid #dce2df;border-radius:5px;">Previous</a>
+      {% endif %}
+      {% for number in (1..paging.total_pages) %}
+        {% if number == 1 %}
+          {% assign number_url = paging.base_url %}
+        {% else %}
+          {% capture number_url %}{{ paging.base_url }}page/{{ number }}/{% endcapture %}
+        {% endif %}
+        {% if number == paging.page %}
+          <span aria-current="page" style="padding:9px 13px;background:#064c3b;color:white;border-radius:5px;">{{ number }}</span>
+        {% else %}
+          <a href="{{ number_url | relative_url }}" aria-label="Page {{ number }}" style="padding:9px 13px;border:1px solid #dce2df;border-radius:5px;">{{ number }}</a>
+        {% endif %}
+      {% endfor %}
+      {% if paging.next_url %}
+      <a rel="next" href="{{ paging.next_url | relative_url }}" style="padding:9px 13px;border:1px solid #dce2df;border-radius:5px;">Next</a>
+      {% endif %}
+    </nav>
+    {% endif %}
 
     {% else %}
 
