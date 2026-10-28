@@ -10,7 +10,7 @@ module PakistanReport
       category_pages = site.pages.select { |page| page.data["layout"] == "category" && page.data["category"] }
       category_pages.each do |page|
         posts = site.posts.docs.select { |post| post.data["category"] == page.data["category"] }
-        posts.sort_by! { |post| post.data["date"] || post.date }
+        posts.sort_by!(&:date)
         posts.reverse!
         total_pages = [(posts.length.to_f / PER_PAGE).ceil, 1].max
         base_url = page.url.sub(%r{/index\.html$}, "/").sub(%r{/?$}, "/")
