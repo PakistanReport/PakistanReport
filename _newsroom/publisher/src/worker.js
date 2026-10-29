@@ -212,38 +212,13 @@ export class Publisher {
     return out;
   }
   async arm() {
-  const article = this.rows(
-    "SELECT MIN(next) AS time FROM jobs WHERE status IN ('Scheduled','Publishing')",
-  )[0];
-
-  const facebookJobs = this.rows(
-    "SELECT data FROM jobs WHERE status='Published'",
-  );
-
-  let facebookTime = null;
-  for (const row of facebookJobs) {
-    const job = JSON.parse(row.data);
-    if (
-      job.facebook?.status === "Pending" &&
-      job.facebook.next !== null &&
-      (facebookTime === null || job.facebook.next < facebookTime)
-    ) {
-      facebookTime = job.facebook.next;
-    }
+    const article = this.rows(
+      "SELECT MIN(next) AS time FROM jobs WHERE status IN ('Scheduled','Publishing')",
+    )[0];
+    if (article?.time !== null && article?.time !== undefined)
+      await this.ctx.storage.setAlarm(Math.max(Date.now() + 100, article.time));
+    else await this.ctx.storage.deleteAlarm();
   }
-
-  const times = [article?.time, facebookTime].filter(
-    (time) => time !== null && time !== undefined,
-  );
-
-  if (times.length) {
-    await this.ctx.storage.setAlarm(
-      Math.max(Date.now() + 100, Math.min(...times)),
-    );
-  } else {
-    await this.ctx.storage.deleteAlarm();
-  }
-}
   fetch(request) {
     return this.serial(async () => {
       try {
@@ -479,19 +454,8 @@ facebook: {
         return new Response(this.image(job.id), {
           headers: { ...secureHeaders, "Content-Type": job.mime },
         });
-      if (match[2] === "facebook-retry" && request.method === "POST") {
-        requireValid(job.status === "Published", "Only published articles can retry Facebook");
-        requireValid(job.facebook?.status === "Failed", "Facebook delivery is not failed");
-        requireValid(!job.facebook?.postId, "Facebook post already has a stored post ID");
-        job.facebook.status = "Pending";
-        job.facebook.next = Date.now();
-        job.facebook.attempts = 0;
-        job.facebook.error = null;
-        this.history(job, "Facebook retry approved");
-        this.save(job);
-        await this.arm();
-        return json({ status: job.facebook.status });
-      }
+      if (match[2] === "facebook-retry" && request.method === "POST")
+        return json({ error: "Automatic Facebook posting is disabled." }, 410);
       if (match[2] === "now" && request.method === "POST") {
         if (["Publishing", "Published"].includes(job.status))
           return json({ status: job.status });
@@ -588,29 +552,9 @@ async publishFacebook(job) {
         Date.now(),
       )[0];
       if (!row) {
-  const facebookRows = this.rows(
-    "SELECT data FROM jobs WHERE status='Published'",
-  );
-
-  const facebookJob = facebookRows
-    .map((r) => JSON.parse(r.data))
-    .filter(
-      (j) =>
-        j.facebook?.status === "Pending" &&
-        j.facebook.next !== null &&
-        j.facebook.next <= Date.now(),
-    )
-    .sort((a, b) => a.facebook.next - b.facebook.next)[0];
-
-  if (!facebookJob) {
-    await this.arm();
-    return;
-  }
-
-  await this.publishFacebook(facebookJob);
-  await this.arm();
-  return;
-}
+        await this.arm();
+        return;
+      }
       const job = JSON.parse(row.data);
       // Persistent recovery wake-up survives process termination, including during GitHub I/O.
       await this.ctx.storage.setAlarm(Date.now() + 120000);
@@ -638,16 +582,6 @@ async publishFacebook(job) {
         );
         job.status = "Published";
         job.error = null;
-job.facebook ??= {
-  status: "Waiting",
-  next: null,
-  attempts: 0,
-  postId: null,
-  error: null,
-};
-job.facebook.status = "Pending";
-job.facebook.next = Date.now() + 5 * 60 * 1000;
-job.facebook.error = null;
         this.history(
           job,
           "Committed article and image together: " +
