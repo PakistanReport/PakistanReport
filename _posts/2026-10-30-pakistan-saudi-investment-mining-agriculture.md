@@ -4,7 +4,7 @@ title: "Pakistan and Saudi Arabia Explore Investment in Mining and Agriculture"
 description: "Pakistan and Saudi Arabia discuss investment opportunities in mining and agriculture as officials seek stronger commercial cooperation."
 category: Business
 author: Pakistan Report Editorial Desk
-date: '2026-10-30 09:00:00+05:00'
+date: '2026-10-29 00:00:00+05:00'
 published: true
 image: /assets/images/2026-10-30-pakistan-saudi-investment-mining-agriculture.webp
 image_alt: "AI illustration representing Pakistan–Saudi investment discussions in mining and agriculture."
