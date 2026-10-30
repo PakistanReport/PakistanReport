@@ -8,7 +8,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 
   {% if site.posts.size > 0 %}
 
-  {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs'" %}
+  {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs' and post.category != 'Explainer'" %}
   {% assign featured = regular_posts.first %}
 
   <!-- FEATURED STORY -->
@@ -113,20 +113,6 @@ description: "Pakistan news, politics, economy, business, technology, world deve
     </div>
   </section>
 
-  <!-- EXPLAINERS -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Explainers</h2><a href="{{ site.url }}/explainer/">More →</a></div>
-    <div class="articles">
-      {% assign explainer_count = 0 %}
-      {% for post in site.posts %}
-        {% if post.category == "Explainer" and explainer_count < 3 %}
-        <article class="card"><div class="card-content"><div class="category">Explainer</div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}</div></article>
-        {% assign explainer_count = explainer_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-
   {% else %}
   <section class="empty"><h1>Pakistan Report</h1><p>Our latest reporting will appear here.</p></section>
   {% endif %}
@@ -144,7 +130,6 @@ description: "Pakistan news, politics, economy, business, technology, world deve
       <a href="{{ site.url }}/business/">Business</a>
       <a href="{{ site.url }}/technology/">Technology</a>
       <a href="{{ site.url }}/world/">World</a>
-      <a href="{{ site.url }}/explainer/">Explainers</a>
     </div>
   </section>
 
