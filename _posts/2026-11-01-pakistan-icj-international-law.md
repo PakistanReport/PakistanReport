@@ -41,5 +41,3 @@ The appeal comes amid continuing disagreements over how international legal find
 The statement did not announce a new legal case brought by Pakistan or a fresh ruling by the court.
 
 Instead, it set out Islamabad's position during the General Assembly's review of the ICJ's work, with humanitarian access in Palestinian territory serving as a prominent example of the issues before the court.
-
-*Pakistan Report illustration.*
