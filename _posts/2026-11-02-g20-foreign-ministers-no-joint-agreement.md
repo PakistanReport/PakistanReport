@@ -49,5 +49,3 @@ The G20 brings together major developed and emerging economies, making its discu
 The next major gathering is the G20 leaders' summit scheduled for December in Miami.
 
 The Atlanta talks leave participating governments with unresolved differences ahead of that meeting, particularly over security issues that also affect international trade and energy markets.
-
-*Pakistan Report illustration.*
