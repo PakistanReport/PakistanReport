@@ -45,5 +45,3 @@ A separate Rs85.3 billion hill-torrent management project for parts of Punjab wa
 For Khyber Pakhtunkhwa, the next significant step is ECNEC's decision on the irrigation proposal.
 
 The Planning Ministry's announcement did not provide a confirmed construction start date or completion schedule for the KP project.
-
-*Pakistan Report illustration.*
