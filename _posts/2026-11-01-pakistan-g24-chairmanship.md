@@ -39,5 +39,3 @@ For countries exposed to floods and other climate-related disasters, access to t
 The chairmanship gives Pakistan a greater role in shaping the G-24's collective position.
 
 Any reforms to international financing arrangements would still require broader agreement among governments and the institutions concerned.
-
-*Pakistan Report illustration.*
