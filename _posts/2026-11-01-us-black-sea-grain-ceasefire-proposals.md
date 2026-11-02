@@ -47,5 +47,3 @@ For countries dependent on imported grain, interruptions to Black Sea trade can 
 However, the proposals remain under discussion. Neither Russia nor Ukraine has announced a new, mutually agreed Black Sea ceasefire.
 
 The immediate diplomatic effort is to find a limited arrangement that protects commercial vessels while broader peace negotiations remain unresolved.
-
-*Pakistan Report illustration.*
