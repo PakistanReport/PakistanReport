@@ -42,5 +42,3 @@ The government's challenge is to improve the organisation's finances while maint
 Khan said the department should move towards a model that can sustain its operations without placing a continuing burden on public finances.
 
 For now, the Rs14 billion deficit provides a measure of the financial problem the government says it is trying to address.
-
-*Pakistan Report illustration.*
