@@ -2,6 +2,7 @@
 layout: article
 title: "Finance Minister Discusses Export Growth and Business Reforms with
   Lahore Chamber"
+description: "Muhammad Aurangzeb and Lahore Chamber representatives discussed SME financing, regulatory stability, tax policy and measures to improve exporters' competitiveness."
 date: 2026-11-03 14:00:00 +0500
 category: Business
 image: /assets/images/2026-11-03-finance-minister-lcci-export-growth-reforms.webp
