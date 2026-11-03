@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "KP Emergency: What Parliament's Approval Means for Provincial Governance"
+description: "Parliament approved emergency measures and Governor's Rule in Khyber Pakhtunkhwa, prompting questions about provincial autonomy, security and constitutional oversight."
 date: 2026-11-02 22:00:00 +0500
 category: Politics
 image: /assets/images/2026-11-02-kp-emergency-parliament-approval-provincial-governance.webp
