@@ -2,6 +2,7 @@
 layout: article
 title: "Senate Chairman Gilani Accepts Honorary Role at Pakistan–China
   Governance Research Centre"
+description: "Senate Chairman Yousuf Raza Gilani accepted an honorary role at a new Pakistan-China governance research centre promoting parliamentary exchanges and institutional cooperation."
 date: 2026-11-02 21:00:00 +0500
 category: Politics
 image: /assets/images/2026-11-02-gilani-pakistan-china-governance-research-centre.webp
