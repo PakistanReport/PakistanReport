@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "NA Housing Committee Defers Meeting Over Absence of Minister, Secretary"
+description: "Lawmakers demanded outstanding ministry reports and considered employment opportunities for former Public Works Department staff in PIDAMA."
 date: 2026-11-03 11:00:00 +0500
 category: Politics
 image: /assets/images/2026-11-03-na-housing-committee-meeting-deferred.webp
