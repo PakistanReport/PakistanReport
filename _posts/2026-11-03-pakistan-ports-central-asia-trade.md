@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Pakistan Promotes Karachi and Gwadar Ports as Trade Gateways for Central Asia"
+description: "Investment Minister Qaiser Ahmad Sheikh highlighted Port Qasim, regional transport links and opportunities in logistics, energy and infrastructure at an Almaty forum."
 date: 2026-11-03 12:00:00 +0500
 category: Business
 image: /assets/images/2026-11-03-pakistan-ports-central-asia-trade.webp
