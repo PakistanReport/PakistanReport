@@ -2,6 +2,7 @@
 layout: article
 title: "Pakistan, Bangladesh Explore Closer Economic Cooperation in
   Manufacturing and Textiles"
+description: "Officials from Pakistan and Bangladesh discussed private-sector partnerships, industrial investment and opportunities in solar technology, batteries and electric vehicles."
 date: 2026-11-03 09:35:00 +0500
 category: Business
 image: /assets/images/2026-11-03-pakistan-bangladesh-economic-cooperation.webp
