@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Pakistan, South Korea Supreme Courts Sign Agreement on Judicial Cooperation"
+description: "Pakistan and South Korea's Supreme Courts agreed to cooperate on judicial training, institutional exchanges, electronic case management, cybersecurity and responsible AI use."
 date: 2026-11-03 17:00:00 +0500
 category: World
 image: /assets/images/2026-11-03-pakistan-south-korea-supreme-courts-judicial-cooperation.webp
