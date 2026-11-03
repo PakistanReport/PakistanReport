@@ -2,6 +2,7 @@
 layout: article
 title: "German Ambassador Calls for Stronger Trade and Economic Relations with
   Pakistan"
+description: "Ambassador Ina Lepel emphasised closer bilateral economic engagement during an Islamabad press club session and acknowledged Pakistan's regional diplomatic efforts."
 date: 2026-11-03 13:00:00 +0500
 category: World
 image: /assets/images/2026-11-03-pakistan-germany-trade-economic-relations.webp
