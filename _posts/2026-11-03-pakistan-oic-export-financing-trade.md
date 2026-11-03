@@ -2,6 +2,7 @@
 layout: article
 title: "Pakistan Calls for Easier Export Financing and Stronger Trade Ties Among
   OIC Countries"
+description: "At the COMCEC meeting in Istanbul, Commerce Minister Jam Kamal Khan highlighted EXIM Bank facilities, Islamic finance and digital services for smaller exporters."
 date: 2026-11-03 15:00:00 +0500
 category: Business
 image: /assets/images/2026-11-03-pakistan-oic-export-financing-trade.webp
