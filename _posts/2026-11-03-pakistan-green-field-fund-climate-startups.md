@@ -2,6 +2,7 @@
 layout: article
 title: "Pakistan Announces $10 Million Fund to Support Climate and Technology
   Startups"
+description: "Climate Change Minister Musadik Malik outlined the $10 million Green Field Fund to support startups and young innovators working on science, technology and climate solutions."
 date: 2026-11-03 16:00:00 +0500
 category: Technology
 image: /assets/images/2026-11-03-pakistan-green-field-fund-climate-startups.webp
