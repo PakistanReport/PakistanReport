@@ -69,8 +69,44 @@ description: "Pakistan news, politics, economy, business, technology, world deve
  .pr-home .pr-category-column { padding:0 0 22px!important; border-right:0!important; border-bottom:1px solid var(--pr-line); }
  .pr-home .pr-more-list { grid-template-columns:1fr; grid-template-rows:none; grid-auto-flow:row; }
 }
+
+/* Approved desktop masthead/footer: homepage only. Shared layout and mobile stay unchanged. */
+.pr-desktop-header,.pr-desktop-footer { display:none; }
+@media (min-width:851px) {
+ body:has(.pr-home) > .top-strip,
+ body:has(.pr-home) > .masthead,
+ body:has(.pr-home) > .nav,
+ body:has(.pr-home) > footer { display:none; }
+ .pr-desktop-header { display:block; background:#fff; }
+ .pr-desktop-header .pr-topline { height:26px; background:#064c3b; color:#fff; font:15px Georgia,serif; text-align:right; padding:3px max(3%,calc((100% - 1180px)/2)); }
+ .pr-desktop-header .pr-brand { padding:8px 0 7px; width:94%; max-width:1180px; margin:auto; }
+ .pr-desktop-header .pr-brand a { display:block; color:#064c3b; font:700 36px/1.08 Georgia,serif; letter-spacing:-1px; }
+ .pr-desktop-header .pr-brand p { margin:0; font:16px Georgia,serif; color:#383838; }
+ .pr-desktop-header .pr-desktop-nav { border-top:1px solid #e3e3e3; border-bottom:1px solid #d0d0d0; }
+ .pr-desktop-header .pr-desktop-nav-inner { width:94%; max-width:1180px; margin:auto; display:flex; align-items:center; gap:34px; min-height:36px; }
+ .pr-desktop-header .pr-desktop-nav a { font:700 14px Georgia,serif; white-space:nowrap; }
+ .pr-desktop-header .pr-search-mark { margin-left:auto; font-size:24px; line-height:1; color:#111; }
+ body:has(.pr-home) > .pr-home.container { width:95%; max-width:1180px; margin:22px auto 0; }
+ .pr-desktop-footer { display:block; margin-top:25px; background:#064c3b; color:#fff; }
+ .pr-desktop-footer .pr-footer-inner { width:94%; max-width:1180px; min-height:82px; margin:auto; display:flex; align-items:center; gap:35px; }
+ .pr-desktop-footer .pr-footer-brand { min-width:270px; padding-right:30px; border-right:1px solid #fff; }
+ .pr-desktop-footer .pr-footer-brand strong { display:block; font:700 25px Georgia,serif; }
+ .pr-desktop-footer .pr-footer-brand span { font:15px Georgia,serif; }
+ .pr-desktop-footer .pr-footer-links { display:flex; align-items:center; gap:26px; }
+ .pr-desktop-footer .pr-footer-links a { color:#fff; font:14px Georgia,serif; white-space:nowrap; }
+ .pr-desktop-footer .pr-footer-socials { margin-left:auto; display:flex; gap:17px; align-items:center; font:700 23px Arial,sans-serif; }
+ .pr-desktop-footer .pr-footer-socials span { display:inline-block; color:#fff; }
+}
 </style>
 
+<div class="pr-desktop-header" aria-label="Pakistan Report desktop header">
+  <div class="pr-topline">Pakistan, the Region and the World</div>
+  <div class="pr-brand"><a href="{{ '/' | relative_url }}">PAKISTAN REPORT</a><p>The News in Perspective.</p></div>
+  <nav class="pr-desktop-nav" aria-label="Main navigation"><div class="pr-desktop-nav-inner">
+    <a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/pakistan/' | relative_url }}">Pakistan</a><a href="{{ '/politics/' | relative_url }}">Politics</a><a href="{{ '/economy/' | relative_url }}">Economy</a><a href="{{ '/business/' | relative_url }}">Business</a><a href="{{ '/technology/' | relative_url }}">Technology</a><a href="{{ '/world/' | relative_url }}">World</a><a href="{{ '/explainer/' | relative_url }}">Explainers</a>
+    <span class="pr-search-mark" aria-hidden="true">⌕</span>
+  </div></nav>
+</div>
 <main class="container pr-home">
 {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs' and post.category != 'Explainer'" %}
 {% assign lead = nil %}
@@ -203,3 +239,8 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   <section class="empty"><h1>Pakistan Report</h1><p>Our latest reporting will appear here.</p></section>
 {% endif %}
 </main>
+<div class="pr-desktop-footer" aria-label="Pakistan Report desktop footer"><div class="pr-footer-inner">
+ <div class="pr-footer-brand"><strong>PAKISTAN REPORT</strong><span>The News in Perspective.</span></div>
+ <nav class="pr-footer-links" aria-label="Footer"><a href="{{ '/about/' | relative_url }}">About Us</a><a href="{{ '/contact/' | relative_url }}">Contact</a><a href="{{ '/feed.xml' | relative_url }}">Newsletter</a><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></nav>
+ <div class="pr-footer-socials" aria-label="Social platform icons"><span aria-hidden="true">𝕏</span><span aria-hidden="true">●</span><span aria-hidden="true">▶</span><span aria-hidden="true">in</span></div>
+</div></div>
