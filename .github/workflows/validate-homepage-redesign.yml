@@ -1,0 +1,39 @@
+name: Validate homepage redesign
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - '_data/homepage_editorial.yml'
+      - '.github/workflows/validate-homepage-redesign.yml'
+permissions:
+  contents: read
+jobs:
+  homepage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Build production Jekyll site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build
+      - name: Verify generated homepage, SEO and editorial sections
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          html = Path('_site/index.html').read_text()
+          for heading in ["Editor's Picks", "In the News", "Latest News", "In Focus", "Pakistan &amp; Politics", "Economy &amp; Business", "World", "Technology", "More Headlines"]:
+              assert heading in html or heading.replace("&amp;", "&") in html, f"Missing: {heading}"
+          assert 'class="pr-category-grid"' in html, "Four-column layout missing"
+          assert '{%' not in html, "Unrendered Liquid template"
+          assert 'rel="canonical"' in html, "Homepage canonical missing"
+          assert 'href="/pakistan/' in html or 'href="https://pakistanreport.pk/pakistan/' in html, "Pakistan article/category links missing"
+          assert 'href="/world/' in html or 'href="https://pakistanreport.pk/world/' in html, "World article/category links missing"
+          assert Path('_site/robots.txt').exists(), "robots.txt missing"
+          assert Path('_site/sitemap.xml').exists(), "Sitemap missing"
+          print("Homepage build and smoke checks passed")
+          PY
