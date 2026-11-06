@@ -9,7 +9,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 .pr-home { --pr-green:#064c3b; --pr-line:#dce2df; }
 .pr-home .pr-lead-grid { display:grid; grid-template-columns:minmax(0,2.1fr) minmax(245px,1fr); gap:26px; margin-bottom:28px; }
 .pr-home .pr-lead { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); gap:18px; align-items:start; }
-.pr-home .pr-lead > a { margin-top:25px; }
+.pr-home .pr-lead > a { margin-top:0; }
 .pr-home .pr-lead-image, .pr-home .pr-focus-image { width:100%; aspect-ratio:16/10; object-fit:cover; display:block; }
 .pr-home .pr-lead h1 { font:700 clamp(25px,2.5vw,36px)/1.14 Georgia,serif; margin:9px 0 12px; }
 .pr-home .pr-lead p, .pr-home .pr-focus p { color:#58655f; font-size:14px; }
@@ -57,9 +57,9 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 .pr-home .pr-category-feature .date, .pr-home .pr-category-secondary .date { font-size:12px; }
 .pr-home .pr-category-secondary { border-top:1px solid var(--pr-line); margin-top:10px; padding-top:10px; }
 .pr-home .pr-category-secondary h3 { font:700 15px/1.22 Georgia,serif; margin:0 0 5px; }
-.pr-home .pr-more-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:repeat(4,auto); grid-auto-flow:column; column-gap:32px; row-gap:0; }
-.pr-home .pr-more-list a { font-size:14px; padding:3px 0 5px 15px; border-bottom:1px solid var(--pr-line); position:relative; }
-.pr-home .pr-more-list a:before { content:""; background:var(--pr-green); width:6px; height:6px; position:absolute; left:0; top:8px; }
+.pr-home .pr-more-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:repeat(4,auto); grid-auto-flow:column; column-gap:20px; row-gap:0; }
+.pr-home .pr-more-list a { font-size:13px; padding:3px 0 5px 12px; border-bottom:1px solid var(--pr-line); position:relative; }
+.pr-home .pr-more-list a:before { content:""; background:var(--pr-green); width:5px; height:5px; position:absolute; left:0; top:8px; }
 .pr-home a:hover { color:#08745a; }
 @media(max-width:850px) {
  .pr-home .pr-lead-grid,.pr-home .pr-middle { grid-template-columns:1fr; }
