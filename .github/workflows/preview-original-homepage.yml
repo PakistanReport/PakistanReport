@@ -1,0 +1,69 @@
+name: Preview original homepage (b445f39)
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/preview-original-homepage.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-homepage-preview:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out original homepage snapshot
+        uses: actions/checkout@v4
+        with:
+          ref: b445f39bf298
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Build original Jekyll site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build
+      - name: Install Chromium screenshot tooling
+        run: |
+          npm install --no-save --package-lock=false playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Capture real desktop homepage screenshot
+        run: |
+          python3 -m http.server 8765 --directory _site > /tmp/pakistanreport-preview.log 2>&1 &
+          echo $! > /tmp/pakistanreport-preview.pid
+          mkdir -p visual-review
+          node <<'JS'
+          const { chromium } = require('playwright');
+          const fs = require('fs');
+          (async () => {
+            const browser = await chromium.launch({ headless: true });
+            const page = await browser.newPage({ viewport: { width: 1024, height: 768 }, deviceScaleFactor: 1 });
+            const errors = [];
+            page.on('pageerror', err => errors.push(err.message));
+            await page.goto('http://127.0.0.1:8765/', { waitUntil: 'networkidle', timeout: 60000 });
+            await page.evaluate(() => document.fonts.ready);
+            await page.locator('.pr-home').waitFor();
+            await page.screenshot({ path: 'visual-review/homepage-desktop-1024.png', fullPage: true, animations: 'disabled' });
+            const data = await page.evaluate(() => ({
+              viewport: { width: innerWidth, height: innerHeight },
+              pageHeight: document.documentElement.scrollHeight,
+              sections: Object.fromEntries(['.pr-desktop-header','.pr-lead-grid','.pr-news-strip','.pr-middle','.pr-focus-card','.pr-category-grid','.pr-more-list','.pr-desktop-footer'].map(selector => {
+                const el = document.querySelector(selector);
+                if (!el) return [selector, null];
+                const r = el.getBoundingClientRect();
+                return [selector, { x: Math.round(r.x), y: Math.round(r.y + scrollY), width: Math.round(r.width), height: Math.round(r.height) }];
+              })),
+              focusTextHeight: document.querySelector('.pr-focus-copy')?.getBoundingClientRect().height ?? null,
+              focusImageHeight: document.querySelector('.pr-focus-card')?.getBoundingClientRect().height ?? null
+            }));
+            fs.writeFileSync('visual-review/measurements.json', JSON.stringify({ ...data, pageErrors: errors }, null, 2));
+            await browser.close();
+          })().catch(err => { console.error(err); process.exit(1); });
+          JS
+      - name: Upload desktop visual review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pakistanreport-original-b445f39-desktop-1024
+          path: visual-review/
+          if-no-files-found: warn
+          retention-days: 14
