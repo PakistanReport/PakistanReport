@@ -26,9 +26,15 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 .pr-home .pr-latest-item { display:grid; grid-template-columns:112px minmax(0,1fr); gap:13px; border-bottom:1px solid var(--pr-line); padding:10px 0; }
 .pr-home .pr-latest-item img { width:112px; height:75px; object-fit:cover; }
 .pr-home .pr-latest-item h3 { font:700 17px/1.25 Georgia,serif; margin:0; }
-.pr-home .pr-focus-card { background:white; border:1px solid var(--pr-line); }
-.pr-home .pr-focus-copy { padding:18px; }
-.pr-home .pr-focus-copy h3 { font:700 clamp(22px,2vw,29px)/1.17 Georgia,serif; margin:5px 0; }
+.pr-home .pr-focus-card { position:relative; min-height:350px; background:var(--pr-green); overflow:hidden; isolation:isolate; }
+.pr-home .pr-focus-image { position:absolute; inset:0; width:100%; height:100%; aspect-ratio:auto; object-fit:cover; z-index:-2; }
+.pr-home .pr-focus-card:after { content:""; position:absolute; inset:0; background:linear-gradient(to bottom,rgba(0,0,0,0) 24%,rgba(0,0,0,.42) 56%,rgba(0,0,0,.88) 100%); z-index:-1; pointer-events:none; }
+.pr-home .pr-focus-image-link { position:absolute; inset:0; z-index:-2; }
+.pr-home .pr-focus-copy { position:absolute; left:0; right:0; bottom:0; padding:28px 26px; color:#fff; }
+.pr-home .pr-focus-copy h3 { font:700 clamp(22px,2vw,29px)/1.17 Georgia,serif; margin:6px 0 10px; }
+.pr-home .pr-focus-copy a,.pr-home .pr-focus-copy .category,.pr-home .pr-focus-copy .date,.pr-home .pr-focus-copy p { color:#fff; }
+.pr-home .pr-focus-copy p { color:#f1f3f1; }
+.pr-home .pr-focus-copy a:hover { color:#d6f0df; }
 .pr-home .pr-category-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:0; margin:35px 0 38px; }
 .pr-home .pr-category-column { min-width:0; padding:0 16px; border-right:1px solid var(--pr-line); }
 .pr-home .pr-category-column:first-child { padding-left:0; }
@@ -36,7 +42,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 .pr-home .pr-category-heading { display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--pr-green); margin:0 0 13px; padding:0 0 7px; gap:5px; }
 .pr-home .pr-category-heading h2 { font:700 21px/1.15 Georgia,serif; color:var(--pr-green); margin:0; }
 .pr-home .pr-category-heading a { color:var(--pr-green); font-weight:700; font-size:20px; }
-.pr-home .pr-category-feature img { display:block; width:100%; aspect-ratio:16/8; object-fit:cover; margin-bottom:9px; }
+.pr-home .pr-category-feature img { display:block; width:100%; aspect-ratio:16/10; object-fit:cover; margin-bottom:9px; }
 .pr-home .pr-category-feature h3 { font:700 17px/1.2 Georgia,serif; margin:0 0 7px; }
 .pr-home .pr-category-feature .date, .pr-home .pr-category-secondary .date { font-size:12px; }
 .pr-home .pr-category-secondary { border-top:1px solid var(--pr-line); margin-top:10px; padding-top:10px; }
@@ -132,8 +138,9 @@ description: "Pakistan news, politics, economy, business, technology, world deve
       {% endfor %}
     </section>
     {% assign focus = nil %}
-    {% assign chosen_focus = site.data.homepage_editorial.in_focus | default: "" %}\n    {% if chosen_focus != "" %}
-      {% assign selected_focus = site.posts | where: "url", page.in_focus %}
+    {% assign chosen_focus = site.data.homepage_editorial.in_focus | default: "" %}
+    {% if chosen_focus != "" %}
+      {% assign selected_focus = site.posts | where: "url", chosen_focus %}
       {% assign focus = selected_focus.first %}
     {% endif %}
     {% unless focus %}{% assign focus = regular_posts[7] %}{% endunless %}
@@ -141,7 +148,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
     <section aria-label="In Focus">
       <div class="section-heading"><h2>In Focus</h2></div>
       <article class="pr-focus-card">
-        {% if focus.image %}<a href="{{ focus.url | relative_url }}"><img class="pr-focus-image" src="{{ focus.image | relative_url }}" alt="{{ focus.image_alt | default: focus.title | escape }}" loading="lazy"></a>{% endif %}
+        {% if focus.image %}<a class="pr-focus-image-link" href="{{ focus.url | relative_url }}"><img class="pr-focus-image" src="{{ focus.image | relative_url }}" alt="{{ focus.image_alt | default: focus.title | escape }}" loading="lazy"></a>{% endif %}
         <div class="pr-focus-copy"><div class="category">{{ focus.category }}</div><h3><a href="{{ focus.url | relative_url }}">{{ focus.title }}</a></h3>{% if focus.description %}<p>{{ focus.description }}</p>{% endif %}<div class="date">{{ focus.date | date: "%B %-d, %Y" }}</div></div>
       </article>
     </section>
