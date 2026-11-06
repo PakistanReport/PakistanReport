@@ -22,18 +22,21 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 .pr-home .pr-strip-links { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; flex:1; }
 .pr-home .pr-strip-links a { font-size:13px; font-weight:700; padding:0 10px; border-right:1px solid #a3b9ae; }
 .pr-home .pr-strip-links a:last-child { border:0; }
-.pr-home .pr-middle { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:30px; margin-bottom:45px; }
+.pr-home .pr-middle { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:30px; align-items:start; margin-bottom:45px; }
+.pr-home .pr-middle > section { min-width:0; }
+.pr-home .pr-middle .section-heading { min-height:43px; margin:0 0 10px; display:flex; align-items:center; justify-content:space-between; border-bottom:2px solid var(--pr-green); }
+.pr-home .pr-middle .section-heading h2 { margin:0; color:var(--pr-green); font:700 25px/1.2 Georgia,serif; }
 .pr-home .pr-latest-item { display:grid; grid-template-columns:112px minmax(0,1fr); gap:13px; border-bottom:1px solid var(--pr-line); padding:10px 0; }
 .pr-home .pr-latest-item img { width:112px; height:75px; object-fit:cover; }
 .pr-home .pr-latest-item h3 { font:700 17px/1.25 Georgia,serif; margin:0; }
-.pr-home .pr-focus-card { position:relative; min-height:350px; background:var(--pr-green); overflow:hidden; isolation:isolate; }
-.pr-home .pr-focus-image { position:absolute; inset:0; width:100%; height:100%; aspect-ratio:auto; object-fit:cover; z-index:-2; }
-.pr-home .pr-focus-card:after { content:""; position:absolute; inset:0; background:linear-gradient(to bottom,rgba(0,0,0,0) 24%,rgba(0,0,0,.42) 56%,rgba(0,0,0,.88) 100%); z-index:-1; pointer-events:none; }
-.pr-home .pr-focus-image-link { position:absolute; inset:0; z-index:-2; }
-.pr-home .pr-focus-copy { position:absolute; left:0; right:0; bottom:0; padding:28px 26px; color:#fff; }
-.pr-home .pr-focus-copy h3 { font:700 clamp(22px,2vw,29px)/1.17 Georgia,serif; margin:6px 0 10px; }
+.pr-home .pr-focus-card { position:relative; height:350px; background:var(--pr-green); overflow:hidden; isolation:isolate; }
+.pr-home .pr-focus-image { position:absolute; inset:0; width:100%; height:100%; aspect-ratio:auto; object-fit:cover; }
+.pr-home .pr-focus-card:after { content:""; position:absolute; inset:0; background:linear-gradient(to bottom,rgba(0,0,0,0) 24%,rgba(0,0,0,.42) 56%,rgba(0,0,0,.88) 100%); z-index:1; pointer-events:none; }
+.pr-home .pr-focus-image-link { position:absolute; inset:0; z-index:0; }
+.pr-home .pr-focus-copy { position:absolute; left:0; right:0; bottom:0; z-index:2; padding:22px 24px; color:#fff; text-shadow:0 1px 2px rgba(0,0,0,.3); }
+.pr-home .pr-focus-copy h3 { font:700 clamp(22px,2vw,29px)/1.17 Georgia,serif; margin:6px 0 8px; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; overflow:hidden; }
 .pr-home .pr-focus-copy a,.pr-home .pr-focus-copy .category,.pr-home .pr-focus-copy .date,.pr-home .pr-focus-copy p { color:#fff; }
-.pr-home .pr-focus-copy p { color:#f1f3f1; }
+.pr-home .pr-focus-copy p { color:#f1f3f1; margin:0 0 8px; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; }
 .pr-home .pr-focus-copy a:hover { color:#d6f0df; }
 .pr-home .pr-category-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:0; margin:35px 0 38px; }
 .pr-home .pr-category-column { min-width:0; padding:0 16px; border-right:1px solid var(--pr-line); }
@@ -42,12 +45,12 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 .pr-home .pr-category-heading { display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--pr-green); margin:0 0 13px; padding:0 0 7px; gap:5px; }
 .pr-home .pr-category-heading h2 { font:700 21px/1.15 Georgia,serif; color:var(--pr-green); margin:0; }
 .pr-home .pr-category-heading a { color:var(--pr-green); font-weight:700; font-size:20px; }
-.pr-home .pr-category-feature img { display:block; width:100%; aspect-ratio:16/10; object-fit:cover; margin-bottom:9px; }
+.pr-home .pr-category-feature img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; margin-bottom:9px; }
 .pr-home .pr-category-feature h3 { font:700 17px/1.2 Georgia,serif; margin:0 0 7px; }
 .pr-home .pr-category-feature .date, .pr-home .pr-category-secondary .date { font-size:12px; }
 .pr-home .pr-category-secondary { border-top:1px solid var(--pr-line); margin-top:10px; padding-top:10px; }
 .pr-home .pr-category-secondary h3 { font:700 15px/1.22 Georgia,serif; margin:0 0 5px; }
-.pr-home .pr-more-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:32px; row-gap:11px; }
+.pr-home .pr-more-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:repeat(4,auto); grid-auto-flow:column; column-gap:32px; row-gap:11px; }
 .pr-home .pr-more-list a { font-size:14px; padding:0 0 9px 15px; border-bottom:1px solid var(--pr-line); position:relative; }
 .pr-home .pr-more-list a:before { content:""; background:var(--pr-green); width:6px; height:6px; position:absolute; left:0; top:8px; }
 .pr-home a:hover { color:#08745a; }
@@ -64,7 +67,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
  .pr-home .pr-strip-links a { border-right:0; padding:5px 0; border-bottom:1px solid #c9d8d0; }
  .pr-home .pr-category-grid { grid-template-columns:1fr; }
  .pr-home .pr-category-column { padding:0 0 22px!important; border-right:0!important; border-bottom:1px solid var(--pr-line); }
- .pr-home .pr-more-list { grid-template-columns:1fr; }
+ .pr-home .pr-more-list { grid-template-columns:1fr; grid-template-rows:none; grid-auto-flow:row; }
 }
 </style>
 
@@ -130,7 +133,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   <div class="pr-middle">
     <section aria-label="Latest News">
       <div class="section-heading"><h2>Latest News</h2><a href="{{ '/feed.xml' | relative_url }}">RSS Feed →</a></div>
-      {% for post in regular_posts offset:8 limit:6 %}
+      {% for post in regular_posts offset:8 limit:4 %}
       <article class="pr-latest-item">
         {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
         <div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><div class="date">{{ post.date | date: "%B %-d, %Y" }}</div></div>
@@ -191,7 +194,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   <section class="news-section" aria-label="More Headlines">
     <div class="section-heading"><h2>More Headlines</h2><a href="{{ '/feed.xml' | relative_url }}">News Feed →</a></div>
     <div class="pr-more-list">
-      {% for post in regular_posts offset:14 limit:12 %}
+      {% for post in regular_posts offset:12 limit:8 %}
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       {% endfor %}
     </div>
