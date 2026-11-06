@@ -154,6 +154,14 @@ description: "Pakistan news, politics, economy, business, technology, world deve
  .pr-home .pr-strip-links a { display:flex; align-items:center; min-height:42px; line-height:1.3; }
 }
 
+/* Preserve native 16:9 story photography and a shared image baseline on desktop. */
+@media (min-width:851px) {
+ .pr-home .pr-lead > a { height:auto; align-self:start; }
+ .pr-home .pr-lead-image { width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; }
+ .pr-home .pr-category-feature img { width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; display:block; }
+ .pr-home .pr-category-heading { min-height:30px; }
+}
+
 /* Approved desktop masthead/footer: homepage only. Shared layout and mobile stay unchanged. */
 .pr-desktop-header,.pr-desktop-footer { display:none; }
 @media (min-width:851px) {
