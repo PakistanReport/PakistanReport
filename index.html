@@ -2,10 +2,6 @@
 layout: default
 title: "Pakistan Report"
 description: "Pakistan news, politics, economy, business, technology, world developments and explainers."
-# Optional editorial selections: use the exact published article URL path, e.g. /economy/example-story/
-# Leave empty to select recent published articles automatically.
-editor_picks: []
-in_focus: ""
 ---
 
 <style>
@@ -67,9 +63,15 @@ in_focus: ""
 
 <main class="container pr-home">
 {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs' and post.category != 'Explainer'" %}
-{% assign lead = regular_posts.first %}
+{% assign lead = nil %}
+{% assign chosen_lead = site.data.homepage_editorial.main_story | default: "" %}
+{% if chosen_lead != "" %}
+  {% assign matched_lead = site.posts | where: "url", chosen_lead %}
+  {% assign lead = matched_lead.first %}
+{% endif %}
+{% unless lead %}{% assign lead = regular_posts.first %}{% endunless %}
 {% if lead %}
-  <!-- Lead story and editorial selections. Optional front matter flags can be supported later; all content currently uses real published posts. -->
+  <!-- Editorial choices come from _data/homepage_editorial.yml. Unset or invalid paths fall back to published posts. -->
   <section class="pr-lead-grid" aria-label="Featured reporting">
     <article class="pr-lead">
       {% if lead.image %}<a href="{{ lead.url | relative_url }}"><img class="pr-lead-image" src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}"></a>{% endif %}
@@ -83,7 +85,7 @@ in_focus: ""
     <aside class="pr-picks" aria-label="Editor's Picks">
       <h2 class="pr-small-heading">Editor's Picks</h2>
       {% assign pick_count = 0 %}
-      {% for pick_url in page.editor_picks %}
+      {% for pick_url in site.data.homepage_editorial.editors_picks %}
         {% assign matching_picks = site.posts | where: "url", pick_url %}
         {% assign post = matching_picks.first %}
         {% if post and post.url != lead.url and pick_count < 3 %}
@@ -94,7 +96,7 @@ in_focus: ""
         {% assign pick_count = pick_count | plus: 1 %}
         {% endif %}
       {% endfor %}
-      {% for post in regular_posts offset:1 %}
+      {% for post in regular_posts %}
         {% if pick_count < 3 and post.url != lead.url and page.editor_picks contains post.url %}
           {% continue %}
         {% endif %}
@@ -129,7 +131,7 @@ in_focus: ""
       {% endfor %}
     </section>
     {% assign focus = nil %}
-    {% if page.in_focus != "" %}
+    {% assign chosen_focus = site.data.homepage_editorial.in_focus | default: "" %}\n    {% if chosen_focus != "" %}
       {% assign selected_focus = site.posts | where: "url", page.in_focus %}
       {% assign focus = selected_focus.first %}
     {% endif %}
