@@ -2,6 +2,10 @@
 layout: default
 title: "Pakistan Report"
 description: "Pakistan news, politics, economy, business, technology, world developments and explainers."
+# Optional editorial selections: use the exact published article URL path, e.g. /economy/example-story/
+# Leave empty to select recent published articles automatically.
+editor_picks: []
+in_focus: ""
 ---
 
 <style>
@@ -74,11 +78,29 @@ description: "Pakistan news, politics, economy, business, technology, world deve
     </article>
     <aside class="pr-picks" aria-label="Editor's Picks">
       <h2 class="pr-small-heading">Editor's Picks</h2>
-      {% for post in regular_posts offset:1 limit:3 %}
-      <article class="pr-pick">
+      {% assign pick_count = 0 %}
+      {% for pick_url in page.editor_picks %}
+        {% assign matching_picks = site.posts | where: "url", pick_url %}
+        {% assign post = matching_picks.first %}
+        {% if post and post.url != lead.url and pick_count < 3 %}
+        <article class="pr-pick">
         {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       </article>
+        {% assign pick_count = pick_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% for post in regular_posts offset:1 %}
+        {% if pick_count < 3 and post.url != lead.url and page.editor_picks contains post.url %}
+          {% continue %}
+        {% endif %}
+        {% if pick_count < 3 and post.url != lead.url %}
+        <article class="pr-pick">
+          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        </article>
+        {% assign pick_count = pick_count | plus: 1 %}
+        {% endif %}
       {% endfor %}
     </aside>
   </section>
@@ -94,7 +116,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 
   <div class="pr-middle">
     <section aria-label="Latest News">
-      <div class="section-heading"><h2>Latest News</h2><a href="{{ '/sitemap.xml' | relative_url }}">All Stories →</a></div>
+      <div class="section-heading"><h2>Latest News</h2><a href="{{ '/feed.xml' | relative_url }}">RSS Feed →</a></div>
       {% for post in regular_posts offset:8 limit:6 %}
       <article class="pr-latest-item">
         {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
@@ -102,7 +124,12 @@ description: "Pakistan news, politics, economy, business, technology, world deve
       </article>
       {% endfor %}
     </section>
-    {% assign focus = regular_posts[7] %}
+    {% assign focus = nil %}
+    {% if page.in_focus != "" %}
+      {% assign selected_focus = site.posts | where: "url", page.in_focus %}
+      {% assign focus = selected_focus.first %}
+    {% endif %}
+    {% unless focus %}{% assign focus = regular_posts[7] %}{% endunless %}
     {% if focus %}
     <section aria-label="In Focus">
       <div class="section-heading"><h2>In Focus</h2></div>
@@ -140,7 +167,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   {% endfor %}
 
   <section class="news-section" aria-label="More Headlines">
-    <div class="section-heading"><h2>More Headlines</h2><a href="{{ '/sitemap.xml' | relative_url }}">Browse All Stories →</a></div>
+    <div class="section-heading"><h2>More Headlines</h2><a href="{{ '/feed.xml' | relative_url }}">News Feed →</a></div>
     <div class="pr-more-list">
       {% for post in regular_posts offset:14 limit:12 %}
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
