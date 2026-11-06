@@ -110,6 +110,22 @@ description: "Pakistan news, politics, economy, business, technology, world deve
  .pr-home .pr-focus-copy .date { font-size:11px; }
 }
 
+/* Compact four-column category treatment from the approved desktop reference. */
+@media (min-width:851px) {
+ .pr-home .pr-category-grid { margin:24px 0 28px; }
+ .pr-home .pr-category-column { padding:0 12px; }
+ .pr-home .pr-category-heading { margin-bottom:10px; padding-bottom:5px; min-height:28px; }
+ .pr-home .pr-category-heading h2 { font-size:18px; line-height:1.05; letter-spacing:-.65px; }
+ .pr-home .pr-category-column:nth-child(2) .pr-category-heading h2 { font-size:16px; letter-spacing:-.75px; }
+ .pr-home .pr-category-heading a { font-size:17px; line-height:1; }
+ .pr-home .pr-category-feature img { aspect-ratio:16/9; margin-bottom:7px; }
+ .pr-home .pr-category-feature h3,
+ .pr-home .pr-category-secondary h3 { font:700 13px/1.12 Georgia,serif; margin:0 0 4px; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; }
+ .pr-home .pr-category-feature .date,
+ .pr-home .pr-category-secondary .date { font-size:11px; line-height:1.2; }
+ .pr-home .pr-category-secondary { margin-top:7px; padding-top:7px; }
+}
+
 /* Approved desktop masthead/footer: homepage only. Shared layout and mobile stay unchanged. */
 .pr-desktop-header,.pr-desktop-footer { display:none; }
 @media (min-width:851px) {
