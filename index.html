@@ -56,7 +56,8 @@ description: "Pakistan news, politics, economy, business, technology, world deve
  .pr-home .pr-news-strip { display:block; }
  .pr-home .pr-strip-links { grid-template-columns:1fr; margin-top:10px; }
  .pr-home .pr-strip-links a { border-right:0; padding:5px 0; border-bottom:1px solid #c9d8d0; }
- .pr-home .pr-category-grid { grid-template-columns:1fr; }\n .pr-home .pr-category-column { padding:0 0 22px!important; border-right:0!important; border-bottom:1px solid var(--pr-line); }
+ .pr-home .pr-category-grid { grid-template-columns:1fr; }
+ .pr-home .pr-category-column { padding:0 0 22px!important; border-right:0!important; border-bottom:1px solid var(--pr-line); }
  .pr-home .pr-more-list { grid-template-columns:1fr; }
 }
 </style>
@@ -97,7 +98,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
         {% endif %}
       {% endfor %}
       {% for post in regular_posts %}
-        {% if pick_count < 3 and post.url != lead.url and page.editor_picks contains post.url %}
+        {% if pick_count < 3 and post.url != lead.url and site.data.homepage_editorial.editors_picks contains post.url %}
           {% continue %}
         {% endif %}
         {% if pick_count < 3 and post.url != lead.url %}
