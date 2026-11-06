@@ -4,133 +4,150 @@ title: "Pakistan Report"
 description: "Pakistan news, politics, economy, business, technology, world developments and explainers."
 ---
 
-<main class="container">
+<style>
+/* Homepage-only redesign: no shared layouts, SEO tags, or article templates changed. */
+.pr-home { --pr-green:#064c3b; --pr-line:#dce2df; }
+.pr-home .pr-lead-grid { display:grid; grid-template-columns:minmax(0,2.1fr) minmax(245px,1fr); gap:26px; margin-bottom:28px; }
+.pr-home .pr-lead { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); gap:18px; align-items:center; }
+.pr-home .pr-lead-image, .pr-home .pr-focus-image { width:100%; aspect-ratio:16/10; object-fit:cover; display:block; }
+.pr-home .pr-lead h1 { font:700 clamp(25px,2.5vw,36px)/1.14 Georgia,serif; margin:9px 0 12px; }
+.pr-home .pr-lead p, .pr-home .pr-focus p { color:#58655f; font-size:14px; }
+.pr-home .pr-picks { border-left:1px solid var(--pr-line); padding-left:20px; }
+.pr-home .pr-small-heading { font:700 23px Georgia,serif; color:var(--pr-green); margin:0 0 13px; border-bottom:2px solid var(--pr-green); padding-bottom:7px; }
+.pr-home .pr-pick { display:grid; grid-template-columns:94px minmax(0,1fr); gap:10px; padding:10px 0; border-bottom:1px solid var(--pr-line); }
+.pr-home .pr-pick img { width:94px; height:65px; object-fit:cover; }
+.pr-home .pr-pick h3 { font:700 15px/1.25 Georgia,serif; margin:0; }
+.pr-home .pr-news-strip { display:flex; align-items:center; gap:14px; background:#e8f1ec; padding:10px 14px; margin-bottom:38px; }
+.pr-home .pr-news-strip strong { background:var(--pr-green); color:white; padding:8px 13px; white-space:nowrap; font:700 18px Georgia,serif; }
+.pr-home .pr-strip-links { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; flex:1; }
+.pr-home .pr-strip-links a { font-size:13px; font-weight:700; padding:0 10px; border-right:1px solid #a3b9ae; }
+.pr-home .pr-strip-links a:last-child { border:0; }
+.pr-home .pr-middle { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:30px; margin-bottom:45px; }
+.pr-home .pr-latest-item { display:grid; grid-template-columns:112px minmax(0,1fr); gap:13px; border-bottom:1px solid var(--pr-line); padding:10px 0; }
+.pr-home .pr-latest-item img { width:112px; height:75px; object-fit:cover; }
+.pr-home .pr-latest-item h3 { font:700 17px/1.25 Georgia,serif; margin:0; }
+.pr-home .pr-focus-card { background:white; border:1px solid var(--pr-line); }
+.pr-home .pr-focus-copy { padding:18px; }
+.pr-home .pr-focus-copy h3 { font:700 clamp(22px,2vw,29px)/1.17 Georgia,serif; margin:5px 0; }
+.pr-home .pr-category-section { margin-bottom:42px; }
+.pr-home .pr-category-section .section-heading { margin-bottom:17px; }
+.pr-home .pr-category-cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+.pr-home .pr-category-card { background:white; border:1px solid var(--pr-line); min-width:0; }
+.pr-home .pr-category-card img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
+.pr-home .pr-category-card .pr-card-body { padding:13px 15px 17px; }
+.pr-home .pr-category-card h3 { font:700 20px/1.2 Georgia,serif; margin:7px 0 10px; }
+.pr-home .pr-category-card p { font-size:13px; color:#58655f; margin:0; }
+.pr-home .pr-more-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:32px; row-gap:11px; }
+.pr-home .pr-more-list a { font-size:14px; padding:0 0 9px 15px; border-bottom:1px solid var(--pr-line); position:relative; }
+.pr-home .pr-more-list a:before { content:""; background:var(--pr-green); width:6px; height:6px; position:absolute; left:0; top:8px; }
+.pr-home a:hover { color:#08745a; }
+@media(max-width:850px) {
+ .pr-home .pr-lead-grid,.pr-home .pr-middle { grid-template-columns:1fr; }
+ .pr-home .pr-picks { border-left:0; padding-left:0; }
+ .pr-home .pr-category-cards { gap:12px; }
+ .pr-home .pr-category-card h3 { font-size:17px; }
+}
+@media(max-width:600px) {
+ .pr-home .pr-lead { grid-template-columns:1fr; }
+ .pr-home .pr-news-strip { display:block; }
+ .pr-home .pr-strip-links { grid-template-columns:1fr; margin-top:10px; }
+ .pr-home .pr-strip-links a { border-right:0; padding:5px 0; border-bottom:1px solid #c9d8d0; }
+ .pr-home .pr-category-cards { grid-template-columns:1fr; }
+ .pr-home .pr-more-list { grid-template-columns:1fr; }
+}
+</style>
 
-  {% if site.posts.size > 0 %}
-
-  {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs' and post.category != 'Explainer'" %}
-  {% assign featured = regular_posts.first %}
-
-  <!-- FEATURED STORY -->
-  <section class="featured-section">
-    <div class="section-heading"><h2>Top Story</h2></div>
-    <article class="featured-story">
-      {% if featured.image %}
-      <a href="{{ featured.url | relative_url }}"><img class="featured-image" src="{{ featured.image }}" alt="{{ featured.image_alt | default: featured.title | escape }}"></a>
-      {% endif %}
-      <div class="featured-content">
-        {% if featured.category %}<div class="category">{{ featured.category }}</div>{% endif %}
-        <h1><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h1>
-        {% if featured.description %}<p>{{ featured.description }}</p>{% endif %}
-        <div class="date">{{ featured.date | date: "%B %-d, %Y" }}</div>
+<main class="container pr-home">
+{% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs' and post.category != 'Explainer'" %}
+{% assign lead = regular_posts.first %}
+{% if lead %}
+  <!-- Lead story and editorial selections. Optional front matter flags can be supported later; all content currently uses real published posts. -->
+  <section class="pr-lead-grid" aria-label="Featured reporting">
+    <article class="pr-lead">
+      {% if lead.image %}<a href="{{ lead.url | relative_url }}"><img class="pr-lead-image" src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}"></a>{% endif %}
+      <div>
+        <div class="category">{{ lead.category }}</div>
+        <h1><a href="{{ lead.url | relative_url }}">{{ lead.title }}</a></h1>
+        {% if lead.description %}<p>{{ lead.description }}</p>{% endif %}
+        <div class="date">{{ lead.date | date: "%B %-d, %Y" }}</div>
       </div>
     </article>
-  </section>
-
-  <!-- LATEST STORIES -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Latest Stories</h2></div>
-    <div class="articles">
-      {% for post in regular_posts offset:1 limit:6 %}
-      <article class="card">
-        {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-        <div class="card-content">
-          {% if post.category %}<div class="category">{{ post.category }}</div>{% endif %}
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          {% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}
-          <div class="date">{{ post.date | date: "%B %-d, %Y" }}</div>
-        </div>
+    <aside class="pr-picks" aria-label="Editor's Picks">
+      <h2 class="pr-small-heading">Editor's Picks</h2>
+      {% for post in regular_posts offset:1 limit:3 %}
+      <article class="pr-pick">
+        {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       </article>
       {% endfor %}
-    </div>
+    </aside>
   </section>
 
-  <!-- PAKISTAN -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Pakistan</h2><a href="{{ site.url }}/pakistan/">More →</a></div>
-    <div class="articles">
-      {% assign pakistan_count = 0 %}
-      {% for post in site.posts %}
-        {% if post.category == "Pakistan" and pakistan_count < 3 %}
-        <article class="card">
-          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-          <div class="card-content"><div class="category">Pakistan</div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}</div>
-        </article>
-        {% assign pakistan_count = pakistan_count | plus: 1 %}
-        {% endif %}
+  <section class="pr-news-strip" aria-label="In the News">
+    <strong>In the News</strong>
+    <div class="pr-strip-links">
+      {% for post in regular_posts offset:4 limit:3 %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       {% endfor %}
     </div>
   </section>
 
-  <!-- ECONOMY -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Economy</h2><a href="{{ site.url }}/economy/">More →</a></div>
-    <div class="articles">
-      {% assign economy_count = 0 %}
+  <div class="pr-middle">
+    <section aria-label="Latest News">
+      <div class="section-heading"><h2>Latest News</h2><a href="{{ '/sitemap.xml' | relative_url }}">All Stories →</a></div>
+      {% for post in regular_posts offset:8 limit:6 %}
+      <article class="pr-latest-item">
+        {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
+        <div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><div class="date">{{ post.date | date: "%B %-d, %Y" }}</div></div>
+      </article>
+      {% endfor %}
+    </section>
+    {% assign focus = regular_posts[7] %}
+    {% if focus %}
+    <section aria-label="In Focus">
+      <div class="section-heading"><h2>In Focus</h2></div>
+      <article class="pr-focus-card">
+        {% if focus.image %}<a href="{{ focus.url | relative_url }}"><img class="pr-focus-image" src="{{ focus.image | relative_url }}" alt="{{ focus.image_alt | default: focus.title | escape }}" loading="lazy"></a>{% endif %}
+        <div class="pr-focus-copy"><div class="category">{{ focus.category }}</div><h3><a href="{{ focus.url | relative_url }}">{{ focus.title }}</a></h3>{% if focus.description %}<p>{{ focus.description }}</p>{% endif %}<div class="date">{{ focus.date | date: "%B %-d, %Y" }}</div></div>
+      </article>
+    </section>
+    {% endif %}
+  </div>
+
+  <!-- Each category has its own full-width horizontal row of three actual articles. -->
+  {% assign home_categories = "Pakistan|Politics|Economy|Business|Technology|World" | split: "|" %}
+  {% for cat in home_categories %}
+  {% assign cat_slug = cat | downcase %}
+  <section class="pr-category-section" aria-label="{{ cat }} news">
+    <div class="section-heading"><h2>{{ cat }}</h2><a href="{{ cat_slug | prepend: '/' | append: '/' | relative_url }}">More →</a></div>
+    <div class="pr-category-cards">
+      {% assign cat_count = 0 %}
       {% for post in site.posts %}
-        {% if post.category == "Economy" and economy_count < 3 %}
-        <article class="card">
-          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-          <div class="card-content"><div class="category">Economy</div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}</div>
+        {% if post.category == cat and cat_count < 3 %}
+        <article class="pr-category-card">
+          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
+          <div class="pr-card-body">
+            <div class="category">{{ cat }}</div>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            {% if post.description %}<p>{{ post.description | truncate: 145 }}</p>{% endif %}
+          </div>
         </article>
-        {% assign economy_count = economy_count | plus: 1 %}
+        {% assign cat_count = cat_count | plus: 1 %}
         {% endif %}
       {% endfor %}
     </div>
   </section>
+  {% endfor %}
 
-  <!-- BUSINESS -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Business</h2><a href="{{ site.url }}/business/">More →</a></div>
-    <div class="articles">
-      {% assign business_count = 0 %}
-      {% for post in site.posts %}
-        {% if post.category == "Business" and business_count < 3 %}
-        <article class="card">
-          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-          <div class="card-content"><div class="category">Business</div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}</div>
-        </article>
-        {% assign business_count = business_count | plus: 1 %}
-        {% endif %}
+  <section class="news-section" aria-label="More Headlines">
+    <div class="section-heading"><h2>More Headlines</h2><a href="{{ '/sitemap.xml' | relative_url }}">Browse All Stories →</a></div>
+    <div class="pr-more-list">
+      {% for post in regular_posts offset:14 limit:12 %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       {% endfor %}
     </div>
   </section>
-
-  <!-- TECHNOLOGY -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Technology</h2><a href="{{ site.url }}/technology/">More →</a></div>
-    <div class="articles">
-      {% assign tech_count = 0 %}
-      {% for post in site.posts %}
-        {% if post.category == "Technology" and tech_count < 3 %}
-        <article class="card">
-          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-          <div class="card-content"><div class="category">Technology</div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}</div>
-        </article>
-        {% assign tech_count = tech_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-
-  {% else %}
+{% else %}
   <section class="empty"><h1>Pakistan Report</h1><p>Our latest reporting will appear here.</p></section>
-  {% endif %}
-
-  <!-- FUTURE AD POSITION -->
-  <section class="ad-placeholder">Advertisement</section>
-
-  <!-- TOPICS -->
-  <section class="topics">
-    <h2>Explore Pakistan Report</h2>
-    <div class="topic-grid">
-      <a href="{{ site.url }}/pakistan/">Pakistan</a>
-      <a href="{{ site.url }}/politics/">Politics</a>
-      <a href="{{ site.url }}/economy/">Economy</a>
-      <a href="{{ site.url }}/business/">Business</a>
-      <a href="{{ site.url }}/technology/">Technology</a>
-      <a href="{{ site.url }}/world/">World</a>
-    </div>
-  </section>
-
+{% endif %}
 </main>
