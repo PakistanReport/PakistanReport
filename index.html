@@ -182,6 +182,12 @@ description: "Pakistan news, politics, economy, business, technology, world deve
  .pr-home .pr-strip-links a { align-items:flex-start; min-height:0; padding-top:0; }
 }
 
+/* Show the entire In Focus photograph without cropping at desktop widths. */
+@media (min-width:851px) {
+ .pr-home .pr-focus-card { background:#e7eee9; }
+ .pr-home .pr-focus-image { width:100%; height:100%; object-fit:contain; object-position:center center; }
+}
+
 /* Approved desktop masthead/footer: homepage only. Shared layout and mobile stay unchanged. */
 .pr-desktop-header,.pr-desktop-footer { display:none; }
 @media (min-width:851px) {
