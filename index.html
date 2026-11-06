@@ -33,14 +33,18 @@ in_focus: ""
 .pr-home .pr-focus-card { background:white; border:1px solid var(--pr-line); }
 .pr-home .pr-focus-copy { padding:18px; }
 .pr-home .pr-focus-copy h3 { font:700 clamp(22px,2vw,29px)/1.17 Georgia,serif; margin:5px 0; }
-.pr-home .pr-category-section { margin-bottom:42px; }
-.pr-home .pr-category-section .section-heading { margin-bottom:17px; }
-.pr-home .pr-category-cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
-.pr-home .pr-category-card { background:white; border:1px solid var(--pr-line); min-width:0; }
-.pr-home .pr-category-card img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; }
-.pr-home .pr-category-card .pr-card-body { padding:13px 15px 17px; }
-.pr-home .pr-category-card h3 { font:700 20px/1.2 Georgia,serif; margin:7px 0 10px; }
-.pr-home .pr-category-card p { font-size:13px; color:#58655f; margin:0; }
+.pr-home .pr-category-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:0; margin:35px 0 38px; }
+.pr-home .pr-category-column { min-width:0; padding:0 16px; border-right:1px solid var(--pr-line); }
+.pr-home .pr-category-column:first-child { padding-left:0; }
+.pr-home .pr-category-column:last-child { border-right:0; padding-right:0; }
+.pr-home .pr-category-heading { display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--pr-green); margin:0 0 13px; padding:0 0 7px; gap:5px; }
+.pr-home .pr-category-heading h2 { font:700 21px/1.15 Georgia,serif; color:var(--pr-green); margin:0; }
+.pr-home .pr-category-heading a { color:var(--pr-green); font-weight:700; font-size:20px; }
+.pr-home .pr-category-feature img { display:block; width:100%; aspect-ratio:16/8; object-fit:cover; margin-bottom:9px; }
+.pr-home .pr-category-feature h3 { font:700 17px/1.2 Georgia,serif; margin:0 0 7px; }
+.pr-home .pr-category-feature .date, .pr-home .pr-category-secondary .date { font-size:12px; }
+.pr-home .pr-category-secondary { border-top:1px solid var(--pr-line); margin-top:10px; padding-top:10px; }
+.pr-home .pr-category-secondary h3 { font:700 15px/1.22 Georgia,serif; margin:0 0 5px; }
 .pr-home .pr-more-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:32px; row-gap:11px; }
 .pr-home .pr-more-list a { font-size:14px; padding:0 0 9px 15px; border-bottom:1px solid var(--pr-line); position:relative; }
 .pr-home .pr-more-list a:before { content:""; background:var(--pr-green); width:6px; height:6px; position:absolute; left:0; top:8px; }
@@ -56,7 +60,7 @@ in_focus: ""
  .pr-home .pr-news-strip { display:block; }
  .pr-home .pr-strip-links { grid-template-columns:1fr; margin-top:10px; }
  .pr-home .pr-strip-links a { border-right:0; padding:5px 0; border-bottom:1px solid #c9d8d0; }
- .pr-home .pr-category-cards { grid-template-columns:1fr; }
+ .pr-home .pr-category-grid { grid-template-columns:1fr; }\n .pr-home .pr-category-column { padding:0 0 22px!important; border-right:0!important; border-bottom:1px solid var(--pr-line); }
  .pr-home .pr-more-list { grid-template-columns:1fr; }
 }
 </style>
@@ -141,30 +145,38 @@ in_focus: ""
     {% endif %}
   </div>
 
-  <!-- Each category has its own full-width horizontal row of three actual articles. -->
-  {% assign home_categories = "Pakistan|Politics|Economy|Business|Technology|World" | split: "|" %}
-  {% for cat in home_categories %}
-  {% assign cat_slug = cat | downcase %}
-  <section class="pr-category-section" aria-label="{{ cat }} news">
-    <div class="section-heading"><h2>{{ cat }}</h2><a href="{{ cat_slug | prepend: '/' | append: '/' | relative_url }}">More →</a></div>
-    <div class="pr-category-cards">
-      {% assign cat_count = 0 %}
+  <!-- Four editorial columns, matching the approved homepage reference. -->
+  {% assign homepage_groups = "Pakistan & Politics|Economy & Business|World|Technology" | split: "|" %}
+  <div class="pr-category-grid" aria-label="News by section">
+  {% for group in homepage_groups %}
+    {% assign category_names = group | split: " & " %}
+    {% assign group_count = 0 %}
+    <section class="pr-category-column" aria-label="{{ group }}">
+      <div class="pr-category-heading">
+        <h2>{{ group }}</h2>
+        {% assign first_category = category_names.first | downcase %}
+        <a href="{{ first_category | prepend: '/' | append: '/' | relative_url }}" aria-label="More {{ group }} stories">→</a>
+      </div>
       {% for post in site.posts %}
-        {% if post.category == cat and cat_count < 3 %}
-        <article class="pr-category-card">
-          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
-          <div class="pr-card-body">
-            <div class="category">{{ cat }}</div>
+        {% if category_names contains post.category and group_count < 3 %}
+          {% if group_count == 0 %}
+          <article class="pr-category-feature">
+            {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-            {% if post.description %}<p>{{ post.description | truncate: 145 }}</p>{% endif %}
-          </div>
-        </article>
-        {% assign cat_count = cat_count | plus: 1 %}
+            <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
+          </article>
+          {% else %}
+          <article class="pr-category-secondary">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
+          </article>
+          {% endif %}
+          {% assign group_count = group_count | plus: 1 %}
         {% endif %}
       {% endfor %}
-    </div>
-  </section>
+    </section>
   {% endfor %}
+  </div>
 
   <section class="news-section" aria-label="More Headlines">
     <div class="section-heading"><h2>More Headlines</h2><a href="{{ '/feed.xml' | relative_url }}">News Feed →</a></div>
