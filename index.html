@@ -176,6 +176,12 @@ description: "Pakistan news, politics, economy, business, technology, world deve
  .pr-home .pr-category-feature img { width:100%; height:clamp(108px,11.5vw,136px); aspect-ratio:auto; object-fit:cover; object-position:center; }
 }
 
+/* Align the first line of all three In the News headlines. */
+@media (min-width:851px) {
+ .pr-home .pr-strip-links { align-items:start; }
+ .pr-home .pr-strip-links a { align-items:flex-start; min-height:0; padding-top:0; }
+}
+
 /* Approved desktop masthead/footer: homepage only. Shared layout and mobile stay unchanged. */
 .pr-desktop-header,.pr-desktop-footer { display:none; }
 @media (min-width:851px) {
