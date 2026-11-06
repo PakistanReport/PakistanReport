@@ -13,7 +13,7 @@ jobs:
       - name: Check out original homepage snapshot
         uses: actions/checkout@v4
         with:
-          ref: b445f39bf298
+          ref: b445f39bf298ab29f285036ffd0ecf9e0d8499f8
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
