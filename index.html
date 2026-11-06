@@ -162,6 +162,14 @@ description: "Pakistan news, politics, economy, business, technology, world deve
  .pr-home .pr-category-heading { min-height:30px; }
 }
 
+/* Keep the 16:9 lead photo uncropped while matching the Editors' Picks bottom rule. */
+@media (min-width:851px) {
+ .pr-home .pr-picks .pr-small-heading { margin-bottom:3px; padding-bottom:5px; }
+ .pr-home .pr-pick { grid-template-columns:80px minmax(0,1fr); gap:9px; padding:5px 0; align-items:start; }
+ .pr-home .pr-pick img { width:80px; height:49px; object-fit:cover; }
+ .pr-home .pr-pick h3 { font-size:12px; line-height:1.16; }
+}
+
 /* Approved desktop masthead/footer: homepage only. Shared layout and mobile stay unchanged. */
 .pr-desktop-header,.pr-desktop-footer { display:none; }
 @media (min-width:851px) {
