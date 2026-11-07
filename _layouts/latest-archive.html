@@ -36,15 +36,5 @@ layout: default
  </article>
  {% endfor %}
 
- {% assign paging = page.latest_pagination %}
- {% if paging and paging.total_pages > 1 %}
- <nav class="pr-archive-pagination" aria-label="Latest stories pages" style="display:flex;flex-wrap:wrap;gap:9px;justify-content:center;align-items:center;margin:32px 0;">
-  {% if paging.previous_url %}<a rel="prev" href="{{ paging.previous_url | relative_url }}">Previous</a>{% endif %}
-  {% for number in (1..paging.total_pages) %}
-   {% if number == 1 %}{% assign number_url = paging.base_url %}{% else %}{% capture number_url %}{{ paging.base_url }}page/{{ number }}/{% endcapture %}{% endif %}
-   {% if number == paging.page %}<span aria-current="page">{{ number }}</span>{% else %}<a href="{{ number_url | relative_url }}" aria-label="Page {{ number }}">{{ number }}</a>{% endif %}
-  {% endfor %}
-  {% if paging.next_url %}<a rel="next" href="{{ paging.next_url | relative_url }}">Next</a>{% endif %}
- </nav>
- {% endif %}
+ {% include compact-pagination.html paging=page.latest_pagination label="Latest stories pages" %}
 </main>
