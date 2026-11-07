@@ -418,7 +418,14 @@
     /* Desktop article presentation: restrained headline and hero width.
        Keep mobile typography, article body and image proportions unchanged. */
     @media (min-width: 801px) {
+      /* Match the 1050px article grid's left edge, not its center. */
       .article-header {
+        max-width: 1050px;
+      }
+
+      .article-header h1,
+      .article-header .standfirst,
+      .article-header .byline {
         max-width: 820px;
       }
 
@@ -429,6 +436,11 @@
       }
 
       .hero-wrap {
+        max-width: 1050px;
+      }
+
+      .hero-image,
+      .image-caption {
         max-width: 820px;
       }
     }
