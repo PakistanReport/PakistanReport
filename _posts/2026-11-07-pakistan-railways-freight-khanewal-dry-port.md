@@ -44,7 +44,7 @@ Pakistan Railways decided to shift operational meetings from its headquarters to
 
 The meeting also decided to phase out DVM and DVS coaches from the railway system.
 
-To improve the availability of railway sleepers, the minister directed sleeper factories to operate double shifts.
+To increase the supply of sleepers—the supports placed beneath railway tracks to hold the rails in position—the minister directed factories producing them to operate two shifts a day.
 
 Officials were additionally instructed to address delays in the procurement of spare parts for locomotives and passenger coaches.
 
