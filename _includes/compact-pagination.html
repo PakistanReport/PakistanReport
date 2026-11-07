@@ -1,0 +1,29 @@
+{% comment %}Shared compact pagination. Caller sets paging with page, total_pages, base_url, previous_url and next_url.{% endcomment %}
+{% if include.paging and include.paging.total_pages > 1 %}
+{% assign paging = include.paging %}
+{% assign window_start = paging.page | minus: 2 %}
+{% assign window_end = paging.page | plus: 2 %}
+{% if window_start < 1 %}{% assign window_end = window_end | plus: 1 | minus: window_start %}{% assign window_start = 1 %}{% endif %}
+{% if window_end > paging.total_pages %}{% assign window_start = window_start | minus: window_end | plus: paging.total_pages %}{% assign window_end = paging.total_pages %}{% endif %}
+{% if window_start < 1 %}{% assign window_start = 1 %}{% endif %}
+<nav class="pr-compact-pagination" aria-label="{{ include.label | default: 'Archive pages' }}">
+{% if paging.previous_url %}<a rel="prev" href="{{ paging.previous_url | relative_url }}">‹ Previous</a>{% endif %}
+{% if window_start > 1 %}<a href="{{ paging.base_url | relative_url }}" aria-label="Page 1">1</a>{% endif %}
+{% if window_start > 2 %}<span class="pr-pagination-ellipsis" aria-hidden="true">…</span>{% endif %}
+{% for number in (window_start..window_end) %}
+  {% if number == 1 %}{% assign number_url = paging.base_url %}{% else %}{% capture number_url %}{{ paging.base_url }}page/{{ number }}/{% endcapture %}{% endif %}
+  {% if number == paging.page %}<span aria-current="page">{{ number }}</span>{% else %}<a href="{{ number_url | relative_url }}" aria-label="Page {{ number }}">{{ number }}</a>{% endif %}
+{% endfor %}
+{% assign next_after_window = window_end | plus: 1 %}
+{% if next_after_window < paging.total_pages %}<span class="pr-pagination-ellipsis" aria-hidden="true">…</span>{% endif %}
+{% if window_end < paging.total_pages %}<a href="{{ paging.base_url | append: 'page/' | append: paging.total_pages | append: '/' | relative_url }}" aria-label="Last page {{ paging.total_pages }}">{{ paging.total_pages }}</a>{% endif %}
+{% if paging.next_url %}<a rel="next" href="{{ paging.next_url | relative_url }}">Next ›</a>{% endif %}
+</nav>
+<style>
+.pr-compact-pagination{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin:32px 0}
+.pr-compact-pagination a,.pr-compact-pagination span[aria-current="page"]{display:inline-flex;align-items:center;justify-content:center;min-width:40px;min-height:42px;padding:8px 12px;border:1px solid #dce2df;border-radius:5px;text-decoration:none;color:#16271e}
+.pr-compact-pagination a:hover{border-color:#064c3b;color:#064c3b}
+.pr-compact-pagination span[aria-current="page"]{background:#064c3b;border-color:#064c3b;color:white;font-weight:700}
+.pr-compact-pagination .pr-pagination-ellipsis{padding:8px 2px;color:#62736a}
+</style>
+{% endif %}
