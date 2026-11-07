@@ -23,7 +23,7 @@ Private limited companies represented 55.4% of new registrations, while single-m
 
 ### Punjab Leads, Sindh Records 751
 
-Punjab registered 2,663 companies, followed by Islamabad with 934 and Sindh with 751. Khyber Pakhtunkhwa recorded 382, Gilgit-Baltistan 162 and Balochistan 111.
+Punjab registered 2,663 companies, followed by Sindh with 751. Khyber Pakhtunkhwa recorded 382, Gilgit-Baltistan 162 and Balochistan 111.
 
 The SECP also reported that 173 foreign investors became company directors during the month.
 
