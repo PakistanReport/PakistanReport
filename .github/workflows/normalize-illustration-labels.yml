@@ -1,4 +1,4 @@
-name: Normalize labelled illustration captions
+name: Clean normalized illustration captions
 on:
   push:
     branches: [fix-ai-generated-image-labels]
@@ -10,48 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - name: Update only explicitly AI-labelled image metadata
+      - name: Remove folded caption leftovers only
         shell: python
         run: |
           from pathlib import Path
-          import re
-          count = 0
-          for path in Path('_posts').glob('*.md'):
-              content = path.read_text(encoding='utf-8')
-              if not content.startswith('---\n'):
-                  continue
-              end = content.find('\n---', 4)
-              if end < 0:
-                  continue
-              header, rest = content[:end], content[end:]
-              lines = header.splitlines(keepends=True)
-              changed = False
-              for i, line in enumerate(lines):
-                  if re.match(r'^image_caption:\s*', line, re.I) and re.search(r'\bAI[- ]generated\b|\bAI illustration\b', line, re.I):
-                      lines[i] = 'image_caption: "Pakistan Report illustration"\n'
-                      changed = True
-                  elif re.match(r'^image_alt:\s*', line, re.I) and re.search(r'\bAI[- ]generated\b|\bAI illustration\b', line, re.I):
-                      replacement = re.sub(r'AI[- ]generated\s*', '', line, flags=re.I)
-                      replacement = re.sub(r'AI illustration', 'Illustration', replacement, flags=re.I)
-                      lines[i] = replacement
-                      changed = True
-              if changed:
-                  path.write_text(''.join(lines) + rest, encoding='utf-8')
-                  count += 1
-                  print(path)
-          print('Changed files:', count)
-      - name: Remove leftover folded caption continuation lines
-        shell: python
-        run: |
-          from pathlib import Path
-          import re
           count = 0
           for path in Path('_posts').glob('*.md'):
               original = path.read_text(encoding='utf-8')
-              if not original.startswith('---\\n'):
-                  continue
               lines = original.splitlines(keepends=True)
               output = []
               in_caption = False
@@ -60,27 +25,19 @@ jobs:
                   if in_caption and (line.startswith(' ') or line.startswith('\\t')):
                       changed = True
                       continue
-                  in_caption = bool(re.match(r'^image_caption:\\s*["\\\']Pakistan Report illustration["\\\']\\s*
-        run: |
-          if ! git diff --quiet -- _posts; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add _posts
-            git commit -m "Standardize captions on explicitly AI-labelled illustrations"
-            git push
-          fi
-, line.strip()))
+                  in_caption = line.strip() == 'image_caption: "Pakistan Report illustration"'
                   output.append(line)
               if changed:
                   path.write_text(''.join(output), encoding='utf-8')
                   count += 1
-          print('Cleaned folded captions:', count)
-      - name: Commit changed article metadata
+                  print(path)
+          print('Cleaned files:', count)
+      - name: Commit fixes
         run: |
           if ! git diff --quiet -- _posts; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add _posts
-            git commit -m "Standardize captions on explicitly AI-labelled illustrations"
+            git commit -m "Remove leftover wrapped AI image caption text"
             git push
           fi
