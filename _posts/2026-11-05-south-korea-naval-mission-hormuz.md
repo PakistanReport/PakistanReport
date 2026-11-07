@@ -36,5 +36,3 @@ The government plans to seek parliamentary approval to extend the unit's deploym
 South Korea's Defence Ministry said the expanded operations would remain under South Korean command and would not involve participation in the conflict with Iran.
 
 The mission would operate outside the Strait of Hormuz, focusing on shipping security and the protection of commercial vessels.
-
-Source: https://www.reuters.com/world/asia-pacific/south-korea-expand-anti-piracy-unit-operations-closer-strait-hormuz-2026-11-05/
