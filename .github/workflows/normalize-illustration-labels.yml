@@ -42,6 +42,39 @@ jobs:
                   count += 1
                   print(path)
           print('Changed files:', count)
+      - name: Remove leftover folded caption continuation lines
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          count = 0
+          for path in Path('_posts').glob('*.md'):
+              original = path.read_text(encoding='utf-8')
+              if not original.startswith('---\\n'):
+                  continue
+              lines = original.splitlines(keepends=True)
+              output = []
+              in_caption = False
+              changed = False
+              for line in lines:
+                  if in_caption and (line.startswith(' ') or line.startswith('\\t')):
+                      changed = True
+                      continue
+                  in_caption = bool(re.match(r'^image_caption:\\s*["\\\']Pakistan Report illustration["\\\']\\s*
+        run: |
+          if ! git diff --quiet -- _posts; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add _posts
+            git commit -m "Standardize captions on explicitly AI-labelled illustrations"
+            git push
+          fi
+, line.strip()))
+                  output.append(line)
+              if changed:
+                  path.write_text(''.join(output), encoding='utf-8')
+                  count += 1
+          print('Cleaned folded captions:', count)
       - name: Commit changed article metadata
         run: |
           if ! git diff --quiet -- _posts; then
