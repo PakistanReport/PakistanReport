@@ -4,30 +4,26 @@ title: "About Pakistan Report"
 description: "About Pakistan Report and the publication's editorial focus."
 ---
 
-Pakistan Report is an independent digital publication focused on news, developments and ideas that matter to people in Pakistan.
+**Pakistan Report** is an independent digital news publication covering developments in Pakistan and major international events that affect the country and its readers.
 
-Our coverage spans Pakistan, politics, the economy, business, jobs, technology, world developments relevant to Pakistan and explainers. Politics is a central coverage pillar, alongside reporting that helps readers understand economic, public-service and other major developments.
+Our reporting focuses on politics, the economy, business, technology and public affairs. We also cover significant world developments and publish explainers that put complex issues into context.
 
-Our goal is not simply to repeat headlines. We aim to explain what happened, provide useful context and help readers understand why a development matters.
+We aim to go beyond the headline: to establish what happened, present the relevant facts and figures, and explain the background readers need to understand the story.
 
-Pakistan Report publishes under the editorial byline **Pakistan Report Editorial Desk**.
+## How We Report
 
-## Editorial responsibility
+Accuracy, clarity and context guide our coverage. We prioritise verifiable information, including official records, public data, regulatory announcements, company disclosures and other credible sources.
 
-The **Pakistan Report Editorial Desk** is the publication's collective editorial byline. It identifies material published under Pakistan Report's editorial responsibility; it is not a claim that a separately named journalist reported every article. The publication is responsible for the accuracy of material it publishes, including verification of significant claims and correction of confirmed factual errors.
+We distinguish established facts from allegations, claims and analysis, and acknowledge uncertainty when information remains incomplete.
 
-Readers can question an attribution, submit a primary document, or request a factual correction through our [Contact page](/contact/). We review correction requests against available evidence and update material errors where appropriate. We do not publish invented individual bylines or credentials.
+Our [Editorial Policy](/editorial-policy/) explains these standards in more detail.
 
-## Our approach
+## Editorial Responsibility
 
-We aim to produce reporting that is clear, accurate, useful and accessible.
-
-Where appropriate, our stories may draw on official documents, government announcements, company disclosures, public data, reputable news agencies and other credible sources.
-
-We distinguish between confirmed facts, reported claims, analysis and uncertainty.
+Pakistan Report publishes under the editorial byline **Pakistan Report Editorial Desk**, reflecting our commitment to accuracy, responsible journalism and high editorial standards.
 
 ## Independence
 
-Pakistan Report is independently operated.
+Pakistan Report maintains an independent editorial approach, guided by accuracy, public interest and the relevance of the issues we cover.
 
-Advertising, sponsorships or commercial relationships do not determine our editorial conclusions. Sponsored material, if introduced in the future, will be clearly identified.
+Our priority is to provide readers with reliable information, meaningful context and a balanced understanding of important developments.
