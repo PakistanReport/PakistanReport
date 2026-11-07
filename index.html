@@ -188,6 +188,19 @@ description: "Pakistan news, politics, economy, business, technology, world deve
  .pr-home .pr-focus-image { width:100%; height:100%; object-fit:contain; object-position:center center; }
 }
 
+
+/* Mobile-only: show the full In Focus summary below the photograph, never over it. */
+@media (max-width:850px) {
+ .pr-home .pr-focus-card { display:flex; flex-direction:column; min-height:0; overflow:visible; background:#064c3b; }
+ .pr-home .pr-focus-image-link { position:relative; inset:auto; display:block; width:100%; }
+ .pr-home .pr-focus-image { width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; }
+ .pr-home .pr-focus-card:after { display:none; }
+ .pr-home .pr-focus-copy { position:relative; inset:auto; max-height:none; overflow:visible; padding:16px 18px 18px; display:block; text-shadow:none; }
+ .pr-home .pr-focus-copy h3 { display:block; overflow:visible; -webkit-line-clamp:unset; font-size:clamp(23px,5.8vw,30px); line-height:1.16; margin:0 0 10px; }
+ .pr-home .pr-focus-copy p { display:block; overflow:visible; -webkit-line-clamp:unset; font-size:16px; line-height:1.45; margin:0 0 12px; }
+ .pr-home .pr-focus-copy .date { font-size:13px; line-height:1.4; }
+}
+
 /* Approved desktop masthead/footer: homepage only. Shared layout and mobile stay unchanged. */
 .pr-desktop-header,.pr-desktop-footer { display:none; }
 @media (min-width:851px) {
@@ -286,7 +299,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 
   <div class="pr-middle">
     <section aria-label="Latest News">
-      <div class="section-heading"><h2>Latest News</h2><a href="{{ '/feed.xml' | relative_url }}">All Latest Stories →</a></div>
+      <div class="section-heading"><h2>Latest News</h2><a href="{{ '/latest/' | relative_url }}">All Latest Stories →</a></div>
       {% for post in regular_posts offset:8 limit:4 %}
       <article class="pr-latest-item">
         {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
