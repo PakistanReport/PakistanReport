@@ -1,33 +1,41 @@
 ---
 layout: page
 title: "Editorial Policy"
-description: "Editorial standards and publishing principles used by Pakistan Report."
+description: "The standards guiding Pakistan Report's reporting, verification and editorial decisions."
 ---
 
-Pakistan Report aims to publish accurate, fair and useful journalism.
+Pakistan Report's editorial purpose is to provide accurate, fair and useful news coverage. We seek to establish the facts, explain their context and make clear what is known, disputed or still developing.
 
-## Accuracy
+## Verification and accuracy
 
-We seek to verify important factual claims before publication and prefer primary or authoritative sources where available.
+We aim to verify consequential facts before publication, including names, dates, figures, quotations and official positions. Where possible, we consult primary material such as government notices, court records, regulatory filings, public data and company disclosures.
 
-When information is developing or uncertain, we aim to make that uncertainty clear.
+When a development is still unfolding, we distinguish confirmed information from preliminary reports and update coverage as reliable information becomes available.
 
-## Sources
+## Sources and attribution
 
-Our reporting may use official statements, public records, government data, regulatory filings, company announcements, interviews, reputable news agencies and established media organizations.
+Our reporting may draw on original documents, official statements, interviews, credible news agencies and established news organisations. We attribute claims where necessary and do not present unverified social-media posts, allegations or speculation as established fact.
 
-Information from social media or unverified sources should not be presented as confirmed fact without appropriate verification or qualification.
+We do not invent quotations, sources, events, statistics or documentary evidence.
 
-## Headlines
+## Fairness and context
 
-Headlines should accurately represent the substance of the article and should not intentionally mislead readers.
+We aim to represent material facts and relevant perspectives fairly, especially where claims are disputed. Allegations are identified as allegations, and responses or denials are included when relevant and available.
 
-## Opinion and analysis
+Context should help readers understand a development without exaggerating its significance or obscuring uncertainty.
 
-Where commentary, analysis or opinion is published, it should be clearly distinguishable from straight news reporting.
+## Headlines and presentation
 
-## Conflicts and commercial influence
+Headlines, summaries, images and captions should reflect the substance of the reporting. We avoid misleading framing, sensationalism and claims that the article does not support.
 
-Advertising, sponsorships and commercial relationships should not determine editorial conclusions.
+News reporting should be distinguishable from analysis, commentary and opinion.
 
-Paid or sponsored material will be clearly labeled.
+## Editorial independence
+
+Editorial judgements are not determined by advertising, sponsorship or other commercial relationships. Paid or sponsored content, if published, will be clearly identified.
+
+## Corrections and accountability
+
+We review credible reports of factual errors and correct confirmed material mistakes. Our [Corrections Policy](/corrections/) explains how changes are handled and how readers can raise concerns.
+
+Questions about our coverage can be sent through the [Contact page](/contact/).
