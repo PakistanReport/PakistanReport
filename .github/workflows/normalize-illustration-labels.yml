@@ -1,0 +1,53 @@
+name: Normalize labelled illustration captions
+on:
+  push:
+    branches: [fix-ai-generated-image-labels]
+    paths: [.github/workflows/normalize-illustration-labels.yml]
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Update only explicitly AI-labelled image metadata
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          count = 0
+          for path in Path('_posts').glob('*.md'):
+              content = path.read_text(encoding='utf-8')
+              if not content.startswith('---\n'):
+                  continue
+              end = content.find('\n---', 4)
+              if end < 0:
+                  continue
+              header, rest = content[:end], content[end:]
+              lines = header.splitlines(keepends=True)
+              changed = False
+              for i, line in enumerate(lines):
+                  if re.match(r'^image_caption:\s*', line, re.I) and re.search(r'\bAI[- ]generated\b|\bAI illustration\b', line, re.I):
+                      lines[i] = 'image_caption: "Pakistan Report illustration"\n'
+                      changed = True
+                  elif re.match(r'^image_alt:\s*', line, re.I) and re.search(r'\bAI[- ]generated\b|\bAI illustration\b', line, re.I):
+                      replacement = re.sub(r'AI[- ]generated\s*', '', line, flags=re.I)
+                      replacement = re.sub(r'AI illustration', 'Illustration', replacement, flags=re.I)
+                      lines[i] = replacement
+                      changed = True
+              if changed:
+                  path.write_text(''.join(lines) + rest, encoding='utf-8')
+                  count += 1
+                  print(path)
+          print('Changed files:', count)
+      - name: Commit changed article metadata
+        run: |
+          if ! git diff --quiet -- _posts; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add _posts
+            git commit -m "Standardize captions on explicitly AI-labelled illustrations"
+            git push
+          fi
