@@ -74,11 +74,39 @@ jobs:
             await browser.close();
           })().catch(err => { console.error(err); process.exit(1); });
           JS
-      - name: Upload desktop visual review
+      - name: Capture and check mobile homepage at 390px
+        run: |
+          node <<'JS'
+          const { chromium } = require('playwright');
+          const fs = require('fs');
+          (async () => {
+            const browser = await chromium.launch({ headless: true });
+            const page = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true });
+            const errors = [];
+            page.on('pageerror', err => errors.push(err.message));
+            await page.goto('http://127.0.0.1:8765/', { waitUntil: 'networkidle', timeout: 60000 });
+            await page.evaluate(() => document.fonts.ready);
+            await page.locator('.pr-home').waitFor();
+            await page.screenshot({ path: 'visual-review/homepage-mobile-390.png', fullPage: true, animations: 'disabled' });
+            const result = await page.evaluate(() => ({
+              viewportWidth: innerWidth,
+              documentWidth: document.documentElement.scrollWidth,
+              bodyWidth: document.body.scrollWidth,
+              headings: [...document.querySelectorAll('.pr-home h2')].map(el => el.textContent.trim()),
+              desktopHeaderVisible: (() => { const el = document.querySelector('.pr-desktop-header'); return el && getComputedStyle(el).display !== 'none'; })(),
+              horizontalOverflow: document.documentElement.scrollWidth > innerWidth + 2
+            }));
+            fs.writeFileSync('visual-review/mobile-measurements.json', JSON.stringify({ ...result, pageErrors: errors }, null, 2));
+            if (result.horizontalOverflow) throw new Error('Mobile horizontal overflow: ' + JSON.stringify(result));
+            if (errors.length) throw new Error('Mobile page JS errors: ' + errors.join('; '));
+            await browser.close();
+          })().catch(err => { console.error(err); process.exit(1); });
+          JS
+      - name: Upload desktop and mobile visual review
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: pakistanreport-desktop-1024
+          name: pakistanreport-homepage-desktop-mobile
           path: visual-review/
           if-no-files-found: warn
           retention-days: 14
