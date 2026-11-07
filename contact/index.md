@@ -1,25 +1,27 @@
 ---
 layout: page
-title: "Contact"
-description: "Contact Pakistan Report about editorial matters, corrections and business enquiries."
+title: "Contact Pakistan Report"
+description: "Contact Pakistan Report with news tips, factual corrections and business enquiries."
 ---
 
-Pakistan Report welcomes relevant correspondence from readers, sources, organizations and potential partners.
+We welcome relevant messages from readers, sources, organisations and potential partners.
 
-## Editorial and news tips
+**Email:** [pakistanreportnews@gmail.com](mailto:pakistanreportnews@gmail.com)
 
-You may contact the publication regarding news tips, factual information, documents or developments that may be relevant to our coverage.
+To help us direct your message, please use a clear subject line and include the relevant details.
 
-## Corrections
+## News tips and documents
 
-For correction requests, please identify the article and clearly explain the information you believe is inaccurate.
+If you have information about a newsworthy development, tell us what happened, when and where it occurred, and how the information can be verified. Links to public records or supporting documents are helpful.
 
-## Business enquiries
+Please do not send passwords or other sensitive account credentials.
 
-Commercial, advertising and partnership enquiries should be clearly identified as such.
+## Corrections and factual concerns
 
-## Contact details
+For a correction request, include the article URL or headline, the information you believe is incorrect and any supporting evidence. See our [Corrections Policy](/corrections/) for how we review and address factual errors.
 
-Email: [pakistanreportnews@gmail.com](mailto:pakistanreportnews@gmail.com)
+## General and business enquiries
 
-Pakistan Report does not guarantee a response to every message.
+For general editorial questions, advertising or partnership enquiries, explain the nature of your request in the subject line and message.
+
+We review relevant correspondence but cannot guarantee a response to every enquiry. Editorial coverage is not offered in exchange for payment or commercial arrangements.
