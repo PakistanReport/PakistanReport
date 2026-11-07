@@ -7,9 +7,10 @@ module PakistanReport
     PER_PAGE = 12
 
     def generate(site)
-      category_pages = site.pages.select { |page| page.data["layout"] == "category" && page.data["category"] }
+      category_pages = site.pages.select { |page| page.data["layout"] == "category" && (page.data["category"] || page.data["categories"]) }
       category_pages.each do |page|
-        posts = site.posts.docs.select { |post| post.data["category"] == page.data["category"] }
+        categories = Array(page.data["categories"] || page.data["category"])
+        posts = site.posts.docs.select { |post| categories.include?(post.data["category"]) }
         posts.sort_by!(&:date)
         posts.reverse!
         total_pages = [(posts.length.to_f / PER_PAGE).ceil, 1].max
