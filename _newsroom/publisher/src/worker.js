@@ -201,7 +201,14 @@ export class Publisher {
       return json({ ok: true });
     }
     if (path === "/api/batches" && request.method === "GET") {
-      const batches = this.rows("SELECT * FROM batches ORDER BY created DESC");
+      // Normal dashboard requests only active batches and the ten newest batches.
+      // Historical published batches remain available on explicit request.
+      const all = new URL(request.url).searchParams.get("history") === "all";
+      const batches = this.rows(
+        all
+          ? "SELECT * FROM batches ORDER BY created DESC"
+          : "SELECT * FROM batches b WHERE EXISTS (SELECT 1 FROM jobs j WHERE j.batch=b.id AND j.status!='Published') OR b.id IN (SELECT id FROM batches ORDER BY created DESC LIMIT 10) ORDER BY b.created DESC",
+      );
       return json(
         batches.map((b) => ({
           ...b,
