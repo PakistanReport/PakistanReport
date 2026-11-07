@@ -21,5 +21,3 @@ Commercial, advertising and partnership enquiries should be clearly identified a
 ## Contact details
 
 Email: [pakistanreportnews@gmail.com](mailto:pakistanreportnews@gmail.com)
-
-Pakistan Report does not guarantee a response to every message.
