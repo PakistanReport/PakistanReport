@@ -38,4 +38,4 @@ Professional training and capacity-building activities are intended to improve t
 
 NAB said the two sides would also cooperate on anti-corruption awareness initiatives for young people and undertake joint research on combating corruption.
 
-The agreement represents a formal framework for future institutional engagement. Its practical impact will depend on subsequent cooperation, information exchanges and implementation by the participating authorities.
+The agreement represents a formal framework for future institutional engagement.
