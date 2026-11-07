@@ -12,7 +12,8 @@ published: true
 image: /assets/images/senate-chairman-pakistani-handicrafts-export-promotion.webp
 image_alt: Traditional Pakistani Ajrak fabric, Multani blue pottery and
   embroidered khussa footwear displayed together.
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **LAHORE, November 7, 2026 —** Senate Chairman Syed Yousaf Raza Gilani has called for greater international promotion of Pakistan's traditional handicrafts, cultural products and skilled workforce to strengthen export opportunities and expand commercial ties with overseas markets.

@@ -9,9 +9,9 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-24 12:30:00 +0500'
 published: true
 image: /assets/images/03-2026-10-24-pakistan-1782-5g-sites-24-cities.webp
-image_alt: AI illustration of a 5G telecom antenna overlooking a stylised
+image_alt: Illustration of a 5G telecom antenna overlooking a stylised
   Islamabad skyline at sunset
-image_caption: Pakistan Report illustration (AI-generated; illustrative
+image_caption: "Pakistan Report illustration"
   cityscape and telecom infrastructure, not a documented site)
 ---
 

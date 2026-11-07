@@ -11,7 +11,7 @@ image: /assets/images/north-korea-missile-launches.webp
 image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
   coverage: North Korea Fires Multiple Ballistic Missiles Toward Eastern Waters,
   South Korea Says'
-image_caption: Pakistan Report illustration. AI-generated conceptual image; not
+image_caption: "Pakistan Report illustration"
   a photograph of an actual event.
 date: 2026-10-12 19:00:00 +0500
 ---

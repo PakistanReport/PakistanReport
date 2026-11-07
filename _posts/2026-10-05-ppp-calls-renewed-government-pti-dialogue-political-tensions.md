@@ -9,7 +9,7 @@ description: "PPP Secretary General Muhammad Humayun Khan has urged the
 published: true
 image: "/assets/images/ppp-calls-renewed-government-pti-dialogue-political-tens\
   ions.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing an empty
+image_alt: "Pakistan Report editorial illustration showing an empty
   political dialogue table in Islamabad with Pakistan and neutral party-colour
   flags."
 date: 2026-10-05 20:00:00 +0500

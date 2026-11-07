@@ -8,9 +8,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-29 15:32:47 +0500'
 published: true
 image: /assets/images/04-2026-10-30-government-kp-governors-rule-six-months.webp
-image_alt: AI-generated illustration of Khyber Pakhtunkhwa governance and a
+image_alt: illustration of Khyber Pakhtunkhwa governance and a
   six-month calendar.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 29, 2026** — The federal government has said governor's rule in Khyber Pakhtunkhwa will end after six months, while emergency measures will remain in place until peace is restored in the province.

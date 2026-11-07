@@ -7,7 +7,7 @@ date: "2026-09-29 22:00:00 +0500"
 description: "Pakistan’s Sensitive Price Indicator rose to 369.69 in the week
   ended September 24, up 0.99% from the previous week, according to PBS."
 image: "/assets/images/pakistan-weekly-spi-september-24-2026.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of a Pakistani
+image_alt: "Pakistan Report editorial illustration of a Pakistani
   market and staple foods representing weekly price movements."
 image_caption: "Pakistan Report illustration."
 published: true

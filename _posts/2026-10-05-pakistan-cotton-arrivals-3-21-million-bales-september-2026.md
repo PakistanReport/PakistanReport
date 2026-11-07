@@ -9,7 +9,7 @@ description: "Pakistan’s cotton arrivals reached 3.208 million bales by
 published: true
 image: "/assets/images/pakistan-cotton-arrivals-3-21-million-bales-september-20\
   26.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing cotton
+image_alt: "Pakistan Report editorial illustration showing cotton
   arriving for handling and ginning in Pakistan."
 date: 2026-10-05 12:00:00 +0500
 ---

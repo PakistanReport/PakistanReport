@@ -9,7 +9,7 @@ description: "Saudi-backed Yemeni government forces say they have retaken key
 published: true
 image: "/assets/images/yemeni-government-forces-drive-houthis-from-bab-el-mande\
   b-coast.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of Yemeni
+image_alt: "Pakistan Report editorial illustration of Yemeni
   government forces overlooking shipping near the Bab el-Mandeb coast."
 date: 2026-10-06 14:00:00 +0500
 ---

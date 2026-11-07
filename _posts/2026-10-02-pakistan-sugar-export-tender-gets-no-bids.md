@@ -8,7 +8,7 @@ description: "TCP's tender to export 107,739 metric tonnes of imported white
   above prevailing international market levels."
 published: true
 image: "/assets/images/pakistan-sugar-export-tender-gets-no-bids.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   white refined sugar offered for export by the Trading Corporation of
   Pakistan."
 date: 2026-10-02 16:15:00 +0500

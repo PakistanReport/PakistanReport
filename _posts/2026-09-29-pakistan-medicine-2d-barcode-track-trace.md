@@ -8,7 +8,7 @@ description: "Health authorities have reviewed implementation of 2D barcodes and
   medicine track-and-trace measures as Pakistan works towards stronger
   pharmaceutical traceability and WHO Level-3 regulatory status."
 image: "/assets/images/pakistan-medicine-2d-barcode-track-trace.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   medicine 2D barcode and track-and-trace implementation in Pakistan."
 image_caption: "Pakistan Report illustration."
 published: true

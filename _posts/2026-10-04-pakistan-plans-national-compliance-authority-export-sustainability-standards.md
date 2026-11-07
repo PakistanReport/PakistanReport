@@ -10,7 +10,7 @@ description: "Pakistan is preparing to establish a national compliance authority
 published: true
 image: "/assets/images/pakistan-plans-national-compliance-authority-export-sust\
   ainability-standards.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of
+image_alt: "Pakistan Report editorial illustration of
   manufacturing, export logistics and compliance standards in Pakistan."
 date: 2026-10-04 19:56:00 +0500
 ---

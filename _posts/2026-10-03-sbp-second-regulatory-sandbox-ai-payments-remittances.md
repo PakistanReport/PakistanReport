@@ -8,7 +8,7 @@ description: "The State Bank of Pakistan has opened applications for the second
   and next-generation financial services."
 published: true
 image: "/assets/images/sbp-second-regulatory-sandbox-ai-payments-remittances.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing the
+image_alt: "Pakistan Report editorial illustration representing the
   State Bank of Pakistan’s second Regulatory Sandbox cohort for financial
   innovation."
 date: 2026-10-03 17:30:00 +0500

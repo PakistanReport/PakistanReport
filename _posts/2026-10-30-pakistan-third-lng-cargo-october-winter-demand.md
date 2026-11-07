@@ -8,9 +8,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 19:00:00 +0500'
 published: true
 image: /assets/images/2026-10-30-pakistan-third-lng-cargo-october-winter-demand.webp
-image_alt: AI-generated illustration of an LNG carrier moored beside a gas
+image_alt: illustration of an LNG carrier moored beside a gas
   terminal at sunset.
-image_caption: AI-generated illustration; not a photograph of the reported event.
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 30, 2026** — Pakistan has received its third liquefied natural gas cargo of October, providing additional supply to the country's gas system as authorities prepare for higher winter demand amid continued regional energy-market tensions.

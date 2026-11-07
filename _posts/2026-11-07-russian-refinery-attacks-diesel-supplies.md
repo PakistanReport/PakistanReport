@@ -11,7 +11,8 @@ published: true
 image: /assets/images/russian-refinery-attacks-diesel-supplies.webp
 image_alt: Illustration of an oil refinery at dusk with illuminated processing
   towers and a flare.
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **November 7, 2026 —** Renewed attacks on Russian oil-refining facilities have raised concerns about the country's fuel production and diesel supplies, as Ukraine continues to target energy infrastructure during its war with Russia.

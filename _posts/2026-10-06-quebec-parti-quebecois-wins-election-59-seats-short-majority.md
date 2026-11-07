@@ -9,7 +9,7 @@ description: "The Parti Québécois won 59 of Quebec’s 127 seats, leaving it f
 published: true
 image: "/assets/images/quebec-parti-quebecois-wins-election-59-seats-short-majo\
   rity.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing Quebec
+image_alt: "Pakistan Report editorial illustration showing Quebec
   flags and a provincial election result of 59 of 127 seats for the Parti
   Québécois."
 date: 2026-10-06 20:00:00 +0500

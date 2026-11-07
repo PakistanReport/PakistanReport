@@ -9,7 +9,7 @@ description: "PTA has issued around 300 district-level Class Licences for
   internet services, opening a route for smaller operators to provide broadband
   within individual districts and expand fibre deployment."
 image: "/assets/images/pta-district-level-internet-licences.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing PTA
+image_alt: "Pakistan Report editorial illustration representing PTA
   district-level internet licensing and broadband fibre expansion across
   Pakistan."
 image_caption: "Pakistan Report illustration."

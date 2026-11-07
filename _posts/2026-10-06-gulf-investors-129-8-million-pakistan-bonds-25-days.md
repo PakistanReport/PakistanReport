@@ -7,7 +7,7 @@ description: "Gulf-origin investors put $129.8 million into Pakistan Investment
   Bonds in the first 25 days of September, led by the UAE."
 published: true
 image: "/assets/images/gulf-investors-129-8-million-pakistan-bonds-25-days.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration for Gulf
+image_alt: "Pakistan Report editorial illustration for Gulf
   Investors Put $129.8 Million Into Pakistan Bonds in 25 Days."
 date: 2026-10-06 12:00:00 +0500
 ---

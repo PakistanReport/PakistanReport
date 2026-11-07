@@ -8,7 +8,7 @@ description: "Pakistan’s manufacturing sector remained in expansion in
   51.8 in August amid weaker domestic demand."
 published: true
 image: "/assets/images/pakistan-manufacturing-growth-slows-pmi-50-9.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   slower manufacturing growth in Pakistan."
 date: 2026-10-02 14:45:00 +0500
 ---

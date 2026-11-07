@@ -8,7 +8,7 @@ description: "Pakistan’s new Public Procurement Rules 2026 have taken immediat
   effect, making EPADS mandatory for federal procurement and disposal while
   preserving the 2004 rules for cases already initiated."
 image: "/assets/images/public-procurement-rules-2026-epads.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Pakistan’s Public Procurement Rules 2026 and mandatory EPADS use."
 image_caption: "Pakistan Report illustration."
 published: true

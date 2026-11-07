@@ -7,7 +7,7 @@ date: "2026-09-28 23:00:00 +0500"
 description: "Islamabad is hosting the SCO Council of National Coordinators from
   September 28 to 30 as Pakistan begins its 2026–27 chairmanship programme."
 image: "/assets/images/pakistan-sco-coordinators.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing an
+image_alt: "Pakistan Report editorial illustration representing an
   SCO coordination meeting in Islamabad under Pakistan’s chairmanship."
 image_caption: "Pakistan Report illustration."
 published: true

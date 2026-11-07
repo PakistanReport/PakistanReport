@@ -10,7 +10,8 @@ date: '2026-10-31 10:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-pakistan-saudi-oil-storage-policy.webp
 image_alt: "Illustration of oil storage facilities with Pakistani and Saudi flags."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 **ISLAMABAD, October 30, 2026** — Pakistan has approved a tax-neutral bonded oil storage policy that would allow Saudi companies to establish commercial petroleum reserves in the country, as Islamabad seeks to expand energy cooperation with Riyadh.
 

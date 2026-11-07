@@ -7,7 +7,7 @@ date: "2026-10-01 13:00:00 +0500"
 description: "FBR has extended the Tax Year 2026 income tax return deadline to
   October 15 for people whose returns were due on September 30."
 image: "/assets/images/fbr-tax-return-deadline-october-15.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of an income tax
+image_alt: "Pakistan Report editorial illustration of an income tax
   return and October 15 calendar representing FBR’s Tax Year 2026 filing
   extension."
 image_caption: "Pakistan Report illustration."

@@ -8,7 +8,7 @@ description: "Prime Minister Shehbaz Sharif warned PTI to call off its march or
   political talks."
 published: true
 image: "/assets/images/shehbaz-sharif-pti-end-march-face-action-renewed-talks.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing Prime
+image_alt: "Pakistan Report editorial illustration showing Prime
   Minister Shehbaz Sharif, a Pakistani flag, an Islamabad government building,
   PTI supporters and security barricades."
 date: 2026-10-07 11:00:00 +0500

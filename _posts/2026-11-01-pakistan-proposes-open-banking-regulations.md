@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-11-01 12:30:00 +0500'
 published: true
 image: /assets/images/2026-11-01-pakistan-proposes-open-banking-regulations.webp
-image_alt: "AI-generated illustration of digital banking connections and the
+image_alt: "illustration of digital banking connections and the
   State Bank of Pakistan building."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **KARACHI, November 1, 2026** — The State Bank of Pakistan (SBP) has proposed a new regulatory framework that could change how customers access banking services and share their financial information with authorised technology companies.

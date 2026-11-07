@@ -9,7 +9,7 @@ description: "New FBR rules route specified income tax audits, assessments and
   direct interaction between taxpayers and field officers."
 published: true
 image: "/assets/images/fbr-tax-audits-assessments-national-faceless-centre.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   FBR's faceless digital system for tax audits and assessments."
 date: 2026-10-02 13:15:00 +0500
 ---

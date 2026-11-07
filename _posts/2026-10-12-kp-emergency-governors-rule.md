@@ -9,7 +9,7 @@ image: /assets/images/kp-emergency-governors-rule.webp
 image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
   coverage: Pakistan Imposes Emergency and Governor’s Rule in Khyber
   Pakhtunkhwa'
-image_caption: Pakistan Report illustration. AI-generated conceptual image; not
+image_caption: "Pakistan Report illustration"
   a photograph of an actual event.
 date: 2026-10-12 11:00:00 +0500
 ---

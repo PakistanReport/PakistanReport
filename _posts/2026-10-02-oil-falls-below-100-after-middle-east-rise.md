@@ -8,7 +8,7 @@ description: "Brent crude fell back below $100 a barrel on October 2 as markets
   day's sharp rise."
 published: true
 image: "/assets/images/oil-falls-below-100-after-middle-east-rise.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   falling global oil prices after a sharp rise."
 date: 2026-10-02 22:00:00 +0500
 ---

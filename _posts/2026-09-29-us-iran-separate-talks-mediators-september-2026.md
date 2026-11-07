@@ -8,7 +8,7 @@ description: "US and Iranian officials have held separate discussions with
   mediators over an amended Iranian proposal, with no ceasefire or broader
   settlement yet announced."
 image: "/assets/images/us-iran-mediated-talks-september-2026.png"
-image_alt: "AI-generated Pakistan Report editorial illustration using US and
+image_alt: "Pakistan Report editorial illustration using US and
   Iranian flags to represent indirect diplomatic talks."
 image_caption: "Pakistan Report illustration."
 published: true

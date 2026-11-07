@@ -8,7 +8,7 @@ description: "Punjab has imposed Section 144 across the province for 10 days,
   Islamabad."
 published: true
 image: "/assets/images/punjab-section-144-10-days-pti-march-islamabad.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing a
+image_alt: "Pakistan Report editorial illustration showing a
   Section 144 security checkpoint, police deployment and an Islamabad road
   sign."
 date: 2026-10-06 18:00:00 +0500

@@ -8,7 +8,7 @@ description: "Huawei’s Islamabad repair facility has 16 specialised desks,
   supports more than 180 equipment item codes and can process over 10,000
   telecom modules a year."
 image: "/assets/images/huawei-spare-parts-repair-center-islamabad.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Huawei’s national-level telecom equipment repair facility in Islamabad."
 image_caption: "Pakistan Report illustration."
 published: true

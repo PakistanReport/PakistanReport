@@ -8,7 +8,7 @@ description: "Pakistan says it will follow all applicable sanctions regimes
   between the United States and Iran."
 published: true
 image: "/assets/images/pakistan-clarifies-position-us-sanctions-iran.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Pakistan's diplomatic position between the United States and Iran."
 date: 2026-10-02 19:45:00 +0500
 ---

@@ -8,9 +8,9 @@ category: Pakistan
 author: Pakistan Report Editorial Desk
 published: true
 image: /assets/images/03-2026-10-24-civil-servants-foreign-nationality-declarations.webp
-image_alt: AI illustration of nationality declaration forms, Pakistani passports
+image_alt: Illustration of nationality declaration forms, Pakistani passports
   and binders on a desk in front of a stylised government building
-image_caption: Pakistan Report illustration — AI-generated; documents and
+image_caption: "Pakistan Report illustration"
   government setting are conceptual, not authentic records or a photographed
   office.
 date: 2026-10-24 18:00:00 +0500

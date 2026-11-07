@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-11-01 10:23:03 +0500'
 published: true
 image: /assets/images/2026-11-02-pakistan-saudi-gcc-free-trade-agreement.webp
-image_alt: "AI-generated editorial illustration of Pakistani and Saudi flags,
+image_alt: "editorial illustration of Pakistani and Saudi flags,
   shipping containers and a symbolic GCC trade agreement at a port"
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 2, 2026** — Pakistan and Saudi Arabia have discussed accelerating the signing and implementation of a proposed free trade agreement between Pakistan and the Gulf Cooperation Council (GCC), as both countries seek to expand economic cooperation.

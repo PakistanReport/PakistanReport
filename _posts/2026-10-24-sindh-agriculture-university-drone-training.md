@@ -10,9 +10,9 @@ category: Technology
 author: Pakistan Report Editorial Desk
 published: true
 image: /assets/images/02-2026-10-24-sindh-agriculture-university-drone-training.webp
-image_alt: AI illustration of agricultural students operating a drone over green
+image_alt: Illustration of agricultural students operating a drone over green
   fields at a stylised university campus
-image_caption: Pakistan Report illustration — AI-generated; conceptual drone
+image_caption: "Pakistan Report illustration"
   training scene, not a photograph of an actual university session.
 date: 2026-10-24 17:00:00 +0500
 ---

@@ -7,7 +7,7 @@ description: Millers have raised flour prices over three days, with retailers
   reporting higher rates for fine and chakki flour and concerns about supplies.
 published: true
 image: /assets/images/karachi-flour-prices-rise.webp
-image_alt: An AI-generated illustration of a Karachi flour shop, representing
+image_alt: An illustration of a Karachi flour shop, representing
   rising retail flour prices.
 date: 2026-10-08 19:00:00 +0500
 ---

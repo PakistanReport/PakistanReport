@@ -8,7 +8,7 @@ description: "The UAE has suspended flights operated by Iranian airlines to and
   carriers internationally."
 published: true
 image: "/assets/images/uae-suspends-iranian-airline-flights.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of an Iranian
+image_alt: "Pakistan Report editorial illustration of an Iranian
   airliner at a UAE airport with the UAE flag and Dubai skyline."
 date: 2026-09-25 19:00:00 +0500
 ---

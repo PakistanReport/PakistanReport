@@ -8,7 +8,7 @@ description: "Punjab is assessing participation in Pakistan's first 400MW
   electricity wheeling auction, reviewing prices, grid charges, commercial
   viability and bidding risks."
 image: "/assets/images/punjab-electricity-wheeling-auction.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of electricity
+image_alt: "Pakistan Report editorial illustration of electricity
   transmission lines and a substation representing Pakistan's power wheeling
   market."
 image_caption: "Pakistan Report illustration."

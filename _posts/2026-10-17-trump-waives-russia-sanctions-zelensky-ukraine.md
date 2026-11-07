@@ -6,11 +6,11 @@ category: World
 description: "Trump waives new US sanctions and tariffs targeting Russia,
   prompting criticism from Ukraine’s Zelensky and American lawmakers."
 image: /assets/images/trump-russia-sanctions-zelensky-2026-10-17.webp
-image_alt: "AI-generated editorial illustration of Donald Trump and Volodymyr
+image_alt: "editorial illustration of Donald Trump and Volodymyr
   Zelensky with flags and oil infrastructure"
 image_width: 1536
 image_height: 864
-image_caption: "AI-generated editorial illustration; not a photograph of an actual meeting."
+image_caption: "Pakistan Report illustration"
 published: true
 ---
 

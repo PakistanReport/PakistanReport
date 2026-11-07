@@ -9,7 +9,8 @@ date: '2026-10-29 19:00:00 +0500'
 published: true
 image: /assets/images/03-2026-10-29-textile-exporters-sbp-interest-rate-concerns.webp
 image_alt: "Illustration of workers sewing garments at a Pakistani textile factory."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **LAHORE, October 29, 2026** — Pakistan's hosiery and textile exporters have warned that the State Bank's latest interest-rate increase could raise production costs and weaken the competitiveness of locally manufactured goods in international markets.

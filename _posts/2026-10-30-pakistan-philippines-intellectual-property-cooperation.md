@@ -10,9 +10,9 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 22:30:00 +0500'
 published: true
 image: /assets/images/04-2026-10-30-pakistan-philippines-intellectual-property-cooperation.webp
-image_alt: AI-generated still-life illustration of Pakistan and Philippines
+image_alt: still-life illustration of Pakistan and Philippines
   flags, intellectual property documents and legal reference books.
-image_caption: AI-generated Pakistan Report illustration; not a photograph of
+image_caption: "Pakistan Report illustration"
   the reported meeting or event.
 ---
 

@@ -7,7 +7,7 @@ date: "2026-10-01 13:30:00 +0500"
 description: "FBR collected Rs3.083 trillion in July-September FY27, exceeding
   its first-quarter target by Rs30 billion as sales tax receipts outperformed."
 image: "/assets/images/fbr-first-quarter-tax-collection.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of tax
+image_alt: "Pakistan Report editorial illustration of tax
   collection figures and financial graphics representing FBR’s first-quarter
   revenue collection."
 image_caption: "Pakistan Report illustration."

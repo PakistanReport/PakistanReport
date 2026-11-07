@@ -8,7 +8,7 @@ description: "US Vice President JD Vance said Iran must make meaningful
   the conflict, while leaving open a negotiated settlement."
 published: true
 image: "/assets/images/us-iran-meaningful-nuclear-enrichment-cuts-end-war.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing separate
+image_alt: "Pakistan Report editorial illustration showing separate
   US and Iranian diplomatic figures with national flags and uranium-enrichment
   centrifuge imagery."
 date: 2026-10-07 17:00:00 +0500

@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 20:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-petrol-levy-refinery-costs.webp
-image_alt: AI-generated illustration of a petrol station and oil refinery at
+image_alt: illustration of a petrol station and oil refinery at
   sunset, with displayed petrol and diesel prices.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 31, 2026** — The government has kept the petrol price unchanged at Rs377.91 per litre through a revised pricing arrangement that could place additional financial pressure on Pakistan's domestic oil refineries.

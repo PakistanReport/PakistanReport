@@ -8,7 +8,7 @@ description: "Pakistan’s petrol price rises by Rs2.10 to Rs392.76 per litre an
   October 3 to 5."
 published: true
 image: "/assets/images/pakistan-petrol-rs392-76-diesel-rs399-64-october-3-5.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing revised
+image_alt: "Pakistan Report editorial illustration showing revised
   petrol and diesel prices at a Pakistani filling station."
 date: 2026-10-03 14:30:00 +0500
 ---

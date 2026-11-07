@@ -7,7 +7,7 @@ description: "An IMF mission has begun discussions with Pakistani authorities on
   the fourth EFF review, the RSF review and the Article IV consultation."
 published: true
 image: "/assets/images/pakistan-imf-fourth-eff-review.png"
-image_alt: "AI-generated editorial representation of Pakistan-IMF talks, with
+image_alt: "editorial representation of Pakistan-IMF talks, with
   Shehbaz Sharif and Kristalina Georgieva shown as illustrative figures."
 date: 2026-09-24 17:00:00 +0500
 ---

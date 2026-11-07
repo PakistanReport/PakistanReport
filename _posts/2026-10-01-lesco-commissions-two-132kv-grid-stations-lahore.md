@@ -8,7 +8,7 @@ description: "LESCO has commissioned new 132kV grid stations at Ittihad Town and
   Audit and Accounts in Lahore to strengthen its transmission network and ease
   pressure on existing facilities."
 image: "/assets/images/lesco-132kv-grid-stations-lahore.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of a
+image_alt: "Pakistan Report editorial illustration of a
   high-voltage electricity substation and transmission network representing new
   LESCO 132kV grid stations in Lahore."
 image_caption: "Pakistan Report illustration."

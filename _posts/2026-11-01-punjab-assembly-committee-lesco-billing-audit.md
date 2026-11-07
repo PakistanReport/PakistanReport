@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-11-01 13:30:00 +0500'
 published: true
 image: /assets/images/2026-11-01-punjab-assembly-committee-lesco-billing-audit.webp
-image_alt: "AI-generated illustration of an electricity meter, billing documents
+image_alt: "illustration of an electricity meter, billing documents
   and Lahore skyline."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **LAHORE, November 1, 2026** — A joint committee of the Punjab Assembly has recommended a forensic examination of electricity billing by Lahore Electric Supply Company (LESCO) amid concerns about excessive charges and the handling of consumer complaints.

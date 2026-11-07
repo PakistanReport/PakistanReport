@@ -8,7 +8,7 @@ description: "ADB is considering $1.1 billion in proposed financing for an
   upgrade of the roughly 480km Karachi-Rohri section of Pakistan Railways’ ML-1
   corridor."
 image: "/assets/images/adb-karachi-rohri-ml1-upgrade.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of railway
+image_alt: "Pakistan Report editorial illustration of railway
   infrastructure representing the proposed ADB-backed Karachi-Rohri ML-1
   upgrade."
 image_caption: "Pakistan Report illustration."

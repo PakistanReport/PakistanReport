@@ -8,7 +8,7 @@ description: "Brent crude rose 3.29% to $107.75 a barrel in early Monday trading
   as uncertainty over Iran-US diplomacy and the Strait of Hormuz kept supply
   risks elevated."
 image: "/assets/images/brent-107-hormuz-risk.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Brent crude prices and oil shipping risks around the Strait of Hormuz."
 image_caption: "Pakistan Report illustration."
 published: true

@@ -10,8 +10,8 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-24 13:30:00 +0500'
 published: true
 image: /assets/images/04-2026-10-24-maritime-organisations-profitable-state-enterprises.webp
-image_alt: AI illustration of a large container ship, cranes and port operations at sunset
-image_caption: Pakistan Report illustration (AI-generated; conceptual port
+image_alt: Illustration of a large container ship, cranes and port operations at sunset
+image_caption: "Pakistan Report illustration"
   scene, not a photograph of a specific port or ship)
 ---
 

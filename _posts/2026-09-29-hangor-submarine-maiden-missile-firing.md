@@ -8,7 +8,7 @@ description: "The newly inducted PNS/M Hangor has carried out its first
   live-weapon firing in the North Arabian Sea, engaging a designated long-range
   target with an anti-ship cruise missile."
 image: "/assets/images/hangor-submarine-missile-firing.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing a
+image_alt: "Pakistan Report editorial illustration representing a
   Hangor-class submarine during a live-weapon firing exercise at sea."
 image_caption: "Pakistan Report illustration."
 published: true

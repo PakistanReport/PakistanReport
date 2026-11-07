@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 16:00:00 +0500'
 published: true
 image: /assets/images/2026-10-30-pakistan-october-inflation-forecast-9-5-to-10-5-percent.webp
-image_alt: AI-generated illustration of a Pakistani market shopper examining a
+image_alt: illustration of a Pakistani market shopper examining a
   receipt, with produce and an inflation graphic.
-image_caption: AI-generated illustration; not a photograph of the reported event.
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 30, 2026** — Pakistan's Finance Division has projected inflation of between 9.5 and 10.5 percent for October, warning that volatile international energy prices and continuing geopolitical tensions remain risks to the country's economic outlook.

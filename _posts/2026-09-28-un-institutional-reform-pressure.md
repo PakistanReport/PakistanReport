@@ -9,7 +9,7 @@ description: "Calls to reform the UN Security Council and wider international
   greater representation, effectiveness and trust."
 published: true
 image: "/assets/images/un-institutional-reform.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   United Nations institutional reform and global governance."
 date: 2026-09-28 00:00:00 +0500
 ---

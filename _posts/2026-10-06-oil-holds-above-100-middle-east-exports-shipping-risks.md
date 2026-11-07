@@ -9,7 +9,7 @@ description: "Brent remains above $100 as stronger Middle Eastern crude exports
   energy markets under pressure."
 published: true
 image: "/assets/images/oil-holds-above-100-middle-east-exports-shipping-risks.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of oil tankers,
+image_alt: "Pakistan Report editorial illustration of oil tankers,
   oil barrels and a market display showing Brent crude above $100."
 date: 2026-10-06 16:00:00 +0500
 ---

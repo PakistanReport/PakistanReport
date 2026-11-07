@@ -8,7 +8,7 @@ description: "SECP has proposed raising financing limits for microenterprise and
   housing loans to Rs5 million and increasing the individual borrower income
   threshold to Rs1.5 million."
 image: "/assets/images/secp-loan-limits.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of a loan
+image_alt: "Pakistan Report editorial illustration of a loan
   application, home and small business representing proposed SECP financing
   limits."
 image_caption: "Pakistan Report illustration."

@@ -8,7 +8,7 @@ description: "Tehran says it is standing by its conditions for reopening the
   leaving mediators at the centre of the diplomatic effort."
 published: true
 image: "/assets/images/iran-hormuz-conditions.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Strait of Hormuz shipping and US-Iran diplomacy."
 date: 2026-09-27 22:30:00 +0500
 ---

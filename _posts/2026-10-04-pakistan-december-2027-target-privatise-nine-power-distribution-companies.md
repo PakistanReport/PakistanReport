@@ -10,7 +10,7 @@ description: "Pakistan has told the IMF it aims to privatise nine electricity
 published: true
 image: "/assets/images/pakistan-december-2027-target-privatise-nine-power-distr\
   ibution-companies.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of Pakistan
+image_alt: "Pakistan Report editorial illustration of Pakistan
   electricity infrastructure and a generic privatisation document."
 date: 2026-10-04 19:35:00 +0500
 ---

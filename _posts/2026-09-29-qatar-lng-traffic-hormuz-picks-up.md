@@ -8,7 +8,7 @@ description: "More QatarEnergy-linked LNG vessels have made visible Strait of
   Hormuz transits in September after tracking data showed no visible
   Qatar-linked crossings in August."
 image: "/assets/images/qatar-lng-hormuz-traffic.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Qatar-linked LNG carriers transiting the Strait of Hormuz."
 image_caption: "Pakistan Report illustration."
 published: true

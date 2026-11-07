@@ -8,7 +8,7 @@ description: "The government has directed TCP to proceed with the lowest bid or
   bids for Sindh's remaining 185,000-tonne wheat requirement and accelerate
   payment arrangements."
 image: "/assets/images/tcp-185000-tonne-wheat-procurement.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of wheat, a bulk
+image_alt: "Pakistan Report editorial illustration of wheat, a bulk
   carrier and procurement paperwork representing TCP's remaining 185,000-tonne
   wheat import process."
 image_caption: "Pakistan Report illustration."

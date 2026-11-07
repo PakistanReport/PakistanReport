@@ -8,7 +8,7 @@ description: Agreement covers the fourth EFF and third RSF reviews, with around
   Board approval.
 published: true
 image: /assets/images/pakistan-imf-staff-level-deal-reviews.webp
-image_alt: AI-generated editorial illustration of Pakistan’s flag, coin stacks
+image_alt: editorial illustration of Pakistan’s flag, coin stacks
   and a modern financial institution, representing the IMF staff-level
   agreement.
 date: 2026-10-08 10:00:00 +0500

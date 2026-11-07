@@ -8,7 +8,7 @@ description: "Australia has launched its campaign for a 2029–30 UN Security
   digital resilience among its priorities."
 published: true
 image: "/assets/images/australia-un-security-council-bid.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Australia and the United Nations."
 date: 2026-09-27 23:00:00 +0500
 ---

@@ -8,7 +8,7 @@ description: "Pakistan received 5.77 million income tax returns by September 30,
   up nearly 45% from a year earlier, with non-salaried individuals driving most
   of the increase."
 image: "/assets/images/pakistan-5-77-million-tax-returns.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of tax-return
+image_alt: "Pakistan Report editorial illustration of tax-return
   paperwork and a 5.77 million filing graphic representing Pakistan's rise in
   income tax returns."
 image_caption: "Pakistan Report illustration."

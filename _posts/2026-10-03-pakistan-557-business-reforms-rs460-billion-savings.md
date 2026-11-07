@@ -9,7 +9,7 @@ description: "The Cabinet’s Regulatory Reforms Committee has approved 557
   savings of Rs460 billion."
 published: true
 image: "/assets/images/pakistan-557-business-reforms-rs460-billion-savings.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Pakistan’s regulatory reforms and estimated annual business savings."
 date: 2026-10-03 15:30:00 +0500
 ---

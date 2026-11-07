@@ -8,7 +8,7 @@ description: "G7 countries are releasing 100 million barrels of crude and diesel
   from emergency reserves as governments respond to global energy supply risks."
 published: true
 image: "/assets/images/g7-100-million-barrel-emergency-oil-reserve-release.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing G7
+image_alt: "Pakistan Report editorial illustration showing G7
   flags, oil barrels and global oil supply infrastructure."
 date: 2026-10-05 10:00:00 +0500
 ---

@@ -10,7 +10,8 @@ published: true
 image: /assets/images/04-2026-10-29-pakistan-ten-government-services-digital-upgrade.webp
 image_alt: "Illustration of a laptop and smartphone displaying conceptual
   Pakistani digital-government services, without people."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 29, 2026** — Pakistan has shortlisted ten government services for digital delivery under a $78 million World Bank-supported programme aimed at making public services easier to access and reducing duplication across government departments.

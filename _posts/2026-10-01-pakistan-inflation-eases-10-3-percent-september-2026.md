@@ -7,7 +7,7 @@ date: "2026-10-01 20:00:00 +0500"
 description: "Pakistan’s headline CPI inflation eased to 10.3% year on year in
   September from 11.1% in August, while prices rose 1.3% on a monthly basis."
 image: "/assets/images/pakistan-inflation-september-2026.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of groceries and
+image_alt: "Pakistan Report editorial illustration of groceries and
   a downward inflation graphic showing Pakistan’s 10.3% September 2026 CPI
   inflation rate."
 image_caption: "Pakistan Report illustration."

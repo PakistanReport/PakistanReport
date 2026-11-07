@@ -9,9 +9,9 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-24 14:30:00 +0500'
 published: true
 image: /assets/images/05-2026-10-24-pakistan-canada-investment-treaty-negotiations.webp
-image_alt: Symbolic AI illustration of Pakistani and Canadian flags beside
+image_alt: Symbolic Illustration of Pakistani and Canadian flags beside
   unsigned document folders with Ottawa Parliament buildings in the background
-image_caption: Pakistan Report illustration (AI-generated; symbolic diplomatic
+image_caption: "Pakistan Report illustration"
   scene, not a photograph of the negotiations or a treaty signing)
 ---
 

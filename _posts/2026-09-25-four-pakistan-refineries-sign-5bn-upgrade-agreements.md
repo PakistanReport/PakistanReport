@@ -8,7 +8,7 @@ description: "Attock Refinery, National Refinery, Pakistan Refinery and
   investment over five years."
 published: true
 image: "/assets/images/pakistan-refinery-upgrade-agreements.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of refinery
+image_alt: "Pakistan Report editorial illustration of refinery
   infrastructure accompanying coverage of refinery upgrade agreements."
 date: 2026-09-25 16:30:00 +0500
 ---

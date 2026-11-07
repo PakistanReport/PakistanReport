@@ -8,9 +8,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-29 12:53:11 +0500'
 published: true
 image: /assets/images/05-2026-10-30-sbp-governor-economic-recovery-inflation-risks.webp
-image_alt: AI-generated illustration of the State Bank of Pakistan and economic
+image_alt: illustration of the State Bank of Pakistan and economic
   indicators.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **KARACHI, October 29, 2026** — State Bank of Pakistan Governor Jameel Ahmad has said the country's economy continues to recover despite global and regional challenges, with growth improving and the external account remaining relatively stable.

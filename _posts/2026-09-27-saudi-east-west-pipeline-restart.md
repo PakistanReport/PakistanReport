@@ -8,7 +8,7 @@ description: "Saudi Arabia has restarted its East-West oil pipeline at a reduced
   key export route that bypasses the Strait of Hormuz."
 published: true
 image: "/assets/images/saudi-east-west-pipeline-restart.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of Saudi oil
+image_alt: "Pakistan Report editorial illustration of Saudi oil
   pipeline and Red Sea export infrastructure."
 date: 2026-09-27 23:30:00 +0500
 ---

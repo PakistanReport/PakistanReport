@@ -8,7 +8,7 @@ description: Senior Pakistani and Malaysian officials review defence cooperation
   at the sixteenth bilateral joint committee meeting in Rawalpindi.
 image_caption: Pakistan Report Illustration
 image: /assets/images/pakistan-malaysia-defence-cooperation-talks.webp
-image_alt: AI-generated editorial illustration for Pakistan Report; not a
+image_alt: editorial illustration for Pakistan Report; not a
   photograph of the reported event
 published: true
 ---

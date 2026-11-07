@@ -8,7 +8,7 @@ description: "Iranian security official Mohsen Rezaei says Washington has four
   which Iran will decide its next step."
 published: true
 image: "/assets/images/iran-hormuz-four-five-day-deadline.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of Iran-US
+image_alt: "Pakistan Report editorial illustration of Iran-US
   tensions around the Strait of Hormuz with a four-to-five-day countdown."
 date: 2026-09-25 20:00:00 +0500
 ---

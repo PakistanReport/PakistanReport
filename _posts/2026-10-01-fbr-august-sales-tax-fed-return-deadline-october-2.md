@@ -9,7 +9,7 @@ description: "FBR has extended filing of August 2026 Sales Tax and FED returns
   to October 2 for DISCOs, K-Electric and taxpayers covered by STGO No. 10 of
   2026, subject to payment conditions."
 image: "/assets/images/fbr-sales-tax-fed-deadline-october-2.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of Sales Tax and
+image_alt: "Pakistan Report editorial illustration of Sales Tax and
   FED return files beside an October 2026 calendar with October 2 highlighted."
 image_caption: "Pakistan Report illustration."
 published: true

@@ -10,7 +10,7 @@ description: "The three countries agreed to provide approved military forces and
 published: true
 image: "/assets/images/pakistan-saudi-turkiye-rapid-military-deployment-makkah-\
   defence-pact.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing the
+image_alt: "Pakistan Report editorial illustration showing the
   flags of Pakistan, Saudi Arabia and Türkiye with military transport aircraft
   and logistics vehicles."
 date: 2026-10-06 17:00:00 +0500

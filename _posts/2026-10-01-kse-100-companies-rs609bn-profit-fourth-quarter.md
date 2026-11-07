@@ -8,7 +8,7 @@ description: "Topline Research says 88 KSE-100 companies representing about 96%
   of index market capitalisation earned Rs609 billion in 4QFY26, up 34% year on
   year."
 image: "/assets/images/kse100-companies-rs609bn-earnings.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of rising charts
+image_alt: "Pakistan Report editorial illustration of rising charts
   and coin stacks representing growth in earnings among KSE-100 companies."
 image_caption: "Pakistan Report illustration."
 published: true

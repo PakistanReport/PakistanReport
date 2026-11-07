@@ -8,7 +8,7 @@ description: "A National Assembly standing committee has recommended a minimum
   farmer subsidy mechanism."
 published: true
 image: "/assets/images/na-panel-seeks-rs5000-wheat-support-price.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   wheat production and the proposed wheat support price in Pakistan."
 date: 2026-10-02 18:15:00 +0500
 ---

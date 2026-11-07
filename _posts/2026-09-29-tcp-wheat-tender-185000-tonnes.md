@@ -8,7 +8,7 @@ description: "TCP’s final evaluation lists Bunge SA as the lowest evaluated
   bidder in its 185,000-tonne wheat import tender, with the Karachi price
   reported at $339.36 a tonne; no purchase award has been announced."
 image: "/assets/images/tcp-wheat-tender-185000-tonnes.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   TCP’s 185,000-tonne wheat import tender and evaluated bids."
 image_caption: "Pakistan Report illustration."
 published: true

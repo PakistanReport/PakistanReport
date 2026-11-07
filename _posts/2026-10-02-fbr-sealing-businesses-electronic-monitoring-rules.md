@@ -9,7 +9,7 @@ description: "New FBR rules allow tax officials to seal premises that fail
   with non-compliant specified goods also exposed to seizure and confiscation."
 published: true
 image: "/assets/images/fbr-sealing-businesses-electronic-monitoring-rules.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing FBR
+image_alt: "Pakistan Report editorial illustration representing FBR
   enforcement procedures for businesses that fail required electronic monitoring
   integration."
 date: 2026-10-02 14:00:00 +0500

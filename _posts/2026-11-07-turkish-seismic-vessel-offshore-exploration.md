@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-11-07 00:33:00 +0500"
 published: true
 image: /assets/images/01-2026-11-07-turkish-seismic-vessel-offshore-exploration.webp
-image_alt: "AI illustration of offshore seismic survey data and a map of
+image_alt: "Illustration of offshore seismic survey data and a map of
   Pakistan's coastal waters, with an offshore platform at sunset."
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 7, 2026 —** A Turkish seismic research vessel is expected to arrive in Karachi between November 17 and 20 as Pakistan prepares to revive offshore oil and gas exploration in cooperation with Türkiye.

@@ -7,7 +7,7 @@ description: "Pakistan's federal state-owned enterprises carried Rs10.1 trillion
   in debt at the end of December 2025, up about 14% from a year earlier."
 published: true
 image: "/assets/images/pakistan-soe-debt-rises-14-percent-rs10-1-trillion.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration for Pakistan SOE
+image_alt: "Pakistan Report editorial illustration for Pakistan SOE
   Debt Rises 14% to Rs10.1 Trillion."
 date: 2026-10-06 11:00:00 +0500
 ---

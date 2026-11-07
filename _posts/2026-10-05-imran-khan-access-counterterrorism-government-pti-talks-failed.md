@@ -10,7 +10,7 @@ description: "Access to Imran Khan and disagreements over counterterrorism
 published: true
 image: "/assets/images/imran-khan-access-counterterrorism-government-pti-talks-\
   failed.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration depicting a
+image_alt: "Pakistan Report editorial illustration depicting a
   split government-PTI negotiating table and political deadlock in Islamabad."
 date: 2026-10-05 19:00:00 +0500
 ---

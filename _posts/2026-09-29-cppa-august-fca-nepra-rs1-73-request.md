@@ -8,7 +8,7 @@ description: "CPPA-G has sought an August 2026 fuel charges adjustment of about
   Rs1.73 per unit for ex-WAPDA distribution companies, with NEPRA taking up the
   request on September 29."
 image: "/assets/images/nepra-august-fca.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   CPPA-G's proposed August 2026 fuel charges adjustment before NEPRA."
 image_caption: "Pakistan Report illustration."
 published: true

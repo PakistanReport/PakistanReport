@@ -8,7 +8,7 @@ description: "Seven OPEC+ countries have decided to maintain their September
   market reviews."
 published: true
 image: "/assets/images/opec-plus-keeps-november-oil-production-targets-unchanged.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing OPEC+
+image_alt: "Pakistan Report editorial illustration showing OPEC+
   branding, oil barrels, pumpjacks, storage tanks and refinery infrastructure."
 date: 2026-10-05 21:00:00 +0500
 ---

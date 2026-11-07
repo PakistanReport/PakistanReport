@@ -8,7 +8,7 @@ description: "Rising living costs, weaker consumer demand and job losses are
   increasing pressure on Iranian households as war and restrictions on oil
   exports weigh on the economy."
 image: "/assets/images/iran-household-economic-strain-2026.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of an Iranian
+image_alt: "Pakistan Report editorial illustration of an Iranian
   market representing household cost pressures."
 image_caption: "Pakistan Report illustration."
 published: true

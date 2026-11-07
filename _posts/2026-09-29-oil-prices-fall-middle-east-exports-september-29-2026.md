@@ -8,7 +8,7 @@ description: "Brent fell to $103.32 a barrel and WTI to $90.65 in Tuesday
   intraday trade as improved Middle East crude flows offset continuing supply
   risks."
 image: "/assets/images/oil-prices-middle-east-supply-september-2026.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of oil
+image_alt: "Pakistan Report editorial illustration of oil
   infrastructure, barrels, pumpjacks and a tanker."
 image_caption: "Pakistan Report illustration."
 published: true

@@ -9,7 +9,7 @@ description: "NCCIA says 61 people were arrested in a Rawalpindi call-centre
   raid over an alleged foreign loan-recovery fraud, with 155 laptops and 71
   mobile phones seized for forensic analysis."
 image: "/assets/images/nccia-rawalpindi-call-centre-raid.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing an
+image_alt: "Pakistan Report editorial illustration representing an
   NCCIA call-centre raid and digital-forensics investigation in Rawalpindi."
 image_caption: "Pakistan Report illustration."
 published: true

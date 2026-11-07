@@ -7,7 +7,7 @@ description: "Pakistan’s FBR has extended the tax year 2026 income-tax return
   deadline from 15 to 31 October for taxpayers covered by the earlier extension,
   citing requests from trade and tax bodies."
 image: /assets/images/fbr-tax-return-deadline-october-31.webp
-image_caption: "AI-generated editorial illustration."
+image_caption: "Pakistan Report illustration"
 published: true
 ---
 

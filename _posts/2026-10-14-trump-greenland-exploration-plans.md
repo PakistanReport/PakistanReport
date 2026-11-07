@@ -6,7 +6,7 @@ author: "Pakistan Report Editorial Desk"
 date: 2026-10-14 17:51:00 +0500
 description: "Donald Trump says large-scale oil, gas and mineral exploration is being prepared in Greenland, but has given no timetable or project details, and a recent security agreement grants no special US exploration rights."
 image: "/assets/images/greenland-exploration-plans.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of Greenland's Arctic coastline and mineral-rich terrain, symbolising proposed resource exploration."
+image_alt: "Pakistan Report editorial illustration of Greenland's Arctic coastline and mineral-rich terrain, symbolising proposed resource exploration."
 image_caption: "Pakistan Report illustration."
 published: true
 ---

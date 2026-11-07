@@ -7,7 +7,7 @@ description: "Pakistan recorded a $874 million current-account deficit in
   July–September 2026, up from $755 million a year earlier, as a wider trade gap
   outweighed strong remittance inflows."
 image: /assets/images/pakistan-current-account-deficit-q1-fy27.webp
-image_caption: "AI-generated editorial illustration."
+image_caption: "Pakistan Report illustration"
 published: true
 ---
 

@@ -8,7 +8,7 @@ description: "Commercial bank branches in Pakistan will stay open until 10pm on
   September 30 for over-the-counter government duty and tax payments, the SBP
   says."
 image: "/assets/images/pakistan-banks-tax-payments-10pm.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   extended bank hours for government tax payments in Pakistan."
 image_caption: "Pakistan Report illustration."
 published: true

@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 18:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-government-export-financing-small-businesses.webp
-image_alt: AI-generated illustration of Pakistani export cargo and business
+image_alt: illustration of Pakistani export cargo and business
   representatives at a container port.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 31, 2026** — The federal government is considering measures to make export financing more accessible to Pakistan's small and medium-sized businesses, following concerns about borrowing costs and difficulties entering international markets.

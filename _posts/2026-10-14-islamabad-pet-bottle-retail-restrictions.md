@@ -9,7 +9,7 @@ description: "Businesses have raised concerns over reported instructions to stop
   selling PET-packaged products in Islamabad, while the formal legal basis
   remains unclear."
 image: "/assets/images/islamabad-pet-bottle-retail-restrictions.webp"
-image_alt: "AI-generated editorial illustration related to islamabad retailers
+image_alt: "editorial illustration related to islamabad retailers
   question reported pet bottle restrictions amid unclear rules; not a
   documentary photograph."
 image_caption: "Pakistan Report illustration; not a photograph of the reported event."

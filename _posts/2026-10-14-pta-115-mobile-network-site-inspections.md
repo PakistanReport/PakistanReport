@@ -7,7 +7,7 @@ date: 2026-10-14 21:52:00 +0500
 description: "The telecom regulator inspected mobile sites from September 30 to
   October 7, assessing coverage, voice and data performance and backup power."
 image: "/assets/images/pta-mobile-network-site-inspections.webp"
-image_alt: "AI-generated editorial illustration related to pta inspects 115
+image_alt: "editorial illustration related to pta inspects 115
   mobile network sites across eight pakistani cities; not a documentary
   photograph."
 image_caption: "Pakistan Report illustration; not a photograph of the reported event."

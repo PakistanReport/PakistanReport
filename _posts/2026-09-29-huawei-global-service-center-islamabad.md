@@ -9,7 +9,7 @@ description: "Huawei’s Islamabad Global Service Center provides remote technic
   support, network operations and service assurance to international customers
   using Pakistani engineering and technical teams."
 image: "/assets/images/huawei-global-service-center-islamabad.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Huawei’s Global Service Center and Pakistani engineers supporting
   international ICT operations from Islamabad."
 image_caption: "Pakistan Report illustration."

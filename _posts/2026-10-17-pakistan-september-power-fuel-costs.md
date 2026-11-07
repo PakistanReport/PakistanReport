@@ -7,7 +7,7 @@ description: "Pakistan’s average power-generation fuel cost rose 37.5% year on
   year in September to Rs10.02 per unit, as more expensive diesel and imported
   coal offset modest demand growth."
 image: /assets/images/pakistan-september-power-fuel-costs.webp
-image_caption: "AI-generated editorial illustration."
+image_caption: "Pakistan Report illustration"
 published: true
 ---
 

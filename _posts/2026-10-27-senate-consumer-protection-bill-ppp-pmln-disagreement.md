@@ -10,7 +10,7 @@ published: true
 image: /assets/images/03-2026-10-27-senate-consumer-protection-bill-ppp-pmln-disagreement.webp
 image_alt: 'Conceptual illustration of a Senate consumer protection bill, gavel
   and shopping cart'
-image_caption: 'Pakistan Report AI-generated editorial illustration'
+image_caption: "Pakistan Report illustration"
 date: '2026-10-27 12:00:00 +0500'
 ---
 

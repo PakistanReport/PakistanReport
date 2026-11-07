@@ -11,7 +11,7 @@ published: true
 image: /assets/images/02-2026-10-27-russia-iran-qatar-moscow-talks.webp
 image_alt: 'Conceptual illustration of Russian, Iranian and Qatari leaders in
   Moscow; not a photograph of an actual joint meeting'
-image_caption: 'Pakistan Report AI-generated editorial illustration'
+image_caption: "Pakistan Report illustration"
 date: '2026-10-27 10:30:00 +0500'
 ---
 

@@ -8,9 +8,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 10:26:57 +0500'
 published: true
 image: /assets/images/2026-10-30-pakistan-saudi-investment-mining-agriculture.webp
-image_alt: "AI illustration representing Pakistan–Saudi investment discussions
+image_alt: "Illustration representing Pakistan–Saudi investment discussions
   in mining and agriculture."
-image_caption: "AI-generated illustration"
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 29, 2026** — Pakistan and Saudi Arabia have discussed opportunities to expand investment in agriculture, minerals and mining as both countries seek stronger commercial cooperation.

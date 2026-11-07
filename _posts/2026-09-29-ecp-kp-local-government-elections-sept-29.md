@@ -8,7 +8,7 @@ description: "The Election Commission has fixed the KP local government
   elections case for September 29 and summoned the provincial chief secretary
   and local government secretary to appear in person."
 image: "/assets/images/ecp-kp-local-elections.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing the
+image_alt: "Pakistan Report editorial illustration representing the
   Election Commission's hearing on Khyber Pakhtunkhwa local government
   elections."
 image_caption: "Pakistan Report illustration."

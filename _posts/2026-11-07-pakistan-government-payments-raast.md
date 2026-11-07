@@ -11,7 +11,8 @@ published: true
 image: /assets/images/raast-government-payments.webp
 image_alt: Raast digital government payments information displayed at a public
   service counter.
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 7, 2026 —** Prime Minister Shehbaz Sharif has directed authorities to prepare a nationwide roadmap for digital payments as the government moves to replace cheque-based transactions under Asaan Assignment Accounts with the Raast payment system from November 16.

@@ -7,7 +7,7 @@ date: "2026-09-30 16:45:00 +0500"
 description: "A US trade court is weighing a challenge to tariffs of 10% to
   12.5% covering more than 99% of US imports and dozens of trading partners."
 image: "/assets/images/us-tariffs-court-challenge.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of US port
+image_alt: "Pakistan Report editorial illustration of US port
   trade, a courthouse and scales of justice representing a tariff court
   challenge."
 image_caption: "Pakistan Report illustration."

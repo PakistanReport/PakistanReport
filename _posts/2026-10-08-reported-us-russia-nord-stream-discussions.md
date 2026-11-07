@@ -8,7 +8,7 @@ description: Sources describe exploratory discussions involving a possible US
   barriers to any restart.
 published: true
 image: /assets/images/reported-us-russia-nord-stream-discussions.webp
-image_alt: An AI-generated illustration of the Baltic Sea and Nord Stream
+image_alt: An illustration of the Baltic Sea and Nord Stream
   infrastructure, representing reported exploratory discussions.
 date: 2026-10-08 22:00:00 +0500
 ---

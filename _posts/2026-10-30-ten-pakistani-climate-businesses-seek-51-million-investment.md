@@ -8,9 +8,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-29 12:54:25 +0500'
 published: true
 image: /assets/images/02-2026-10-30-ten-pakistani-climate-businesses-seek-51-million-investment.webp
-image_alt: AI-generated illustration of clean energy, electric transport and
+image_alt: illustration of clean energy, electric transport and
   climate investment in Pakistan.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **KARACHI, October 29, 2026** — Ten Pakistani businesses are seeking a combined $51 million in investment over the next 12 months to expand projects involving clean energy, sustainable transport, waste management and other climate-related solutions.

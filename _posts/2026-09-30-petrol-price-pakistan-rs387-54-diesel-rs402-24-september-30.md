@@ -8,7 +8,7 @@ description: "Petrol fell by Rs1.49 to Rs387.54 per litre and high-speed diesel
   by Rs2.73 to Rs402.24 for September 30 under Pakistan’s fuel-pricing
   mechanism."
 image: "/assets/images/pakistan-petrol-price-september-30.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing petrol
+image_alt: "Pakistan Report editorial illustration showing petrol
   and diesel prices in Pakistan for September 30, 2026."
 image_caption: "Pakistan Report illustration."
 published: true

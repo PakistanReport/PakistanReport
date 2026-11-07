@@ -10,7 +10,7 @@ image: /assets/images/riyadh-airport-attacks.webp
 image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
   coverage: Riyadh Airport Attacks Raise Regional Aviation Concerns After Deadly
   Weekend'
-image_caption: Pakistan Report illustration. AI-generated conceptual image; not
+image_caption: "Pakistan Report illustration"
   a photograph of an actual event.
 date: 2026-10-12 18:00:00 +0500
 ---

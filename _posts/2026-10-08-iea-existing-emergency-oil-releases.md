@@ -8,7 +8,7 @@ description: Member governments want to bring outstanding emergency stocks to
   barrels on top of its March programme.
 published: true
 image: /assets/images/iea-existing-emergency-oil-releases.webp
-image_alt: An AI-generated illustration of global oil storage and shipping,
+image_alt: An illustration of global oil storage and shipping,
   representing the IEA’s previously pledged reserve releases.
 date: 2026-10-08 21:00:00 +0500
 ---

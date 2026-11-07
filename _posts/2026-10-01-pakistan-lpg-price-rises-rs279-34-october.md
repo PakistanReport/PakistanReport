@@ -7,7 +7,7 @@ date: "2026-10-01 14:00:00 +0500"
 description: "OGRA has raised the notified LPG price for October to Rs279.34 per
   kg, lifting the price of an 11.8kg domestic cylinder to Rs3,296.23."
 image: "/assets/images/pakistan-lpg-price-october.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of an LPG
+image_alt: "Pakistan Report editorial illustration of an LPG
   cylinder representing Pakistan’s higher notified LPG price for October 2026."
 image_caption: "Pakistan Report illustration."
 published: true

@@ -9,7 +9,7 @@ description: "Pakistan's urea sales reached 611,000 tonnes in September, up 43%
 published: true
 image: "/assets/images/pakistan-urea-sales-rise-43-percent-september-inventory-\
   nine-month-low.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of urea
+image_alt: "Pakistan Report editorial illustration of urea
   fertilizer distribution in Pakistan."
 date: 2026-10-04 18:56:00 +0500
 ---

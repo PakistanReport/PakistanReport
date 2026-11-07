@@ -8,7 +8,7 @@ description: "Pakistan's September RLNG prices have fallen sharply after lower
   August."
 published: true
 image: "/assets/images/pakistan-rlng-prices-september-2026.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of LNG shipping,
+image_alt: "Pakistan Report editorial illustration of LNG shipping,
   storage and pipeline infrastructure accompanying coverage of September RLNG
   prices."
 date: 2026-09-25 17:00:00 +0500

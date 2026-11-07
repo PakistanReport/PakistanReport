@@ -9,7 +9,7 @@ author: Pakistan Report Editorial Desk
 date: "2026-10-19 12:14:52 +0500"
 published: true
 image: /assets/images/maldives-president-muizzu-pakistan-visit-october-20.webp
-image_alt: "AI-generated illustration of a Pakistan-Maldives diplomatic
+image_alt: "illustration of a Pakistan-Maldives diplomatic
   greeting; not a photograph of President Muizzu's upcoming visit."
 image_caption: Pakistan Report illustration.
 ---

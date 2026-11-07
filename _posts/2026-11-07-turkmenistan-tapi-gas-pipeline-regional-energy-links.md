@@ -11,7 +11,8 @@ date: 2026-11-07 20:00:00 +0500
 published: true
 image: /assets/images/tapi-gas-pipeline-regional-energy-links.webp
 image_alt: Large gas pipeline crossing an arid landscape with mountains in the distance.
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 7, 2026 —** Turkmenistan has reaffirmed the importance of the Turkmenistan–Afghanistan–Pakistan–India (TAPI) gas pipeline and other cross-border infrastructure projects in strengthening energy supplies and economic connectivity between Central and South Asia.

@@ -8,7 +8,7 @@ description: "A new computerised procedure allows discrepancies in sales tax
   to respond before formal proceedings."
 published: true
 image: "/assets/images/fbr-electronic-sales-tax-scrutiny.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of FBR
+image_alt: "Pakistan Report editorial illustration of FBR
   electronic scrutiny of sales tax returns through the IRIS system."
 date: 2026-09-27 16:00:00 +0500
 ---

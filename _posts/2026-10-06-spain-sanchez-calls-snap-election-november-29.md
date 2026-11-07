@@ -7,7 +7,7 @@ description: "Spanish Prime Minister Pedro Sánchez has called a snap general
   election for November 29 after mounting parliamentary difficulties."
 published: true
 image: "/assets/images/spain-sanchez-calls-snap-election-november-29.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of Pedro
+image_alt: "Pakistan Report editorial illustration of Pedro
   Sánchez, Spain's parliament, Spanish and EU flags, a ballot box and a November
   29 election calendar."
 date: 2026-10-06 15:00:00 +0500

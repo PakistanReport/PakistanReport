@@ -8,7 +8,7 @@ description: The tax authority has notified expanded electronic monitoring and
   sectors.
 published: true
 image: /assets/images/fbr-leather-paper-production-monitoring.webp
-image_alt: An AI-generated illustration of paper and leather manufacturing with
+image_alt: An illustration of paper and leather manufacturing with
   electronic monitoring, representing FBR production oversight.
 date: 2026-10-08 18:00:00 +0500
 ---

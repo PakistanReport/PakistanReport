@@ -8,7 +8,7 @@ description: An attack on a refinery in Russia's Ryazan region follows Ukraine's
   declaration that a short-lived pause in strikes on energy targets has ended.
 image_caption: Pakistan Report Illustration
 image: /assets/images/ukraine-ryazan-refinery-energy-truce.webp
-image_alt: AI-generated editorial illustration for Pakistan Report; not a
+image_alt: editorial illustration for Pakistan Report; not a
   photograph of the reported event
 published: true
 ---

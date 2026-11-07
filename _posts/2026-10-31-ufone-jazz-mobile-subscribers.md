@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 21:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-ufone-jazz-mobile-subscribers.webp
-image_alt: AI-generated illustration of Jazz and Ufone telecom towers
+image_alt: illustration of Jazz and Ufone telecom towers
   overlooking Islamabad at sunset.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 31, 2026** — Ufone has narrowed the gap with Jazz in Pakistan's mobile telecommunications market, leaving the country's two largest operators separated by approximately 150,000 subscribers.

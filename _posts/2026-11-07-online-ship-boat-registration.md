@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-11-07 00:00:00 +0500"
 published: true
 image: /assets/images/02-2026-11-07-online-ship-boat-registration.webp
-image_alt: "AI illustration of a cargo vessel moored at a harbour, with port
+image_alt: "Illustration of a cargo vessel moored at a harbour, with port
   cranes and water in the background."
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 6, 2026 —** Pakistan has made its online Ship and Boat Registration System operational, allowing vessel owners to submit registration applications electronically instead of visiting government offices.

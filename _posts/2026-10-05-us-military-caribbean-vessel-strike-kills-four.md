@@ -8,7 +8,7 @@ description: "The US military says four people were killed in a strike on a
   challenged the wider campaign."
 published: true
 image: "/assets/images/us-military-caribbean-vessel-strike-kills-four.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing US
+image_alt: "Pakistan Report editorial illustration showing US
   maritime forces monitoring a small vessel in the Caribbean."
 date: 2026-10-05 11:00:00 +0500
 ---

@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-11-01 11:23:10 +0500'
 published: true
 image: /assets/images/2026-11-02-world-bank-sindh-property-tax-municipal-services.webp
-image_alt: "AI-generated editorial illustration of Karachi civic architecture
+image_alt: "editorial illustration of Karachi civic architecture
   and a symbolic World Bank Sindh property revenue programme sign"
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **KARACHI, November 2, 2026** — The World Bank has approved $150 million in financing to improve property tax collection and municipal services in Sindh, with a target of increasing Karachi's annual property tax revenue tenfold.

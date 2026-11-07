@@ -8,7 +8,7 @@ description: "The Islamabad High Court has sought an OGRA report on a
   restriction dating to 2019 that has blocked fresh OMC licence applications
   from local investors."
 image: "/assets/images/ihc-omc-licence-freeze.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of a gavel, OMC
+image_alt: "Pakistan Report editorial illustration of a gavel, OMC
   licensing papers, a fuel station and tanker representing court scrutiny of oil
   marketing company licensing."
 image_caption: "Pakistan Report illustration."

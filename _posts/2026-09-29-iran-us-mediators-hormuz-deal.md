@@ -8,7 +8,7 @@ description: "Mediators are continuing indirect Iran-US diplomacy over a
   possible arrangement to end fighting and reopen the Strait of Hormuz, with
   major differences still unresolved."
 image: "/assets/images/iran-us-hormuz-mediation.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   indirect Iran-US negotiations over the Strait of Hormuz."
 image_caption: "Pakistan Report illustration."
 published: true

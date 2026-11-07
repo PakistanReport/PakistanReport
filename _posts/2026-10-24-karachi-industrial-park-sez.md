@@ -11,7 +11,7 @@ published: true
 image: /assets/images/01-2026-10-24-karachi-industrial-park-sez.webp
 image_alt: Illustration of an industrial district with warehouses, roads and
   shipping containers near a port
-image_caption: Pakistan Report illustration (AI-generated; not a photograph of
+image_caption: "Pakistan Report illustration"
   Karachi Industrial Park)
 ---
 

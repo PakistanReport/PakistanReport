@@ -10,9 +10,9 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 21:30:00 +0500'
 published: true
 image: /assets/images/03-2026-10-30-pakistan-battery-storage-four-pilot-projects.webp
-image_alt: AI-generated illustration of battery energy storage containers, solar
+image_alt: illustration of battery energy storage containers, solar
   panels and electrical infrastructure in Pakistan.
-image_caption: AI-generated Pakistan Report illustration; not a photograph of
+image_caption: "Pakistan Report illustration"
   the reported meeting or event.
 ---
 

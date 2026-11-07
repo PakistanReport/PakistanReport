@@ -8,7 +8,7 @@ description: Pakistan and Oman exchange six documents on official travel, media,
   archives and technology following their eighth joint ministerial meeting.
 image_caption: Pakistan Report Illustration
 image: /assets/images/pakistan-oman-six-cooperation-documents.webp
-image_alt: AI-generated editorial illustration for Pakistan Report; not a
+image_alt: editorial illustration for Pakistan Report; not a
   photograph of the reported event
 published: true
 ---

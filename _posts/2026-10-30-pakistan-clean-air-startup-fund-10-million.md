@@ -11,7 +11,7 @@ published: true
 image: /assets/images/01-2026-10-30-pakistan-clean-air-startup-fund-10-million.webp
 image_alt: Illustration of an air-quality monitor overlooking a smog-covered
   Pakistani city.
-image_caption: AI-generated Pakistan Report illustration; not a photograph of
+image_caption: "Pakistan Report illustration"
   the announcement.
 ---
 

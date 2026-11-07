@@ -8,7 +8,7 @@ description: "Pakistan has reduced petrol by Rs2.27 per litre to Rs389.03 and
   high-speed diesel by Rs3.56 to Rs404.97, with the revised rates effective
   September 29."
 image: "/assets/images/petrol-diesel-sept-29.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Pakistan's September 29 petrol and high-speed diesel price revision."
 image_caption: "Pakistan Report illustration."
 published: true

@@ -9,9 +9,9 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-29 12:54:50 +0500'
 published: true
 image: /assets/images/03-2026-10-30-germany-japan-global-trade-alliance-proposal.webp
-image_alt: AI-generated illustration depicting German and Japanese political
+image_alt: illustration depicting German and Japanese political
   leaders shaking hands beside national and EU flags.
-image_caption: AI-generated conceptual illustration; not a photograph of the
+image_caption: "Pakistan Report illustration"
   Germany–Japan meeting.
 ---
 

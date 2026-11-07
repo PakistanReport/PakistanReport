@@ -8,7 +8,7 @@ description: Pakistan's benchmark KSE-100 index rises 768.66 points, or 0.46%,
   in the 15 October trading session.
 image_caption: Pakistan Report Illustration
 image: /assets/images/kse-100-october-15-close.webp
-image_alt: AI-generated editorial illustration for Pakistan Report; not a
+image_alt: editorial illustration for Pakistan Report; not a
   photograph of the reported event
 published: true
 ---

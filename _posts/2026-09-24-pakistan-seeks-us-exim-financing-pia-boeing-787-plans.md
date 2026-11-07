@@ -8,7 +8,7 @@ description: "Pakistan has discussed potential US EXIM support for PIA aircraft
   upgrades."
 published: true
 image: "/assets/images/pakistan-us-exim-pia-boeing-787.png"
-image_alt: "AI-generated editorial illustration of Pakistan-US aviation
+image_alt: "editorial illustration of Pakistan-US aviation
   financing talks featuring a Boeing 787 concept and meeting imagery."
 date: 2026-09-24 18:30:00 +0500
 ---

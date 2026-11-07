@@ -10,7 +10,8 @@ published: true
 image: /assets/images/01-2026-10-29-world-bank-kp-hydropower-project-progress.webp
 image_alt: "Illustration of an engineer reviewing a hydropower construction
   project in a mountainous valley."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 29, 2026** — The World Bank has expressed concern over progress on a $727 million hydropower and renewable-energy project in Khyber Pakhtunkhwa, warning that significant risks remain despite improvements in implementation.

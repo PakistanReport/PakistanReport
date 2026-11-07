@@ -8,7 +8,7 @@ description: "The proposed STAR-WASH-1 programme would combine World Bank, Asian
   services across rural Sindh."
 published: true
 image: "/assets/images/sindh-rural-water-sanitation.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of rural water
+image_alt: "Pakistan Report editorial illustration of rural water
   and sanitation infrastructure in Sindh, with workers installing a pipeline
   near village water facilities."
 date: 2026-09-27 15:30:00 +0500

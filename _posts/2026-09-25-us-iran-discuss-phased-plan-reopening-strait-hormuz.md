@@ -8,7 +8,7 @@ description: "US and Iranian negotiators are exploring a phased arrangement
   blockade, according to sources familiar with the talks."
 published: true
 image: "/assets/images/us-iran-hormuz-phased-deal.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of a US-Iran
+image_alt: "Pakistan Report editorial illustration of a US-Iran
   negotiating table overlooking tanker traffic in the Strait of Hormuz."
 date: 2026-09-25 18:00:00 +0500
 ---

@@ -8,7 +8,7 @@ description: "FBR says 85 taxpayers inserted Rs9.41 billion in previously
   undeclared assets through late revisions of old wealth statements, with 48
   criminal inquiries launched."
 image: "/assets/images/fbr-rs9-41bn-wealth-statement-case.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of Pakistani
+image_alt: "Pakistan Report editorial illustration of Pakistani
   currency and handcuffs representing FBR's Rs9.41 billion wealth-statement
   investigation."
 image_caption: "Pakistan Report illustration."

@@ -10,7 +10,7 @@ description: "The eighth Moscow Format consultations ended without a joint
 published: true
 image: "/assets/images/moscow-afghanistan-talks-no-joint-statement-pakistan-afg\
   hanistan.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration for Moscow
+image_alt: "Pakistan Report editorial illustration for Moscow
   Afghanistan Talks End Without Joint Statement After Pakistan-Afghanistan
   Disagreement."
 date: 2026-10-06 13:00:00 +0500

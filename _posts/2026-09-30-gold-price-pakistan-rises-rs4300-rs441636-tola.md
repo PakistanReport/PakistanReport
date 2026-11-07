@@ -8,7 +8,7 @@ description: "Gold in Pakistan rose Rs4,300 to Rs441,636 per tola on September
   30, while the 10-gram rate increased to Rs378,631 as international gold also
   advanced."
 image: "/assets/images/gold-price-pakistan-september-30.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of gold
+image_alt: "Pakistan Report editorial illustration of gold
   jewellery and a price board representing the September 30 rise in gold prices
   in Pakistan."
 image_caption: "Pakistan Report illustration."
