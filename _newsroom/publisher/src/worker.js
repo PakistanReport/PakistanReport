@@ -123,6 +123,7 @@ export class Publisher {
       "CREATE TABLE IF NOT EXISTS jobs (id TEXT PRIMARY KEY, batch TEXT NOT NULL, slug TEXT UNIQUE NOT NULL, postPath TEXT UNIQUE NOT NULL, imagePath TEXT UNIQUE NOT NULL, status TEXT NOT NULL, due INTEGER NOT NULL, next INTEGER NOT NULL, data TEXT NOT NULL)",
     );
     this.sql.exec("CREATE INDEX IF NOT EXISTS jobs_due ON jobs(status,next)");
+    this.sql.exec("CREATE INDEX IF NOT EXISTS jobs_batch_status ON jobs(batch,status)");
     this.sql.exec(
       "CREATE TABLE IF NOT EXISTS images (job TEXT NOT NULL, part INTEGER NOT NULL, bytes BLOB NOT NULL, PRIMARY KEY(job,part))",
     );
