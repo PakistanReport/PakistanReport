@@ -1,21 +1,25 @@
 ---
 layout: page
 title: "Corrections Policy"
-description: "How Pakistan Report handles corrections and significant updates."
+description: "How to report an error and how Pakistan Report handles corrections and updates."
 ---
 
-Pakistan Report aims to correct meaningful factual errors promptly and transparently.
+Accuracy is central to Pakistan Report's work. When a material factual error is brought to our attention or identified during review, we aim to assess it promptly and correct it when confirmed.
 
-If a published story contains a significant factual error, we will update the article when the error is confirmed.
+## How to request a correction
 
-Material factual corrections receive a visible correction note explaining what was wrong and what has been corrected. We preserve the original publication time and record the time of significant updates separately.
+Email [pakistanreportnews@gmail.com](mailto:pakistanreportnews@gmail.com) with the subject **Correction request**. Please include the article's URL or headline, identify the statement you believe is incorrect and, where possible, provide a source or document supporting your concern.
 
-Minor spelling, grammar, formatting or style changes may be corrected without a formal correction notice when they do not change the meaning of the article.
+We review credible requests against available evidence. A disagreement with an interpretation or editorial judgement does not by itself establish a factual error, but we will consider evidence that material facts have been misstated or important context omitted.
 
-## Reporting an error
+## How we make corrections
 
-Readers who believe an article contains a factual error may contact Pakistan Report through our [Contact page](/contact/) or at [pakistanreportnews@gmail.com](mailto:pakistanreportnews@gmail.com).
+When a significant factual mistake is confirmed, we update the article and include a visible correction note explaining the substance of the change.
 
-Please include the article headline or URL and explain the information that you believe requires correction.
+Minor typographical, grammatical or formatting changes that do not alter the meaning may be made without a formal notice.
 
-We will review credible correction requests against available evidence and sources.
+We retain the original publication time and distinguish significant subsequent updates where appropriate. New developments may also lead to an updated report without indicating that the earlier reporting was incorrect.
+
+## Contact
+
+Send correction requests to [pakistanreportnews@gmail.com](mailto:pakistanreportnews@gmail.com), or use the information on our [Contact page](/contact/). We cannot guarantee an individual reply to every message, but substantiated factual concerns will be considered.
