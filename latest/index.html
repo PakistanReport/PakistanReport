@@ -1,40 +1,7 @@
 ---
-layout: default
+layout: latest-archive
 title: "Latest Stories"
 description: "Browse the latest Pakistan Report news and reporting, newest first."
 permalink: /latest/
+latest_archive: true
 ---
-
-<style>
-.pr-latest-archive { max-width:1040px; margin:0 auto; padding:26px 20px 60px; }
-.pr-latest-archive h1 { color:#064c3b; font:700 clamp(28px,4vw,42px)/1.15 Georgia,serif; margin:0 0 8px; }
-.pr-latest-archive .intro { color:#5d6962; margin:0 0 25px; }
-.pr-archive-item { display:grid; grid-template-columns:180px minmax(0,1fr); gap:18px; padding:17px 0; border-top:1px solid #dce2df; }
-.pr-archive-item img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; }
-.pr-archive-item h2 { font:700 clamp(19px,2.5vw,25px)/1.2 Georgia,serif; margin:0 0 8px; }
-.pr-archive-item h2 a { color:#16271e; text-decoration:none; }
-.pr-archive-item h2 a:hover { color:#064c3b; text-decoration:underline; }
-.pr-archive-item .meta { color:#62736a; font-size:13px; margin-bottom:7px; }
-.pr-archive-item p { color:#46534c; margin:0; line-height:1.45; }
-@media(max-width:600px) {
- .pr-latest-archive { padding:20px 16px 40px; }
- .pr-archive-item { grid-template-columns:110px minmax(0,1fr); gap:12px; padding:14px 0; }
- .pr-archive-item h2 { font-size:19px; }
- .pr-archive-item p { display:none; }
-}
-</style>
-<main class="pr-latest-archive">
- <h1>Latest Stories</h1>
- <p class="intro">Pakistan Report's most recent reporting, newest first.</p>
- {% assign recent_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs' and post.category != 'Explainer'" %}
- {% for post in recent_posts limit:60 %}
- <article class="pr-archive-item">
-  {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
-  <div>
-   <div class="meta">{{ post.category }} · {{ post.date | date: "%B %-d, %Y" }}</div>
-   <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-   {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-  </div>
- </article>
- {% endfor %}
-</main>
