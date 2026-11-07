@@ -4,133 +4,361 @@ title: "Pakistan Report"
 description: "Pakistan news, politics, economy, business, technology, world developments and explainers."
 ---
 
-<main class="container">
+<style>
+/* Homepage-only redesign: no shared layouts, SEO tags, or article templates changed. */
+.pr-home { --pr-green:#064c3b; --pr-line:#dce2df; }
+.pr-home .pr-lead-grid { display:grid; grid-template-columns:minmax(0,2.1fr) minmax(245px,1fr); gap:26px; margin-bottom:28px; }
+.pr-home .pr-lead { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); gap:18px; align-items:start; }
+.pr-home .pr-lead > a { margin-top:0; }
+.pr-home .pr-lead-image, .pr-home .pr-focus-image { width:100%; aspect-ratio:16/10; object-fit:cover; display:block; }
+.pr-home .pr-lead h1 { font:700 clamp(25px,2.5vw,36px)/1.14 Georgia,serif; margin:9px 0 12px; }
+.pr-home .pr-lead p, .pr-home .pr-focus p { color:#58655f; font-size:14px; }
+.pr-home .pr-picks { border-left:1px solid var(--pr-line); padding-left:20px; }
+.pr-home .pr-small-heading { font:700 23px Georgia,serif; color:var(--pr-green); margin:0 0 13px; border-bottom:2px solid var(--pr-green); padding-bottom:7px; }
+.pr-home .pr-pick { display:grid; grid-template-columns:94px minmax(0,1fr); gap:10px; padding:10px 0; border-bottom:1px solid var(--pr-line); }
+.pr-home .pr-pick img { width:94px; height:65px; object-fit:cover; }
+.pr-home .pr-pick h3 { font:700 15px/1.25 Georgia,serif; margin:0; }
+.pr-home .pr-news-strip { display:flex; align-items:center; gap:14px; background:#e8f1ec; padding:10px 14px; margin-bottom:38px; }
+.pr-home .pr-news-strip strong { background:var(--pr-green); color:white; padding:8px 13px; white-space:nowrap; font:700 18px Georgia,serif; }
+.pr-home .pr-strip-links { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; flex:1; }
+.pr-home .pr-strip-links a { font-size:13px; font-weight:700; padding:0 10px; border-right:1px solid #a3b9ae; }
+.pr-home .pr-strip-links a:last-child { border:0; }
+.pr-home .pr-middle { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:30px; align-items:stretch; margin-bottom:45px; }
+.pr-home .pr-middle section[aria-label="In Focus"] { display:flex; flex-direction:column; }
+.pr-home .pr-middle > section { min-width:0; }
+.pr-home .pr-middle .section-heading { min-height:43px; margin:0 0 10px; display:flex; align-items:center; justify-content:space-between; border-bottom:2px solid var(--pr-green); }
+.pr-home .pr-middle .section-heading h2 { margin:0; color:var(--pr-green); font:700 25px/1.2 Georgia,serif; }
+.pr-home .pr-latest-item { display:grid; grid-template-columns:112px minmax(0,1fr); gap:13px; border-bottom:1px solid var(--pr-line); padding:10px 0; }
+.pr-home .pr-latest-item img { width:112px; height:75px; object-fit:cover; }
+.pr-home .pr-latest-item h3 { font:700 17px/1.25 Georgia,serif; margin:0; }
+.pr-home .pr-middle section[aria-label="In Focus"] > .section-heading { position:relative; border-bottom:2px solid var(--pr-green); min-height:43px; margin-bottom:10px; justify-content:flex-start; }
+.pr-home .pr-middle section[aria-label="In Focus"] > .section-heading h2 { background:var(--pr-green); color:#fff; font:700 21px/1.2 Georgia,serif; padding:4px 26px 4px 18px; margin:0; clip-path:polygon(0 0,88% 0,100% 100%,0 100%); }
+.pr-home .pr-focus-card { position:relative; flex:1; min-height:270px; background:var(--pr-green); overflow:hidden; isolation:isolate; }
+.pr-home .pr-focus-image-link { position:absolute; inset:0; z-index:0; display:block; }
+.pr-home .pr-focus-image { width:100%; height:100%; aspect-ratio:auto; object-fit:cover; display:block; }
+.pr-home .pr-focus-card:after { content:""; position:absolute; inset:0; background:linear-gradient(to bottom,transparent 25%,rgba(0,35,27,.25) 48%,rgba(0,35,27,.92) 100%); z-index:1; pointer-events:none; }
+.pr-home .pr-focus-copy { position:absolute; left:0; right:0; bottom:0; z-index:2; max-height:45%; overflow:hidden; padding:10px 24px 12px; color:#fff; text-shadow:0 1px 2px rgba(0,0,0,.35); display:flex; flex-direction:column; justify-content:flex-end; }
+.pr-home .pr-focus-copy h3 { font:700 clamp(23px,2.6vw,31px)/1.08 Georgia,serif; margin:0 0 8px; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; overflow:hidden; }
+.pr-home .pr-focus-copy a,.pr-home .pr-focus-copy .date,.pr-home .pr-focus-copy p { color:#fff; }
+.pr-home .pr-focus-copy p { font:16px/1.3 Georgia,serif; margin:0 0 8px; color:#fff; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; }
+.pr-home .pr-focus-copy .date { margin:0; font:13px Georgia,serif; }
+.pr-home .pr-focus-copy a:hover { color:#d6f0df; }
+.pr-home .pr-category-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:0; margin:35px 0 38px; }
+.pr-home .pr-category-column { min-width:0; padding:0 16px; border-right:1px solid var(--pr-line); }
+.pr-home .pr-category-column:first-child { padding-left:0; }
+.pr-home .pr-category-column:last-child { border-right:0; padding-right:0; }
+.pr-home .pr-category-heading { display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid var(--pr-green); margin:0 0 13px; padding:0 0 7px; gap:5px; }
+.pr-home .pr-category-heading h2 { font:700 18px/1.15 Georgia,serif; color:var(--pr-green); margin:0; white-space:nowrap; }
+.pr-home .pr-category-column:nth-child(2) .pr-category-heading h2 { font-size:16px; }
+.pr-home .pr-category-heading a { flex-shrink:0; }
+.pr-home .pr-category-heading a { color:var(--pr-green); font-weight:700; font-size:20px; }
+.pr-home .pr-category-feature img { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; margin-bottom:9px; }
+.pr-home .pr-category-feature h3 { font:700 17px/1.2 Georgia,serif; margin:0 0 7px; }
+.pr-home .pr-category-feature .date, .pr-home .pr-category-secondary .date { font-size:12px; }
+.pr-home .pr-category-secondary { border-top:1px solid var(--pr-line); margin-top:10px; padding-top:10px; }
+.pr-home .pr-category-secondary h3 { font:700 15px/1.22 Georgia,serif; margin:0 0 5px; }
+.pr-home .pr-more-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:repeat(4,auto); grid-auto-flow:column; column-gap:20px; row-gap:0; }
+.pr-home .pr-more-list a { font-size:13px; padding:3px 0 5px 12px; border-bottom:1px solid var(--pr-line); position:relative; }
+.pr-home .pr-more-list a:before { content:""; background:var(--pr-green); width:5px; height:5px; position:absolute; left:0; top:8px; }
+.pr-home a:hover { color:#08745a; }
+@media(max-width:850px) {
+ .pr-home .pr-lead-grid,.pr-home .pr-middle { grid-template-columns:1fr; }
+ .pr-home .pr-picks { border-left:0; padding-left:0; }
+ .pr-home .pr-category-cards { gap:12px; }
+ .pr-home .pr-category-card h3 { font-size:17px; }
+}
+@media(max-width:600px) {
+ .pr-home .pr-lead { grid-template-columns:1fr; }
+ .pr-home .pr-news-strip { display:block; }
+ .pr-home .pr-strip-links { grid-template-columns:1fr; margin-top:10px; }
+ .pr-home .pr-strip-links a { border-right:0; padding:5px 0; border-bottom:1px solid #c9d8d0; }
+ .pr-home .pr-category-grid { grid-template-columns:1fr; }
+ .pr-home .pr-category-column { padding:0 0 22px!important; border-right:0!important; border-bottom:1px solid var(--pr-line); }
+ .pr-home .pr-more-list { grid-template-columns:1fr; grid-template-rows:none; grid-auto-flow:row; }
+}
 
-  {% if site.posts.size > 0 %}
+/* Reference-matched desktop editorial proportions; article templates and mobile unaffected. */
+@media (min-width:851px) {
+ .pr-home .pr-lead-grid { grid-template-columns:minmax(0,2.1fr) minmax(245px,1fr); gap:20px; margin-bottom:20px; }
+ .pr-home .pr-lead { grid-template-columns:minmax(0,1.5fr) minmax(0,.85fr); gap:15px; align-items:start; }
+ .pr-home .pr-lead > a { margin:0; align-self:start; }
+ .pr-home .pr-lead-image { aspect-ratio:1.8; object-fit:cover; }
+ .pr-home .pr-lead h1 { font-size:clamp(22px,2.35vw,27px); line-height:1.07; margin:5px 0 9px; }
+ .pr-home .pr-lead p { font-size:12px; line-height:1.45; margin:0 0 10px; }
+ .pr-home .pr-lead .category { font-size:11px; }
+ .pr-home .pr-lead .date { font-size:11px; }
+ .pr-home .pr-picks { padding-left:16px; }
+ .pr-home .pr-small-heading { font-size:21px; margin-bottom:5px; padding-bottom:6px; }
+ .pr-home .pr-pick { grid-template-columns:88px minmax(0,1fr); gap:9px; padding:8px 0; }
+ .pr-home .pr-pick img { width:88px; height:57px; }
+ .pr-home .pr-pick h3 { font-size:13px; line-height:1.18; }
+ .pr-home .pr-news-strip { margin-bottom:18px; }
+ .pr-home .pr-middle { grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:20px; margin-bottom:34px; }
+ .pr-home .pr-middle .section-heading { min-height:35px; margin-bottom:7px; }
+ .pr-home .pr-middle .section-heading h2 { font-size:22px; }
+ .pr-home .pr-middle section[aria-label="In Focus"] > .section-heading { min-height:35px; margin-bottom:7px; }
+ .pr-home .pr-middle section[aria-label="In Focus"] > .section-heading h2 { font-size:19px; padding:4px 25px 4px 14px; }
+ .pr-home .pr-latest-item { grid-template-columns:100px minmax(0,1fr); gap:12px; padding:7px 0; }
+ .pr-home .pr-latest-item img { width:100px; height:61px; }
+ .pr-home .pr-latest-item h3 { font-size:15px; line-height:1.14; }
+ .pr-home .pr-latest-item .date { font-size:11px; margin-top:4px; }
+ .pr-home .pr-focus-card { flex:1; min-height:0; }
+ .pr-home .pr-focus-card:after { background:linear-gradient(to bottom,transparent 38%,rgba(0,39,30,.14) 55%,rgba(0,39,30,.93) 100%); }
+ .pr-home .pr-focus-copy { max-height:53%; padding:8px 20px 12px; }
+ .pr-home .pr-focus-copy h3 { font-size:clamp(20px,2.25vw,26px); line-height:1.05; margin-bottom:5px; -webkit-line-clamp:2; }
+ .pr-home .pr-focus-copy p { font-size:13px; line-height:1.2; margin-bottom:5px; -webkit-line-clamp:2; }
+ .pr-home .pr-focus-copy .date { font-size:11px; }
+}
 
-  {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs' and post.category != 'Explainer'" %}
-  {% assign featured = regular_posts.first %}
+/* Compact four-column category treatment from the approved desktop reference. */
+@media (min-width:851px) {
+ .pr-home .pr-category-grid { margin:24px 0 28px; }
+ .pr-home .pr-category-column { padding:0 12px; }
+ .pr-home .pr-category-heading { margin-bottom:10px; padding-bottom:5px; min-height:28px; }
+ .pr-home .pr-category-heading h2 { font-size:18px; line-height:1.05; letter-spacing:-.65px; }
+ .pr-home .pr-category-column:nth-child(2) .pr-category-heading h2 { font-size:16px; letter-spacing:-.75px; }
+ .pr-home .pr-category-heading a { font-size:17px; line-height:1; }
+ .pr-home .pr-category-feature img { aspect-ratio:16/9; margin-bottom:7px; }
+ .pr-home .pr-category-feature h3,
+ .pr-home .pr-category-secondary h3 { font:700 13px/1.12 Georgia,serif; margin:0 0 4px; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; }
+ .pr-home .pr-category-feature .date,
+ .pr-home .pr-category-secondary .date { font-size:11px; line-height:1.2; }
+ .pr-home .pr-category-secondary { margin-top:7px; padding-top:7px; }
+}
 
-  <!-- FEATURED STORY -->
-  <section class="featured-section">
-    <div class="section-heading"><h2>Top Story</h2></div>
-    <article class="featured-story">
-      {% if featured.image %}
-      <a href="{{ featured.url | relative_url }}"><img class="featured-image" src="{{ featured.image }}" alt="{{ featured.image_alt | default: featured.title | escape }}"></a>
-      {% endif %}
-      <div class="featured-content">
-        {% if featured.category %}<div class="category">{{ featured.category }}</div>{% endif %}
-        <h1><a href="{{ featured.url | relative_url }}">{{ featured.title }}</a></h1>
-        {% if featured.description %}<p>{{ featured.description }}</p>{% endif %}
-        <div class="date">{{ featured.date | date: "%B %-d, %Y" }}</div>
+/* Reference-matched compact More Headlines: balanced columns, four even rows. */
+@media (min-width:851px) {
+ .pr-home section[aria-label="More Headlines"] > .section-heading { margin-bottom:8px; padding-bottom:5px; }
+ .pr-home section[aria-label="More Headlines"] > .section-heading h2 { font:700 21px/1.15 Georgia,serif; color:var(--pr-green); }
+ .pr-home section[aria-label="More Headlines"] > .section-heading a { font-size:11px; font-weight:700; color:var(--pr-green); }
+ .pr-home .pr-more-list { grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:repeat(4,minmax(24px,auto)); grid-auto-flow:column; column-gap:24px; row-gap:0; align-items:start; border-bottom:1px solid var(--pr-line); padding-bottom:10px; }
+ .pr-home .pr-more-list a { display:block; font:12px/1.3 Arial,sans-serif; min-height:24px; padding:3px 0 3px 14px; border-bottom:0; }
+ .pr-home .pr-more-list a:before { width:5px; height:5px; top:9px; }
+}
+
+/* Preserve the complete lead photograph at its intrinsic aspect ratio. */
+@media (min-width:851px) {
+ .pr-home .pr-lead-image { width:100%; height:auto; aspect-ratio:auto; object-fit:contain; object-position:center top; }
+ .pr-home .pr-lead > a { display:block; margin:0; align-self:start; }
+}
+
+/* Desktop reference alignment: the complete lead photo reaches the Editors' Picks baseline,
+   and all In the News headlines sit vertically centered beside their label. */
+@media (min-width:851px) {
+ .pr-home .pr-lead-grid { align-items:stretch; }
+ .pr-home .pr-lead { height:100%; }
+ .pr-home .pr-lead > a { height:100%; min-height:0; }
+ .pr-home .pr-lead-image { width:100%; height:100%; aspect-ratio:auto; object-fit:fill; }
+ .pr-home .pr-news-strip { align-items:center; }
+ .pr-home .pr-strip-links { align-items:stretch; }
+ .pr-home .pr-strip-links a { display:flex; align-items:center; min-height:42px; line-height:1.3; }
+}
+
+/* Preserve native 16:9 story photography and a shared image baseline on desktop. */
+@media (min-width:851px) {
+ .pr-home .pr-lead > a { height:auto; align-self:start; }
+ .pr-home .pr-lead-image { width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; }
+ .pr-home .pr-category-feature img { width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; display:block; }
+ .pr-home .pr-category-heading { min-height:30px; }
+}
+
+/* Keep the 16:9 lead photo uncropped while matching the Editors' Picks bottom rule. */
+@media (min-width:851px) {
+ .pr-home .pr-picks .pr-small-heading { margin-bottom:3px; padding-bottom:5px; }
+ .pr-home .pr-pick { grid-template-columns:80px minmax(0,1fr); gap:9px; padding:5px 0; align-items:start; }
+ .pr-home .pr-pick img { width:80px; height:49px; object-fit:cover; }
+ .pr-home .pr-pick h3 { font-size:12px; line-height:1.16; }
+}
+
+/* Equal category image baselines regardless of source photo dimensions. */
+@media (min-width:851px) {
+ .pr-home .pr-category-heading { height:32px; min-height:32px; box-sizing:border-box; margin-bottom:10px; }
+ .pr-home .pr-category-feature img { width:100%; height:clamp(108px,11.5vw,136px); aspect-ratio:auto; object-fit:cover; object-position:center; }
+}
+
+/* Align the first line of all three In the News headlines. */
+@media (min-width:851px) {
+ .pr-home .pr-strip-links { align-items:start; }
+ .pr-home .pr-strip-links a { align-items:flex-start; min-height:0; padding-top:0; }
+}
+
+/* Show the entire In Focus photograph without cropping at desktop widths. */
+@media (min-width:851px) {
+ .pr-home .pr-focus-card { background:#e7eee9; }
+ .pr-home .pr-focus-image { width:100%; height:100%; object-fit:contain; object-position:center center; }
+}
+
+/* Approved desktop masthead/footer: homepage only. Shared layout and mobile stay unchanged. */
+.pr-desktop-header,.pr-desktop-footer { display:none; }
+@media (min-width:851px) {
+ body:has(.pr-home) > .top-strip,
+ body:has(.pr-home) > .masthead,
+ body:has(.pr-home) > .nav,
+ body:has(.pr-home) > footer { display:none; }
+ .pr-desktop-header { display:block; background:#fff; }
+ .pr-desktop-header .pr-topline { height:26px; background:#064c3b; color:#fff; font:15px Georgia,serif; text-align:right; padding:3px max(3%,calc((100% - 1180px)/2)); }
+ .pr-desktop-header .pr-brand { padding:8px 0 7px; width:94%; max-width:1180px; margin:auto; }
+ .pr-desktop-header .pr-brand a { display:block; color:#064c3b; font:700 36px/1.08 Georgia,serif; letter-spacing:-1px; }
+ .pr-desktop-header .pr-brand p { margin:0; font:16px Georgia,serif; color:#383838; }
+ .pr-desktop-header .pr-desktop-nav { border-top:1px solid #e3e3e3; border-bottom:1px solid #d0d0d0; }
+ .pr-desktop-header .pr-desktop-nav-inner { width:94%; max-width:1180px; margin:auto; display:flex; align-items:center; gap:34px; min-height:36px; }
+ .pr-desktop-header .pr-desktop-nav a { font:700 14px Georgia,serif; white-space:nowrap; }
+ .pr-desktop-header .pr-search-mark { margin-left:auto; font-size:24px; line-height:1; color:#111; }
+ body:has(.pr-home) > .pr-home.container { width:95%; max-width:1180px; margin:22px auto 0; }
+ .pr-desktop-footer { display:block; margin-top:25px; background:#064c3b; color:#fff; }
+ .pr-desktop-footer .pr-footer-inner { width:94%; max-width:1180px; min-height:82px; margin:auto; display:flex; align-items:center; gap:35px; }
+ .pr-desktop-footer .pr-footer-brand { min-width:270px; padding-right:30px; border-right:1px solid #fff; }
+ .pr-desktop-footer .pr-footer-brand strong { display:block; font:700 25px Georgia,serif; }
+ .pr-desktop-footer .pr-footer-brand span { font:15px Georgia,serif; }
+ .pr-desktop-footer .pr-footer-links { display:flex; align-items:center; gap:26px; }
+ .pr-desktop-footer .pr-footer-links a { color:#fff; font:14px Georgia,serif; white-space:nowrap; }
+ .pr-desktop-footer .pr-footer-socials { margin-left:auto; display:flex; gap:17px; align-items:center; font:700 23px Arial,sans-serif; }
+ .pr-desktop-footer .pr-footer-socials span { display:inline-block; color:#fff; }
+}
+</style>
+
+<div class="pr-desktop-header" aria-label="Pakistan Report desktop header">
+  <div class="pr-topline">Pakistan, the Region and the World</div>
+  <div class="pr-brand"><a href="{{ '/' | relative_url }}">PAKISTAN REPORT</a><p>The News in Perspective.</p></div>
+  <nav class="pr-desktop-nav" aria-label="Main navigation"><div class="pr-desktop-nav-inner">
+    <a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/pakistan/' | relative_url }}">Pakistan</a><a href="{{ '/politics/' | relative_url }}">Politics</a><a href="{{ '/economy/' | relative_url }}">Economy</a><a href="{{ '/business/' | relative_url }}">Business</a><a href="{{ '/technology/' | relative_url }}">Technology</a><a href="{{ '/world/' | relative_url }}">World</a><a href="{{ '/explainer/' | relative_url }}">Explainers</a>
+    
+  </div></nav>
+</div>
+<main class="container pr-home">
+{% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs' and post.category != 'Explainer'" %}
+{% assign lead = nil %}
+{% assign chosen_lead = site.data.homepage_editorial.main_story | default: "" %}
+{% if chosen_lead != "" %}
+  {% assign matched_lead = site.posts | where: "url", chosen_lead %}
+  {% assign lead = matched_lead.first %}
+{% endif %}
+{% unless lead %}{% assign lead = regular_posts.first %}{% endunless %}
+{% if lead %}
+  <!-- Editorial choices come from _data/homepage_editorial.yml. Unset or invalid paths fall back to published posts. -->
+  <section class="pr-lead-grid" aria-label="Featured reporting">
+    <article class="pr-lead">
+      {% if lead.image %}<a href="{{ lead.url | relative_url }}"><img class="pr-lead-image" src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}"></a>{% endif %}
+      <div>
+        <div class="category">{{ lead.category }}</div>
+        <h1><a href="{{ lead.url | relative_url }}">{{ lead.title }}</a></h1>
+        {% if lead.description %}<p>{{ lead.description }}</p>{% endif %}
+        <div class="date">{{ lead.date | date: "%B %-d, %Y" }}</div>
       </div>
     </article>
+    <aside class="pr-picks" aria-label="Editor's Picks">
+      <h2 class="pr-small-heading">Editor's Picks</h2>
+      {% assign pick_count = 0 %}
+      {% for pick_url in site.data.homepage_editorial.editors_picks %}
+        {% assign matching_picks = site.posts | where: "url", pick_url %}
+        {% assign post = matching_picks.first %}
+        {% if post and post.url != lead.url and pick_count < 3 %}
+        <article class="pr-pick">
+        {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      </article>
+        {% assign pick_count = pick_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% for post in regular_posts %}
+        {% if pick_count < 3 and post.url != lead.url and site.data.homepage_editorial.editors_picks contains post.url %}
+          {% continue %}
+        {% endif %}
+        {% if pick_count < 3 and post.url != lead.url %}
+        <article class="pr-pick">
+          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        </article>
+        {% assign pick_count = pick_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    </aside>
   </section>
 
-  <!-- LATEST STORIES -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Latest Stories</h2></div>
-    <div class="articles">
-      {% for post in regular_posts offset:1 limit:6 %}
-      <article class="card">
-        {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-        <div class="card-content">
-          {% if post.category %}<div class="category">{{ post.category }}</div>{% endif %}
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          {% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}
-          <div class="date">{{ post.date | date: "%B %-d, %Y" }}</div>
-        </div>
+  <section class="pr-news-strip" aria-label="In the News">
+    <strong>In the News</strong>
+    <div class="pr-strip-links">
+      {% for post in regular_posts offset:4 limit:3 %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="pr-middle">
+    <section aria-label="Latest News">
+      <div class="section-heading"><h2>Latest News</h2><a href="{{ '/feed.xml' | relative_url }}">All Latest Stories →</a></div>
+      {% for post in regular_posts offset:8 limit:4 %}
+      <article class="pr-latest-item">
+        {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
+        <div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><div class="date">{{ post.date | date: "%B %-d, %Y" }}</div></div>
       </article>
       {% endfor %}
-    </div>
-  </section>
+    </section>
+    {% assign focus = nil %}
+    {% assign chosen_focus = site.data.homepage_editorial.in_focus | default: "" %}
+    {% if chosen_focus != "" %}
+      {% assign selected_focus = site.posts | where: "url", chosen_focus %}
+      {% assign focus = selected_focus.first %}
+    {% endif %}
+    {% unless focus %}{% assign focus = regular_posts[7] %}{% endunless %}
+    {% if focus %}
+    <section aria-label="In Focus">
+      <div class="section-heading"><h2>In Focus</h2></div>
+      <article class="pr-focus-card">
+        {% if focus.image %}<a class="pr-focus-image-link" href="{{ focus.url | relative_url }}"><img class="pr-focus-image" src="{{ focus.image | relative_url }}" alt="{{ focus.image_alt | default: focus.title | escape }}" loading="lazy"></a>{% endif %}
+        <div class="pr-focus-copy"><h3><a href="{{ focus.url | relative_url }}">{{ focus.title }}</a></h3>{% if focus.description %}<p>{{ focus.description }}</p>{% endif %}<div class="date">Feature &nbsp; | &nbsp; {{ focus.date | date: "%B %-d, %Y" }}</div></div>
+      </article>
+    </section>
+    {% endif %}
+  </div>
 
-  <!-- PAKISTAN -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Pakistan</h2><a href="{{ site.url }}/pakistan/">More →</a></div>
-    <div class="articles">
-      {% assign pakistan_count = 0 %}
+  <!-- Four editorial columns, matching the approved homepage reference. -->
+  {% assign homepage_groups = "Pakistan & Politics|Economy & Business|World|Technology" | split: "|" %}
+  <div class="pr-category-grid" aria-label="News by section">
+  {% for group in homepage_groups %}
+    {% assign category_names = group | split: " & " %}
+    {% assign group_count = 0 %}
+    <section class="pr-category-column" aria-label="{{ group }}">
+      <div class="pr-category-heading">
+        <h2>{{ group }}</h2>
+        {% assign first_category = category_names.first | downcase %}
+        <a href="{{ first_category | prepend: '/' | append: '/' | relative_url }}" aria-label="More {{ group }} stories">→</a>
+      </div>
       {% for post in site.posts %}
-        {% if post.category == "Pakistan" and pakistan_count < 3 %}
-        <article class="card">
-          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-          <div class="card-content"><div class="category">Pakistan</div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}</div>
-        </article>
-        {% assign pakistan_count = pakistan_count | plus: 1 %}
+        {% if category_names contains post.category and group_count < 3 %}
+          {% if group_count == 0 %}
+          <article class="pr-category-feature">
+            {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
+          </article>
+          {% else %}
+          <article class="pr-category-secondary">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
+          </article>
+          {% endif %}
+          {% assign group_count = group_count | plus: 1 %}
         {% endif %}
+      {% endfor %}
+    </section>
+  {% endfor %}
+  </div>
+
+  <section class="news-section" aria-label="More Headlines">
+    <div class="section-heading"><h2>More Headlines</h2><a href="{{ '/feed.xml' | relative_url }}">News Feed →</a></div>
+    <div class="pr-more-list">
+      {% for post in regular_posts offset:12 limit:8 %}
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       {% endfor %}
     </div>
   </section>
-
-  <!-- ECONOMY -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Economy</h2><a href="{{ site.url }}/economy/">More →</a></div>
-    <div class="articles">
-      {% assign economy_count = 0 %}
-      {% for post in site.posts %}
-        {% if post.category == "Economy" and economy_count < 3 %}
-        <article class="card">
-          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-          <div class="card-content"><div class="category">Economy</div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}</div>
-        </article>
-        {% assign economy_count = economy_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-
-  <!-- BUSINESS -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Business</h2><a href="{{ site.url }}/business/">More →</a></div>
-    <div class="articles">
-      {% assign business_count = 0 %}
-      {% for post in site.posts %}
-        {% if post.category == "Business" and business_count < 3 %}
-        <article class="card">
-          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-          <div class="card-content"><div class="category">Business</div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}</div>
-        </article>
-        {% assign business_count = business_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-
-  <!-- TECHNOLOGY -->
-  <section class="news-section">
-    <div class="section-heading"><h2>Technology</h2><a href="{{ site.url }}/technology/">More →</a></div>
-    <div class="articles">
-      {% assign tech_count = 0 %}
-      {% for post in site.posts %}
-        {% if post.category == "Technology" and tech_count < 3 %}
-        <article class="card">
-          {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy" class="card-image"></a>{% endif %}
-          <div class="card-content"><div class="category">Technology</div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p class="excerpt">{{ post.description }}</p>{% endif %}</div>
-        </article>
-        {% assign tech_count = tech_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-
-  {% else %}
+{% else %}
   <section class="empty"><h1>Pakistan Report</h1><p>Our latest reporting will appear here.</p></section>
-  {% endif %}
-
-  <!-- FUTURE AD POSITION -->
-  <section class="ad-placeholder">Advertisement</section>
-
-  <!-- TOPICS -->
-  <section class="topics">
-    <h2>Explore Pakistan Report</h2>
-    <div class="topic-grid">
-      <a href="{{ site.url }}/pakistan/">Pakistan</a>
-      <a href="{{ site.url }}/politics/">Politics</a>
-      <a href="{{ site.url }}/economy/">Economy</a>
-      <a href="{{ site.url }}/business/">Business</a>
-      <a href="{{ site.url }}/technology/">Technology</a>
-      <a href="{{ site.url }}/world/">World</a>
-    </div>
-  </section>
-
+{% endif %}
 </main>
+<div class="pr-desktop-footer" aria-label="Pakistan Report desktop footer"><div class="pr-footer-inner">
+ <div class="pr-footer-brand"><strong>PAKISTAN REPORT</strong><span>The News in Perspective.</span></div>
+ <nav class="pr-footer-links" aria-label="Footer"><a href="{{ '/about/' | relative_url }}">About Us</a><a href="{{ '/contact/' | relative_url }}">Contact</a><a href="{{ '/feed.xml' | relative_url }}">Newsletter</a><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></nav>
+ 
+</div></div>

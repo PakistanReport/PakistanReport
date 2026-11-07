@@ -1,0 +1,16 @@
+# Pakistan Report homepage editorial controls.
+# Use the EXACT URL path of an existing published article, including leading/trailing slashes.
+# Example: /economy/pakistan-inflation-october/
+# Empty values use automatic recent-article fallbacks.
+# Chosen stories remain featured as new articles are published.
+
+main_story: ""
+
+editors_picks: []
+# To select three articles in order, replace [] with:
+# editors_picks:
+#   - /category/first-article/
+#   - /category/second-article/
+#   - /category/third-article/
+
+in_focus: ""
