@@ -39,5 +39,3 @@ The programme would extend major urban infrastructure investment beyond Karachi 
 Improved water and drainage systems are particularly important for cities facing population growth, ageing infrastructure and heavy seasonal rainfall.
 
 The provincial government's next steps will involve developing the proposed projects and progressing through the necessary financing and implementation procedures.
-
-Source: https://information.sindh.gov.pk/news/senior-minister-for-information-transport-and-mass-transit-sharjeel-inam-memon
