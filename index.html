@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Pakistan Report"
-description: "Pakistan news, politics, economy, business, technology, world developments and explainers."
+description: "Pakistan news, politics, economy, business, technology, world developments."
 ---
 
 <style>
@@ -234,12 +234,12 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   <div class="pr-topline">Pakistan, the Region and the World</div>
   <div class="pr-brand"><a href="{{ '/' | relative_url }}">PAKISTAN REPORT</a><p>The News in Perspective.</p></div>
   <nav class="pr-desktop-nav" aria-label="Main navigation"><div class="pr-desktop-nav-inner">
-    <a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/pakistan/' | relative_url }}">Pakistan</a><a href="{{ '/politics/' | relative_url }}">Politics</a><a href="{{ '/economy/' | relative_url }}">Economy</a><a href="{{ '/business/' | relative_url }}">Business</a><a href="{{ '/technology/' | relative_url }}">Technology</a><a href="{{ '/world/' | relative_url }}">World</a><a href="{{ '/explainer/' | relative_url }}">Explainers</a>
+    <a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/pakistan/' | relative_url }}">Pakistan</a><a href="{{ '/politics/' | relative_url }}">Politics</a><a href="{{ '/economy/' | relative_url }}">Economy</a><a href="{{ '/business/' | relative_url }}">Business</a><a href="{{ '/technology/' | relative_url }}">Technology</a><a href="{{ '/world/' | relative_url }}">World</a>
     
   </div></nav>
 </div>
 <main class="container pr-home">
-{% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs' and post.category != 'Explainer'" %}
+{% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs'" %}
 {% assign lead = nil %}
 {% assign chosen_lead = site.data.homepage_editorial.main_story | default: "" %}
 {% if chosen_lead != "" %}
