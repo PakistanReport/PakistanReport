@@ -4,6 +4,11 @@ on:
     paths:
       - 'index.html'
       - '_data/homepage_editorial.yml'
+      - '_plugins/category_pagination.rb'
+      - '_layouts/latest-archive.html'
+      - 'latest/index.html'
+      - 'pakistan-politics/index.html'
+      - 'economy-business/index.html'
       - '.github/workflows/validate-homepage-redesign.yml'
 permissions:
   contents: read
@@ -35,7 +40,12 @@ jobs:
           assert 'href="/world/' in html or 'href="https://pakistanreport.pk/world/' in html, "World article/category links missing"
           assert Path('_site/robots.txt').exists(), "robots.txt missing"
           assert Path('_site/sitemap.xml').exists(), "Sitemap missing"
-          print("Homepage build and smoke checks passed")
+          for archive in ["latest", "pakistan-politics", "economy-business"]:
+              assert Path(f"_site/{archive}/index.html").exists(), f"Missing {archive} archive"
+          latest = Path("_site/latest/index.html").read_text()
+          assert 'aria-label="Latest stories pages"' in latest or latest.count('class="pr-archive-item"') <= 12, "Latest archive pagination missing"
+          assert latest.count('class="pr-archive-item"') <= 12, "More than 12 stories on first latest page"
+          print("Homepage and archive build smoke checks passed")
           PY
       - name: Install Chromium screenshot tooling
         run: |

@@ -335,7 +335,14 @@ description: "Pakistan news, politics, economy, business, technology, world deve
       <div class="pr-category-heading">
         <h2>{{ group }}</h2>
         {% assign first_category = category_names.first | downcase %}
-        <a href="{{ first_category | prepend: '/' | append: '/' | relative_url }}" aria-label="More {{ group }} stories">→</a>
+        {% if group == "Pakistan & Politics" %}
+          {% assign category_archive = "/pakistan-politics/" %}
+        {% elsif group == "Economy & Business" %}
+          {% assign category_archive = "/economy-business/" %}
+        {% else %}
+          {% assign category_archive = first_category | prepend: '/' | append: '/' %}
+        {% endif %}
+        <a href="{{ category_archive | relative_url }}" aria-label="More {{ group }} stories">→</a>
       </div>
       {% for post in site.posts %}
         {% if category_names contains post.category and group_count < 3 %}
@@ -359,7 +366,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   </div>
 
   <section class="news-section" aria-label="More Headlines">
-    <div class="section-heading"><h2>More Headlines</h2><a href="{{ '/latest/' | relative_url }}">More Latest Stories →</a></div>
+    <div class="section-heading"><h2>More Headlines</h2></div>
     <div class="pr-more-list">
       {% for post in regular_posts offset:12 limit:8 %}
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
