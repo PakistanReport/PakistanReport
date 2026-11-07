@@ -11,7 +11,8 @@ published: true
 image: /assets/images/03-2026-11-06-pakistan-october-inflation.webp
 image_alt: "Illustration of a Pakistani produce market; displayed stall prices
   are illustrative, not official inflation data."
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 2, 2026 —** Pakistan's annual consumer price inflation eased to 9.6% in October 2026 from 10.3% in September, although prices continued to increase on a monthly basis, according to figures released by the Pakistan Bureau of Statistics (PBS).

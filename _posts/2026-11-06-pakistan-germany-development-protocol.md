@@ -11,7 +11,8 @@ published: true
 image: /assets/images/02-2026-11-06-pakistan-germany-development-protocol.webp
 image_alt: "Illustration representing a Pakistan–Germany development cooperation
   protocol."
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 5, 2026 —** Pakistan and Germany have signed a development cooperation protocol outlining agreed objectives in climate, energy, sustainable economic development and skills following bilateral discussions in Islamabad.

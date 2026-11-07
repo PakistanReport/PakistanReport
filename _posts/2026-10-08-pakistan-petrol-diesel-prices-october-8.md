@@ -8,7 +8,7 @@ description: The revised rates take effect on 8 October, with petrol up Rs1.82
   Division.
 published: true
 image: /assets/images/pakistan-petrol-diesel-prices-october-8.webp
-image_alt: AI-generated editorial illustration of a vehicle being refuelled at a
+image_alt: editorial illustration of a vehicle being refuelled at a
   petrol station in Pakistan.
 date: 2026-10-08 11:00:00 +0500
 ---

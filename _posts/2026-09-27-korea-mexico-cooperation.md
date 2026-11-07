@@ -9,7 +9,7 @@ description: "South Korea and Mexico have adopted a 2026–30 action plan spanni
   between Presidents Lee Jae Myung and Claudia Sheinbaum."
 published: true
 image: "/assets/images/korea-mexico-cooperation.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   South Korea–Mexico economic and industrial cooperation."
 date: 2026-09-27 23:30:00 +0500
 ---

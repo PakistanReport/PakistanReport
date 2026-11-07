@@ -10,7 +10,7 @@ description: "The World Bank's Independent Evaluation Group rated the outcome of
 published: true
 image: "/assets/images/world-bank-evaluation-sindh-solar-project-moderately-uns\
   atisfactory.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of the Sindh
+image_alt: "Pakistan Report editorial illustration of the Sindh
   Solar Energy Project and a project evaluation."
 date: 2026-10-04 20:56:00 +0500
 ---

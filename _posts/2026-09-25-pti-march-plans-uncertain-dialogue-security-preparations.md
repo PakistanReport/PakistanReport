@@ -8,7 +8,7 @@ description: "PTI faces uncertainty over its September 27 Islamabad march after
   said only Imran Khan could make that decision."
 published: true
 image: "/assets/images/pti-september-27-march-dialogue-security.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of PTI imagery,
+image_alt: "Pakistan Report editorial illustration of PTI imagery,
   security barriers and Rangers in Islamabad ahead of the planned September 27
   march."
 date: 2026-09-25 19:30:00 +0500

@@ -8,9 +8,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-11-07 10:11:00 +0500"
 published: true
 image: /assets/images/01-2026-11-07-petrol-diesel-price-reduction.webp
-image_alt: "AI illustration of petrol and diesel pumps displaying revised prices
+image_alt: "Illustration of petrol and diesel pumps displaying revised prices
   at a filling station."
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 7, 2026 —** The federal government has reduced the price of petrol by Rs6.59 per litre to Rs346 and high-speed diesel by Rs4.25 per litre to Rs378, with the revised rates taking effect on Saturday, November 7.

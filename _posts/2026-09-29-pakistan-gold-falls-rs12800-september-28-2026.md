@@ -7,7 +7,7 @@ date: "2026-09-29 21:00:00 +0500"
 description: "The local 24-karat gold rate fell to Rs438,136 per tola on Monday,
   September 28, as international bullion prices also declined sharply."
 image: "/assets/images/pakistan-gold-price-correction-september-2026.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of gold bars and
+image_alt: "Pakistan Report editorial illustration of gold bars and
   jewellery with a falling market chart."
 image_caption: "Pakistan Report illustration."
 published: true

@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 15:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-government-reviews-lpg-pricing-import-policy.webp
-image_alt: AI-generated illustration of LPG storage tanks, gas cylinders and
+image_alt: illustration of LPG storage tanks, gas cylinders and
   distribution workers.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 31, 2026** — Prime Minister Shehbaz Sharif has formed a ministerial committee to review proposed changes to Pakistan's liquefied petroleum gas (LPG) policy, as supply shortages and high prices continue to affect consumers.

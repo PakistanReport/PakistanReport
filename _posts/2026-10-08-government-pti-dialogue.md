@@ -8,7 +8,7 @@ description: Adviser Rana Sanaullah says dialogue with the opposition remains
   protests.
 published: true
 image: /assets/images/government-pti-dialogue.webp
-image_alt: An AI-generated illustration of Pakistan’s parliament and an empty
+image_alt: An illustration of Pakistan’s parliament and an empty
   meeting room, representing government–PTI dialogue.
 date: 2026-10-08 15:00:00 +0500
 ---

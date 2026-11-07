@@ -8,7 +8,7 @@ description: "FBR officials will map markets and individual shops with tradersâ€
   its simplified tax scheme for small shopkeepers."
 published: true
 image: "/assets/images/fbr-nationwide-market-shop-mapping-asaan-tax-scheme.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing FBR
+image_alt: "Pakistan Report editorial illustration representing FBR
   officials conducting market and shop mapping with a Pakistani shopkeeper."
 date: 2026-10-02 12:30:00 +0500
 ---

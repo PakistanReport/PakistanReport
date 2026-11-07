@@ -8,7 +8,7 @@ description: "Oil prices are heading for a roughly 14% September gain as stalled
   US-Iran diplomacy keeps geopolitical risk in focus despite improved Gulf crude
   export flows."
 image: "/assets/images/oil-prices-us-iran.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of oil barrels,
+image_alt: "Pakistan Report editorial illustration of oil barrels,
   a pumpjack and tanker representing global crude prices and supply."
 image_caption: "Pakistan Report illustration."
 published: true

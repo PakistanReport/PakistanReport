@@ -9,7 +9,7 @@ description: Officials are considering measures to reassure prospective buyers
   contract enforcement.
 published: true
 image: /assets/images/disco-privatisation-investor-concerns.webp
-image_alt: An AI-generated illustration of power distribution infrastructure and
+image_alt: An illustration of power distribution infrastructure and
   financial documents, representing DISCO privatisation.
 date: 2026-10-08 17:00:00 +0500
 ---

@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 11:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-strait-of-hormuz-tanker-attacks.webp
-image_alt: "AI-generated illustration of a burning oil tanker in the Strait of
+image_alt: "illustration of a burning oil tanker in the Strait of
   Hormuz at dusk."
-image_caption: Pakistan Report AI-generated editorial illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **DUBAI, October 31, 2026** — Several commercial vessels have been attacked in and around the Strait of Hormuz, with maritime authorities reporting fires and projectile strikes as Iran's Revolutionary Guards claimed that four oil tankers had hit naval mines while attempting to cross the strategic waterway.

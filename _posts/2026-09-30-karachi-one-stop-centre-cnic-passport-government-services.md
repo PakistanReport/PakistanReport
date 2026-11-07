@@ -9,7 +9,7 @@ description: "The Interior Ministry plans a Karachi facilitation centre bringing
   passport, CNIC, arms-licence and NOC services under one roof, with a master
   plan due in 10 days."
 image: "/assets/images/karachi-one-stop-government-services.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing a
+image_alt: "Pakistan Report editorial illustration representing a
   planned one-stop government services centre in Karachi."
 image_caption: "Pakistan Report illustration."
 published: true

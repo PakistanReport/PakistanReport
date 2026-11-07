@@ -8,7 +8,7 @@ description: "Pakistan is taking part in the eighth Moscow Format consultations
   representing the country."
 published: true
 image: "/assets/images/pakistan-joins-moscow-format-talks-afghanistan.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing
+image_alt: "Pakistan Report editorial illustration showing
   Pakistan, Russia and Afghanistan flags at a diplomatic table with Moscow in
   the background."
 date: 2026-10-05 18:00:00 +0500

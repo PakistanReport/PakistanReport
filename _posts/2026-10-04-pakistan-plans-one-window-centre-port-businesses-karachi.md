@@ -8,7 +8,7 @@ description: "Pakistan's Maritime Affairs Ministry has ordered faster work on a
   ports and maritime services."
 published: true
 image: "/assets/images/pakistan-plans-one-window-centre-port-businesses-karachi.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of a proposed
+image_alt: "Pakistan Report editorial illustration of a proposed
   one-window port facilitation centre and port operations in Karachi."
 date: 2026-10-04 20:35:00 +0500
 ---

@@ -8,7 +8,7 @@ description: "Donald Trump has told supporters they can vote by mail and urged
   in his messaging."
 published: true
 image: "/assets/images/trump-urges-supporters-vote-by-mail-us-midterms.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration depicting Donald
+image_alt: "Pakistan Report editorial illustration depicting Donald
   Trump, a mail ballot and November 3 US election imagery."
 date: 2026-10-06 21:00:00 +0500
 ---

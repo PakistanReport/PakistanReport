@@ -9,7 +9,7 @@ description: "Pakistan says Security Council reform should expand elected
 published: true
 image: "/assets/images/pakistan-opposes-new-permanent-un-security-council-membe\
   rs.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of a Pakistani
+image_alt: "Pakistan Report editorial illustration of a Pakistani
   delegation in a UN Security Council-style chamber."
 date: 2026-10-06 19:00:00 +0500
 ---

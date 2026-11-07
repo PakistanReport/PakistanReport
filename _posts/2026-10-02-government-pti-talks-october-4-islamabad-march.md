@@ -8,7 +8,7 @@ description: "Government and PTI negotiating committees began talks in Islamabad
   October 4 march."
 published: true
 image: "/assets/images/government-pti-talks-october-4-islamabad-march.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   government-PTI political talks in Islamabad."
 date: 2026-10-02 17:00:00 +0500
 ---

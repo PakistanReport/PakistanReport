@@ -8,7 +8,7 @@ description: "Punjab Revenue Authority and the World Bank have agreed to develop
   advanced digital tax systems and a reform roadmap, including greater use of
   databases and inter-departmental data integration."
 image: "/assets/images/punjab-pra-world-bank-digital-tax-reforms.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Punjab Revenue Authority and World Bank-supported digital tax reforms."
 image_caption: "Pakistan Report illustration."
 published: true

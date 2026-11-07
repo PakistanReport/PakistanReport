@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-10-30 21:00:00 +0500"
 published: true
 image: /assets/images/2026-10-30-industry-power-division-fuel-levy-electricity-costs.webp
-image_alt: "AI-generated editorial illustration of furnace oil and diesel
+image_alt: "editorial illustration of furnace oil and diesel
   storage tanks, a thermal power plant and an electricity bill."
-image_caption: "AI-generated editorial illustration; not a photograph of the reported event."
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 30, 2026** — Industrial representatives and officials from Pakistan's Power Division have called for a reduction or removal of petroleum levies on furnace oil and diesel used in electricity generation, arguing that the charges are adding significantly to power production costs.

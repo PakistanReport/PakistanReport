@@ -9,7 +9,7 @@ description: The government wants to expand credit to small businesses and
   effective lending decisions.
 published: true
 image: /assets/images/pakistan-sme-financing-target.webp
-image_alt: An AI-generated illustration of small businesses and finance,
+image_alt: An illustration of small businesses and finance,
   representing Pakistan’s SME lending target.
 date: 2026-10-08 20:00:00 +0500
 ---

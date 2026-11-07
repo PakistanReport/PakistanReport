@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 22:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-pta-mobile-network-site-inspections.webp
-image_alt: AI-generated illustration of a telecom network inspector examining
+image_alt: illustration of a telecom network inspector examining
   mobile tower equipment.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 31, 2026** — The Pakistan Telecommunication Authority (PTA) has inspected more than 900 mobile network sites across the country as part of an effort to identify problems affecting the reliability of telecommunications services.

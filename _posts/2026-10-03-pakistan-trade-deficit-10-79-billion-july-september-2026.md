@@ -8,7 +8,7 @@ description: "Pakistan’s merchandise trade deficit widened by more than 15%
   faster than exports."
 published: true
 image: "/assets/images/pakistan-trade-deficit-10-79-billion-july-september-2026.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Pakistan’s widening merchandise trade deficit and port activity."
 date: 2026-10-03 18:30:00 +0500
 ---

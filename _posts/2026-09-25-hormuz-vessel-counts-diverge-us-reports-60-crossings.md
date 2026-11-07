@@ -8,7 +8,7 @@ description: "A US official said about 60 commercial vessels crossed Hormuz on
   remained well below pre-war levels."
 published: true
 image: "/assets/images/hormuz-shipping-picture-unclear.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of tankers and
+image_alt: "Pakistan Report editorial illustration of tankers and
   cargo vessels moving through the Strait of Hormuz."
 date: 2026-09-25 18:30:00 +0500
 ---

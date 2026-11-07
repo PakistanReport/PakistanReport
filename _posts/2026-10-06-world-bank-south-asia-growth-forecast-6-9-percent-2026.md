@@ -8,7 +8,7 @@ description: "The World Bank now expects South Asia to grow 6.9% in 2026, 0.6
   and market risks."
 published: true
 image: "/assets/images/world-bank-south-asia-growth-forecast-6-9-percent-2026.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing World
+image_alt: "Pakistan Report editorial illustration showing World
   Bank imagery, South Asian flags, energy infrastructure and a 6.9% 2026 growth
   forecast."
 date: 2026-10-06 22:00:00 +0500

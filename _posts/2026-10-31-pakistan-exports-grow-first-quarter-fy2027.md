@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-10-31 00:00:00 +0500"
 published: true
 image: /assets/images/2026-10-31-pakistan-exports-grow-first-quarter-fy2027.webp
-image_alt: "AI-generated editorial illustration of container ships and export
+image_alt: "editorial illustration of container ships and export
   cargo at a Pakistani port."
-image_caption: "AI-generated editorial illustration; not a photograph of the reported event."
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 30, 2026** — Pakistan's merchandise exports increased by 7.7 percent during the first quarter of the current fiscal year, reaching $8.5 billion as the government renewed its emphasis on export-led economic growth.

@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-11-07 12:00:00 +0500'
 published: true
 image: /assets/images/01-2026-11-07-pakistan-railways-freight-khanewal.webp
-image_alt: AI-generated illustration of a Pakistan Railways freight locomotive,
+image_alt: illustration of a Pakistan Railways freight locomotive,
   container cargo and a sign identifying the proposed Khanewal dry port.
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **LAHORE, November 7, 2026 —** Pakistan Railways has set a target of operating 14 freight trains by January and approved the establishment of a dry port at Khanewal as part of efforts to expand cargo services and increase revenue.

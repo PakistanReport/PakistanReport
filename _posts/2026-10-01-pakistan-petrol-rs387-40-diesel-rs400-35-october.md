@@ -7,7 +7,7 @@ date: "2026-10-01 19:00:00 +0500"
 description: "Petrol has been reduced by Re0.14 to Rs387.40 per litre and
   high-speed diesel by Rs1.89 to Rs400.35 per litre, effective October 1."
 image: "/assets/images/pakistan-petrol-diesel-prices-october-2026.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of petrol and
+image_alt: "Pakistan Report editorial illustration of petrol and
   diesel pumps displaying the October 2026 prices with a downward arrow
   representing the reductions."
 image_caption: "Pakistan Report illustration."

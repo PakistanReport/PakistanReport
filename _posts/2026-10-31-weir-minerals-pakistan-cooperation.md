@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 19:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-weir-minerals-pakistan-cooperation.webp
-image_alt: AI-generated illustration of mining specialists discussing
+image_alt: illustration of mining specialists discussing
   mineral-processing equipment at an open-pit mine.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 31, 2026** — International mining technology company Weir is exploring opportunities to expand its involvement in Pakistan's minerals sector, following discussions with the federal government.

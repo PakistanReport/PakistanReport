@@ -10,7 +10,7 @@ published: true
 image: /assets/images/01-2026-10-27-egypt-authorises-saudi-defence-support.webp
 image_alt: 'Egyptian and Saudi flags with military defence equipment in a
   conceptual editorial illustration'
-image_caption: 'Pakistan Report AI-generated editorial illustration'
+image_caption: "Pakistan Report illustration"
 date: '2026-10-27 09:00:00 +0500'
 ---
 

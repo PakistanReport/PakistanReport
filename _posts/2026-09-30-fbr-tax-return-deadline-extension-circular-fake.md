@@ -8,7 +8,7 @@ description: "FBR says a circular claiming that Pakistan's Tax Year 2026 income
   tax return deadline has been extended is not genuine and was not issued by the
   authority."
 image: "/assets/images/fbr-tax-return-deadline.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of FBR, an
+image_alt: "Pakistan Report editorial illustration of FBR, an
   income tax return portal and filing documents representing Pakistan's tax
   return deadline."
 image_caption: "Pakistan Report illustration."

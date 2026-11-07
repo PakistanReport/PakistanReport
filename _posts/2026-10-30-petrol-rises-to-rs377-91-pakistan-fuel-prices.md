@@ -8,9 +8,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-29 12:54:19 +0500'
 published: true
 image: /assets/images/01-2026-10-30-petrol-rises-to-rs377-91-pakistan-fuel-prices.webp
-image_alt: AI-generated illustration of petrol and diesel prices at a Pakistani
+image_alt: illustration of petrol and diesel prices at a Pakistani
   petrol station.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 29, 2026** — The federal government has increased petrol and high-speed diesel prices, with the revised rates taking effect on Thursday under Pakistan's new daily fuel-pricing mechanism.

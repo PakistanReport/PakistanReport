@@ -8,7 +8,7 @@ description: "Finance Minister Muhammad Aurangzeb and a US State Department
   representative discussed trade, energy diversification and potential
   investment financing in Bangkok."
 image: "/assets/images/pakistan-us-trade-energy-investment-talks.webp"
-image_alt: "AI-generated editorial illustration related to pakistan, us discuss
+image_alt: "editorial illustration related to pakistan, us discuss
   trade framework, energy imports and investment financing; not a documentary
   photograph."
 image_caption: "Pakistan Report illustration; not a photograph of the reported event."

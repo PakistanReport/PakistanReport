@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 13:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-pakistan-manufacturing-sector-divergence.webp
-image_alt: "AI illustration of workers on an automobile assembly line alongside
+image_alt: "Illustration of workers on an automobile assembly line alongside
   industrial materials."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 31, 2026** — Pakistan's large-scale manufacturing sector recorded sharply different performances across industries during the first two months of the current financial year, with automobile, garment and petroleum production expanding while steel, fertiliser and pharmaceutical output declined.

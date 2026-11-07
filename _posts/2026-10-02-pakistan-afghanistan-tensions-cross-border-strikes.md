@@ -8,7 +8,7 @@ description: "Pakistan says strikes in Afghanistan killed 22 militants, while
   as tensions between the neighbours escalate."
 published: true
 image: "/assets/images/pakistan-afghanistan-tensions-cross-border-strikes.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   tensions at the Pakistan-Afghanistan border."
 date: 2026-10-02 21:15:00 +0500
 ---

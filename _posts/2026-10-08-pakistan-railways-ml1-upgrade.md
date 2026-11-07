@@ -9,7 +9,7 @@ description: The prime minister wants a financing plan within two weeks as
   Karachi–Peshawar corridor upgrade.
 published: true
 image: /assets/images/pakistan-railways-ml1-upgrade.webp
-image_alt: An AI-generated illustration of a Pakistan Railways train and railway
+image_alt: An illustration of a Pakistan Railways train and railway
   construction, representing the ML-1 upgrade.
 date: 2026-10-08 16:00:00 +0500
 ---

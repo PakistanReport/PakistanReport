@@ -7,7 +7,7 @@ description: "The ECP says it is ready for Punjab local government elections and
   has sent a draft schedule to the province, while hurdles remain elsewhere."
 published: true
 image: "/assets/images/ecp-ready-punjab-local-elections-flags-hurdles-elsewhere.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration for ECP Says It
+image_alt: "Pakistan Report editorial illustration for ECP Says It
   Is Ready for Punjab Local Elections but Flags Hurdles Elsewhere."
 date: 2026-10-06 14:00:00 +0500
 ---

@@ -10,7 +10,7 @@ description: "The government is advancing a National Digital Masterplan built
   efforts planned to place it before the prime minister and provincial chief
   ministers."
 image: "/assets/images/national-digital-masterplan.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Pakistan's National Digital Masterplan and its digital governance, economy and
   society pillars."
 image_caption: "Pakistan Report illustration."

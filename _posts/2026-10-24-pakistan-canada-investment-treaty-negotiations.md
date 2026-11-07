@@ -9,10 +9,9 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-24 14:30:00 +0500'
 published: true
 image: /assets/images/05-2026-10-24-pakistan-canada-investment-treaty-negotiations.webp
-image_alt: Symbolic AI illustration of Pakistani and Canadian flags beside
+image_alt: Symbolic Illustration of Pakistani and Canadian flags beside
   unsigned document folders with Ottawa Parliament buildings in the background
-image_caption: Pakistan Report illustration (AI-generated; symbolic diplomatic
-  scene, not a photograph of the negotiations or a treaty signing)
+image_caption: "Pakistan Report illustration"
 ---
 
 **ISLAMABAD:** Pakistan and Canada held the third round of negotiations on a proposed bilateral investment treaty from October 19 to 21, 2026, in Islamabad.

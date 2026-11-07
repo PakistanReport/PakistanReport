@@ -8,7 +8,7 @@ description: "Pakistan has approved specialised livestock farms and duty-free
   imports of breeding animals for export, while disease controls, traceability
   and certification remain key implementation challenges."
 image: /assets/images/pakistan-livestock-export-farms.webp
-image_caption: "AI-generated editorial illustration."
+image_caption: "Pakistan Report illustration"
 published: true
 ---
 

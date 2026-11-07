@@ -8,9 +8,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 17:00:00 +0500'
 published: true
 image: /assets/images/2026-10-30-pakistan-diesel-price-rs400-67-petrol-unchanged.webp
-image_alt: AI-generated illustration of a petrol station price board showing
+image_alt: illustration of a petrol station price board showing
   notified petrol and diesel rates.
-image_caption: AI-generated illustration; not a photograph of the reported event.
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 30, 2026** — The federal government has increased the price of high-speed diesel by 85 paisas per litre while keeping petrol unchanged under Pakistan's daily petroleum pricing system.

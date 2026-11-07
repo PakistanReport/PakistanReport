@@ -8,7 +8,7 @@ description: "A second Qatari LNG cargo for Pakistan has crossed the Strait of
   continues to pressure energy supplies."
 published: true
 image: "/assets/images/qatari-lng-cargo-crosses-hormuz-en-route-to-pakistan.png"
-image_alt: "Pakistan Report AI-generated editorial illustration of an LNG
+image_alt: "Pakistan Report editorial illustration of an LNG
   carrier travelling through the Gulf towards Pakistan"
 date: 2026-09-22 19:00:00 +0500
 ---

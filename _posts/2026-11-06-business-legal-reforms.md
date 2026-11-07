@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-11-06 20:00:00 +0500"
 published: true
 image: /assets/images/03-2026-11-06-business-legal-reforms.webp
-image_alt: "AI-generated conceptual illustration of Pakistan business legal
+image_alt: "conceptual illustration of Pakistan business legal
   reforms, with law books, a gavel and scales of justice."
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 5, 2026 —** Pakistan is pursuing amendments to corporate legislation and reforms to commercial dispute resolution as part of efforts to improve the business environment and strengthen investor confidence, Federal Minister for Law and Justice Azam Nazeer Tarar told an international forum in Washington.

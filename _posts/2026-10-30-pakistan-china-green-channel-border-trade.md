@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-10-30 20:00:00 +0500"
 published: true
 image: /assets/images/2026-10-30-pakistan-china-green-channel-border-trade.webp
-image_alt: "AI-generated editorial illustration of trucks at the Pakistan–China
+image_alt: "editorial illustration of trucks at the Pakistan–China
   border crossing and a green-channel customs sign."
-image_caption: "AI-generated editorial illustration; not a photograph of the reported event."
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 30, 2026** — Pakistan and China have signed an agreement to introduce a customs green channel at the Sost-Khunjerab border crossing, aiming to speed up the movement of agricultural products and reduce delays for traders.

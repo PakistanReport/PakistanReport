@@ -7,7 +7,7 @@ description: "1LINK expects transactions across its payment rails to exceed 12
   billion in 2026, with annual throughput approaching Rs90 trillion."
 published: true
 image: "/assets/images/1link-pakistan-payment-transactions-12-billion-2026.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing a
+image_alt: "Pakistan Report editorial illustration showing a
   digital payment at a merchant in Pakistan."
 date: 2026-10-05 13:00:00 +0500
 ---

@@ -8,7 +8,7 @@ description: "Pakistan has relaxed rules for commercial imports of used
   tax-registered individuals and firms."
 published: true
 image: "/assets/images/pakistan-eases-rules-commercial-imports-used-cars.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of used-car
+image_alt: "Pakistan Report editorial illustration of used-car
   imports at a Pakistani port."
 date: 2026-10-04 17:56:00 +0500
 ---

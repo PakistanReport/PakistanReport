@@ -8,7 +8,7 @@ description: "Pakistan has sent a proposal to the federal cabinet to facilitate
   LPG imports as the government plans fuel and gas supplies for winter."
 published: true
 image: "/assets/images/pakistan-lpg-imports-winter-energy-supplies-2026.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing LPG
+image_alt: "Pakistan Report editorial illustration showing LPG
   import and storage infrastructure in Pakistan."
 date: 2026-10-05 14:00:00 +0500
 ---

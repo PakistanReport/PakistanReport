@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-11-01 00:00:00 +0500'
 published: true
 image: /assets/images/2026-11-01-oil-prices-six-month-highs-middle-east.webp
-image_alt: AI-generated illustration of oil tankers travelling through a
+image_alt: illustration of oil tankers travelling through a
   mountainous strait at sunset.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **October 31, 2026** — Global oil prices have climbed to their highest levels in six months as renewed security threats in the Middle East raise concerns about disruptions to energy supplies.

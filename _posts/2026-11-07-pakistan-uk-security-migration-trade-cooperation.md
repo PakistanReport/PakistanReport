@@ -9,10 +9,11 @@ author: Pakistan Report Editorial Desk
 date: '2026-11-07 13:00:00 +0500'
 published: true
 image: /assets/images/02-2026-11-07-pakistan-uk-cooperation.webp
-image_alt: AI-generated diplomatic illustration featuring a meeting table and a
+image_alt: diplomatic illustration featuring a meeting table and a
   Pakistan–UK cooperation graphic covering security, migration, trade and
   investment.
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 7, 2026 —** Pakistan and the United Kingdom have agreed to strengthen bilateral cooperation in security, law enforcement, migration, trade and investment following talks between senior officials in Islamabad.

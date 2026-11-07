@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-10-30 23:00:00 +0500"
 published: true
 image: /assets/images/2026-10-30-pakistan-green-projects-120-million-climate-investment.webp
-image_alt: "AI-generated editorial illustration of solar panels, wind turbines
+image_alt: "editorial illustration of solar panels, wind turbines
   and a Pakistani flag representing green investment opportunities."
-image_caption: "AI-generated editorial illustration; not a photograph of the reported event."
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **KARACHI, October 30, 2026** — Climate-friendly business projects in Pakistan could attract up to $120 million in investment over the next three years, according to estimates highlighted at an investor event in Karachi.

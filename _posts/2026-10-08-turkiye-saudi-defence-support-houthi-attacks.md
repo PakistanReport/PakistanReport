@@ -9,7 +9,7 @@ description: Officials told Reuters the assistance includes military equipment,
   involving Pakistan awaits Turkish ratification.
 published: true
 image: /assets/images/turkiye-saudi-defence-support-houthi-attacks.webp
-image_alt: AI-generated editorial illustration of Turkish and Saudi flags and
+image_alt: editorial illustration of Turkish and Saudi flags and
   symbolic military vehicles; not evidence of a specific deployment.
 date: 2026-10-08 14:00:00 +0500
 ---

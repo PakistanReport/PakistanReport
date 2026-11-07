@@ -10,7 +10,7 @@ description: "Yemeni authorities said Houthi forces targeted Aden International
 published: true
 image: "/assets/images/houthis-attack-aden-airport-missiles-drones-yemen-fighti\
   ng.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing Aden
+image_alt: "Pakistan Report editorial illustration showing Aden
   International Airport, an incoming projectile, aircraft and security
   personnel."
 date: 2026-10-07 15:00:00 +0500

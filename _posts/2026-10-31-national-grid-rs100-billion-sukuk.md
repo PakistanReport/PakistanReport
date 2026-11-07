@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 16:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-national-grid-rs100-billion-sukuk.webp
-image_alt: AI-generated illustration of electricity transmission lines, a
+image_alt: illustration of electricity transmission lines, a
   substation and engineers at sunset.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 31, 2026** — National Grid Company of Pakistan Limited is planning to raise up to Rs100 billion through Islamic bonds, known as Sukuk, as part of efforts to secure long-term financing.

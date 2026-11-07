@@ -9,7 +9,7 @@ description: "Freight movement from Karachi has been disrupted as authorities
   Islamabad."
 published: true
 image: "/assets/images/pti-march-preparations-disrupt-pakistan-freight.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   freight disruption involving container trucks ahead of the October 4 Islamabad
   march."
 date: 2026-10-02 17:30:00 +0500

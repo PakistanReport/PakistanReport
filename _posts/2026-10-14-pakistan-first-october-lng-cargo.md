@@ -7,7 +7,7 @@ date: 2026-10-14 21:37:00 +0500
 description: "A Qatari LNG cargo has allowed regasification to resume at Engro’s
   terminal, but Pakistan’s October supply outlook remains uncertain."
 image: "/assets/images/pakistan-october-lng-cargo.webp"
-image_alt: "AI-generated editorial illustration related to pakistan receives
+image_alt: "editorial illustration related to pakistan receives
   first october lng cargo as engro terminal restarts; not a documentary
   photograph."
 image_caption: "Pakistan Report illustration; not a photograph of the reported event."

@@ -9,7 +9,7 @@ description: "Pakistan's rupee has remained near Rs277 to the US dollar,
 published: true
 image: "/assets/images/pakistan-rupee-holds-near-rs277-dollar-oil-import-pressu\
   res.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of the Pakistani
+image_alt: "Pakistan Report editorial illustration of the Pakistani
   rupee, US dollar, oil imports and port trade."
 date: 2026-10-04 21:35:00 +0500
 ---

@@ -9,7 +9,7 @@ description: "A 750,000-litre shipment reached Peshawar by rail, with another
   support PSO depot supplies."
 published: true
 image: "/assets/images/pakistan-railways-pso-diesel.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of Pakistan
+image_alt: "Pakistan Report editorial illustration of Pakistan
   Railways transporting diesel for PSO by freight train."
 date: 2026-09-27 16:30:00 +0500
 ---

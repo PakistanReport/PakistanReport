@@ -10,7 +10,7 @@ description: "Global oil executives are calling for more pipeline and
 published: true
 image: "/assets/images/oil-industry-new-export-routes-hormuz-bab-el-mandeb-disr\
   uptions.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing crude
+image_alt: "Pakistan Report editorial illustration showing crude
   tankers, pipelines and a large oil export terminal."
 date: 2026-10-07 14:00:00 +0500
 ---

@@ -7,7 +7,7 @@ date: "2026-10-01 21:00:00 +0500"
 description: "State Bank of Pakistan foreign exchange reserves stood at $21.4003
   billion on September 18, while total liquid reserves were $26.8106 billion."
 image: "/assets/images/sbp-foreign-exchange-reserves-21-4bn.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of US dollars,
+image_alt: "Pakistan Report editorial illustration of US dollars,
   coins and financial graphics representing State Bank of Pakistan foreign
   exchange reserves of $21.4 billion."
 image_caption: "Pakistan Report illustration."

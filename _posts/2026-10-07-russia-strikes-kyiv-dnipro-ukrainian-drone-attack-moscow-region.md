@@ -9,7 +9,7 @@ description: "Russian strikes hit Kyiv and Dnipro after Russian officials
 published: true
 image: "/assets/images/russia-strikes-kyiv-dnipro-ukrainian-drone-attack-moscow\
   -region.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing a
+image_alt: "Pakistan Report editorial illustration showing a
   Kyiv-like skyline, river and bridge with smoke and air-defence or missile
   trails."
 date: 2026-10-07 16:00:00 +0500

@@ -8,7 +8,7 @@ description: "Pakistan is considering allowing power plants and other private
   companies to import LNG directly as the government looks to make greater use
   of idle terminal capacity."
 image: "/assets/images/pakistan-private-lng-imports.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of an LNG
+image_alt: "Pakistan Report editorial illustration of an LNG
   carrier and terminal representing Pakistan's proposed expansion of private LNG
   imports."
 image_caption: "Pakistan Report illustration."

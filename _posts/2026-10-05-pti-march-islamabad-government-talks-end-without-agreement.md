@@ -9,7 +9,7 @@ description: "A PTI-led march moved toward Islamabad after two rounds of talks
 published: true
 image: "/assets/images/pti-march-islamabad-government-talks-end-without-agreeme\
   nt.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing a
+image_alt: "Pakistan Report editorial illustration showing a
   PTI-associated political march moving along a highway toward Islamabad."
 date: 2026-10-05 15:00:00 +0500
 ---

@@ -9,7 +9,7 @@ description: "Pakistan’s export-growth push is backed by a performance-based
   rebate offering 1% or 2% of incremental export value depending on annual
   growth achieved."
 image: "/assets/images/pakistan-export-led-growth-rebate.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of containers, a
+image_alt: "Pakistan Report editorial illustration of containers, a
   cargo ship and Pakistani export goods representing export-led growth and
   international trade."
 image_caption: "Pakistan Report illustration."

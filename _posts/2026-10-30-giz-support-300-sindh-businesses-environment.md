@@ -10,10 +10,9 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 20:30:00 +0500'
 published: true
 image: /assets/images/02-2026-10-30-giz-support-300-sindh-businesses-environment.webp
-image_alt: AI-generated illustration of environmental sustainability advisers
+image_alt: illustration of environmental sustainability advisers
   and industrial representatives reviewing cleaner production plans.
-image_caption: AI-generated Pakistan Report illustration; not a photograph of
-  the reported meeting or event.
+image_caption: "Pakistan Report illustration"
 ---
 
 **KARACHI, October 30, 2026** — German development agency GIZ will support 300 small and medium-sized enterprises (SMEs) in Sindh to improve environmental compliance, reduce industrial pollution and encourage investment in cleaner business operations.

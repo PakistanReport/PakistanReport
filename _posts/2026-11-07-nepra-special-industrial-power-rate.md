@@ -9,10 +9,11 @@ author: Pakistan Report Editorial Desk
 date: "2026-11-07 15:34:00 +0500"
 published: true
 image: /assets/images/2026-11-07-nepra-special-industrial-power-rate.webp
-image_alt: "AI-generated editorial graphic showing industrial power lines, a
+image_alt: "editorial graphic showing industrial power lines, a
   factory and the special incremental electricity rate rising from Rs22.98 to
   Rs25.30 per unit."
-image_caption: "Pakistan Report illustration (AI-generated)"
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 7, 2026 —** The National Electric Power Regulatory Authority (NEPRA) has provisionally increased the special electricity rate for additional consumption by eligible industrial and agricultural consumers from Rs22.98 to Rs25.30 per unit.

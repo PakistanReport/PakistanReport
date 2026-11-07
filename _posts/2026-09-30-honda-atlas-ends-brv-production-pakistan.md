@@ -8,7 +8,7 @@ description: "Honda Atlas has ended production of the BR-V in Pakistan after the
   model completed its lifecycle, with recent monthly output reported at roughly
   25 to 50 units."
 image: "/assets/images/honda-brv-production.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of a Honda BR-V
+image_alt: "Pakistan Report editorial illustration of a Honda BR-V
   outside a dealership representing the end of local BR-V production."
 image_caption: "Pakistan Report illustration."
 published: true

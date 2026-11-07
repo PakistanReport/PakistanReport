@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 23:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-toyota-waymo-autonomous-vehicles-japan.webp
-image_alt: AI-generated illustration of a Toyota and Waymo autonomous electric
+image_alt: illustration of a Toyota and Waymo autonomous electric
   vehicle in a Japanese cityscape.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **TOKYO, October 31, 2026** — Toyota Motor Corporation and autonomous driving company Waymo have announced plans to begin testing self-driving electric vehicles in Japan in 2027, marking a significant expansion of their technology partnership.

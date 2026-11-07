@@ -8,7 +8,7 @@ description: "Finance Minister Muhammad Aurangzeb says Pakistan could reach a B+
   macroeconomic stability and structural reforms continue."
 published: true
 image: "/assets/images/pakistan-b-plus-credit-rating-september-2027-aurangzeb.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Finance Minister Muhammad Aurangzeb's comments on Pakistan's potential
   sovereign credit rating improvement."
 date: 2026-10-02 15:30:00 +0500

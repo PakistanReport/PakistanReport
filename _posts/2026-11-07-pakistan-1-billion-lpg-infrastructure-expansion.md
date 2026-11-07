@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-11-07 14:04:22 +0500"
 published: true
 image: /assets/images/2026-11-07-pakistan-1-billion-lpg-infrastructure-expansion.webp
-image_alt: "AI-generated editorial illustration of horizontal LPG storage tanks,
+image_alt: "editorial illustration of horizontal LPG storage tanks,
   industrial pipelines and a gas carrier at a port."
-image_caption: "Pakistan Report illustration (AI-generated)"
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 7, 2026 —** Pakistan is preparing an estimated $1 billion investment plan to expand liquefied petroleum gas (LPG) infrastructure over the next three to five years, as rising demand and increasing reliance on imports put pressure on the country's storage and distribution network.

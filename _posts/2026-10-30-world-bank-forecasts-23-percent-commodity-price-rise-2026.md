@@ -8,9 +8,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-29 13:48:28 +0500'
 published: true
 image: /assets/images/03-2026-10-30-world-bank-forecasts-23-percent-commodity-price-rise-2026.webp
-image_alt: AI-generated illustration of a port inspector examining commodities
+image_alt: illustration of a port inspector examining commodities
   and cargo at a shipping terminal.
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **WASHINGTON, October 29, 2026** — Global commodity prices are projected to increase by 23% in 2026 as geopolitical tensions, energy supply disruptions and pressure on agricultural markets drive costs higher, according to the World Bank.

@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-10-30 22:00:00 +0500"
 published: true
 image: /assets/images/2026-10-30-new-provinces-pakistan-cost-prime-report.webp
-image_alt: "AI-generated editorial illustration of a New Provinces briefing
+image_alt: "editorial illustration of a New Provinces briefing
   folder and financial documents outside Pakistan’s Parliament."
-image_caption: "AI-generated editorial illustration; not a photograph of the reported event."
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 30, 2026** — Creating additional provinces in Pakistan could impose substantial recurring costs on public finances, according to a new assessment by the Policy Research Institute of Market Economy (PRIME).

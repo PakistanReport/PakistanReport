@@ -9,7 +9,7 @@ description: "Brent rose above $101 a barrel as a strengthening Gulf of Mexico
   supply."
 published: true
 image: "/assets/images/oil-above-101-gulf-mexico-storm-middle-east-supply-risks.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing an
+image_alt: "Pakistan Report editorial illustration showing an
   offshore oil platform, a crude tanker and a major storm over the sea."
 date: 2026-10-07 13:00:00 +0500
 ---

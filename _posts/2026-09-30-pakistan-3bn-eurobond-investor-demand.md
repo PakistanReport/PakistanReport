@@ -7,7 +7,7 @@ date: "2026-09-30 15:30:00 +0500"
 description: "Pakistan's $3 billion dual-tranche Eurobond attracted nearly $6
   billion in investor demand, with 5.5-year and 10-year bonds listed in London."
 image: "/assets/images/pakistan-eurobond-london.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of Pakistan's
+image_alt: "Pakistan Report editorial illustration of Pakistan's
   flag and London's financial district representing Pakistan's Eurobond
   listing."
 image_caption: "Pakistan Report illustration."

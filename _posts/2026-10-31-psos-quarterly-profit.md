@@ -12,7 +12,8 @@ published: true
 image: /assets/images/2026-10-31-psos-quarterly-profit.webp
 image_alt: "Pakistan State Oil fuel station illustrating quarterly earnings and
   sales growth."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 **KARACHI, October 30, 2026** — Pakistan State Oil (PSO) reported a profit after tax of Rs25.56 billion for the July–September quarter of fiscal year 2026–27, compared with Rs9.39 billion in the corresponding period last year, supported by higher petroleum sales and an improved product mix.
 

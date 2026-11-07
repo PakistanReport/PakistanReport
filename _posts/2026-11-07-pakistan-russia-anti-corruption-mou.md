@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-11-07 11:11:00 +0500"
 published: true
 image: /assets/images/02-2026-11-07-pakistan-russia-anti-corruption-mou.webp
-image_alt: "AI illustration of an anti-corruption cooperation memorandum, legal
+image_alt: "Illustration of an anti-corruption cooperation memorandum, legal
   scales and gavel."
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 7, 2026 —** Pakistan's National Accountability Bureau (NAB) and the Prosecutor General's Office of the Russian Federation have signed a memorandum of understanding to strengthen cooperation against corruption and money laundering.

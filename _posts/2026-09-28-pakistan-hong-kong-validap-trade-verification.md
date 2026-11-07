@@ -9,7 +9,7 @@ description: "Pakistan Single Window has operationalised integration with Hong
   Kong Customs’ ValidAP platform, enabling cryptographic verification of
   electronic trade documents."
 image: "/assets/images/pakistan-hong-kong-validap.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Pakistan-Hong Kong digital trade document verification through ValidAP."
 image_caption: "Pakistan Report illustration."
 published: true

@@ -8,7 +8,7 @@ description: António Guterres discussed diplomacy, Pakistan's UN role and
   October.
 published: true
 image: /assets/images/un-chief-guterres-meets-shehbaz-asim-munir.webp
-image_alt: AI-generated editorial illustration of Pakistan and United Nations
+image_alt: editorial illustration of Pakistan and United Nations
   flags in a formal meeting room, representing diplomatic talks.
 date: 2026-10-08 13:00:00 +0500
 ---

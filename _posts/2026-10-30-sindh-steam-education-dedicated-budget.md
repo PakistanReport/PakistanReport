@@ -10,9 +10,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 14:00:00 +0500'
 published: true
 image: /assets/images/2026-10-30-sindh-steam-education-dedicated-budget.webp
-image_alt: AI-generated editorial illustration for Sindh Education Experts Seek
+image_alt: editorial illustration for Sindh Education Experts Seek
   Dedicated Budget for Science and Technology Learning.
-image_caption: AI-generated illustration; not a photograph of the reported event.
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **KARACHI, October 29, 2026** — Education specialists and stakeholders in Sindh have called for a dedicated budget and a formal provincial policy to strengthen science, technology, engineering, arts and mathematics education in schools.

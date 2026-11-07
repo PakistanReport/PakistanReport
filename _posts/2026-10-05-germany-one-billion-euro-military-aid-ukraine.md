@@ -8,7 +8,7 @@ description: "Germany has announced €1 billion in additional military assistan
   infrastructure."
 published: true
 image: "/assets/images/germany-one-billion-euro-military-aid-ukraine.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing German
+image_alt: "Pakistan Report editorial illustration showing German
   and Ukrainian aid logistics and repairs to damaged energy infrastructure."
 date: 2026-10-05 17:00:00 +0500
 ---

@@ -8,7 +8,7 @@ description: "FBR officials say scrutiny of a Multan industrial unit has
   identified roughly Rs200 million in alleged sales tax liability, with the
   final amount still under examination."
 image: "/assets/images/fbr-multan-sales-tax-review.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of sales-tax
+image_alt: "Pakistan Report editorial illustration of sales-tax
   review documents and a factory representing FBR scrutiny of an industrial unit
   in Multan."
 image_caption: "Pakistan Report illustration."

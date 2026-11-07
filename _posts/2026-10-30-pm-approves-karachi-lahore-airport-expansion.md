@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 12:00:00 +0500'
 published: true
 image: /assets/images/2026-10-30-pm-approves-karachi-lahore-airport-expansion.webp
-image_alt: AI-generated editorial illustration for PM Approves Expansion of
+image_alt: editorial illustration for PM Approves Expansion of
   Karachi and Lahore Airports.
-image_caption: AI-generated illustration; not a photograph of the reported event.
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 29, 2026** — Prime Minister Shehbaz Sharif has approved plans to expand Karachi and Lahore airports, directing aviation authorities to improve passenger facilities and ensure that development work meets international standards.

@@ -9,7 +9,7 @@ description: "Prime Minister Shehbaz Sharif says Iranian President Masoud
   Iran is ready to take it forward."
 published: true
 image: "/assets/images/islamabad-framework-iran-pakistan.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of Pakistan-Iran
+image_alt: "Pakistan Report editorial illustration of Pakistan-Iran
   diplomacy in Islamabad with the two countries' flags and Faisal Mosque."
 date: 2026-09-25 20:30:00 +0500
 ---

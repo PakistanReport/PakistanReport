@@ -9,7 +9,7 @@ description: "The World Bank expects the MENAAP economy to contract 2.1% in 2026
   regional outlook."
 published: true
 image: "/assets/images/world-bank-menaap-economy-shrinking-2-1-percent-2026.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing World
+image_alt: "Pakistan Report editorial illustration showing World
   Bank imagery, a MENAAP economic outlook panel, oil infrastructure and a
   tanker."
 date: 2026-10-07 12:00:00 +0500

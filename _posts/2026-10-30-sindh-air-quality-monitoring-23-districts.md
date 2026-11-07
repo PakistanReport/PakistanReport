@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 15:00:00 +0500'
 published: true
 image: /assets/images/2026-10-30-sindh-air-quality-monitoring-23-districts.webp
-image_alt: AI-generated editorial illustration for Sindh Proposes $7 Million Air
+image_alt: editorial illustration for Sindh Proposes $7 Million Air
   Quality Monitoring Network Across 23 Districts.
-image_caption: AI-generated illustration; not a photograph of the reported event.
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **KARACHI, October 29, 2026** — The Sindh government has proposed a $7 million project to set up air-quality monitoring stations in 23 districts, with the aim of improving pollution measurement and supporting environmental planning.

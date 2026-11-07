@@ -9,7 +9,7 @@ description: "Preliminary Kpler tracking recorded 33.7 million barrels leaving
   beginning September 20."
 published: true
 image: "/assets/images/hormuz-crude-flows.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of crude oil
+image_alt: "Pakistan Report editorial illustration of crude oil
   tankers transiting the Strait of Hormuz."
 date: 2026-09-27 17:00:00 +0500
 ---

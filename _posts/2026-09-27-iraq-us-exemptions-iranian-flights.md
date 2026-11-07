@@ -8,7 +8,7 @@ description: "Baghdad is seeking US exemptions that would allow some Iranian
   civilian travel."
 published: true
 image: "/assets/images/iraq-iran-flight-exemptions.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Iraq-Iran air travel and diplomatic efforts over aviation exemptions."
 date: 2026-09-27 23:00:00 +0500
 ---

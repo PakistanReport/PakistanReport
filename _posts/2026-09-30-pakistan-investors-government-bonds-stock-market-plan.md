@@ -8,7 +8,7 @@ description: "Pakistan’s new local-currency bond market plan proposes wider
   exchange-based trading of government securities, including Treasury bills and
   bonds."
 image: "/assets/images/pakistan-government-bonds-stock-market.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   government bonds, Treasury bills and stock-market trading in Pakistan."
 image_caption: "Pakistan Report illustration."
 published: true

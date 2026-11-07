@@ -9,7 +9,7 @@ description: "Pakistan's KSE-100 index ended the week around 168,155, down 2,610
   elevated oil prices."
 published: true
 image: "/assets/images/psx-loses-2610-points-week-imf-review-geopolitical-risks.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of the Pakistan
+image_alt: "Pakistan Report editorial illustration of the Pakistan
   Stock Exchange during a weak trading week."
 date: 2026-10-04 22:35:00 +0500
 ---

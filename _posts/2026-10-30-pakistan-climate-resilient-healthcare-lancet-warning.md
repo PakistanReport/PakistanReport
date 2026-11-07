@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 18:00:00 +0500'
 published: true
 image: /assets/images/2026-10-30-pakistan-climate-resilient-healthcare-lancet-warning.webp
-image_alt: AI-generated illustration of a healthcare worker examining a child at
+image_alt: illustration of a healthcare worker examining a child at
   a temporary clinic near flood-affected homes.
-image_caption: AI-generated illustration; not a photograph of the reported event.
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 30, 2026** — Health and environmental specialists have urged Pakistan to strengthen its disaster preparedness and healthcare systems following a major international report warning that climate change is placing growing pressure on public health.

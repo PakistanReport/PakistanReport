@@ -8,7 +8,7 @@ description: "Information Minister Attaullah Tarar says Pakistan carried out
   a day earlier."
 published: true
 image: "/assets/images/pakistan-strikes-10-locations-afghanistan.png"
-image_alt: "AI-generated editorial illustration of Pakistan-Afghanistan
+image_alt: "editorial illustration of Pakistan-Afghanistan
   cross-border strikes, with headline text stating Pakistan says it struck 10
   locations in Afghanistan."
 date: 2026-09-24 16:30:00 +0500

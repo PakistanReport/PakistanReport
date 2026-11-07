@@ -8,7 +8,7 @@ description: "Pakistan and the IMF have moved into the formal Islamabad phase of
   the fourth EFF and third RSF reviews, with about $1.2 billion potentially
   available after successful reviews and Executive Board approval."
 image: "/assets/images/pakistan-imf-review.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Pakistan-IMF programme review talks in Islamabad."
 image_caption: "Pakistan Report illustration."
 published: true

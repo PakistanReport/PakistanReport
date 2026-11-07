@@ -7,7 +7,7 @@ date: "2026-10-01 17:30:00 +0500"
 description: "Pakistan's public debt reached Rs86.72 trillion by end-June 2026,
   up 7.7%, while the debt-to-GDP ratio declined to 68.3%."
 image: "/assets/images/pakistan-public-debt-rs86-72-trillion.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of rising coin
+image_alt: "Pakistan Report editorial illustration of rising coin
   stacks, financial papers and a Pakistan flag representing the increase in
   public debt."
 image_caption: "Pakistan Report illustration."

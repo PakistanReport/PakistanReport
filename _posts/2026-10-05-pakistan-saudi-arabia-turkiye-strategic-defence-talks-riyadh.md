@@ -10,7 +10,7 @@ description: "Officials from Pakistan, Saudi Arabia and Türkiye are meeting in
 published: true
 image: "/assets/images/pakistan-saudi-arabia-turkiye-strategic-defence-talks-ri\
   yadh.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing the
+image_alt: "Pakistan Report editorial illustration showing the
   flags of Pakistan, Saudi Arabia and Türkiye at a trilateral meeting setting in
   Riyadh."
 date: 2026-10-05 16:00:00 +0500

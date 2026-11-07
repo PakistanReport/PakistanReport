@@ -8,7 +8,7 @@ description: "PTI's planned march from Peshawar to Islamabad remains scheduled
   for October 4 after the party postponed the protest from September 27 amid
   continuing political tensions."
 image: "/assets/images/pti-october-4-islamabad-march.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   PTI's planned October 4 march from Peshawar to Islamabad."
 image_caption: "Pakistan Report illustration."
 published: true

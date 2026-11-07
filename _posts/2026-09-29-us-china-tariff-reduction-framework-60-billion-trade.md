@@ -9,7 +9,7 @@ description: "The United States and China have identified about $30 billion of
   non-sensitive goods on each side for potentially more favourable tariff
   treatment, with implementation subject to domestic procedures."
 image: "/assets/images/us-china-tariff-framework.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing the
+image_alt: "Pakistan Report editorial illustration representing the
   US-China tariff-reduction framework covering about $60 billion in bilateral
   goods trade."
 image_caption: "Pakistan Report illustration."

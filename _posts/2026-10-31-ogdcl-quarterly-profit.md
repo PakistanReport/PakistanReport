@@ -11,7 +11,8 @@ published: true
 image: /assets/images/2026-10-31-ogdcl-quarterly-profit.webp
 image_alt: "Illustration of an oil and gas production facility with pipeline and
   drilling rig at sunset."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 31, 2026** — Oil and Gas Development Company Limited (OGDCL) reported a 53% increase in quarterly profit to Rs58.51 billion, supported by higher oil and gas production and stronger sales.

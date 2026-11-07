@@ -12,7 +12,8 @@ published: true
 image: /assets/images/01-2026-11-06-october-foreign-trade.webp
 image_alt: "Graphic illustration of container port with October 2026 exports of
   $2.93 billion, imports of $6.81 billion and a $3.88 billion trade deficit."
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 6, 2026 —** Pakistan's merchandise trade deficit widened by nearly 20% to $3.88 billion in October 2026, compared with $3.24 billion a year earlier, as imports grew considerably faster than exports, according to figures released by the Pakistan Bureau of Statistics (PBS).

@@ -8,7 +8,7 @@ description: "The KSE-100 closed 481.36 points lower at 168,155.49 on October 2
   major sectors."
 published: true
 image: "/assets/images/psx-falls-nearly-500-points-middle-east-tensions.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing a
+image_alt: "Pakistan Report editorial illustration representing a
   decline at the Pakistan Stock Exchange."
 date: 2026-10-02 19:00:00 +0500
 ---

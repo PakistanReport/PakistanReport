@@ -6,7 +6,7 @@ author: "Pakistan Report Editorial Desk"
 date: 2026-10-14 21:13:00 +0500
 description: "Saudi Arabia confirms an attack and fire at an Aramco building in Dhahran, while Reuters and AP report extensive damage to executive offices amid renewed fighting with Yemen's Houthis."
 image: "/assets/images/saudi-aramco-houthi-missile-attack.webp"
-image_alt: "AI-generated editorial illustration of a generic Saudi corporate office complex with oil industry facilities in the background; not the actual Aramco headquarters or attack."
+image_alt: "editorial illustration of a generic Saudi corporate office complex with oil industry facilities in the background; not the actual Aramco headquarters or attack."
 image_caption: "Pakistan Report illustration of Saudi Arabia's energy sector. The buildings are fictional and do not depict Aramco's headquarters or damage from the attack."
 published: true
 ---

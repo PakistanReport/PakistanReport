@@ -9,7 +9,7 @@ description: The defence minister accused the PTI-led administration of
   allegations have not been independently established.
 published: true
 image: /assets/images/khawaja-asif-kp-security-provincial-government.webp
-image_alt: AI-generated editorial illustration depicting a likeness of Defence
+image_alt: editorial illustration depicting a likeness of Defence
   Minister Khawaja Asif with the Pakistan flag and government building; not an
   authentic photograph.
 date: 2026-10-08 12:00:00 +0500

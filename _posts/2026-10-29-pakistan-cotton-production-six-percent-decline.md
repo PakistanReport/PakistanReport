@@ -9,7 +9,8 @@ date: '2026-10-29 18:00:00 +0500'
 published: true
 image: /assets/images/02-2026-10-29-pakistan-cotton-production-six-percent-decline.webp
 image_alt: "Illustration of a Pakistani farmer inspecting cotton bolls during harvest."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, October 29, 2026** — Pakistan's cotton production is expected to fall by 6% during the 2026–27 season, according to estimates cited in the World Bank's latest Commodity Markets Outlook.

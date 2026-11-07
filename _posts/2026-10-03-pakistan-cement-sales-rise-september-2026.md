@@ -8,7 +8,7 @@ description: "Pakistan’s domestic cement dispatches rose 7.35% year-on-year to
   5.95%."
 published: true
 image: "/assets/images/pakistan-cement-sales-rise-september-2026.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing cement
+image_alt: "Pakistan Report editorial illustration showing cement
   production, dispatch and construction activity in Pakistan."
 date: 2026-10-03 16:30:00 +0500
 ---

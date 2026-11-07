@@ -8,7 +8,7 @@ description: "Pakistan raised Rs880 billion in the latest Treasury bill auction
   as cut-off yields increased across all three tenors, led by a 75-basis-point
   rise on six-month bills."
 image: "/assets/images/pakistan-tbill-yields-auction.webp"
-image_alt: "AI-generated Pakistan Report financial illustration representing
+image_alt: "Pakistan Report financial illustration representing
   higher Pakistan Treasury bill yields in the latest government securities
   auction."
 image_caption: "Pakistan Report illustration."

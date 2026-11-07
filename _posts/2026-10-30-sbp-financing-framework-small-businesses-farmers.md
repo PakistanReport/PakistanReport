@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 13:00:00 +0500'
 published: true
 image: /assets/images/2026-10-30-sbp-financing-framework-small-businesses-farmers.webp
-image_alt: AI-generated editorial illustration for SBP Introduces New Financing
+image_alt: editorial illustration for SBP Introduces New Financing
   Framework for Small Businesses and Farmers.
-image_caption: AI-generated illustration; not a photograph of the reported event.
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **KARACHI, October 29, 2026** — The State Bank of Pakistan has introduced a financing framework to improve access to bank credit for small enterprises and farmers by allowing banks to work with specialised financial institutions.

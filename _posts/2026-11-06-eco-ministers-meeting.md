@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: "2026-11-06 19:00:00 +0500"
 published: true
 image: /assets/images/02-2026-11-06-eco-ministers-meeting.webp
-image_alt: "AI-generated illustration of an empty ECO Council of Ministers
+image_alt: "illustration of an empty ECO Council of Ministers
   conference venue ahead of the planned Islamabad meeting."
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 6, 2026 —** Deputy Prime Minister and Foreign Minister Ishaq Dar chaired a meeting on Friday to finalise preparations for the Economic Cooperation Organization (ECO) Council of Ministers meeting, scheduled to take place in Islamabad on November 15–16.

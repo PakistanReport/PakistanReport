@@ -9,10 +9,9 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-24 12:30:00 +0500'
 published: true
 image: /assets/images/03-2026-10-24-pakistan-1782-5g-sites-24-cities.webp
-image_alt: AI illustration of a 5G telecom antenna overlooking a stylised
+image_alt: Illustration of a 5G telecom antenna overlooking a stylised
   Islamabad skyline at sunset
-image_caption: Pakistan Report illustration (AI-generated; illustrative
-  cityscape and telecom infrastructure, not a documented site)
+image_caption: "Pakistan Report illustration"
 ---
 
 **ISLAMABAD:** Pakistan's telecommunications operators have deployed 1,782 fifth-generation (5G) mobile network sites across 24 cities, reflecting the phased expansion of next-generation mobile infrastructure.

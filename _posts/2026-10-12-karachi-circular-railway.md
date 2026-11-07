@@ -10,8 +10,7 @@ image: /assets/images/karachi-circular-railway.webp
 image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
   coverage: Sindh Chief Minister Questions Delays in Karachi Circular Railway
   Revival'
-image_caption: Pakistan Report illustration. AI-generated conceptual image; not
-  a photograph of an actual event.
+image_caption: "Pakistan Report illustration"
 date: 2026-10-12 16:00:00 +0500
 ---
 

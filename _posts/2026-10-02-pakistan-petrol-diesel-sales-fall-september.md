@@ -8,7 +8,7 @@ description: "Pakistan's petroleum product sales fell 2% year-on-year in
   11%."
 published: true
 image: "/assets/images/pakistan-petrol-diesel-sales-fall-september.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing petrol
+image_alt: "Pakistan Report editorial illustration showing petrol
   and diesel fuel nozzles at a Pakistani filling station."
 date: 2026-10-02 20:30:00 +0500
 ---

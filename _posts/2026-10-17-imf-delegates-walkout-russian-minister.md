@@ -7,7 +7,7 @@ description: "Delegates from several Western countries walked out during Russian
   Finance Minister Anton Siluanov’s remarks at an IMF committee meeting in
   Bangkok; the committee still issued a chair statement."
 image: /assets/images/imf-delegates-walkout-russian-minister.webp
-image_caption: "AI-generated editorial illustration; not a photograph of the reported event."
+image_caption: "Pakistan Report illustration"
 published: true
 ---
 

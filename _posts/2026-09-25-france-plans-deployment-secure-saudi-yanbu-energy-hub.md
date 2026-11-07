@@ -9,7 +9,7 @@ description: "France is preparing to send soldiers, radar systems and defence
   a key alternative oil-export route."
 published: true
 image: "/assets/images/france-protect-saudi-yanbu-oil-hub.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of French
+image_alt: "Pakistan Report editorial illustration of French
   defensive forces and radar equipment near oil infrastructure at Saudi Arabia's
   Yanbu energy hub."
 date: 2026-09-25 19:30:00 +0500

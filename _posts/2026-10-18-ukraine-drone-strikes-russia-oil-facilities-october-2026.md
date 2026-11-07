@@ -9,7 +9,7 @@ category: World
 author: Pakistan Report Editorial Desk
 published: true
 image: /assets/images/ukraine-drone-strikes-russia-oil-facilities-october-2026.webp
-image_alt: AI-generated illustration of a drone above a burning industrial oil
+image_alt: illustration of a drone above a burning industrial oil
   terminal at dusk; not a photograph of the reported attack.
 image_caption: Pakistan Report illustration.
 date: 2026-10-18 23:26:44 +0500

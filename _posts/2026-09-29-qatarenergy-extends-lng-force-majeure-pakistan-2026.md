@@ -8,7 +8,7 @@ description: "QatarEnergy has extended force majeure notices affecting LNG
   deliveries to Pakistan and other Asian customers as Strait of Hormuz
   disruptions continue."
 image: "/assets/images/qatar-lng-force-majeure-pakistan-2026.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of an LNG
+image_alt: "Pakistan Report editorial illustration of an LNG
   carrier and gas terminal representing Qatar-linked LNG supply."
 image_caption: "Pakistan Report illustration."
 published: true

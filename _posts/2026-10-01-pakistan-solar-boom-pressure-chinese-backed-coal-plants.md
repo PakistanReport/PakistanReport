@@ -8,7 +8,7 @@ description: "Rapid solar adoption is cutting demand for grid electricity in
   Pakistan and adding financial pressure to utilities and Chinese-backed coal
   projects, according to a new report."
 image: "/assets/images/pakistan-solar-boom-coal-plants.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration showing rooftop
+image_alt: "Pakistan Report editorial illustration showing rooftop
   solar panels and a coal-fired power station representing Pakistan’s changing
   electricity mix."
 image_caption: "Pakistan Report illustration."

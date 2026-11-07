@@ -9,9 +9,10 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-31 14:00:00 +0500'
 published: true
 image: /assets/images/2026-10-31-interloop-quarterly-profit.webp
-image_alt: "AI illustration of textile knitting machinery, yarn spools and
+image_alt: "Illustration of textile knitting machinery, yarn spools and
   workers folding garments."
-image_caption: Pakistan Report AI-generated illustration
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **FAISALABAD, October 31, 2026** — Pakistani textile manufacturer Interloop Limited reported a 53% increase in standalone quarterly profit to Rs4.28 billion, as higher sales and improved operating earnings supported its financial performance during the July–September period.

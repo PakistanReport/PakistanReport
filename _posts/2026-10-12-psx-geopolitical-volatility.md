@@ -12,8 +12,7 @@ image: /assets/images/psx-geopolitical-volatility.webp
 image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
   coverage: Pakistan Stocks Enter New Week After Losses as Geopolitical Risks
   Weigh on Sentiment'
-image_caption: Pakistan Report illustration. AI-generated conceptual image; not
-  a photograph of an actual event.
+image_caption: "Pakistan Report illustration"
 date: 2026-10-12 15:00:00 +0500
 ---
 

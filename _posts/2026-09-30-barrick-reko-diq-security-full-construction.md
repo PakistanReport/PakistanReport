@@ -8,7 +8,7 @@ description: "Barrick CEO Mark Hill says security conditions need to improve
   before the company commits to a full construction schedule at Pakistan's Reko
   Diq copper-gold project."
 image: "/assets/images/reko-diq-barrick-security.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of a large
+image_alt: "Pakistan Report editorial illustration of a large
   mining site representing the Reko Diq project in Balochistan."
 image_caption: "Pakistan Report illustration."
 published: true

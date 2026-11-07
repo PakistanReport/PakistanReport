@@ -10,10 +10,9 @@ author: Pakistan Report Editorial Desk
 date: '2026-10-30 19:30:00 +0500'
 published: true
 image: /assets/images/01-2026-10-30-pakistan-singapore-direct-flights-disaster-cooperation.webp
-image_alt: AI-generated illustration representing Pakistan–Singapore diplomatic
+image_alt: illustration representing Pakistan–Singapore diplomatic
   cooperation and possible direct air links.
-image_caption: AI-generated Pakistan Report illustration; not a photograph of
-  the reported meeting or event.
+image_caption: "Pakistan Report illustration"
 ---
 
 **ISLAMABAD, October 30, 2026** — Pakistan and Singapore have discussed the possible resumption of direct flights between the two countries as part of efforts to strengthen business travel, trade and bilateral cooperation.

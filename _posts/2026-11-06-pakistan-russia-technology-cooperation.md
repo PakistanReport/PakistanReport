@@ -12,7 +12,8 @@ published: true
 image: /assets/images/01-2026-11-06-pakistan-russia-technology-cooperation.webp
 image_alt: "Conceptual illustration of technology professionals discussing
   software, cybersecurity and cloud computing."
-image_caption: Pakistan Report illustration (AI-generated)
+image_caption: "Pakistan Report illustration"
+
 ---
 
 **ISLAMABAD, November 5, 2026 —** Pakistan and Russia have identified opportunities for joint technology projects and commercial partnerships in artificial intelligence, cybersecurity, cloud computing and digital services as the two countries seek to expand cooperation between their technology industries.

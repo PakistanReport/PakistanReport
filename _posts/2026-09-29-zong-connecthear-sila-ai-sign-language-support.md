@@ -8,7 +8,7 @@ description: "Zong and ConnectHear have launched SILA-based Pakistan Sign
   Language support at customer service centres in Islamabad, Lahore and Karachi,
   combining AI communication with access to trained human interpreters."
 image: "/assets/images/zong-sila-sign-language.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Zong and ConnectHear's SILA sign-language support at customer service
   centres."
 image_caption: "Pakistan Report illustration."

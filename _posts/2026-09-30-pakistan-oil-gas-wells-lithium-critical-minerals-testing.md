@@ -8,7 +8,7 @@ description: "OGDCL has hired PINSTECH to test more than 2,000 produced-water
   and brine samples from candidate wells for lithium and other critical
   elements."
 image: "/assets/images/pakistan-ogdcl-lithium-critical-minerals-testing.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   OGDCL and PINSTECH testing well samples for lithium and critical minerals."
 image_caption: "Pakistan Report illustration."
 published: true

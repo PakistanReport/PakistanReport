@@ -8,7 +8,7 @@ description: "Pakistan’s merchandise exports rose to Rs1.526 trillion in
   July–August 2026, while imports increased 12.43% to Rs3.546 trillion, widening
   the trade gap."
 image: "/assets/images/pakistan-july-august-trade-2026.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of a Pakistani
+image_alt: "Pakistan Report editorial illustration of a Pakistani
   container port representing merchandise trade."
 image_caption: "Pakistan Report illustration."
 published: true

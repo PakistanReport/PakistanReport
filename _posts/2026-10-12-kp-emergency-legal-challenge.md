@@ -12,8 +12,7 @@ image: /assets/images/kp-emergency-legal-challenge.webp
 image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
   coverage: Opposition Rejects KP Emergency as Lawyers Debate Possible
   Constitutional Challenge'
-image_caption: Pakistan Report illustration. AI-generated conceptual image; not
-  a photograph of an actual event.
+image_caption: "Pakistan Report illustration"
 date: 2026-10-12 17:00:00 +0500
 ---
 

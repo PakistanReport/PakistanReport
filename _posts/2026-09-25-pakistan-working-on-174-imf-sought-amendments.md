@@ -8,7 +8,7 @@ description: "Finance Secretary Imdadullah Bosal has told a National Assembly
   Pakistan's two ongoing programmes."
 published: true
 image: "/assets/images/pakistan-174-imf-linked-amendments.png"
-image_alt: "AI-generated Pakistan Report editorial illustration of proposed
+image_alt: "Pakistan Report editorial illustration of proposed
   legislative amendments and parliamentary consideration in Pakistan."
 date: 2026-09-25 17:30:00 +0500
 ---

@@ -8,7 +8,7 @@ description: "FBR’s published income-tax schedule sets September 30 as the
   filing due date for individuals and associations of persons, leaving taxpayers
   with a final day to complete returns under the current timetable."
 image: "/assets/images/income-tax-return-deadline-september-30.png"
-image_alt: "AI-generated Pakistan Report editorial illustration representing
+image_alt: "Pakistan Report editorial illustration representing
   Pakistan’s September 30 income-tax return filing deadline."
 image_caption: "Pakistan Report illustration."
 published: true

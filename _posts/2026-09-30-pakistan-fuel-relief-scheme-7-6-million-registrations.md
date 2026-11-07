@@ -8,7 +8,7 @@ description: "Pakistan's special fuel relief scheme has reached around 7.6
   million registrations, while 7.71 million fuel relief tokens have been
   redeemed, according to a government review."
 image: "/assets/images/pakistan-fuel-relief-registrations.webp"
-image_alt: "AI-generated Pakistan Report editorial illustration of motorists at
+image_alt: "Pakistan Report editorial illustration of motorists at
   a fuel station representing registrations under Pakistan's special fuel relief
   scheme."
 image_caption: "Pakistan Report illustration."
