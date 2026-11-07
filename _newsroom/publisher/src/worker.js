@@ -123,6 +123,7 @@ export class Publisher {
       "CREATE TABLE IF NOT EXISTS jobs (id TEXT PRIMARY KEY, batch TEXT NOT NULL, slug TEXT UNIQUE NOT NULL, postPath TEXT UNIQUE NOT NULL, imagePath TEXT UNIQUE NOT NULL, status TEXT NOT NULL, due INTEGER NOT NULL, next INTEGER NOT NULL, data TEXT NOT NULL)",
     );
     this.sql.exec("CREATE INDEX IF NOT EXISTS jobs_due ON jobs(status,next)");
+    this.sql.exec("CREATE INDEX IF NOT EXISTS jobs_batch_status ON jobs(batch,status)");
     this.sql.exec(
       "CREATE TABLE IF NOT EXISTS images (job TEXT NOT NULL, part INTEGER NOT NULL, bytes BLOB NOT NULL, PRIMARY KEY(job,part))",
     );
@@ -201,7 +202,14 @@ export class Publisher {
       return json({ ok: true });
     }
     if (path === "/api/batches" && request.method === "GET") {
-      const batches = this.rows("SELECT * FROM batches ORDER BY created DESC");
+      // Normal dashboard requests only active batches and the ten newest batches.
+      // Historical published batches remain available on explicit request.
+      const all = new URL(request.url).searchParams.get("history") === "all";
+      const batches = this.rows(
+        all
+          ? "SELECT * FROM batches ORDER BY created DESC"
+          : "SELECT * FROM batches b WHERE EXISTS (SELECT 1 FROM jobs j WHERE j.batch=b.id AND j.status!='Published') OR b.id IN (SELECT id FROM batches ORDER BY created DESC LIMIT 10) ORDER BY b.created DESC",
+      );
       return json(
         batches.map((b) => ({
           ...b,

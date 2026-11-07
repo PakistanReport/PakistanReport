@@ -219,3 +219,26 @@ test("archive retains audit and reservations; discard only unapproved batches", 
     h.restore();
   }
 });
+
+test("dashboard excludes old completed batches unless history is requested", async () => {
+  const h = harness();
+  try {
+    for (let n = 0; n < 12; n++) {
+      const id = "batch-" + n;
+      h.p.sql.exec("INSERT INTO batches VALUES (?,?,?)", id, id, n);
+      const job = { id: "job-" + n, status: "Published", due: n, next: n, history: [] };
+      h.p.sql.exec("INSERT INTO jobs VALUES (?,?,?,?,?,?,?,?,?)", job.id, id, "slug-" + n, "posts/" + n, "images/" + n, "Published", n, n, JSON.stringify(job));
+    }
+    const active = { id: "active-job", status: "Scheduled", due: 0, next: 0, history: [] };
+    h.p.sql.exec("INSERT INTO batches VALUES (?,?,?)", "active-batch", "active", -1);
+    h.p.sql.exec("INSERT INTO jobs VALUES (?,?,?,?,?,?,?,?,?)", active.id, "active-batch", "active-slug", "posts/active", "images/active", "Scheduled", 0, 0, JSON.stringify(active));
+    const recent = await (await request(h, "/api/batches")).json();
+    assert.equal(recent.length, 11);
+    assert(recent.some(b => b.id === "active-batch"));
+    assert(!recent.some(b => b.id === "batch-0"));
+    const full = await (await request(h, "/api/batches?history=all")).json();
+    assert.equal(full.length, 13);
+  } finally {
+    h.restore();
+  }
+});
