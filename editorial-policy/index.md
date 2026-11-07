@@ -4,30 +4,10 @@ title: "Editorial Policy"
 description: "Editorial standards and publishing principles used by Pakistan Report."
 ---
 
-Pakistan Report aims to publish accurate, fair and useful journalism.
+Pakistan Report is committed to accurate, fair and independent journalism. Our editorial approach is guided by factual integrity, responsible reporting and the public interest.
 
-## Accuracy
+We strive to ensure that our reporting is based on credible sources, verified information and appropriate context. We distinguish facts from claims and opinions, and aim to present important developments with fairness and impartiality.
 
-We seek to verify important factual claims before publication and prefer primary or authoritative sources where available.
+Our editorial decisions are guided by newsworthiness and relevance to readers. We maintain editorial independence and seek to provide clear, balanced and reliable coverage of national and international developments.
 
-When information is developing or uncertain, we aim to make that uncertainty clear.
-
-## Sources
-
-Our reporting may use official statements, public records, government data, regulatory filings, company announcements, interviews, reputable news agencies and established media organizations.
-
-Information from social media or unverified sources should not be presented as confirmed fact without appropriate verification or qualification.
-
-## Headlines
-
-Headlines should accurately represent the substance of the article and should not intentionally mislead readers.
-
-## Opinion and analysis
-
-Where commentary, analysis or opinion is published, it should be clearly distinguishable from straight news reporting.
-
-## Conflicts and commercial influence
-
-Advertising, sponsorships and commercial relationships should not determine editorial conclusions.
-
-Paid or sponsored material will be clearly labeled.
+We believe in responsible presentation of news, with accurate headlines, relevant visuals and clear reporting that helps readers understand important events and their wider significance.
