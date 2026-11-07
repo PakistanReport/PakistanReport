@@ -19,7 +19,7 @@ Information technology recorded the highest number of registrations at 991, foll
 
 Construction accounted for 295 new companies, while food and beverages recorded 219 and tourism 213.
 
-Private limited companies represented 55.4% of new registrations, while single-member companies accounted for 41.6%.
+Private limited companies represented 55.4% of new registrations, while single-member companies—businesses incorporated with just one shareholder—accounted for 41.6%.
 
 ### Punjab Leads, Sindh Records 751
 
