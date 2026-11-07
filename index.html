@@ -359,7 +359,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   </div>
 
   <section class="news-section" aria-label="More Headlines">
-    <div class="section-heading"><h2>More Headlines</h2><a href="{{ '/feed.xml' | relative_url }}">News Feed →</a></div>
+    <div class="section-heading"><h2>More Headlines</h2><a href="{{ '/latest/' | relative_url }}">More Latest Stories →</a></div>
     <div class="pr-more-list">
       {% for post in regular_posts offset:12 limit:8 %}
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
