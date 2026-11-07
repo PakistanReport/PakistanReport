@@ -44,7 +44,7 @@ The reported investment programme also covers cylinders, filling plants and tran
 
 ## State-Owned Companies and Distribution Capacity
 
-The industry association's summary identifies Sui Northern Gas Pipelines Limited, SSGC LPG Limited and PSO Pak Gas among the state-owned companies expected to have roles in expanding LPG logistics.
+The industry association's summary identifies Sui Northern Gas Pipelines Limited, SSGC LPG Limited and Pakistan State Oil (PSO) among the state-owned companies expected to have roles in expanding LPG logistics.
 
 The proposed investment comes as LPG remains an important alternative fuel for households and businesses without reliable access to piped natural gas.
 
