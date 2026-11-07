@@ -13,7 +13,6 @@ image: /assets/images/04-2026-10-30-pakistan-philippines-intellectual-property-c
 image_alt: still-life illustration of Pakistan and Philippines
   flags, intellectual property documents and legal reference books.
 image_caption: "Pakistan Report illustration"
-  the reported meeting or event.
 ---
 
 **ISLAMABAD, October 30, 2026** — Pakistan and the Philippines have discussed strengthening cooperation in intellectual property protection, technology transfer and innovation to support businesses, research institutions and trade between the two countries.

@@ -12,7 +12,6 @@ image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
   coverage: Federal Government Authorises Army Deployment in KP in Aid of Civil
   Power'
 image_caption: "Pakistan Report illustration"
-  a photograph of an actual event.
 date: 2026-10-12 13:00:00 +0500
 ---
 

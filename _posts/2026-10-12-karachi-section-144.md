@@ -13,7 +13,6 @@ image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
   coverage: Karachi Restricts Gatherings of More Than Five People Under Section
   144 Until October 20'
 image_caption: "Pakistan Report illustration"
-  a photograph of an actual event.
 date: 2026-10-12 12:00:00 +0500
 ---
 

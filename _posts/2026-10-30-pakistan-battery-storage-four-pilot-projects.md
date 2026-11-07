@@ -13,7 +13,6 @@ image: /assets/images/03-2026-10-30-pakistan-battery-storage-four-pilot-projects
 image_alt: illustration of battery energy storage containers, solar
   panels and electrical infrastructure in Pakistan.
 image_caption: "Pakistan Report illustration"
-  the reported meeting or event.
 ---
 
 **ISLAMABAD, October 30, 2026** — Pakistan's growing use of battery energy storage systems is prompting calls for stronger safety standards, more affordable equipment and changes to electricity distribution networks as households and industries seek alternatives to expensive grid power.

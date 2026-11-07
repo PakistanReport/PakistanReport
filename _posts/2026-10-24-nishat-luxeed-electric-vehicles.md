@@ -12,7 +12,6 @@ image: /assets/images/01-2026-10-24-nishat-luxeed-electric-vehicles.webp
 image_alt: Illustration of a silver LUXEED-branded electric sedan beside a
   charging station and Nishat Group display in a stylised Islamabad setting
 image_caption: "Pakistan Report illustration"
-  an actual showroom or vehicle launch)
 ---
 
 **ISLAMABAD:** Nishat Group has signed a strategic agreement aimed at introducing LUXEED electric vehicles in Pakistan, marking another step in the group's expansion into the country's automotive market.

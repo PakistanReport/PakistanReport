@@ -12,7 +12,6 @@ image: /assets/images/02-2026-10-24-pia-daily-london-flights-october-27.webp
 image_alt: Illustration of a Pakistan International Airlines aircraft at a
   stylised London Heathrow airport terminal at sunset
 image_caption: "Pakistan Report illustration"
-  specific PIA flight or the launch of the service)
 ---
 
 **ISLAMABAD:** Pakistan International Airlines (PIA) plans to operate a daily service to London from October 27, 2026, as it expands its flight schedule between Pakistan and the United Kingdom.

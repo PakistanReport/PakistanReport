@@ -12,7 +12,6 @@ image: /assets/images/02-2026-10-30-colgate-palmolive-pg-karachi-assets-deal.web
 image_alt: Illustration showing Colgate-Palmolive signage near a P&G-branded
   industrial facility.
 image_caption: "Pakistan Report illustration"
-  facility involved in the agreement.
 ---
 
 **KARACHI:** Colgate-Palmolive (Pakistan) Limited has signed an agreement to acquire manufacturing assets from Procter & Gamble Pakistan (Private) Limited, subject to regulatory approval.

@@ -12,7 +12,6 @@ image: /assets/images/03-2026-10-30-germany-japan-global-trade-alliance-proposal
 image_alt: illustration depicting German and Japanese political
   leaders shaking hands beside national and EU flags.
 image_caption: "Pakistan Report illustration"
-  Germany–Japan meeting.
 ---
 
 **TOKYO:** German Chancellor Friedrich Merz has called for closer international cooperation to defend rules-based trade, proposing an alliance of countries willing to respond collectively to tariffs and economic pressure.

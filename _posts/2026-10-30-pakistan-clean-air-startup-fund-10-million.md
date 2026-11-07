@@ -12,7 +12,6 @@ image: /assets/images/01-2026-10-30-pakistan-clean-air-startup-fund-10-million.w
 image_alt: Illustration of an air-quality monitor overlooking a smog-covered
   Pakistani city.
 image_caption: "Pakistan Report illustration"
-  the announcement.
 ---
 
 **ISLAMABAD:** Pakistan's federal government has announced plans to establish a $10 million fund to support startups developing solutions to air pollution.

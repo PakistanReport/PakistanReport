@@ -13,7 +13,6 @@ image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
   coverage: Pakistan Stocks Enter New Week After Losses as Geopolitical Risks
   Weigh on Sentiment'
 image_caption: "Pakistan Report illustration"
-  a photograph of an actual event.
 date: 2026-10-12 15:00:00 +0500
 ---
 

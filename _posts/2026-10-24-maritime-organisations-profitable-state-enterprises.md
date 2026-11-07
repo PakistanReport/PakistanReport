@@ -12,7 +12,6 @@ published: true
 image: /assets/images/04-2026-10-24-maritime-organisations-profitable-state-enterprises.webp
 image_alt: Illustration of a large container ship, cranes and port operations at sunset
 image_caption: "Pakistan Report illustration"
-  scene, not a photograph of a specific port or ship)
 ---
 
 **ISLAMABAD:** Three organisations in Pakistan's maritime sector have been ranked among the country's 10 most profitable state-owned enterprises, according to the federal government's financial reporting for fiscal year 2024–25.

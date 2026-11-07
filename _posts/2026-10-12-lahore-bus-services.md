@@ -12,7 +12,6 @@ image_alt: 'Conceptual editorial illustration accompanying Pakistan Report
   coverage: Intercity Bus Services Suspended in Lahore as Terminal Closures
   Disrupt Travel'
 image_caption: "Pakistan Report illustration"
-  a photograph of an actual event.
 date: 2026-10-12 14:00:00 +0500
 ---
 

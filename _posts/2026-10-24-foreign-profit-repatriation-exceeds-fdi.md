@@ -11,7 +11,6 @@ image: /assets/images/01-2026-10-24-foreign-profit-repatriation-exceeds-fdi.webp
 image_alt: Illustration of dollar bills, coin stacks and financial charts with a
   Pakistani flag and central-bank-style building in the background
 image_caption: "Pakistan Report illustration"
-  a specific financial transaction or official event.
 date: 2026-10-24 16:00:00 +0500
 ---
 
