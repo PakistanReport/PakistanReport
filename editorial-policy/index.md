@@ -18,14 +18,6 @@ Our reporting may use official statements, public records, government data, regu
 
 Information from social media or unverified sources should not be presented as confirmed fact without appropriate verification or qualification.
 
-## Artificial intelligence
-
-Technology and artificial intelligence may assist with research, organization, drafting, editing or technical production.
-
-Editorial responsibility remains with Pakistan Report. Material intended for publication should be reviewed for accuracy, context and quality before publication.
-
-AI-generated material should not be used to fabricate quotations, sources, events, people or evidence.
-
 ## Headlines
 
 Headlines should accurately represent the substance of the article and should not intentionally mislead readers.
