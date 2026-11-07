@@ -41,7 +41,6 @@ They also agreed to convene a meeting of the working group established between t
 
 The two countries decided to finalise a memorandum of understanding on anti-narcotics cooperation, intended to strengthen operational links between Pakistan's Anti-Narcotics Force and the UK's National Crime Agency.
 
-The memorandum remains to be finalised.
 
 ## Trade and Investment Relations
 
