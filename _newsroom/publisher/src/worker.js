@@ -198,7 +198,11 @@ export class Publisher {
   async route(request) {
     const path = new URL(request.url).pathname;
     if (path === "/watchdog") {
-      await this.arm();
+      // A scheduled alarm already tracks the next job. Avoid scanning the jobs
+      // table every five minutes; only repair scheduling when the alarm is missing.
+      // Keep the watchdog as a recovery mechanism for interrupted state changes.
+      const alarm = await this.ctx.storage.getAlarm();
+      if (alarm === null) await this.arm();
       return json({ ok: true });
     }
     if (path === "/api/batches" && request.method === "GET") {
