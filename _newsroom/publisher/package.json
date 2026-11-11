@@ -1,0 +1,21 @@
+{
+  "name": "pakistan-report-publisher",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --test test/*.test.js",
+    "check": "wrangler deploy --dry-run",
+    "example": "node scripts/example.js"
+  },
+  "dependencies": {
+    "fflate": "0.8.2",
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.27.3",
+    "playwright": "^1.58.2",
+    "wrangler": "4.72.0"
+  }
+}
