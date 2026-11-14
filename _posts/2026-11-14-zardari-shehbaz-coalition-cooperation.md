@@ -10,8 +10,7 @@ date: '2026-11-14 21:00:00 +0500'
 published: true
 image: /assets/images/2026-11-14-zardari-shehbaz-coalition-cooperation.webp
 image_alt: President Asif Ali Zardari and Prime Minister Shehbaz Sharif seated in a formal meeting setting.
-image_caption: Pakistan Report illustration — AI-generated depiction, not a
-  photograph of the reported meeting
+image_caption: Pakistan Report Illustration
 ---
 
 **LAHORE, November 14, 2026 —** President Asif Ali Zardari and Prime Minister Shehbaz Sharif met in Lahore on Saturday to discuss Pakistan's political, economic and security situation, with both leaders emphasising cooperation among governing coalition partners.
