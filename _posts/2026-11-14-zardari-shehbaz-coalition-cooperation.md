@@ -9,9 +9,7 @@ author: Pakistan Report Editorial Desk
 date: '2026-11-14 21:00:00 +0500'
 published: true
 image: /assets/images/2026-11-14-zardari-shehbaz-coalition-cooperation.webp
-image_alt: AI-generated editorial illustration depicting President Asif Ali
-  Zardari and Prime Minister Shehbaz Sharif seated in a formal discussion
-  setting.
+image_alt: President Asif Ali Zardari and Prime Minister Shehbaz Sharif seated in a formal meeting setting.
 image_caption: Pakistan Report illustration — AI-generated depiction, not a
   photograph of the reported meeting
 ---
