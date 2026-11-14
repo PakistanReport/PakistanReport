@@ -243,13 +243,114 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 </div>
 <main class="container pr-home">
 {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs'" %}
+{% comment %}A single URL ledger prevents repeat homepage placements; In Focus is reserved first.{% endcomment %}
+{% assign used_urls = "|" %}
+{% assign focus = nil %}
+{% assign chosen_focus = site.data.homepage_editorial.in_focus | default: "" %}
+{% if chosen_focus != "" %}
+  {% assign focus_matches = regular_posts | where: "url", chosen_focus %}
+  {% assign focus = focus_matches.first %}
+{% endif %}
+{% unless focus %}{% assign focus = regular_posts[7] %}{% endunless %}
+{% if focus %}{% assign focus_token = focus.url | prepend: "|" | append: "|" %}{% assign used_urls = used_urls | append: focus.url | append: "|" %}{% endif %}
+
 {% assign lead = nil %}
 {% assign chosen_lead = site.data.homepage_editorial.main_story | default: "" %}
 {% if chosen_lead != "" %}
-  {% assign matched_lead = site.posts | where: "url", chosen_lead %}
-  {% assign lead = matched_lead.first %}
+  {% assign lead_matches = regular_posts | where: "url", chosen_lead %}
+  {% assign candidate_lead = lead_matches.first %}
+  {% if candidate_lead and candidate_lead.url != focus.url %}{% assign lead = candidate_lead %}{% endif %}
 {% endif %}
-{% unless lead %}{% assign lead = regular_posts.first %}{% endunless %}
+{% unless lead %}
+  {% for post in regular_posts %}
+    {% assign token = post.url | prepend: "|" | append: "|" %}
+    {% unless used_urls contains token %}{% assign lead = post %}{% break %}{% endunless %}
+  {% endfor %}
+{% endunless %}
+{% if lead %}{% assign used_urls = used_urls | append: lead.url | append: "|" %}{% endif %}
+
+{% comment %}Reserve the four chronologically newest stories after the lead, before editorial curation.{% endcomment %}
+{% assign latest_urls = "|" %}
+{% assign latest_reserved = 0 %}
+{% for post in regular_posts %}
+  {% assign token = post.url | prepend: "|" | append: "|" %}
+  {% unless used_urls contains token %}
+    {% if latest_reserved < 4 %}
+      {% assign latest_urls = latest_urls | append: post.url | append: "|" %}
+      {% assign used_urls = used_urls | append: post.url | append: "|" %}
+      {% assign latest_reserved = latest_reserved | plus: 1 %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+
+{% comment %}Reserve up to three manual Editor's Picks; fill remaining slots automatically from recent high-impact reporting.{% endcomment %}
+{% assign pick_urls = "|" %}
+{% assign pick_count = 0 %}
+{% for pick_url in site.data.homepage_editorial.editors_picks %}
+  {% assign matches = regular_posts | where: "url", pick_url %}
+  {% assign post = matches.first %}
+  {% if post and pick_count < 3 %}
+    {% assign token = post.url | prepend: "|" | append: "|" %}
+    {% unless used_urls contains token %}
+      {% assign pick_urls = pick_urls | append: post.url | append: "|" %}
+      {% assign used_urls = used_urls | append: post.url | append: "|" %}
+      {% assign pick_count = pick_count | plus: 1 %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+{% assign recent_cutoff = site.time | date: "%s" | minus: 172800 %}
+{% comment %}Category-first, impact-keyword heuristic; recency is the tie-breaker because posts are date-sorted.{% endcomment %}
+{% for tier in (1..3) %}
+  {% for post in regular_posts %}
+    {% if pick_count >= 3 %}{% break %}{% endif %}
+    {% assign token = post.url | prepend: "|" | append: "|" %}
+    {% if used_urls contains token %}{% continue %}{% endif %}
+    {% assign post_seconds = post.date | date: "%s" | plus: 0 %}
+    {% assign headline = post.title | downcase %}
+    {% assign high_impact = false %}
+    {% if headline contains "billion" or headline contains "trillion" or headline contains "referendum" or headline contains "election" or headline contains "explosion" or headline contains "agreement" or headline contains "discovery" or headline contains "inflation" or headline contains "trade" or headline contains "security" or headline contains "court" or headline contains "parliament" or headline contains "provinces" %}
+      {% assign high_impact = true %}
+    {% endif %}
+    {% assign qualifies = false %}
+    {% if tier == 1 and post_seconds >= recent_cutoff and high_impact %}{% assign qualifies = true %}{% endif %}
+    {% if tier == 2 and post_seconds >= recent_cutoff %}{% assign qualifies = true %}{% endif %}
+    {% if tier == 3 %}{% assign qualifies = true %}{% endif %}
+    {% if qualifies %}
+      {% assign pick_urls = pick_urls | append: post.url | append: "|" %}
+      {% assign used_urls = used_urls | append: post.url | append: "|" %}
+      {% assign pick_count = pick_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% comment %}In the News favours today's impactful stories, then recent stories, then remaining posts.{% endcomment %}
+{% assign news_urls = "|" %}
+{% assign news_count = 0 %}
+{% assign today_key = site.time | date: "%Y-%m-%d" %}
+{% for tier in (1..4) %}
+  {% for post in regular_posts %}
+    {% if news_count >= 3 %}{% break %}{% endif %}
+    {% assign token = post.url | prepend: "|" | append: "|" %}
+    {% if used_urls contains token %}{% continue %}{% endif %}
+    {% assign post_day = post.date | date: "%Y-%m-%d" %}
+    {% assign post_seconds = post.date | date: "%s" | plus: 0 %}
+    {% assign headline = post.title | downcase %}
+    {% assign high_impact = false %}
+    {% if headline contains "billion" or headline contains "trillion" or headline contains "referendum" or headline contains "election" or headline contains "explosion" or headline contains "agreement" or headline contains "discovery" or headline contains "inflation" or headline contains "trade" or headline contains "security" or headline contains "court" or headline contains "parliament" or headline contains "provinces" %}
+      {% assign high_impact = true %}
+    {% endif %}
+    {% assign qualifies = false %}
+    {% if tier == 1 and post_day == today_key and high_impact %}{% assign qualifies = true %}{% endif %}
+    {% if tier == 2 and post_day == today_key %}{% assign qualifies = true %}{% endif %}
+    {% if tier == 3 and post_seconds >= recent_cutoff %}{% assign qualifies = true %}{% endif %}
+    {% if tier == 4 %}{% assign qualifies = true %}{% endif %}
+    {% if qualifies %}
+      {% assign news_urls = news_urls | append: post.url | append: "|" %}
+      {% assign used_urls = used_urls | append: post.url | append: "|" %}
+      {% assign news_count = news_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 {% if lead %}
   <!-- Editorial choices come from _data/homepage_editorial.yml. Unset or invalid paths fall back to published posts. -->
   <section class="pr-lead-grid" aria-label="Featured reporting">
@@ -264,28 +365,13 @@ description: "Pakistan news, politics, economy, business, technology, world deve
     </article>
     <aside class="pr-picks" aria-label="Editor's Picks">
       <h2 class="pr-small-heading">Editor's Picks</h2>
-      {% assign pick_count = 0 %}
-      {% for pick_url in site.data.homepage_editorial.editors_picks %}
-        {% assign matching_picks = site.posts | where: "url", pick_url %}
-        {% assign post = matching_picks.first %}
-        {% if post and post.url != lead.url and pick_count < 3 %}
-        <article class="pr-pick">
-        {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      </article>
-        {% assign pick_count = pick_count | plus: 1 %}
-        {% endif %}
-      {% endfor %}
       {% for post in regular_posts %}
-        {% if pick_count < 3 and post.url != lead.url and site.data.homepage_editorial.editors_picks contains post.url %}
-          {% continue %}
-        {% endif %}
-        {% if pick_count < 3 and post.url != lead.url %}
+        {% assign token = post.url | prepend: "|" | append: "|" %}
+        {% if pick_urls contains token %}
         <article class="pr-pick">
           {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         </article>
-        {% assign pick_count = pick_count | plus: 1 %}
         {% endif %}
       {% endfor %}
     </aside>
@@ -294,8 +380,9 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   <section class="pr-news-strip" aria-label="In the News">
     <strong>In the News</strong>
     <div class="pr-strip-links">
-      {% for post in regular_posts offset:4 limit:3 %}
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% for post in regular_posts %}
+        {% assign token = post.url | prepend: "|" | append: "|" %}
+        {% if news_urls contains token %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endif %}
       {% endfor %}
     </div>
   </section>
@@ -303,24 +390,16 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   <div class="pr-middle">
     <section aria-label="Latest News">
       <div class="section-heading"><h2>Latest News</h2><a href="{{ '/latest/' | relative_url }}">All Latest Stories →</a></div>
-      {% assign latest_count = 0 %}
       {% for post in regular_posts %}
-      {% if post.url != lead.url and latest_count < 4 %}
+      {% assign token = post.url | prepend: "|" | append: "|" %}
+      {% if latest_urls contains token %}
       <article class="pr-latest-item">
         {% if post.image %}<a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
         <div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><div class="date">{{ post.date | date: "%B %-d, %Y" }}</div></div>
       </article>
-      {% assign latest_count = latest_count | plus: 1 %}
       {% endif %}
       {% endfor %}
     </section>
-    {% assign focus = nil %}
-    {% assign chosen_focus = site.data.homepage_editorial.in_focus | default: "" %}
-    {% if chosen_focus != "" %}
-      {% assign selected_focus = site.posts | where: "url", chosen_focus %}
-      {% assign focus = selected_focus.first %}
-    {% endif %}
-    {% unless focus %}{% assign focus = regular_posts[7] %}{% endunless %}
     {% if focus %}
     <section aria-label="In Focus">
       <div class="section-heading"><h2>In Focus</h2></div>
@@ -352,6 +431,8 @@ description: "Pakistan news, politics, economy, business, technology, world deve
         <a href="{{ category_archive | relative_url }}" aria-label="More {{ group }} stories">→</a>
       </div>
       {% for post in site.posts %}
+        {% assign token = post.url | prepend: "|" | append: "|" %}
+        {% unless used_urls contains token %}
         {% if category_names contains post.category and group_count < 3 %}
           {% if group_count == 0 %}
           <article class="pr-category-feature">
@@ -366,7 +447,9 @@ description: "Pakistan news, politics, economy, business, technology, world deve
           </article>
           {% endif %}
           {% assign group_count = group_count | plus: 1 %}
+          {% assign used_urls = used_urls | append: post.url | append: "|" %}
         {% endif %}
+        {% endunless %}
       {% endfor %}
     </section>
   {% endfor %}
@@ -375,8 +458,15 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   <section class="news-section" aria-label="More Headlines">
     <div class="section-heading"><h2>More Headlines</h2></div>
     <div class="pr-more-list">
-      {% for post in regular_posts offset:12 limit:8 %}
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% assign more_count = 0 %}
+      {% for post in regular_posts %}
+        {% if more_count >= 8 %}{% break %}{% endif %}
+        {% assign token = post.url | prepend: "|" | append: "|" %}
+        {% unless used_urls contains token %}
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% assign used_urls = used_urls | append: post.url | append: "|" %}
+          {% assign more_count = more_count | plus: 1 %}
+        {% endunless %}
       {% endfor %}
     </div>
   </section>
