@@ -431,8 +431,6 @@ description: "Pakistan news, politics, economy, business, technology, world deve
         <a href="{{ category_archive | relative_url }}" aria-label="More {{ group }} stories">→</a>
       </div>
       {% for post in site.posts %}
-        {% assign token = post.url | prepend: "|" | append: "|" %}
-        {% unless used_urls contains token %}
         {% if category_names contains post.category and group_count < 3 %}
           {% if group_count == 0 %}
           <article class="pr-category-feature">
@@ -447,9 +445,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
           </article>
           {% endif %}
           {% assign group_count = group_count | plus: 1 %}
-          {% assign used_urls = used_urls | append: post.url | append: "|" %}
         {% endif %}
-        {% endunless %}
       {% endfor %}
     </section>
   {% endfor %}
