@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Zardari and Shehbaz Discuss National Challenges and Coalition Cooperation
+title: Shehbaz and Zardari Discuss National Challenges and Coalition Cooperation
 description: The president and prime minister reviewed Pakistan's political,
   economic and security situation during talks in Lahore, amid continuing debate
   over proposed new provinces.
@@ -9,7 +9,7 @@ author: Pakistan Report Editorial Desk
 date: '2026-11-14 21:00:00 +0500'
 published: true
 image: /assets/images/2026-11-14-zardari-shehbaz-coalition-cooperation.webp
-image_alt: President Asif Ali Zardari and Prime Minister Shehbaz Sharif seated in a formal meeting setting.
+image_alt: Prime Minister Shehbaz Sharif and President Asif Ali Zardari seated in a formal meeting setting.
 image_caption: Pakistan Report Illustration
 ---
 
