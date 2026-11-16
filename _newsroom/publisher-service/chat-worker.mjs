@@ -72,11 +72,30 @@ async function downloadImage(ref) {
   } catch {
     throw new RequestError(422, "The action needs a real conversation image reference.");
   }
-  if (url.protocol !== "https:" || url.port || url.username || url.password ||
-      !/^(?:files|sdmntpr[a-z0-9-]*)\.oaiusercontent\.com$/.test(url.hostname))
-    throw new RequestError(422, "The image download host is unsupported.");
-  const response = await fetch(url, { redirect: "error", signal: AbortSignal.timeout(10000) });
-  if (!response.ok) throw new RequestError(422, "Image download failed. Select the conversation image again.");
+  const trustedLocation = target => {
+    const host = target.hostname;
+    return target.protocol === "https:" && !target.port && !target.username && !target.password && (
+      host.endsWith(".oaiusercontent.com") ||
+      /^(?:sdmntpr|oaisdmntpr|oaisdsorpr)[a-z0-9-]*\.blob\.core\.windows\.net$/.test(host) ||
+      /^oaisdmntpr[a-z0-9-]*\.s3\.[a-z0-9-]+\.amazonaws\.com$/.test(host) ||
+      (host === "chatgpt.com" && target.pathname === "/backend-api/estuary/content")
+    );
+  };
+  const signal = AbortSignal.timeout(10000);
+  let response;
+  for (let hop = 0; hop <= 3; hop++) {
+    if (!trustedLocation(url))
+      throw new RequestError(422, "Unsupported image download host: " + url.hostname);
+    response = await fetch(url, { redirect: "manual", signal });
+    if (![301, 302, 303, 307, 308].includes(response.status)) break;
+    const location = response.headers.get("location");
+    await response.body?.cancel();
+    if (!location || hop === 3)
+      throw new RequestError(422, "The image link returned an unusable redirect.");
+    url = new URL(location, url);
+  }
+  if (!response.ok)
+    throw new RequestError(422, "Image download returned HTTP " + response.status + ". Select the conversation image again.");
   const bytes = await readBytes(response.body, 8 * 1024 * 1024);
   const ascii = (start, end) => String.fromCharCode(...bytes.subarray(start, end));
   let extension;
@@ -157,7 +176,7 @@ export default {
     const path = new URL(request.url).pathname;
     const branch = env.CHAT_PUBLISHER_BRANCH || "chat-publishing-test";
     if (path === "/health" && request.method === "GET")
-      return reply({ ok: true, destination_branch: branch, branch_guard: true });
+      return reply({ ok: true, destination_branch: branch, branch_guard: true, image_download_version: 2 });
     if (path !== "/publish-article") return reply({ error: "Not found." }, 404);
     if (request.method !== "POST") return reply({ error: "Use POST." }, 405);
     if (!(env.CHAT_PUBLISHER_API_KEY?.length >= 32) || !env.GITHUB_TOKEN ||
