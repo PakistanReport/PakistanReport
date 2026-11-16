@@ -1,0 +1,7 @@
+name = "pakistan-report-chat-publisher"
+main = "chat-worker.mjs"
+compatibility_date = "2026-06-01"
+workers_dev = true
+
+[vars]
+CHAT_PUBLISHER_BRANCH = "chat-publishing-test"
