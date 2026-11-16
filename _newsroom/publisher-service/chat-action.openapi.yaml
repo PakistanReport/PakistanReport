@@ -3,7 +3,7 @@ info:
   title: Pakistan Report Chat Publisher
   version: 1.0.0
 servers:
-  - url: https://replace-with-your-publisher-host.example
+  - url: https://pakistan-report-chat-publisher.pakistanreportnews.workers.dev
 paths:
   /publish-article:
     post:
