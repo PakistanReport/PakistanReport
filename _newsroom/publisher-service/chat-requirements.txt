@@ -1,0 +1,3 @@
+-r requirements.txt
+Pillow>=12,<13
+PyYAML>=6,<7
