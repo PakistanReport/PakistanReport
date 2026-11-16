@@ -1,0 +1,75 @@
+openapi: 3.1.0
+info:
+  title: Pakistan Report Chat Publisher
+  version: 1.0.0
+servers:
+  - url: https://replace-with-your-publisher-host.example
+paths:
+  /publish-article:
+    post:
+      operationId: publishPakistanReportArticle
+      summary: Commit the approved article and its selected conversation image together
+      x-openai-isConsequential: true
+      security:
+        - publisherKey: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [slug, title, category, description, body_markdown, image_alt, openaiFileIdRefs]
+              properties:
+                slug:
+                  type: string
+                  pattern: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+                  maxLength: 100
+                title:
+                  type: string
+                  maxLength: 180
+                category:
+                  type: string
+                  description: Existing Pakistan Report category, with its existing spelling.
+                description:
+                  type: string
+                  maxLength: 450
+                body_markdown:
+                  type: string
+                  description: Exact final approved Markdown article body without YAML front matter.
+                image_alt:
+                  type: string
+                  maxLength: 300
+                image_caption:
+                  type: string
+                  maxLength: 300
+                  description: Clearly label generated illustrations.
+                openaiFileIdRefs:
+                  type: array
+                  description: Exactly one file ID for the actual generated article image selected by the user in this conversation.
+                  minItems: 1
+                  maxItems: 1
+                  items:
+                    type: string
+      responses:
+        '200':
+          description: GitHub commit succeeded or the identical article and image were already present.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  branch: {type: string}
+                  post_path: {type: string}
+                  image_path: {type: string}
+                  published_to_branch: {type: boolean}
+                  commit: {type: string}
+                  already_present: {type: boolean}
+        '409':
+          description: Destination conflict or branch advanced before the push.
+        '422':
+          description: The article or conversation image could not be used.
+components:
+  securitySchemes:
+    publisherKey:
+      type: http
+      scheme: bearer
