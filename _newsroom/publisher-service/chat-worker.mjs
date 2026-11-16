@@ -155,10 +155,11 @@ async function publish(article, image, env, branch) {
 export default {
   async fetch(request, env) {
     const path = new URL(request.url).pathname;
-    if (path === "/health" && request.method === "GET") return reply({ ok: true });
+    const branch = env.CHAT_PUBLISHER_BRANCH || "chat-publishing-test";
+    if (path === "/health" && request.method === "GET")
+      return reply({ ok: true, destination_branch: branch, branch_guard: true });
     if (path !== "/publish-article") return reply({ error: "Not found." }, 404);
     if (request.method !== "POST") return reply({ error: "Use POST." }, 405);
-    const branch = env.CHAT_PUBLISHER_BRANCH || "chat-publishing-test";
     if (!(env.CHAT_PUBLISHER_API_KEY?.length >= 32) || !env.GITHUB_TOKEN ||
         !["main", "chat-publishing-test"].includes(branch))
       return reply({ error: "Publisher configuration is incomplete." }, 503);
@@ -171,6 +172,10 @@ export default {
       try { article = JSON.parse(new TextDecoder().decode(raw)); }
       catch { throw new RequestError(400, "Expected valid JSON."); }
       validate(article);
+      if (!["chat-publishing-test", "main"].includes(article.expected_branch))
+        throw new RequestError(422, "Supply the expected GitHub destination branch.");
+      if (article.expected_branch !== branch)
+        throw new RequestError(409, "The expected branch differs from the configured destination.");
       const image = await downloadImage(article.openaiFileIdRefs[0]);
       return reply(await publish(article, image, env, branch));
     } catch (error) {
