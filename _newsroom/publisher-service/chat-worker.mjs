@@ -86,7 +86,12 @@ async function downloadImage(ref) {
   for (let hop = 0; hop <= 3; hop++) {
     if (!trustedLocation(url))
       throw new RequestError(422, "Unsupported image download host: " + url.hostname);
-    response = await fetch(url, { redirect: "manual", signal });
+    try {
+      response = await fetch(url.href, { redirect: "manual", signal });
+    } catch (error) {
+      throw new RequestError(502, "Image download request failed at " + url.hostname +
+        " (" + (error?.name === "TimeoutError" ? "timeout" : "network error") + ").");
+    }
     if (![301, 302, 303, 307, 308].includes(response.status)) break;
     const location = response.headers.get("location");
     await response.body?.cancel();
@@ -121,12 +126,13 @@ async function publish(article, image, env, branch) {
   async function git(method, path, body, allowMissing = false) {
     const response = await fetch(base + path, {
       method, headers, body: body === undefined ? undefined : JSON.stringify(body),
-      redirect: "error", signal: AbortSignal.timeout(10000),
+      redirect: "manual", signal: AbortSignal.timeout(10000),
     });
     if (response.status === 404 && allowMissing) return null;
     if (method === "PATCH" && [409, 422].includes(response.status))
       throw new RequestError(409, "Branch update rejected. Check the branch before retrying.");
-    if (!response.ok) throw new RequestError(502, "GitHub returned HTTP " + response.status + ".");
+    if (!response.ok)
+      throw new RequestError(502, "GitHub " + method + " request returned HTTP " + response.status + ".");
     return response.json();
   }
 
@@ -176,7 +182,7 @@ export default {
     const path = new URL(request.url).pathname;
     const branch = env.CHAT_PUBLISHER_BRANCH || "chat-publishing-test";
     if (path === "/health" && request.method === "GET")
-      return reply({ ok: true, destination_branch: branch, branch_guard: true, image_download_version: 2 });
+      return reply({ ok: true, destination_branch: branch, branch_guard: true, image_download_version: 3 });
     if (path !== "/publish-article") return reply({ error: "Not found." }, 404);
     if (request.method !== "POST") return reply({ error: "Use POST." }, 405);
     if (!(env.CHAT_PUBLISHER_API_KEY?.length >= 32) || !env.GITHUB_TOKEN ||
@@ -185,6 +191,7 @@ export default {
     if (!(await matches(request.headers.get("Authorization") || "", "Bearer " + env.CHAT_PUBLISHER_API_KEY)))
       return reply({ error: "Unauthorized." }, 401);
 
+    let stage = "validate_article";
     try {
       const raw = await readBytes(request.body, 256 * 1024);
       let article;
@@ -195,11 +202,15 @@ export default {
         throw new RequestError(422, "Supply the expected GitHub destination branch.");
       if (article.expected_branch !== branch)
         throw new RequestError(409, "The expected branch differs from the configured destination.");
+      stage = "download_image";
       const image = await downloadImage(article.openaiFileIdRefs[0]);
+      stage = "commit_to_github";
       return reply(await publish(article, image, env, branch));
     } catch (error) {
-      if (error instanceof RequestError) return reply({ error: error.message }, error.status);
-      return reply({ error: "Could not reach the image host or GitHub. Check the branch before retrying." }, 502);
+      if (error instanceof RequestError) return reply({ error: error.message, stage }, error.status);
+      const kind = ["TypeError", "TimeoutError", "AbortError", "SyntaxError", "RangeError"].includes(error?.name)
+        ? error.name : "Error";
+      return reply({ error: "Publishing stopped during " + stage + ".", stage, kind }, 502);
     }
   },
 };
