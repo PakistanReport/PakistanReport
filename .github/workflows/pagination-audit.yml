@@ -1,0 +1,29 @@
+name: Read-only pagination build audit
+
+on:
+  pull_request:
+    paths:
+      - "scripts/check_indexing_paths.py"
+      - ".github/workflows/pagination-audit.yml"
+      - "_layouts/**"
+      - "_includes/**"
+      - "_config.yml"
+      - "_posts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pagination-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - name: Build Jekyll without deployment
+        run: bundle exec jekyll build
+      - name: Check generated archive links and reachability
+        run: python3 scripts/check_indexing_paths.py _site
