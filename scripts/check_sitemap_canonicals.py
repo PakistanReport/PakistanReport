@@ -4,7 +4,7 @@ import re
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, unquote
 from xml.etree import ElementTree as ET
 
 class Head(HTMLParser):
@@ -43,11 +43,11 @@ def main():
         if parsed.netloc not in ("pakistanreport.pk", "www.pakistanreport.pk"):
             problems.append(("unexpected sitemap hostname", url))
             continue
-        file = file_for(root, parsed.path)
+        file = file_for(root, unquote(parsed.path))
         if file is None:
             problems.append(("sitemap target missing from build", url))
             continue
-        if file.suffix != ".html":
+        if file.suffix != ".html" or re.fullmatch(r"/google[0-9a-f]+\\.html", parsed.path):
             continue
         html_count += 1
         parser = Head()
