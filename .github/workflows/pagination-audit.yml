@@ -31,3 +31,10 @@ jobs:
 
       - name: Check sitemap targets, canonicals and noindex directives
         run: python3 scripts/check_sitemap_canonicals.py _site
+      - name: Save generated site for offline GSC URL comparison
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: generated-site-audit
+          path: _site/
+          retention-days: 3
