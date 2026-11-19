@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "scripts/check_indexing_paths.py"
+      - "scripts/check_sitemap_canonicals.py"
       - ".github/workflows/pagination-audit.yml"
       - "_layouts/**"
       - "_includes/**"
@@ -27,3 +28,6 @@ jobs:
         run: bundle exec jekyll build
       - name: Check generated archive links and reachability
         run: python3 scripts/check_indexing_paths.py _site
+
+      - name: Check sitemap targets, canonicals and noindex directives
+        run: python3 scripts/check_sitemap_canonicals.py _site
