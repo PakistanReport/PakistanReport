@@ -47,7 +47,7 @@ def main():
         if file is None:
             problems.append(("sitemap target missing from build", url))
             continue
-        if file.suffix != ".html" or re.fullmatch(r"/google[0-9a-f]+\\.html", parsed.path):
+        if file.suffix != ".html" or (file.name.startswith("google") and file.name.endswith(".html") and re.fullmatch(r"google[0-9a-f]+\.html", file.name)):
             continue
         html_count += 1
         parser = Head()
