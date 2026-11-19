@@ -7,7 +7,7 @@ author: "Pakistan Report Editorial Desk"
 date: "2026-11-19 12:24:27 +0500"
 published: true
 image: "/assets/images/2026-11-19-pakistan-army-successfully-tests-fatah-3-supersonic-cruise-missile.png"
-image_alt: "Illustration of a camouflaged Pakistani military missile launcher firing a Fatah-3 missile at a desert test range, with exhaust flames, smoke and mountains in the background."
+image_alt: "A camouflaged Pakistani military launcher fires a Fatah-3 missile at a desert test range, with exhaust flames, smoke and mountains in the background."
 image_caption: "Pakistan Report Illustration"
 ---
 
