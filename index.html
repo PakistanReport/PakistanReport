@@ -185,10 +185,11 @@ description: "Pakistan news, politics, economy, business, technology, world deve
  .pr-home .pr-strip-links a { align-items:flex-start; min-height:0; padding-top:0; }
 }
 
-/* Show the entire In Focus photograph without cropping at desktop widths. */
+/* Fill the In Focus card edge to edge on desktop; keep text legible. */
 @media (min-width:851px) {
- .pr-home .pr-focus-card { background:#e7eee9; }
- .pr-home .pr-focus-image { width:100%; height:100%; object-fit:contain; object-position:center center; }
+ .pr-home .pr-focus-card { background:#064c3b; }
+ .pr-home .pr-focus-image { width:100%; height:100%; object-fit:cover; object-position:center center; }
+ .pr-home .pr-focus-card:after { background:linear-gradient(to bottom,transparent 52%,rgba(0,39,30,.12) 66%,rgba(0,39,30,.78) 100%); }
 }
 
 
