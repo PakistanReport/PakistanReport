@@ -32,7 +32,7 @@ def parse(path):
 def main():
     root = Path(sys.argv[1] if len(sys.argv) > 1 else "_site")
     index = parse(root / "article-index" / "index.html")
-    article_links = [p for p in index.links if p.startswith(("/business/", "/economy/", "/pakistan/", "/politics/", "/world/", "/technology/"))]
+    article_links = [p for p in index.links if p.startswith(("/business/", "/economy/", "/pakistan/", "/politics/", "/world/", "/technology/")) and len([part for part in p.split("/") if part]) >= 2]
     assert len(article_links) == 250, f"Expected 250 linked articles, got {len(article_links)}"
     assert len(set(article_links)) == 250, "Duplicate article links in index"
     for url in article_links:
