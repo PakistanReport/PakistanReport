@@ -505,6 +505,21 @@
 
     }
 
+
+    /* Match the approved homepage masthead on desktop. */
+    @media (min-width: 851px) {
+      .top-strip { height: 26px; background: #064c3b; font: 15px Georgia, serif; }
+      .top-strip-inner { width: auto; max-width: none; height: 100%; padding: 3px max(3%, calc((100% - 1180px)/2)); box-sizing: border-box; align-items: center; }
+      .masthead { border-bottom: 0; }
+      .masthead-inner { width: 94%; max-width: 1180px; padding: 8px 0 7px; }
+      .logo { display: block; color: #064c3b; font: 700 36px/1.08 Georgia, serif; letter-spacing: -1px; }
+      .logo span { font-weight: 700; }
+      .tagline { margin: 0; color: #383838; font: 16px Georgia, serif; }
+      .nav { border-top: 1px solid #e3e3e3; border-bottom: 1px solid #d0d0d0; }
+      .nav-inner { width: 94%; max-width: 1180px; min-height: 36px; align-items: center; gap: 34px; }
+      .nav a { padding: 0; font: 700 14px Georgia, serif; }
+    }
+
   </style>
 
 {% include analytics.html %}
@@ -515,7 +530,7 @@
 
 <div class="top-strip">
   <div class="top-strip-inner">
-    <span style="margin-left: auto;">The News in Perspective</span>
+    <span style="margin-left: auto;">Pakistan, the Region and the World</span>
   </div>
 </div>
 
