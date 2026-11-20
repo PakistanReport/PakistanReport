@@ -245,13 +245,31 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs'" %}
 {% comment %}A single URL ledger prevents repeat homepage placements; In Focus is reserved first.{% endcomment %}
 {% assign used_urls = "|" %}
+{% comment %}Automatic In Focus: prioritise impactful reporting from the last 48 hours.
+Category priority: Pakistan/Politics/Economy/Business, then World/Technology.
+Within a tier, the newest matching article wins. Older articles are fallback only.
+The selected story is reserved before every other homepage section.{% endcomment %}
 {% assign focus = nil %}
-{% assign chosen_focus = site.data.homepage_editorial.in_focus | default: "" %}
-{% if chosen_focus != "" %}
-  {% assign focus_matches = regular_posts | where: "url", chosen_focus %}
-  {% assign focus = focus_matches.first %}
-{% endif %}
-{% unless focus %}{% assign focus = regular_posts[7] %}{% endunless %}
+{% assign focus_cutoff = site.time | date: "%s" | minus: 172800 %}
+{% for tier in (1..4) %}
+  {% if focus %}{% break %}{% endif %}
+  {% for post in regular_posts %}
+    {% assign post_seconds = post.date | date: "%s" | plus: 0 %}
+    {% assign headline = post.title | downcase %}
+    {% assign high_impact = false %}
+    {% if headline contains "billion" or headline contains "trillion" or headline contains "referendum" or headline contains "election" or headline contains "explosion" or headline contains "agreement" or headline contains "discovery" or headline contains "inflation" or headline contains "trade" or headline contains "security" or headline contains "court" or headline contains "parliament" or headline contains "provinces" or headline contains "imf" or headline contains "budget" or headline contains "exports" or headline contains "energy" or headline contains "investment" %}
+      {% assign high_impact = true %}
+    {% endif %}
+    {% assign priority_category = false %}
+    {% if post.category == "Pakistan" or post.category == "Politics" or post.category == "Economy" or post.category == "Business" %}{% assign priority_category = true %}{% endif %}
+    {% assign qualifies = false %}
+    {% if tier == 1 and post_seconds >= focus_cutoff and priority_category and high_impact %}{% assign qualifies = true %}{% endif %}
+    {% if tier == 2 and post_seconds >= focus_cutoff and high_impact %}{% assign qualifies = true %}{% endif %}
+    {% if tier == 3 and post_seconds >= focus_cutoff and priority_category %}{% assign qualifies = true %}{% endif %}
+    {% if tier == 4 %}{% assign qualifies = true %}{% endif %}
+    {% if qualifies %}{% assign focus = post %}{% break %}{% endif %}
+  {% endfor %}
+{% endfor %}
 {% if focus %}{% assign focus_token = focus.url | prepend: "|" | append: "|" %}{% assign used_urls = used_urls | append: focus.url | append: "|" %}{% endif %}
 
 {% assign lead = nil %}
@@ -352,7 +370,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   {% endfor %}
 {% endfor %}
 {% if lead %}
-  <!-- Editorial choices come from _data/homepage_editorial.yml. Unset or invalid paths fall back to published posts. -->
+  <!-- Main story and Editor's Picks may be curated; In Focus is selected automatically. -->
   <section class="pr-lead-grid" aria-label="Featured reporting">
     <article class="pr-lead">
       {% if lead.image %}<a href="{{ lead.url | relative_url }}"><img class="pr-lead-image" src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}"></a>{% endif %}
@@ -431,6 +449,8 @@ description: "Pakistan news, politics, economy, business, technology, world deve
         <a href="{{ category_archive | relative_url }}" aria-label="More {{ group }} stories">→</a>
       </div>
       {% for post in site.posts %}
+        {% comment %}In Focus must not repeat in homepage category columns; category archive pages remain unchanged.{% endcomment %}
+        {% if post.url == focus.url %}{% continue %}{% endif %}
         {% if category_names contains post.category and group_count < 3 %}
           {% if group_count == 0 %}
           <article class="pr-category-feature">
