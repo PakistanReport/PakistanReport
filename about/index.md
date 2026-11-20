@@ -12,7 +12,7 @@ We aim to go beyond the headline: to establish what happened, present the releva
 
 ## How We Report
 
-Accuracy, clarity and context guide our coverage. We prioritise verifiable information, including official records, public data, regulatory announcements, company disclosures and other credible sources.
+We focus first on reporting real events and developments, establishing what happened and why it matters. We then provide the relevant facts, figures and context, drawing on verifiable information such as official records, public data, regulatory announcements, company disclosures and other credible sources.
 
 We distinguish established facts from allegations, claims and analysis, and acknowledge uncertainty when information remains incomplete.
 
