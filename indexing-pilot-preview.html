@@ -1,0 +1,30 @@
+---
+layout: default
+title: "Indexing Discovery Pilot — Editorial Preview"
+description: "Draft preview of selected Business and Economy reporting."
+permalink: /indexing-pilot-preview/
+sitemap: false
+indexing_pilot_preview: true
+---
+<!-- Draft PR preview only. This page is not linked from site navigation. -->
+<main class="container">
+  <h1>Editorial discovery pilot (preview only)</h1>
+  <p>Ten existing Business and Economy articles selected from the Search Console discovered-not-indexed export. Titles and dates come directly from the published Jekyll post records.</p>
+  {% assign pilot_sections = "business,economy" | split: "," %}
+  {% for section in pilot_sections %}
+    <section aria-label="{{ section | capitalize }} pilot links">
+      <h2>{{ section | capitalize }}</h2>
+      <ul>
+        {% assign targets = site.data.indexing_pilot[section] %}
+        {% for target in targets %}
+          {% assign matched = site.posts | where: "url", target | first %}
+          {% if matched %}
+            <li><a href="{{ matched.url | relative_url }}">{{ matched.title | escape }}</a> — <time datetime="{{ matched.date | date: '%Y-%m-%d' }}">{{ matched.date | date: "%B %-d, %Y" }}</time></li>
+          {% else %}
+            <li>Missing post record for {{ target | escape }} — do not publish until fixed</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</main>

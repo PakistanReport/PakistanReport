@@ -1,0 +1,52 @@
+name: Read-only pagination build audit
+
+on:
+  pull_request:
+    paths:
+      - "scripts/check_indexing_paths.py"
+      - "scripts/check_sitemap_canonicals.py"
+      - "scripts/export_indexing_manifest.py"
+      - "scripts/check_indexing_pilot.py"
+      - "scripts/check_article_index.py"
+      - "_data/discovery_article_urls.yml"
+      - "article-index.html"
+      - "_data/indexing_pilot.yml"
+      - "indexing-pilot-preview.html"
+      - ".github/workflows/pagination-audit.yml"
+      - "_layouts/**"
+      - "_includes/**"
+      - "_config.yml"
+      - "_posts/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pagination-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - name: Build Jekyll without deployment
+        run: bundle exec jekyll build
+      - name: Check generated archive links and reachability
+        run: python3 scripts/check_indexing_paths.py _site
+
+      - name: Check sitemap targets, canonicals and noindex directives
+        run: python3 scripts/check_sitemap_canonicals.py _site
+      - name: Validate draft editorial discovery pilot
+        run: python3 scripts/check_indexing_pilot.py _site
+      - name: Validate public article index and 250 article links
+        run: python3 scripts/check_article_index.py _site
+      - name: Export compact generated-page and archive-link manifest
+        run: python3 scripts/export_indexing_manifest.py _site audit-manifest
+      - name: Save compact manifest for offline GSC URL comparison
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexing-manifest
+          path: audit-manifest/
+          retention-days: 3

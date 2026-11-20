@@ -1,0 +1,38 @@
+---
+layout: default
+title: "Article Index"
+description: "Browse selected Pakistan Report coverage across business, economy, Pakistan, politics, world and technology."
+permalink: /article-index/
+---
+<style>
+.pr-article-index{max-width:950px;margin:30px auto 70px;padding:0 20px}
+.pr-article-index h1{font:700 clamp(28px,4vw,40px)/1.2 Georgia,serif;color:#064c3b}
+.pr-article-index h2{font:700 24px Georgia,serif;border-bottom:1px solid #dce2df;padding-bottom:8px;margin-top:32px}
+.pr-article-index ul{list-style:none;padding:0}
+.pr-article-index li{padding:8px 0;border-bottom:1px solid #edf0ee}
+.pr-article-index li a{text-decoration:underline;text-underline-offset:2px}
+.pr-article-index time{color:#66716c;font-size:13px;margin-left:8px;white-space:nowrap}
+</style>
+<main class="pr-article-index">
+  <h1>Article Index</h1>
+  <p>Selected reporting from Pakistan Report, organized by section. For the newest coverage, visit <a href="{{ '/latest/' | relative_url }}">Latest Stories</a>.</p>
+  {% assign sections = "business,economy,pakistan,politics,world,technology" | split: "," %}
+  {% for section in sections %}
+    {% assign section_count = 0 %}
+    <section aria-label="{{ section | capitalize }} articles">
+      <h2>{{ section | capitalize }}</h2>
+      <ul>
+        {% for target in site.data.discovery_article_urls.article_urls %}
+          {% assign target_section = target | remove_first: '/' | split: '/' | first %}
+          {% if target_section == section %}
+            {% assign matched = site.posts | where: "url", target | first %}
+            {% if matched %}
+              <li><a href="{{ matched.url | relative_url }}">{{ matched.title | escape }}</a><time datetime="{{ matched.date | date: '%Y-%m-%d' }}">{{ matched.date | date: "%b %-d, %Y" }}</time></li>
+              {% assign section_count = section_count | plus: 1 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</main>

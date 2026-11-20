@@ -1,0 +1,14 @@
+# Draft-only indexing discovery pilot. Do not deploy without editorial approval.
+# These are GSC-affected articles, not a claim that Google will index them.
+business:
+  - /business/colgate-palmolive-pg-karachi-assets-deal/
+  - /business/engro-fertilizers-mari-energies-community-development/
+  - /business/frieslandcampina-engro-nine-month-profits/
+  - /business/giz-support-300-sindh-businesses-environment/
+  - /business/pakistan-225-billion-battery-factory-awaits-policy-approval/
+economy:
+  - /economy/china-kuwait-pakistan-loan-rollovers/
+  - /economy/ecc-supplementary-grants-defence-projects/
+  - /economy/ecc-water-infrastructure/
+  - /economy/fbr-super-tax-phase-out-kati-karachi/
+  - /economy/imf-tax-base-economic-reforms/
