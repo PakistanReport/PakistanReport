@@ -13,4 +13,5 @@ editors_picks: []
 #   - /category/second-article/
 #   - /category/third-article/
 
-in_focus: "/economy/over-55000-tonnes-lpg-arrive-port-qasim-ahead-winter/"
+# In Focus is selected automatically from recent, high-impact articles.
+# No manual in_focus setting is needed.
