@@ -12,7 +12,7 @@ We aim to go beyond the headline: to establish what happened, present the releva
 
 ## How We Report
 
-Our coverage is grounded in real events and developments, supported by official records, public data, regulatory announcements, company disclosures and reporting from other credible sources. We bring these together to explain what happened, why it matters and the wider context.
+Pakistan Report covers real-world news and developments across Pakistan and beyond. Our reporting draws on verifiable information, including official records, public data, regulatory announcements, company disclosures, statements from relevant parties and credible news reporting. We check key facts, distinguish confirmed information from claims, and provide the context readers need to understand each story.
 
 We distinguish established facts from allegations, claims and analysis, and acknowledge uncertainty when information remains incomplete.
 
