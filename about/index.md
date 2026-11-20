@@ -12,7 +12,7 @@ We aim to go beyond the headline: to establish what happened, present the releva
 
 ## How We Report
 
-We focus first on reporting real events and developments, establishing what happened and why it matters. We then provide the relevant facts, figures and context, drawing on verifiable information such as official records, public data, regulatory announcements, company disclosures and other credible sources.
+Our coverage is grounded in real events and developments, supported by official records, public data, regulatory announcements, company disclosures and reporting from other credible sources. We bring these together to explain what happened, why it matters and the wider context.
 
 We distinguish established facts from allegations, claims and analysis, and acknowledge uncertainty when information remains incomplete.
 
