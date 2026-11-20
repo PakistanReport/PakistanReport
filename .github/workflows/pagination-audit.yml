@@ -6,6 +6,9 @@ on:
       - "scripts/check_indexing_paths.py"
       - "scripts/check_sitemap_canonicals.py"
       - "scripts/export_indexing_manifest.py"
+      - "scripts/check_indexing_pilot.py"
+      - "_data/indexing_pilot.yml"
+      - "indexing-pilot-preview.html"
       - ".github/workflows/pagination-audit.yml"
       - "_layouts/**"
       - "_includes/**"
@@ -32,6 +35,8 @@ jobs:
 
       - name: Check sitemap targets, canonicals and noindex directives
         run: python3 scripts/check_sitemap_canonicals.py _site
+      - name: Validate draft editorial discovery pilot
+        run: python3 scripts/check_indexing_pilot.py _site
       - name: Export compact generated-page and archive-link manifest
         run: python3 scripts/export_indexing_manifest.py _site audit-manifest
       - name: Save compact manifest for offline GSC URL comparison
