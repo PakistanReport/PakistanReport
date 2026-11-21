@@ -114,6 +114,10 @@
 
     .masthead-inner {
       padding: 22px 0 19px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      line-height: 1.55;
     }
 
     .logo {
@@ -553,15 +557,14 @@
 <header class="masthead">
 
   <div class="masthead-inner">
-
-    <a class="logo" href="{{ site.url }}/">
-      PAKISTAN <span>REPORT</span>
-    </a>
-
-    <div class="tagline">
-      The News in Perspective
+    <div>
+      <a class="logo" href="{{ site.url }}/">
+        PAKISTAN <span>REPORT</span>
+      </a>
+      <div class="tagline">
+        The News in Perspective
+      </div>
     </div>
-
   </div>
 
 </header>
