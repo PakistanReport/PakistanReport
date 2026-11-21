@@ -23,8 +23,6 @@ Transworld said it had arranged alternative international routes to maintain con
 
 The company is coordinating with the international SMW5 cable consortium to address the fault and restore normal service.
 
-Internet monitoring organisation NetBlocks also reported a decline in connectivity consistent with the submarine cable disruption.
-
 The latest incident follows another fault in the SMW5 system in July, which was repaired within days, according to the PTA.
 
 Pakistan currently relies on seven international submarine cable systems operated by PTCL, Transworld Associates and Cyber Internet Services to carry much of its international internet traffic.
