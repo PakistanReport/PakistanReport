@@ -33,6 +33,6 @@ The prime minister and president agreed that outstanding matters should be addre
 
 PPP Senator Sherry Rehman separately clarified that Bilawal Bhutto Zardari remained committed to the coalition but had concerns about insufficient consultation on important national decisions.
 
-She also said his earlier remarks about possible unrest in Sindh were intended as a warning about the consequences of political decisions made without public consent, rather than a threat of violence.
+She also said his earlier remarks about possible unrest in Sindh were intended to highlight concerns over political decisions made without public consultation.
 
 The discussions at Aiwan-e-Sadr reflected efforts to ease tensions between the coalition partners and maintain cooperation on national and political matters.
