@@ -21,7 +21,7 @@ The planned response includes blankets, warm clothing, quilts, bedding and other
 
 According to the strategy, humanitarian partners have approximately $540,100 available, alongside $90,000 in pooled funding, against a reported shortfall exceeding $3.54 million.
 
-Sindh's contingency relief needs alone account for approximately $1.62 million of the programme's total funding shortfall of $3.54 million.
+Sindh's contingency relief needs alone account for approximately $1.62 million of the funding shortfall.
 
 Priority areas include nine districts in Gilgit-Baltistan, four in Azad Jammu and Kashmir and 16 in Khyber Pakhtunkhwa, alongside vulnerable communities in Punjab, Sindh and Balochistan.
 
