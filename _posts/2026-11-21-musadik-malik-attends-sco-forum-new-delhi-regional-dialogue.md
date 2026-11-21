@@ -32,5 +32,3 @@ Pakistan's Foreign Office said the country's participation reflected its commitm
 The visit comes amid strained relations between Islamabad and New Delhi following their military confrontation in May 2025. India has separately reiterated that its position on the Indus Waters Treaty remains unchanged.
 
 Pakistan currently holds the rotating chairmanship of the SCO Council of Heads of State for 2026–27 and is scheduled to host the organisation's next summit in Islamabad in August 2027.
-
-The New Delhi forum provides an opportunity for continued multilateral engagement, although no change in bilateral relations has been announced.
