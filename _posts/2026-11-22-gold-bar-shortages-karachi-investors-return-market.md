@@ -23,7 +23,7 @@ According to association figures, the official price of 24-karat gold reached Rs
 
 The quoted price has since fallen to approximately Rs376,336 per tola, encouraging both investors and jewellery buyers to return to shops.
 
-Haseen Qureishi, president of the All Karachi Jewellers and Manufacturers Association, said investors currently outnumber jewellery customers, although some buyers remain cautious and expect further price declines.
+Haseen Qureishi, president of the All Karachi Jewellers and Manufacturers Association, said investors currently outnumber jewellery customers, although some remain cautious and expect further price declines.
 
 Lower prices have also revived demand for wedding jewellery, after high rates previously encouraged consumers to consider silver and artificial alternatives.
 
