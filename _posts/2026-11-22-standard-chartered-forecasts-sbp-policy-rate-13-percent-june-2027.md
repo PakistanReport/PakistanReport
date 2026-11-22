@@ -1,7 +1,7 @@
 ---
 layout: "article"
 title: "Standard Chartered Forecasts SBP Policy Rate at 13% by June 2027"
-description: "Standard Chartered expects Pakistan's policy rate to rise to 13% by June 2027 as elevated oil prices keep inflation near 10% and economic growth slows."
+description: "Standard Chartered expects Pakistan's policy rate to rise to 13% by June 2027, forecasting average inflation of around 10% in FY27 amid elevated oil prices and slowing economic growth."
 category: "Economy"
 author: "Pakistan Report Editorial Desk"
 date: "2026-11-22 19:59:43 +0500"
