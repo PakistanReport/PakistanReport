@@ -25,6 +25,6 @@ The bank said remittances and improved foreign exchange reserves have helped Pak
 
 Standard Chartered's global geopolitical strategist Philippe Dauba-Pantanacce warned that damage to energy infrastructure and depleted reserves could keep oil prices elevated even if regional tensions ease.
 
-The bank's Pakistan chief executive, Adil Salahuddin, called for stronger exports, a broader tax base and continued economic discipline after the current International Monetary Fund programme concludes in 2027.
+The bank's Pakistan chief executive, Adil Salahuddin, called for stronger exports and a broader tax base, while stressing the importance of maintaining fiscal discipline after the current IMF programme ends in 2027.
 
 Nadeem said foreign investors favour continued IMF engagement because they regard it as supporting policy stability and fiscal discipline.
