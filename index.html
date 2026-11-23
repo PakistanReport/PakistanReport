@@ -255,6 +255,7 @@ The selected story is reserved before every other homepage section.{% endcomment
 {% for tier in (1..4) %}
   {% if focus %}{% break %}{% endif %}
   {% for post in regular_posts %}
+    {% if post.title == "PSO, SSGC LPG Face Possible Rs1 Billion Loss on Imported Shipment" %}{% continue %}{% endif %}
     {% assign post_seconds = post.date | date: "%s" | plus: 0 %}
     {% assign headline = post.title | downcase %}
     {% assign high_impact = false %}
