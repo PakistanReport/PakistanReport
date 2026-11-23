@@ -1,0 +1,922 @@
+[
+  {
+    "name": "Dawn",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.dawn.com/",
+      "https://www.dawn.com/business",
+      "https://www.dawn.com/pakistan",
+      "https://www.dawn.com/newspaper/national"
+    ]
+  },
+  {
+    "name": "Express Tribune",
+    "kind": "newsroom",
+    "pages": [
+      "https://tribune.com.pk/",
+      "https://tribune.com.pk/business",
+      "https://tribune.com.pk/pakistan"
+    ]
+  },
+  {
+    "name": "Geo News",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.geo.tv/"
+    ]
+  },
+  {
+    "name": "Business Recorder",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.brecorder.com/",
+      "https://www.brecorder.com/business-finance",
+      "https://www.brecorder.com/markets"
+    ]
+  },
+  {
+    "name": "APP",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.app.com.pk/",
+      "https://www.app.com.pk/business",
+      "https://www.app.com.pk/national"
+    ]
+  },
+  {
+    "name": "ProPakistani",
+    "kind": "newsroom",
+    "pages": [
+      "https://propakistani.pk/",
+      "https://propakistani.pk/category/business/",
+      "https://propakistani.pk/category/telecom/"
+    ]
+  },
+  {
+    "name": "Startup Pakistan",
+    "kind": "newsroom",
+    "pages": [
+      "https://startuppakistan.com.pk/"
+    ]
+  },
+  {
+    "name": "Profit",
+    "kind": "newsroom",
+    "pages": [
+      "https://profit.pakistantoday.com.pk/",
+      "https://profit.pakistantoday.com.pk/category/headlines/"
+    ]
+  },
+  {
+    "name": "The News",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.thenews.pk/",
+      "https://www.thenews.pk/latest-stories",
+      "https://www.thenews.pk/print/category/business"
+    ]
+  },
+  {
+    "name": "ARY",
+    "kind": "newsroom",
+    "pages": [
+      "https://arynews.tv/"
+    ]
+  },
+  {
+    "name": "Dunya",
+    "kind": "newsroom",
+    "pages": [
+      "https://dunyanews.tv/"
+    ]
+  },
+  {
+    "name": "Samaa",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.samaa.tv/"
+    ]
+  },
+  {
+    "name": "Aaj",
+    "kind": "newsroom",
+    "pages": [
+      "https://english.aaj.tv/"
+    ]
+  },
+  {
+    "name": "Pakistan Today",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.pakistantoday.com.pk/"
+    ]
+  },
+  {
+    "name": "The Nation",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.nation.com.pk/",
+      "https://www.nation.com.pk/national"
+    ]
+  },
+  {
+    "name": "TechJuice",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.techjuice.pk/",
+      "https://www.techjuice.pk/category/telecom/"
+    ]
+  },
+  {
+    "name": "PhoneWorld",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.phoneworld.com.pk/"
+    ]
+  },
+  {
+    "name": "Brandsynario",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.brandsynario.com/"
+    ]
+  },
+  {
+    "name": "Mettis Global",
+    "kind": "newsroom",
+    "pages": [
+      "https://mettisglobal.news/"
+    ]
+  },
+  {
+    "name": "Daily Times",
+    "kind": "newsroom",
+    "pages": [
+      "https://dailytimes.com.pk/"
+    ]
+  },
+  {
+    "name": "Pakistan Observer",
+    "kind": "newsroom",
+    "pages": [
+      "https://pakobserver.net/"
+    ]
+  },
+  {
+    "name": "HUM English",
+    "kind": "newsroom",
+    "pages": [
+      "https://humenglish.com/"
+    ]
+  },
+  {
+    "name": "24NewsHD",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.24newshd.tv/"
+    ]
+  },
+  {
+    "name": "Daily Pakistan",
+    "kind": "newsroom",
+    "pages": [
+      "https://en.dailypakistan.com.pk/"
+    ]
+  },
+  {
+    "name": "The Friday Times",
+    "kind": "newsroom",
+    "pages": [
+      "https://thefridaytimes.com/"
+    ]
+  },
+  {
+    "name": "Minute Mirror",
+    "kind": "newsroom",
+    "pages": [
+      "https://minutemirror.com.pk/"
+    ]
+  },
+  {
+    "name": "The Frontier Post",
+    "kind": "newsroom",
+    "pages": [
+      "https://thefrontierpost.com/"
+    ]
+  },
+  {
+    "name": "PkRevenue",
+    "kind": "newsroom",
+    "pages": [
+      "https://pkrevenue.com/"
+    ]
+  },
+  {
+    "name": "WealthPK",
+    "kind": "newsroom",
+    "pages": [
+      "https://www.wealthpk.pk/",
+      "https://www.wealthpk.pk/news"
+    ]
+  },
+  {
+    "name": "Radio Pakistan",
+    "kind": "newsroom",
+    "pages": [
+      "https://radio.gov.pk/"
+    ]
+  },
+  {
+    "name": "PTV",
+    "kind": "newsroom",
+    "pages": [
+      "https://ptv.com.pk/"
+    ]
+  },
+  {
+    "name": "Government of Pakistan",
+    "kind": "primary",
+    "pages": [
+      "https://www.pakistan.gov.pk/"
+    ]
+  },
+  {
+    "name": "Press Information Department",
+    "kind": "primary",
+    "pages": [
+      "https://pid.gov.pk/"
+    ]
+  },
+  {
+    "name": "Cabinet Division",
+    "kind": "primary",
+    "pages": [
+      "https://www.cabinet.gov.pk/"
+    ]
+  },
+  {
+    "name": "National Assembly",
+    "kind": "primary",
+    "pages": [
+      "https://www.na.gov.pk/"
+    ]
+  },
+  {
+    "name": "Senate of Pakistan",
+    "kind": "primary",
+    "pages": [
+      "https://www.senate.gov.pk/"
+    ]
+  },
+  {
+    "name": "Pakistan Code",
+    "kind": "primary",
+    "pages": [
+      "https://www.pakistancode.gov.pk/"
+    ]
+  },
+  {
+    "name": "Ministry of Finance",
+    "kind": "primary",
+    "pages": [
+      "https://www.finance.gov.pk/"
+    ]
+  },
+  {
+    "name": "Planning Commission",
+    "kind": "primary",
+    "pages": [
+      "https://www.pc.gov.pk/"
+    ]
+  },
+  {
+    "name": "Pakistan Bureau of Statistics",
+    "kind": "primary",
+    "pages": [
+      "https://www.pbs.gov.pk/"
+    ]
+  },
+  {
+    "name": "Auditor General of Pakistan",
+    "kind": "primary",
+    "pages": [
+      "https://www.agp.gov.pk/"
+    ]
+  },
+  {
+    "name": "Public Procurement Regulatory Authority",
+    "kind": "primary",
+    "pages": [
+      "https://www.ppra.org.pk/"
+    ]
+  },
+  {
+    "name": "Punjab Assembly",
+    "kind": "primary",
+    "pages": [
+      "https://www.pap.gov.pk/"
+    ]
+  },
+  {
+    "name": "Sindh Assembly",
+    "kind": "primary",
+    "pages": [
+      "https://www.pas.gov.pk/"
+    ]
+  },
+  {
+    "name": "Khyber Pakhtunkhwa Assembly",
+    "kind": "primary",
+    "pages": [
+      "https://www.pakp.gov.pk/"
+    ]
+  },
+  {
+    "name": "Balochistan Assembly",
+    "kind": "primary",
+    "pages": [
+      "https://www.pabalochistan.gov.pk/"
+    ]
+  },
+  {
+    "name": "Government of Punjab",
+    "kind": "primary",
+    "pages": [
+      "https://punjab.gov.pk/"
+    ]
+  },
+  {
+    "name": "Government of Sindh",
+    "kind": "primary",
+    "pages": [
+      "https://www.sindh.gov.pk/"
+    ]
+  },
+  {
+    "name": "Government of Khyber Pakhtunkhwa",
+    "kind": "primary",
+    "pages": [
+      "https://kp.gov.pk/"
+    ]
+  },
+  {
+    "name": "Government of Balochistan",
+    "kind": "primary",
+    "pages": [
+      "https://balochistan.gov.pk/"
+    ]
+  },
+  {
+    "name": "State Bank of Pakistan",
+    "kind": "primary",
+    "pages": [
+      "https://www.sbp.org.pk/"
+    ]
+  },
+  {
+    "name": "Securities and Exchange Commission of Pakistan",
+    "kind": "primary",
+    "pages": [
+      "https://www.secp.gov.pk/"
+    ]
+  },
+  {
+    "name": "Pakistan Stock Exchange",
+    "kind": "primary",
+    "pages": [
+      "https://www.psx.com.pk/"
+    ]
+  },
+  {
+    "name": "PSX Data Portal",
+    "kind": "primary",
+    "pages": [
+      "https://dps.psx.com.pk/"
+    ]
+  },
+  {
+    "name": "Federal Board of Revenue",
+    "kind": "primary",
+    "pages": [
+      "https://www.fbr.gov.pk/"
+    ]
+  },
+  {
+    "name": "Ministry of Commerce",
+    "kind": "primary",
+    "pages": [
+      "https://www.commerce.gov.pk/"
+    ]
+  },
+  {
+    "name": "Trade Development Authority of Pakistan",
+    "kind": "primary",
+    "pages": [
+      "https://www.tdap.gov.pk/"
+    ]
+  },
+  {
+    "name": "Competition Commission of Pakistan",
+    "kind": "primary",
+    "pages": [
+      "https://www.cc.gov.pk/"
+    ]
+  },
+  {
+    "name": "Privatisation Commission",
+    "kind": "primary",
+    "pages": [
+      "https://www.privatisation.gov.pk/"
+    ]
+  },
+  {
+    "name": "Pakistan Bureau of Statistics",
+    "kind": "primary",
+    "pages": [
+      "https://www.pbs.gov.pk/"
+    ]
+  },
+  {
+    "name": "Pakistan Telecommunication Authority",
+    "kind": "primary",
+    "pages": [
+      "https://www.pta.gov.pk/"
+    ]
+  },
+  {
+    "name": "Ministry of IT and Telecommunication",
+    "kind": "primary",
+    "pages": [
+      "https://www.moitt.gov.pk/"
+    ]
+  },
+  {
+    "name": "Ignite",
+    "kind": "primary",
+    "pages": [
+      "https://ignite.org.pk/"
+    ]
+  },
+  {
+    "name": "National Information Technology Board",
+    "kind": "primary",
+    "pages": [
+      "https://www.nitb.gov.pk/"
+    ]
+  },
+  {
+    "name": "NADRA",
+    "kind": "primary",
+    "pages": [
+      "https://www.nadra.gov.pk/"
+    ]
+  },
+  {
+    "name": "SBP Payment Systems",
+    "kind": "primary",
+    "pages": [
+      "https://www.sbp.org.pk/"
+    ]
+  },
+  {
+    "name": "National CERT",
+    "kind": "primary",
+    "pages": [
+      "https://pkcert.gov.pk/"
+    ]
+  },
+  {
+    "name": "ICANN",
+    "kind": "primary",
+    "pages": [
+      "https://www.icann.org/"
+    ]
+  },
+  {
+    "name": "International Telecommunication Union",
+    "kind": "primary",
+    "pages": [
+      "https://www.itu.int/"
+    ]
+  },
+  {
+    "name": "NEPRA",
+    "kind": "primary",
+    "pages": [
+      "https://nepra.org.pk/"
+    ]
+  },
+  {
+    "name": "OGRA",
+    "kind": "primary",
+    "pages": [
+      "https://www.ogra.org.pk/"
+    ]
+  },
+  {
+    "name": "Power Division",
+    "kind": "primary",
+    "pages": [
+      "https://power.gov.pk/"
+    ]
+  },
+  {
+    "name": "Petroleum Division",
+    "kind": "primary",
+    "pages": [
+      "https://petroleum.gov.pk/"
+    ]
+  },
+  {
+    "name": "Private Power and Infrastructure Board",
+    "kind": "primary",
+    "pages": [
+      "https://www.ppib.gov.pk/"
+    ]
+  },
+  {
+    "name": "WAPDA",
+    "kind": "primary",
+    "pages": [
+      "https://www.wapda.gov.pk/"
+    ]
+  },
+  {
+    "name": "Sui Southern Gas Company",
+    "kind": "primary",
+    "pages": [
+      "https://www.ssgc.com.pk/"
+    ]
+  },
+  {
+    "name": "Sui Northern Gas Pipelines",
+    "kind": "primary",
+    "pages": [
+      "https://www.sngpl.com.pk/"
+    ]
+  },
+  {
+    "name": "Supreme Court of Pakistan",
+    "kind": "primary",
+    "pages": [
+      "https://www.supremecourt.gov.pk/"
+    ]
+  },
+  {
+    "name": "Federal Constitutional Court judgments",
+    "kind": "primary",
+    "pages": [
+      "https://fccp.gov.pk/judgements"
+    ]
+  },
+  {
+    "name": "Lahore High Court",
+    "kind": "primary",
+    "pages": [
+      "https://www.lhc.gov.pk/"
+    ]
+  },
+  {
+    "name": "Sindh High Court",
+    "kind": "primary",
+    "pages": [
+      "https://www.sindhhighcourt.gov.pk/"
+    ]
+  },
+  {
+    "name": "Islamabad High Court",
+    "kind": "primary",
+    "pages": [
+      "https://mis.ihc.gov.pk/"
+    ]
+  },
+  {
+    "name": "Election Commission of Pakistan",
+    "kind": "primary",
+    "pages": [
+      "https://www.ecp.gov.pk/"
+    ]
+  },
+  {
+    "name": "National Accountability Bureau",
+    "kind": "primary",
+    "pages": [
+      "https://www.nab.gov.pk/"
+    ]
+  },
+  {
+    "name": "Pakistan Code",
+    "kind": "primary",
+    "pages": [
+      "https://www.pakistancode.gov.pk/"
+    ]
+  },
+  {
+    "name": "Drug Regulatory Authority of Pakistan",
+    "kind": "primary",
+    "pages": [
+      "https://www.dra.gov.pk/"
+    ]
+  },
+  {
+    "name": "National Institutes of Health",
+    "kind": "primary",
+    "pages": [
+      "https://www.nih.org.pk/"
+    ]
+  },
+  {
+    "name": "Ministry of National Health Services",
+    "kind": "primary",
+    "pages": [
+      "https://www.nhsrc.gov.pk/"
+    ]
+  },
+  {
+    "name": "World Health Organization",
+    "kind": "primary",
+    "pages": [
+      "https://www.who.int/"
+    ]
+  },
+  {
+    "name": "UNICEF",
+    "kind": "primary",
+    "pages": [
+      "https://www.unicef.org/"
+    ]
+  },
+  {
+    "name": "Pakistan Meteorological Department",
+    "kind": "primary",
+    "pages": [
+      "https://www.pmd.gov.pk/"
+    ]
+  },
+  {
+    "name": "National Disaster Management Authority",
+    "kind": "primary",
+    "pages": [
+      "https://ndma.gov.pk/"
+    ]
+  },
+  {
+    "name": "Ministry of Climate Change",
+    "kind": "primary",
+    "pages": [
+      "https://www.mocc.gov.pk/"
+    ]
+  },
+  {
+    "name": "Indus River System Authority",
+    "kind": "primary",
+    "pages": [
+      "https://www.irsa.gov.pk/"
+    ]
+  },
+  {
+    "name": "https://www.pcrwr.gov.pk/",
+    "kind": "primary",
+    "pages": [
+      "https://www.pcrwr.gov.pk/"
+    ]
+  },
+  {
+    "name": "Ministry of National Food Security",
+    "kind": "primary",
+    "pages": [
+      "https://www.mnfsr.gov.pk/"
+    ]
+  },
+  {
+    "name": "Food and Agriculture Organization",
+    "kind": "primary",
+    "pages": [
+      "https://www.fao.org/"
+    ]
+  },
+  {
+    "name": "IPCC",
+    "kind": "primary",
+    "pages": [
+      "https://www.ipcc.ch/"
+    ]
+  },
+  {
+    "name": "Higher Education Commission",
+    "kind": "primary",
+    "pages": [
+      "https://www.hec.gov.pk/"
+    ]
+  },
+  {
+    "name": "Ministry of Federal Education",
+    "kind": "primary",
+    "pages": [
+      "https://www.mofept.gov.pk/"
+    ]
+  },
+  {
+    "name": "Pakistan Institute of Education",
+    "kind": "primary",
+    "pages": [
+      "https://www.pie.gov.pk/"
+    ]
+  },
+  {
+    "name": "SUPARCO",
+    "kind": "primary",
+    "pages": [
+      "https://www.suparco.gov.pk/"
+    ]
+  },
+  {
+    "name": "NASA",
+    "kind": "primary",
+    "pages": [
+      "https://www.nasa.gov/"
+    ]
+  },
+  {
+    "name": "European Space Agency",
+    "kind": "primary",
+    "pages": [
+      "https://www.esa.int/"
+    ]
+  },
+  {
+    "name": "International Atomic Energy Agency",
+    "kind": "primary",
+    "pages": [
+      "https://www.iaea.org/"
+    ]
+  },
+  {
+    "name": "Nature",
+    "kind": "primary",
+    "pages": [
+      "https://www.nature.com/"
+    ]
+  },
+  {
+    "name": "Science",
+    "kind": "primary",
+    "pages": [
+      "https://www.science.org/"
+    ]
+  },
+  {
+    "name": "Pakistan Ministry of Foreign Affairs",
+    "kind": "primary",
+    "pages": [
+      "https://mofa.gov.pk/"
+    ]
+  },
+  {
+    "name": "United Nations",
+    "kind": "primary",
+    "pages": [
+      "https://www.un.org/"
+    ]
+  },
+  {
+    "name": "UN Security Council",
+    "kind": "primary",
+    "pages": [
+      "https://www.un.org/securitycouncil/"
+    ]
+  },
+  {
+    "name": "International Monetary Fund",
+    "kind": "primary",
+    "pages": [
+      "https://www.imf.org/"
+    ]
+  },
+  {
+    "name": "World Bank",
+    "kind": "primary",
+    "pages": [
+      "https://www.worldbank.org/"
+    ]
+  },
+  {
+    "name": "Asian Development Bank",
+    "kind": "primary",
+    "pages": [
+      "https://www.adb.org/"
+    ]
+  },
+  {
+    "name": "World Trade Organization",
+    "kind": "primary",
+    "pages": [
+      "https://www.wto.org/"
+    ]
+  },
+  {
+    "name": "International Energy Agency",
+    "kind": "primary",
+    "pages": [
+      "https://www.iea.org/"
+    ]
+  },
+  {
+    "name": "US Energy Information Administration",
+    "kind": "primary",
+    "pages": [
+      "https://www.eia.gov/"
+    ]
+  },
+  {
+    "name": "OPEC",
+    "kind": "primary",
+    "pages": [
+      "https://www.opec.org/"
+    ]
+  },
+  {
+    "name": "US Federal Reserve",
+    "kind": "primary",
+    "pages": [
+      "https://www.federalreserve.gov/"
+    ]
+  },
+  {
+    "name": "European Central Bank",
+    "kind": "primary",
+    "pages": [
+      "https://www.ecb.europa.eu/"
+    ]
+  },
+  {
+    "name": "Google Blog",
+    "kind": "primary",
+    "pages": [
+      "https://blog.google/"
+    ]
+  },
+  {
+    "name": "Microsoft News",
+    "kind": "primary",
+    "pages": [
+      "https://news.microsoft.com/"
+    ]
+  },
+  {
+    "name": "Apple Newsroom",
+    "kind": "primary",
+    "pages": [
+      "https://www.apple.com/newsroom/"
+    ]
+  },
+  {
+    "name": "OpenAI News",
+    "kind": "primary",
+    "pages": [
+      "https://openai.com/news/"
+    ]
+  },
+  {
+    "name": "Meta",
+    "kind": "primary",
+    "pages": [
+      "https://about.meta.com/"
+    ]
+  },
+  {
+    "name": "NVIDIA Newsroom",
+    "kind": "primary",
+    "pages": [
+      "https://nvidianews.nvidia.com/"
+    ]
+  },
+  {
+    "name": "Toyota Newsroom",
+    "kind": "primary",
+    "pages": [
+      "https://global.toyota/en/newsroom/"
+    ]
+  },
+  {
+    "name": "Waymo Blog",
+    "kind": "primary",
+    "pages": [
+      "https://waymo.com/blog/"
+    ]
+  },
+  {
+    "name": "US SEC EDGAR Filings",
+    "kind": "primary",
+    "pages": [
+      "https://www.sec.gov/edgar/search/"
+    ]
+  },
+  {
+    "name": "ClinicalTrials.gov",
+    "kind": "primary",
+    "pages": [
+      "https://clinicaltrials.gov/"
+    ]
+  }
+]

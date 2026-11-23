@@ -1,0 +1,12 @@
+.news-ticker{display:flex;align-items:center;gap:1rem;background:#064c3b;color:#fff;padding:.7rem 4%;font:1rem/1.5 Arial,sans-serif}
+.news-ticker[hidden]{display:none}
+.news-ticker-label{flex:none}
+.news-ticker-window{overflow-x:auto;flex:1;scrollbar-width:thin}
+.news-ticker-track{display:flex;width:max-content;gap:3rem;will-change:transform;animation:ticker-scroll var(--ticker-duration,120s) linear infinite}
+.news-ticker-item{white-space:nowrap;margin:0}
+.news-ticker-item::before{content:'•';margin-right:1rem}
+.news-ticker:hover .news-ticker-track,.news-ticker:focus-within .news-ticker-track,.news-ticker.is-paused .news-ticker-track{animation-play-state:paused}
+.news-ticker-pause{font:inherit;color:inherit;border:1px solid #ffffff80;border-radius:3px;background:transparent;padding:.25rem .55rem;cursor:pointer;flex:none}
+@keyframes ticker-scroll{to{transform:translateX(calc(-1 * var(--ticker-distance,0px)))}}
+@media(prefers-reduced-motion:reduce){.news-ticker-track{animation:none;transform:none}.news-ticker-copy{display:none}.news-ticker-pause{display:none}}
+@media(max-width:650px){.news-ticker{gap:.5rem;padding:.6rem 4%}.news-ticker-label{font-size:.875rem}}
