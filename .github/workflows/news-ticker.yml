@@ -1,0 +1,72 @@
+name: Refresh Pakistan news ticker
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pakistan-news-ticker
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: vars.TICKER_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r _newsroom/ticker/requirements.txt
+      - uses: actions/cache/restore@v4
+        with:
+          path: ticker-output/state.json
+          key: ticker-state-${{ github.run_id }}
+          restore-keys: ticker-state-
+      - name: Inspect sources and verify briefs
+        env:
+          OPENAI_API_KEY: ${{ secrets.TICKER_OPENAI_API_KEY }}
+          TICKER_MODEL: ${{ vars.TICKER_MODEL || 'gpt-4.1-mini' }}
+        run: python _newsroom/ticker/run.py
+      - name: Publish feed without rebuilding website
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import base64, json, subprocess
+          from pathlib import Path
+          def api(path, *args):
+              return subprocess.check_output(['gh', 'api', path, *args], text=True)
+          base = 'repos/'+__import__('os').environ['GH_REPO']
+          refs = json.loads(api(base+'/git/matching-refs/heads/ticker-feed'))
+          if not any(ref['ref'] == 'refs/heads/ticker-feed' for ref in refs):
+              head = json.loads(api(base+'/git/ref/heads/main'))['object']['sha']
+              api(base+'/git/refs', '-f', 'ref=refs/heads/ticker-feed', '-f', 'sha='+head)
+          existing = None
+          tree = json.loads(api(base+'/git/trees/ticker-feed'))
+          for entry in tree['tree']:
+              if entry['path'] == 'ticker.json':
+                  existing = entry['sha']
+          content = Path('ticker-output/ticker.json').read_bytes()
+          payload = {'message':'Refresh verified news ticker', 'branch':'ticker-feed',
+                     'content':base64.b64encode(content).decode()}
+          if existing:
+              old = json.loads(api(base+'/git/blobs/'+existing))
+              if base64.b64decode(old['content']) == content:
+                  raise SystemExit(0)
+              payload['sha'] = existing
+          subprocess.run(['gh','api',base+'/contents/ticker.json','--method','PUT','--input','-'],
+                         input=json.dumps(payload), text=True, check=True)
+          PY
+      - uses: actions/cache/save@v4
+        with:
+          path: ticker-output/state.json
+          key: ticker-state-${{ github.run_id }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ticker-audit-${{ github.run_id }}
+          path: ticker-output/audit.json
+          retention-days: 14
