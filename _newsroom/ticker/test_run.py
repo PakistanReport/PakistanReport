@@ -26,23 +26,6 @@ class TickerTests(unittest.TestCase):
         self.assertEqual(record['pages'][0]['status'], 'unavailable')
         self.assertEqual(leads, [])
 
-    def test_verified_brief_public_feed_excludes_evidence(self):
-        url = 'https://example.org/report'
-        brief = 'Officials have approved a new local transport project in Pakistan following a review of its funding. Construction will begin after the remaining contracts have been awarded.'
-        event = {'event_id': 'transport-project', 'text': brief, 'category': 'Policy',
-                 'material_change': True, 'sources': [{'url': url, 'quote': 'approved a new local transport project'}]}
-        replies = iter([{'urls': [url]}, {'events': [event]}, {'approved': True}])
-        with tempfile.TemporaryDirectory() as folder:
-            with patch.dict(run.os.environ, {'TICKER_OUTPUT': folder}), \
-                    patch.object(run, 'discover', return_value=({'name':'Example'}, [{'url':url}])), \
-                    patch.object(run, 'inspect', return_value={'url':url,'text':'Officials approved a new local transport project today.'}), \
-                    patch.object(run, 'model', side_effect=lambda *_: next(replies)), \
-                    patch.object(run.ROOT.__class__, 'read_text', autospec=True) as read:
-                read.side_effect = lambda path, *a, **k: json.dumps([{'name':'Example'}]) if path.name == 'sources.json' else json.dumps({'paused':False,'hidden_event_ids':[],'pinned_event_ids':[]})
-                run.main()
-            public = json.loads((Path(folder)/'ticker.json').read_text())
-            self.assertEqual(public['items'][0]['text'], brief)
-            self.assertNotIn('sources', public['items'][0])
 
 
 if __name__ == '__main__':

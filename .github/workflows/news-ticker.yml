@@ -1,11 +1,51 @@
-name: Pakistan news ticker disabled
+name: Free Pakistan news ticker
 on:
+  schedule:
+    - cron: '17 * * * *'
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: pakistan-news-ticker
+  cancel-in-progress: false
 jobs:
-  disabled:
-    if: ${{ false }}
+  refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - run: echo 'Ticker automation disabled. No paid API calls are configured.'
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r _newsroom/ticker/requirements.txt
+      - run: python _newsroom/ticker/run.py
+      - name: Record candidate list and coverage in run log
+        run: cat ticker-output/candidates.json
+      - name: Save free feed and candidate coverage
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import base64, json, os, subprocess
+          from pathlib import Path
+          def api(path, *args):
+              return subprocess.check_output(['gh','api',path,*args], text=True)
+          base = 'repos/'+os.environ['GH_REPO']
+          if json.loads(api(base))['private']:
+              raise SystemExit('Free ticker requires a public repository.')
+          refs = json.loads(api(base+'/git/matching-refs/heads/ticker-feed'))
+          if not any(ref['ref'] == 'refs/heads/ticker-feed' for ref in refs):
+              head = json.loads(api(base+'/git/ref/heads/main'))['object']['sha']
+              api(base+'/git/refs','-f','ref=refs/heads/ticker-feed','-f','sha='+head)
+          entries = {entry['path']: entry['sha'] for entry in json.loads(api(base+'/git/trees/ticker-feed'))['tree']}
+          for name in ['ticker.json']:
+              content = Path('ticker-output',name).read_bytes()
+              payload = {'branch':'ticker-feed','message':'Refresh free ticker '+name,'content':base64.b64encode(content).decode()}
+              if name in entries:
+                  old = json.loads(api(base+'/git/blobs/'+entries[name]))
+                  if base64.b64decode(old['content']) == content:
+                      continue
+                  payload['sha'] = entries[name]
+              subprocess.run(['gh','api',base+'/contents/'+name,'--method','PUT','--input','-'],input=json.dumps(payload),text=True,check=True)
+          PY
