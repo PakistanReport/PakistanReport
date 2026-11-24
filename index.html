@@ -244,17 +244,19 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 </div>
 <main class="container pr-home">
 {% assign regular_posts = site.posts | where_exp: "post", "post.category != 'Iran Conflict' and post.category != 'Jobs'" %}
-{% comment %}A single URL ledger prevents repeat homepage placements; In Focus is reserved first.{% endcomment %}
+{% comment %}Reserve the newest regular article as main story before selecting In Focus.{% endcomment %}
 {% assign used_urls = "|" %}
-{% comment %}Automatic In Focus: prioritise impactful reporting from the last 48 hours.
-Category priority: Pakistan/Politics/Economy/Business, then World/Technology.
-Within a tier, the newest matching article wins. Older articles are fallback only.
-The selected story is reserved before every other homepage section.{% endcomment %}
+{% assign lead = regular_posts.first %}
+{% if lead %}{% assign used_urls = used_urls | append: lead.url | append: "|" %}{% endif %}
+
+{% comment %}Automatic In Focus selects impactful reporting from remaining articles.{% endcomment %}
 {% assign focus = nil %}
 {% assign focus_cutoff = site.time | date: "%s" | minus: 172800 %}
 {% for tier in (1..4) %}
   {% if focus %}{% break %}{% endif %}
   {% for post in regular_posts %}
+    {% assign token = post.url | prepend: "|" | append: "|" %}
+    {% if used_urls contains token %}{% continue %}{% endif %}
     {% if post.title == "PSO, SSGC LPG Face Possible Rs1 Billion Loss on Imported Shipment" %}{% continue %}{% endif %}
     {% assign post_seconds = post.date | date: "%s" | plus: 0 %}
     {% assign headline = post.title | downcase %}
@@ -274,20 +276,6 @@ The selected story is reserved before every other homepage section.{% endcomment
 {% endfor %}
 {% if focus %}{% assign focus_token = focus.url | prepend: "|" | append: "|" %}{% assign used_urls = used_urls | append: focus.url | append: "|" %}{% endif %}
 
-{% assign lead = nil %}
-{% assign chosen_lead = site.data.homepage_editorial.main_story | default: "" %}
-{% if chosen_lead != "" %}
-  {% assign lead_matches = regular_posts | where: "url", chosen_lead %}
-  {% assign candidate_lead = lead_matches.first %}
-  {% if candidate_lead and candidate_lead.url != focus.url %}{% assign lead = candidate_lead %}{% endif %}
-{% endif %}
-{% unless lead %}
-  {% for post in regular_posts %}
-    {% assign token = post.url | prepend: "|" | append: "|" %}
-    {% unless used_urls contains token %}{% assign lead = post %}{% break %}{% endunless %}
-  {% endfor %}
-{% endunless %}
-{% if lead %}{% assign used_urls = used_urls | append: lead.url | append: "|" %}{% endif %}
 
 {% comment %}Reserve the four chronologically newest stories after the lead, before editorial curation.{% endcomment %}
 {% assign latest_urls = "|" %}
