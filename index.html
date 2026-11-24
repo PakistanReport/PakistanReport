@@ -252,7 +252,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 {% comment %}Automatic In Focus selects impactful reporting from remaining articles.{% endcomment %}
 {% assign focus = nil %}
 {% comment %}Editorial selection takes precedence over automatic In Focus, unless it is the lead.{% endcomment %}
-{% assign focus_matches = regular_posts | where: "url", "/business/petroleum-dealers-give-government-15-days-to-address-demands/" %}
+{% assign focus_matches = regular_posts | where: "url", "/pakistan/pakistan-hosts-nuclear-security-meeting-iaea-49-member-states/" %}
 {% assign selected_focus = focus_matches.first %}
 {% if selected_focus and selected_focus.url != lead.url %}{% assign focus = selected_focus %}{% endif %}
 {% assign focus_cutoff = site.time | date: "%s" | minus: 172800 %}
