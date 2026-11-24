@@ -251,6 +251,10 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 
 {% comment %}Automatic In Focus selects impactful reporting from remaining articles.{% endcomment %}
 {% assign focus = nil %}
+{% comment %}Editorial selection takes precedence over automatic In Focus, unless it is the lead.{% endcomment %}
+{% assign focus_matches = regular_posts | where: "url", "/business/petroleum-dealers-give-government-15-days-to-address-demands/" %}
+{% assign selected_focus = focus_matches.first %}
+{% if selected_focus and selected_focus.url != lead.url %}{% assign focus = selected_focus %}{% endif %}
 {% assign focus_cutoff = site.time | date: "%s" | minus: 172800 %}
 {% for tier in (1..4) %}
   {% if focus %}{% break %}{% endif %}
@@ -360,7 +364,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   {% endfor %}
 {% endfor %}
 {% if lead %}
-  <!-- Main story and Editor's Picks may be curated; In Focus is selected automatically. -->
+  <!-- Main story and Editor's Picks may be curated; In Focus uses editorial selection with automatic fallback. -->
   <section class="pr-lead-grid" aria-label="Featured reporting">
     <article class="pr-lead">
       {% if lead.image %}<a href="{{ lead.url | relative_url }}"><img class="pr-lead-image" src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}"></a>{% endif %}
