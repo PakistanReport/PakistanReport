@@ -247,7 +247,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 {% comment %}Reserve the newest regular article as main story before selecting In Focus.{% endcomment %}
 {% assign used_urls = "|" %}
 {% assign lead = regular_posts.first %}
-{% assign selected_lead_matches = regular_posts | where: "url", "/world/pakistan-warns-un-global-food-energy-crisis-supply-chains/" %}
+{% assign selected_lead_matches = regular_posts | where: "url", "/economy/pakistan-selects-three-global-banks-500-million-trade-financing/" %}
 {% assign selected_lead = selected_lead_matches.first %}
 {% if selected_lead %}{% assign lead = selected_lead %}{% endif %}
 {% if lead %}{% assign used_urls = used_urls | append: lead.url | append: "|" %}{% endif %}
