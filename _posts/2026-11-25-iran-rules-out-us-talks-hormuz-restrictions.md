@@ -2,7 +2,7 @@
 layout: "article"
 title: "Iran Rules Out US Talks and Vows to Intensify Strait of Hormuz Restrictions"
 description: "Iran refuses to resume negotiations with the United States until its demands are met and warns of tighter Strait of Hormuz restrictions as Qatar seeks to revive diplomacy."
-category: "World"
+category: "Iran Conflict"
 author: "Pakistan Report Editorial Desk"
 date: "2026-11-25 11:28:13 +0500"
 published: true
