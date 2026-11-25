@@ -53,7 +53,7 @@
       expiresAt = 0;
       try { window.localStorage.removeItem(key); } catch (_) {}
       clearAnalyticsCookies();
-      notice.hidden = false;
+      notice.hidden = true;
       status.textContent = 'Your previous choice has expired. Analytics is off until you allow it again.';
       signal(false);
       return;
@@ -65,7 +65,7 @@
     expiresAt = value ? value.expiresAt : 0;
     const granted = !!value && value.granted;
     if (!granted) clearAnalyticsCookies();
-    notice.hidden = !!value;
+    notice.hidden = true;
     status.textContent = value ? (granted ? 'Current choice: analytics allowed.' : 'Current choice: analytics declined.') : '';
     signal(granted);
     scheduleExpiry();
