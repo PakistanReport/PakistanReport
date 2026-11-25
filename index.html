@@ -247,9 +247,6 @@ description: "Pakistan news, politics, economy, business, technology, world deve
 {% comment %}Reserve the newest regular article as main story before selecting In Focus.{% endcomment %}
 {% assign used_urls = "|" %}
 {% assign lead = regular_posts.first %}
-{% assign selected_lead_matches = regular_posts | where: "url", "/economy/pakistan-selects-three-global-banks-500-million-trade-financing/" %}
-{% assign selected_lead = selected_lead_matches.first %}
-{% if selected_lead %}{% assign lead = selected_lead %}{% endif %}
 {% if lead %}{% assign used_urls = used_urls | append: lead.url | append: "|" %}{% endif %}
 
 {% comment %}Choose a rotating In Focus story from recent regular posts at build time, excluding the main story.{% endcomment %}
@@ -357,7 +354,7 @@ description: "Pakistan news, politics, economy, business, technology, world deve
   {% endfor %}
 {% endfor %}
 {% if lead %}
-  <!-- Main story and Editor's Picks may be curated; In Focus rotates among recent stories at build time. -->
+  <!-- Main story is the newest regular article; Editor's Picks may be curated; In Focus rotates among recent stories at build time. -->
   <section class="pr-lead-grid" aria-label="Featured reporting">
     <article class="pr-lead">
       {% if lead.image %}<a href="{{ lead.url | relative_url }}"><img class="pr-lead-image" src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}"></a>{% endif %}
