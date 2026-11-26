@@ -2,16 +2,54 @@
 layout: default
 ---
 <main class="container">
-<h1>{{ page.title | escape }}</h1>
-<p><a href="{{ '/archive/' | relative_url }}">All archive months</a></p>
-{% for day in page.archive_days %}
-<section style="margin:24px 0">
-<h2>{{ day.day | date: "%-d %B %Y" }}</h2>
-<ul style="list-style:none;padding:0">
-{% for post in day.articles %}
-<li style="padding:10px 0;border-bottom:1px solid #dce2df;overflow-wrap:anywhere"><span style="font-size:13px;color:#66716c">{{ post.category | escape }} · </span><a class="archive-headline" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
-{% endfor %}
-</ul>
-</section>
-{% endfor %}
+  <section class="news-section">
+    <div class="section-heading"><h2>{{ page.title | escape }}</h2></div>
+    <p><a href="{{ '/archive/' | relative_url }}">All archive months</a></p>
+    {% for day in page.archive_days %}
+    <section style="margin:24px 0">
+      <h2>{{ day.day | date: "%-d %B %Y" }}</h2>
+      <div class="articles">
+        {% for post in day.articles %}
+        <article class="card">
+
+        {% if post.image %}
+        <a href="{{ post.url | relative_url }}">
+          <img
+            class="card-image"
+            src="{{ post.image }}"
+            alt="{{ post.image_alt | default: post.title | escape }}"
+            loading="lazy">
+        </a>
+        {% endif %}
+
+        <div class="card-content">
+
+          <div class="category">
+            {{ post.category }}
+          </div>
+
+          <h3>
+            <a class="archive-headline" href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+
+          {% if post.description %}
+          <p class="excerpt">
+            {{ post.description }}
+          </p>
+          {% endif %}
+
+          <div class="date">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </div>
+
+        </div>
+
+      </article>
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </section>
 </main>
