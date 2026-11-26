@@ -119,12 +119,15 @@ jobs:
           const fs = require('fs');
           (async () => {
             const browser = await chromium.launch({headless:true});
-            const months = fs.readdirSync('_site/archive').filter(x => /^\\d{4}$/.test(x)).flatMap(y => fs.readdirSync('_site/archive/'+y).filter(m => /^\\d{2}$/.test(m)).map(m=>y+'/'+m));
+            const months = fs.readdirSync('_site/archive').filter(x => /^\d{4}$/.test(x)).flatMap(y => fs.readdirSync('_site/archive/'+y).filter(m => /^\d{2}$/.test(m)).map(m=>y+'/'+m));
             if (!months.length) throw Error('No months');
-            const month = months.sort().at(-1);
+            const month = months.sort((a,b)=>fs.statSync('_site/archive/'+a+'/index.html').size-fs.statSync('_site/archive/'+b+'/index.html').size).at(-1);
             for (const [width,columns] of [[1024,3],[768,2],[390,1]]) {
               const page = await browser.newPage({viewport:{width,height:844}});
-              await page.goto('http://127.0.0.1:8765/archive/'+month+'/',{waitUntil:'domcontentloaded'});
+              const response = await page.goto('http://127.0.0.1:8765/archive/'+month+'/',{waitUntil:'domcontentloaded'});
+              if (!response || !response.ok()) throw Error('Archive HTTP failure');
+              await page.locator('article.card').first().waitFor();
+              await page.evaluate(() => document.fonts.ready);
               const result = await page.evaluate(() => ({
                 overflow:document.documentElement.scrollWidth>innerWidth+2,
                 columns:getComputedStyle(document.querySelector('.articles')).gridTemplateColumns.split(' ').length,
