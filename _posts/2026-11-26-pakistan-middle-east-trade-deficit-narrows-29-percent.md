@@ -11,7 +11,7 @@ image_alt: "Cargo ship and shipping containers at a commercial seaport."
 image_caption: "Pakistan Report Illustration"
 ---
 
-**ISLAMABAD:** Pakistan's trade deficit with seven Middle Eastern countries narrowed by 29 per cent to $3.75 billion during the first four months of FY27, compared with $5.27 billion a year earlier, according to State Bank of Pakistan data reported by Dawn.
+**ISLAMABAD:** Pakistan's trade deficit with seven Middle Eastern countries narrowed by 29 per cent to $3.75 billion during the first four months of FY27, compared with $5.27 billion a year earlier, according to State Bank of Pakistan data.
 
 Import payments fell by 22 per cent to $4.92 billion, while export receipts increased by 13 per cent to $1.17 billion.
 
