@@ -15,7 +15,7 @@ image_caption: "Pakistan Report Illustration"
 
 The proposed Autos and Auto Parts Manufacturing Policy 2026–31 aims to shift the industry towards export-oriented production, greater use of locally manufactured components and stronger participation in international supply chains.
 
-Under the proposed **Drawback of Local Taxes and Levies (DLTL)** scheme, eligible exporters would receive support equivalent to 5% of the net free-on-board value of qualifying exports.
+Under the proposed **Drawback of Local Taxes and Levies (DLTL)** scheme, eligible exporters would receive support equivalent to 5% of the value of qualifying exports.
 
 ### Additional Incentives for Export Growth
 
