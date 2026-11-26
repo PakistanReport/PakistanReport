@@ -2,6 +2,7 @@
 layout: article
 title: "Punjab’s Rs1.995 Trillion PIVOT Programme Targets Industry, Exports and
   162,000 Jobs"
+description: "Punjab’s Rs1.995 trillion PIVOT programme targets industrial development, export competitiveness and more than 162,000 jobs through public and private investment."
 category: Business
 author: Pakistan Report Editorial Desk
 date: 2026-10-20 21:00:00 +0500

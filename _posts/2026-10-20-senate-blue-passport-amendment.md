@@ -2,6 +2,7 @@
 layout: article
 title: "Senate Passes Blue Passport Amendment for Former Lawmakers Who Served
   Partial Terms"
+description: "Pakistan’s Senate has passed a bill allowing former lawmakers who served partial terms to retain official blue passports, subject to the remaining legislative process."
 category: Politics
 author: Pakistan Report Editorial Desk
 date: 2026-10-20 22:00:00 +0500

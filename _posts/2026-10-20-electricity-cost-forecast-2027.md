@@ -2,6 +2,7 @@
 layout: article
 title: "Pakistan’s Rs27.31 Electricity Cost Forecast Shows Why Capacity Payments
   Matter"
+description: "Pakistan’s proposed 2027 power-purchase cost is Rs27.309 per unit, with capacity payments accounting for nearly 54% of projected expenditure."
 category: Economy
 author: Pakistan Report Editorial Desk
 date: 2026-10-20 20:00:00 +0500
