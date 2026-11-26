@@ -66,7 +66,9 @@ layout: default
 
     </div>
 
-    {% include compact-pagination.html paging=page.category_pagination label="Category pages" %}
+    {% if page.show_news_archive %}
+    <p style="margin:30px 0;text-align:center"><a href="{{ '/archive/' | relative_url }}">Browse News Archive →</a></p>
+    {% endif %}
 
     {% else %}
 

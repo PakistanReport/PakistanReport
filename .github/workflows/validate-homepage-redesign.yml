@@ -43,8 +43,8 @@ jobs:
           for archive in ["latest", "pakistan-politics", "economy-business"]:
               assert Path(f"_site/{archive}/index.html").exists(), f"Missing {archive} archive"
           latest = Path("_site/latest/index.html").read_text()
-          assert 'aria-label="Latest stories pages"' in latest or latest.count('class="pr-archive-item"') <= 12, "Latest archive pagination missing"
-          assert latest.count('class="pr-archive-item"') <= 12, "More than 12 stories on first latest page"
+          assert 'aria-label="Latest stories pages"' not in latest, "Unexpected numbered pagination"
+          assert latest.count('class="pr-archive-item"') <= 48, "More than 48 stories on first latest page"
           print("Homepage and archive build smoke checks passed")
           PY
       - name: Install Chromium screenshot tooling

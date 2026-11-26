@@ -1,75 +1,32 @@
-# Category pagination for Pakistan Report. Generates crawlable static pages.
+# Recent section listings and stable monthly archives.
 module PakistanReport
   class CategoryPagination < Jekyll::Generator
     safe true
     priority :low
-
     PER_PAGE = 48
+    ACTIVE = ["Pakistan", "Politics", "Economy", "Business", "World", "Technology"].freeze
 
     def generate(site)
-      category_pages = site.pages.select { |page| page.data["layout"] == "category" && (page.data["category"] || page.data["categories"]) }
-      category_pages.each do |page|
+      posts = site.posts.docs.sort_by(&:date).reverse
+      site.pages.select { |p| p.data["layout"] == "category" }.each do |page|
         categories = Array(page.data["categories"] || page.data["category"])
-        posts = site.posts.docs.select { |post| categories.include?(post.data["category"]) }
-        posts.sort_by!(&:date)
-        posts.reverse!
-        total_pages = [(posts.length.to_f / PER_PAGE).ceil, 1].max
-        base_url = page.url.sub(%r{/index\.html$}, "/").sub(%r{/?$}, "/")
-
-        total_pages.times do |index|
-          current = index + 1
-          target = if current == 1
-                     page
-                   else
-                     dir = File.join(page.dir, "page", current.to_s)
-                     generated = Jekyll::PageWithoutAFile.new(site, site.source, dir, "index.html")
-                     generated.data.merge!(page.data)
-                     generated.data.delete("permalink") # Each generated page needs its own URL.
-                     site.pages << generated
-                     generated
-                   end
-          target.data["category_page_posts"] = posts.slice(index * PER_PAGE, PER_PAGE) || []
-          target.data["category_pagination"] = {
-            "page" => current,
-            "total_pages" => total_pages,
-            "previous_url" => current > 1 ? (current == 2 ? base_url : "#{base_url}page/#{current - 1}/") : nil,
-            "next_url" => current < total_pages ? "#{base_url}page/#{current + 1}/" : nil,
-            "base_url" => base_url
-          }
-          target.data["title"] = "#{page.data['title']} — Page #{current}" if current > 1
-        end
+        page.data["category_page_posts"] = posts.select { |p| categories.include?(p.data["category"]) }.first(PER_PAGE)
+        page.data["show_news_archive"] = categories.length == 1 && ACTIVE.include?(categories.first)
       end
-
-      # The latest-stories archive uses the same static pagination as category pages.
-      site.pages.select { |page| page.data["latest_archive"] == true }.each do |page|
-        excluded = ["Iran Conflict", "Jobs", "Explainer"]
-        posts = site.posts.docs.reject { |post| excluded.include?(post.data["category"]) }
-        posts.sort_by!(&:date)
-        posts.reverse!
-        total_pages = [(posts.length.to_f / PER_PAGE).ceil, 1].max
-        base_url = "/latest/"
-
-        total_pages.times do |index|
-          current = index + 1
-          target = if current == 1
-                     page
-                   else
-                     generated = Jekyll::PageWithoutAFile.new(site, site.source, File.join("latest", "page", current.to_s), "index.html")
-                     generated.data.merge!(page.data)
-                     generated.data.delete("permalink")
-                     site.pages << generated
-                     generated
-                   end
-          target.data["latest_page_posts"] = posts.slice(index * PER_PAGE, PER_PAGE) || []
-          target.data["latest_pagination"] = {
-            "page" => current,
-            "total_pages" => total_pages,
-            "previous_url" => current > 1 ? (current == 2 ? base_url : "#{base_url}page/#{current - 1}/") : nil,
-            "next_url" => current < total_pages ? "#{base_url}page/#{current + 1}/" : nil,
-            "base_url" => base_url
-          }
-          target.data["title"] = "Latest Stories — Page #{current}" if current > 1
-        end
+      site.pages.select { |p| p.data["latest_archive"] == true }.each do |page|
+        page.data["latest_page_posts"] = posts.reject { |p| ["Iran Conflict", "Jobs", "Explainer"].include?(p.data["category"]) }.first(PER_PAGE)
+      end
+      months = posts.group_by { |p| p.date.getlocal("+05:00").strftime("%Y/%m") }
+      index = site.pages.find { |p| p.data["news_archive_index"] == true }
+      raise "Missing news archive landing page" unless index
+      index.data["archive_months"] = months.keys.sort.reverse.map do |key|
+        { "url" => "/archive/#{key}/", "label" => Date.strptime(key, "%Y/%m").strftime("%B %Y"), "count" => months[key].length }
+      end
+      months.each do |key, entries|
+        page = Jekyll::PageWithoutAFile.new(site, site.source, "archive/#{key}", "index.html")
+        label = Date.strptime(key, "%Y/%m").strftime("%B %Y")
+        page.data.merge!({"layout"=>"news-archive-month", "title"=>"#{label} News Archive", "description"=>"Pakistan Report articles published in #{label}.", "archive_days"=>entries.group_by { |p| p.date.getlocal("+05:00").strftime("%Y-%m-%d") }.map { |day, articles| {"day"=>day, "articles"=>articles} }})
+        site.pages << page
       end
     end
   end

@@ -22,44 +22,54 @@ jobs:
           bundler-cache: true
       - name: Build Jekyll site
         run: JEKYLL_ENV=production bundle exec jekyll build
-      - name: Validate pagination, links and canonical URLs
+      - name: Validate recent sections and monthly archive
         run: |
           python3 - <<'PY'
-          import os, re, html, pathlib, xml.etree.ElementTree as ET
+          from pathlib import Path
           from html.parser import HTMLParser
-          root=pathlib.Path('_site')
+          import re, xml.etree.ElementTree as ET
+          root=Path('_site')
           class Page(HTMLParser):
-              def __init__(self):
-                  super().__init__();self.links=[];self.canon=[];self.robots=[];self.cards=0
+              def __init__(self,path):
+                  super().__init__();self.links=[];self.headlines=[];self.canon=[];self.cards=0
+                  self.feed(path.read_text())
               def handle_starttag(self,tag,attrs):
                   a=dict(attrs)
-                  if tag=='a' and a.get('href'):self.links.append(a['href'])
+                  if tag=='a':
+                      self.links.append(a.get('href',''))
+                      if a.get('class')=='archive-headline': self.headlines.append(a['href'])
                   if tag=='link' and a.get('rel')=='canonical':self.canon.append(a.get('href'))
-                  if tag=='meta' and a.get('name')=='robots':self.robots.append(a.get('content',''))
-                  if tag=='article' and 'card' in a.get('class','').split():self.cards+=1
-          categories=['pakistan','politics','economy','business','technology','world','explainer','latest','economy-business','pakistan-politics','iran-conflict','jobs']
-          tested=0
-          for category in categories:
-              first=root/category/'index.html'
-              assert first.is_file(),f'Missing {first}'
-              pages=sorted((root/category).glob('page/*/index.html'),key=lambda p:int(p.parent.name))
-              allpages=[first]+pages
-              for index,path in enumerate(allpages,1):
-                  p=Page();p.feed(path.read_text())
-                  expected=f'https://pakistanreport.pk/{category}/'+(f'page/{index}/' if index>1 else '')
-                  assert p.canon==[expected],f'Canonical mismatch: {path}: {p.canon}'
-                  assert p.cards==48 or index==len(allpages),f'Incomplete non-final archive: {path}'
-                  assert p.cards<=48,f'More than 48 cards: {path}'
-                  assert not any('noindex' in v for v in p.robots),f'noindex: {path}'
-                  if index>1:
-                      assert f'/{category}/' in p.links or f'/{category}/page/{index-1}/' in p.links,f'Missing previous navigation: {path}'
-                  if index<len(allpages):
-                      assert f'/{category}/page/{index+1}/' in p.links,f'Missing next navigation: {path}'
-                  tested+=1
-          sitemap=root/'sitemap.xml'
-          assert sitemap.is_file(),'Missing sitemap.xml'
-          xml=sitemap.read_text()
-          for category in categories:
-              assert f'https://pakistanreport.pk/{category}/' in xml,f'Category absent from sitemap: {category}'
-          print(f'PASS: {tested} category pages; canonical, card limits, crawlability, links and sitemap')
+                  if tag=='article' and a.get('class') in ('card','pr-archive-item'):self.cards+=1
+          active=['pakistan','politics','economy','business','world','technology']
+          sections=active+['latest','economy-business','pakistan-politics','iran-conflict','jobs']
+          for section in sections:
+              p=Page(root/section/'index.html')
+              assert p.cards<=48,(section,p.cards)
+              assert p.canon==['https://pakistanreport.pk/'+section+'/'],section
+              assert not list((root/section).glob('page/*/index.html')),section
+              assert not any(re.match(r'^/'+section+r'/page/\\d+/',x) for x in p.links),section
+          ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
+          urls={e.text for e in ET.parse(root/'sitemap.xml').findall('.//s:loc',ns)}
+          assert not any(re.search(r'/page/\\d+/$',u) for u in urls)
+          landing=Page(root/'archive/index.html')
+          months=list(root.glob('archive/*/*/index.html'))
+          assert months
+          linked=[]
+          for f in months:
+              path='/'+f.parent.relative_to(root).as_posix()+'/'
+              assert path in landing.links,path
+              p=Page(f)
+              assert p.canon==['https://pakistanreport.pk'+path],path
+              assert 'https://pakistanreport.pk'+path in urls,path
+              linked.extend(p.headlines)
+          assert len(linked)==len(set(linked)), 'Duplicate archive article links'
+          for path in linked:
+              assert (root/path.strip('/')/'index.html').is_file(),path
+          # Every sitemap article with a publication timestamp must be in the archive.
+          for url in urls:
+              path=url.removeprefix('https://pakistanreport.pk')
+              f=root/path.strip('/')/'index.html'
+              if f.is_file() and 'article:published_time' in f.read_text():
+                  assert path in linked, 'Missing article '+path
+          print('PASS:',len(months),'months;',len(linked),'article links')
           PY

@@ -35,9 +35,4 @@ layout: default
   </div>
  </article>
  {% endfor %}
-
- {% include compact-pagination.html paging=page.latest_pagination label="Latest stories pages" %}
- {% if page.latest_pagination.page == 1 or page.latest_pagination.page == page.latest_pagination.total_pages %}
- <p style="margin:24px 0 0;text-align:center;font-size:13px;color:#5d6962"><a href="{{ '/article-index/' | relative_url }}" style="text-decoration:underline">Complete Article Index</a></p>
- {% endif %}
 </main>

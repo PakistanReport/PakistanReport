@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<main class="container">
+<h1>{{ page.title | escape }}</h1>
+<p><a href="{{ '/archive/' | relative_url }}">All archive months</a></p>
+{% for day in page.archive_days %}
+<section style="margin:24px 0">
+<h2>{{ day.day | date: "%-d %B %Y" }}</h2>
+<ul style="list-style:none;padding:0">
+{% for post in day.articles %}
+<li style="padding:10px 0;border-bottom:1px solid #dce2df;overflow-wrap:anywhere"><span style="font-size:13px;color:#66716c">{{ post.category | escape }} · </span><a class="archive-headline" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+{% endfor %}
+</ul>
+</section>
+{% endfor %}
+</main>
