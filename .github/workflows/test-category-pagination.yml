@@ -48,8 +48,8 @@ jobs:
                   p=Page();p.feed(path.read_text())
                   expected=f'https://pakistanreport.pk/{category}/'+(f'page/{index}/' if index>1 else '')
                   assert p.canon==[expected],f'Canonical mismatch: {path}: {p.canon}'
-                  assert p.cards==50 or index==len(allpages),f'Incomplete non-final archive: {path}'
-                  assert p.cards<=50,f'More than 50 cards: {path}'
+                  assert p.cards==48 or index==len(allpages),f'Incomplete non-final archive: {path}'
+                  assert p.cards<=48,f'More than 48 cards: {path}'
                   assert not any('noindex' in v for v in p.robots),f'noindex: {path}'
                   if index>1:
                       assert f'/{category}/' in p.links or f'/{category}/page/{index-1}/' in p.links,f'Missing previous navigation: {path}'
