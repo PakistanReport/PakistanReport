@@ -10,7 +10,7 @@ permalink: /archive/
 <p>Browse published reporting by month.</p>
 <ul>
 {% for month in page.archive_months %}
-<li style="padding:12px 0"><a href="{{ month.url | relative_url }}">{{ month.label | escape }}</a> — {{ month.count }} articles</li>
+<li style="padding:12px 0"><a href="{{ month.url | relative_url }}">{{ month.label | escape }}</a></li>
 {% endfor %}
 </ul>
 </main>
