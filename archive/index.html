@@ -1,0 +1,16 @@
+---
+layout: default
+title: News Archive
+description: Browse Pakistan Report's published news by month.
+news_archive_index: true
+permalink: /archive/
+---
+<main class="container">
+<h1>News Archive</h1>
+<p>Browse published reporting by month.</p>
+<ul>
+{% for month in page.archive_months %}
+<li style="padding:12px 0"><a href="{{ month.url | relative_url }}">{{ month.label | escape }}</a> — {{ month.count }} articles</li>
+{% endfor %}
+</ul>
+</main>

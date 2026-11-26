@@ -43,8 +43,8 @@ jobs:
           for archive in ["latest", "pakistan-politics", "economy-business"]:
               assert Path(f"_site/{archive}/index.html").exists(), f"Missing {archive} archive"
           latest = Path("_site/latest/index.html").read_text()
-          assert 'aria-label="Latest stories pages"' in latest or latest.count('class="pr-archive-item"') <= 12, "Latest archive pagination missing"
-          assert latest.count('class="pr-archive-item"') <= 12, "More than 12 stories on first latest page"
+          assert 'aria-label="Latest stories pages"' not in latest, "Unexpected numbered pagination"
+          assert latest.count('class="pr-archive-item"') <= 48, "More than 48 stories on first latest page"
           print("Homepage and archive build smoke checks passed")
           PY
       - name: Install Chromium screenshot tooling
@@ -111,6 +111,38 @@ jobs:
             if (errors.length) throw new Error('Mobile page JS errors: ' + errors.join('; '));
             await browser.close();
           })().catch(err => { console.error(err); process.exit(1); });
+          JS
+      - name: Check monthly archive responsive cards
+        run: |
+          node <<'JS'
+          const { chromium } = require('playwright');
+          const fs = require('fs');
+          (async () => {
+            const browser = await chromium.launch({headless:true});
+            const months = fs.readdirSync('_site/archive').filter(x => /^\d{4}$/.test(x)).flatMap(y => fs.readdirSync('_site/archive/'+y).filter(m => /^\d{2}$/.test(m)).map(m=>y+'/'+m));
+            if (!months.length) throw Error('No months');
+            const month = months.sort((a,b)=>fs.statSync('_site/archive/'+a+'/index.html').size-fs.statSync('_site/archive/'+b+'/index.html').size).at(-1);
+            for (const [width,columns] of [[1024,3],[768,2],[390,1]]) {
+              const page = await browser.newPage({viewport:{width,height:844}});
+              const response = await page.goto('http://127.0.0.1:8765/archive/'+month+'/',{waitUntil:'domcontentloaded'});
+              if (!response || !response.ok()) throw Error('Archive HTTP failure');
+              await page.locator('article.card').first().waitFor();
+              await page.evaluate(() => document.fonts.ready);
+              const result = await page.evaluate(() => ({
+                overflow:document.documentElement.scrollWidth>innerWidth+2,
+                columns:getComputedStyle(document.querySelector('.articles')).gridTemplateColumns.split(' ').length,
+                cards:document.querySelectorAll('article.card').length,
+                images:document.querySelectorAll('article.card img').length,
+                lazy:document.querySelectorAll('article.card img[loading="lazy"]').length,
+                briefs:document.querySelectorAll('article.card .excerpt').length
+              }));
+              console.log(width,JSON.stringify(result));
+              if(result.overflow || result.columns!==columns || !result.cards || !result.images || !result.briefs || result.images!==result.lazy) throw Error('Archive layout validation failed');
+              await page.screenshot({path:'visual-review/archive-'+width+'.png'});
+              await page.close();
+            }
+            await browser.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
           JS
       - name: Upload desktop and mobile visual review
         if: always()
