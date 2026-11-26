@@ -22,7 +22,7 @@ The revised ex-depot prices are:
 | Petrol | Rs319 | Rs318 |
 | High-speed diesel | Rs357 | Rs353 |
 
-International benchmark petrol prices declined from $83.03 to $81.14 per barrel, while diesel benchmarks fell from $89.12 to $87.78 per barrel, according to pricing details reported by Business Recorder.
+The international petrol benchmark fell from $83.03 to $81.14 per barrel, while the Dubai crude oil benchmark used in diesel pricing declined from $89.12 to $87.78 per barrel, according to OGRA's pricing data.
 
 The ex-refinery price of petrol decreased from Rs224.61 to Rs222.60 per litre, while that of diesel fell from Rs243.22 to Rs240.10 per litre.
 
