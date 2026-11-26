@@ -31,5 +31,3 @@ Education initiatives include upgrading 70 schools, installing solar power syste
 Other proposals include improvements to the Thall–Parachinar Road, development projects associated with the Gomal Zam Dam, solar-powered water supply schemes at 88 locations and scholarships for 100 students to pursue higher education in China.
 
 The ADS was established following the imposition of governor's rule in Khyber Pakhtunkhwa on October 11, with administrative responsibility for 12 districts, including the former tribal districts, Bannu, Tank, Lakki Marwat and Dera Ismail Khan.
-
-Governor's adviser Samar Haroon Bilour welcomed the initial release of funds on Sunday.
