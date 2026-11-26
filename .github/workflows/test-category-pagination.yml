@@ -5,6 +5,9 @@ on:
     paths:
       - '_plugins/category_pagination.rb'
       - '_layouts/category.html'
+      - '_layouts/news-archive-month.html'
+      - '_layouts/latest-archive.html'
+      - 'archive/**'
       - '.github/workflows/test-category-pagination.yml'
   workflow_dispatch:
 
@@ -27,6 +30,7 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           from html.parser import HTMLParser
+          from urllib.parse import unquote
           import re, xml.etree.ElementTree as ET
           root=Path('_site')
           class Page(HTMLParser):
@@ -51,6 +55,9 @@ jobs:
           ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
           urls={e.text for e in ET.parse(root/'sitemap.xml').findall('.//s:loc',ns)}
           assert not any(re.search(r'/page/\\d+/$',u) for u in urls)
+          assert '/archive/' not in Page(root/'index.html').links
+          for section in active:
+              assert '/archive/' in Page(root/section/'index.html').links,section
           landing=Page(root/'archive/index.html')
           months=list(root.glob('archive/*/*/index.html'))
           assert months
@@ -61,15 +68,17 @@ jobs:
               p=Page(f)
               assert p.canon==['https://pakistanreport.pk'+path],path
               assert 'https://pakistanreport.pk'+path in urls,path
+              assert p.cards == len(p.headlines),path
+              print(path, p.cards, 'cards;', f.stat().st_size, 'HTML bytes')
               linked.extend(p.headlines)
           assert len(linked)==len(set(linked)), 'Duplicate archive article links'
           for path in linked:
-              assert (root/path.strip('/')/'index.html').is_file(),path
+              assert (root/unquote(path).strip('/')/'index.html').is_file(),path
           # Every sitemap article with a publication timestamp must be in the archive.
           for url in urls:
               path=url.removeprefix('https://pakistanreport.pk')
-              f=root/path.strip('/')/'index.html'
+              f=root/unquote(path).strip('/')/'index.html'
               if f.is_file() and 'article:published_time' in f.read_text():
-                  assert path in linked, 'Missing article '+path
+                  assert unquote(path) in {unquote(x) for x in linked}, 'Missing article '+path
           print('PASS:',len(months),'months;',len(linked),'article links')
           PY
