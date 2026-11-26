@@ -37,7 +37,7 @@ jobs:
                   if tag=='link' and a.get('rel')=='canonical':self.canon.append(a.get('href'))
                   if tag=='meta' and a.get('name')=='robots':self.robots.append(a.get('content',''))
                   if tag=='article' and 'card' in a.get('class','').split():self.cards+=1
-          categories=['pakistan','politics','economy','business','technology','world','explainer']
+          categories=['pakistan','politics','economy','business','technology','world','explainer','latest','economy-business','pakistan-politics','iran-conflict','jobs']
           tested=0
           for category in categories:
               first=root/category/'index.html'
@@ -48,7 +48,8 @@ jobs:
                   p=Page();p.feed(path.read_text())
                   expected=f'https://pakistanreport.pk/{category}/'+(f'page/{index}/' if index>1 else '')
                   assert p.canon==[expected],f'Canonical mismatch: {path}: {p.canon}'
-                  assert p.cards<=12,f'More than 12 cards: {path}'
+                  assert p.cards==50 or index==len(allpages),f'Incomplete non-final archive: {path}'
+                  assert p.cards<=50,f'More than 50 cards: {path}'
                   assert not any('noindex' in v for v in p.robots),f'noindex: {path}'
                   if index>1:
                       assert f'/{category}/' in p.links or f'/{category}/page/{index-1}/' in p.links,f'Missing previous navigation: {path}'

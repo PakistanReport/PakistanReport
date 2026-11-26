@@ -4,7 +4,7 @@ module PakistanReport
     safe true
     priority :low
 
-    PER_PAGE = 12
+    PER_PAGE = 50
 
     def generate(site)
       category_pages = site.pages.select { |page| page.data["layout"] == "category" && (page.data["category"] || page.data["categories"]) }
