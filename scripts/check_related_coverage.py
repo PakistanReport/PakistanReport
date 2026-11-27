@@ -1,6 +1,6 @@
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, unquote
 import sys
 from collections import Counter
 
@@ -22,7 +22,7 @@ class Article(HTMLParser):
         if tag == "a" and self.section:
             u = urlparse(a.get("href", ""))
             assert not u.netloc or u.netloc == "pakistanreport.pk", u
-            self.links[self.section].append(u.path.rstrip("/") + "/")
+            self.links[self.section].append(unquote(u.path).rstrip("/") + "/")
     def handle_endtag(self, tag):
         if tag == "section":
             self.section = None
