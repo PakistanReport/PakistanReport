@@ -32,7 +32,7 @@ module PakistanReport
       "foreign reserves" => /foreign exchange reserves|foreign currency reserves|foreign reserves/i,
       "power distribution privatisation" => /(?:discos?|power distribution|iesco|fesco|gepco).{0,80}privati[sz]ation|privati[sz]ation.{0,80}(?:discos?|power distribution|iesco|fesco|gepco)/i
     }.freeze
-    STOP = %w[pakistan pakistani government says said new report announces announced plans plan year years country federal national million billion rupees pakistan's will from with into over under after before about their have has for the and of to in on by as at is a an rs].freeze
+    STOP = %w[pakistan pakistani government says said new report announces announced plans plan year years country federal national first second third fourth quarter fiscal world bank million billion rupees pakistan's will from with into over under after before about their have has for the and of to in on by as at is a an rs].freeze
     ACTIVE = %w[Pakistan Politics Economy Business World Technology].freeze
     def terms(text)
       text.downcase.scan(/[a-z][a-z-]{2,}/).reject { |w| STOP.include?(w) }.uniq
@@ -57,7 +57,7 @@ module PakistanReport
           shared = subjects[p.url] & subjects[q.url]
           rare = common.select { |w| frequency[w] <= 25 }
           next if shared.empty? && (rare.size < 2 || common.size < 3)
-          next if !subjects[p.url].empty? && !subjects[q.url].empty? && shared.empty?
+          next if shared.empty? && (!subjects[p.url].empty? || !subjects[q.url].empty?)
           score = shared.size * 5 + common.sum { |w| Math.log(1.0 + posts.size.to_f / frequency[w]) }
           [q, score]
         end
