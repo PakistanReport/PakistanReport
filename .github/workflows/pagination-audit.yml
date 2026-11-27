@@ -15,6 +15,7 @@ on:
       - ".github/workflows/pagination-audit.yml"
       - "_plugins/**"
       - "scripts/check_related_coverage.py"
+      - "scripts/check_related_browser.py"
       - "_layouts/**"
       - "_includes/**"
       - "_config.yml"
@@ -51,6 +52,20 @@ jobs:
         with:
           name: related-coverage-audit
           path: related-coverage-audit.csv
+          retention-days: 3
+      - name: Install browser test dependencies
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Validate recommendation rendering
+        run: |
+          python3 -m http.server 8765 --directory _site &
+          python3 scripts/check_related_browser.py
+      - name: Save recommendation screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: recommendation-screenshots
+          path: recommendation-screenshots/
           retention-days: 3
       - name: Export compact generated-page and archive-link manifest
         run: python3 scripts/export_indexing_manifest.py _site audit-manifest
