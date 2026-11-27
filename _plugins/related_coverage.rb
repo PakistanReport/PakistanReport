@@ -23,7 +23,14 @@ module PakistanReport
       "banking regulation" => /banking regulation|capital adequacy|bank equity|banking sector/i,
       "corporate acquisitions" => /acquisition|merger|stake purchase/i,
       "livestock" => /livestock|animal vaccine|foot.and.mouth/i,
-      "ukraine diplomacy" => /ukraine.{0,60}(peace|talks|ceasefire)|(?:peace|talks|ceasefire).{0,60}ukraine/i
+      "ukraine diplomacy" => /ukraine.{0,60}(peace|talks|ceasefire)|(?:peace|talks|ceasefire).{0,60}ukraine/i,
+      "solar power" => /solar power|solar energy|solar scheme|solar project|solar panels|net.metering/i,
+      "railway upgrades" => /railway upgrade|railway moderni[sz]ation|karachi.rohri|\bml.1\b/i,
+      "digital payments" => /digital payments?|cashless payments?|\braast\b|payment interoperability/i,
+      "stock market" => /stock market|stock exchange|\bkse.100\b/i,
+      "remittances" => /workers.? remittances|remittance inflows|pakistan.{0,30}remittances/i,
+      "foreign reserves" => /foreign exchange reserves|foreign currency reserves|foreign reserves/i,
+      "power distribution privatisation" => /(?:discos?|power distribution|iesco|fesco|gepco).{0,80}privati[sz]ation|privati[sz]ation.{0,80}(?:discos?|power distribution|iesco|fesco|gepco)/i
     }.freeze
     STOP = %w[pakistan pakistani government says said new report announces announced plans plan year years country federal national million billion rupees pakistan's will from with into over under after before about their have has for the and of to in on by as at is a an rs].freeze
     ACTIVE = %w[Pakistan Politics Economy Business World Technology].freeze
