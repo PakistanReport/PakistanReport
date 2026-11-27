@@ -46,6 +46,12 @@ jobs:
         run: python3 scripts/check_article_index.py _site
       - name: Validate article recommendation links
         run: python3 scripts/check_related_coverage.py _site
+      - name: Save recommendation audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: related-coverage-audit
+          path: related-coverage-audit.csv
+          retention-days: 3
       - name: Export compact generated-page and archive-link manifest
         run: python3 scripts/export_indexing_manifest.py _site audit-manifest
       - name: Save compact manifest for offline GSC URL comparison

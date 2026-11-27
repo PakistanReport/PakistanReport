@@ -50,3 +50,14 @@ assert incoming and sum(k*v for k,v in distribution.items()) > 0
 print("Articles:", len(articles), "Unique destinations:", len(incoming))
 print("Related count distribution:", sorted(distribution.items()))
 print("PASS: no duplicates, self-links or non-article destinations")
+
+# Export actual rendered recommendations for editorial review.
+import csv
+with open("related-coverage-audit.csv", "w", encoding="utf-8", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(["article", "more_from", "related_coverage"])
+    for url, links in sorted(articles.items()):
+        writer.writerow([url, " | ".join(links["more"]), " | ".join(links["related"])])
+for url, links in sorted(articles.items()):
+    if any(s in url for s in ("fuel-storage", "automobile-export", "alibaba", "kp-development-package", "petrol-price")):
+        print("EDITORIAL SAMPLE:", url, links["related"])
