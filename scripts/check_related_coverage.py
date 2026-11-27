@@ -12,7 +12,7 @@ class Article(HTMLParser):
         self.links = {"more": [], "related": []}
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
-        if tag == "meta" and a.get("property") == "article:published_time":
+        if tag == "meta" and a.get("property") == "og:type" and a.get("content") == "article":
             self.article = True
         if tag == "section":
             if a.get("id") == "pr-related-coverage":
