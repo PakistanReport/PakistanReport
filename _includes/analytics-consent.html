@@ -1,6 +1,6 @@
 {% if page.layout == 'article' and page.category %}
-{% assign pr_related = site.categories[page.category] %}
-{% if pr_related and pr_related.size > 1 %}
+{% assign pr_related = page.pr_related_coverage %}
+{% if pr_related and pr_related.size > 0 %}
 <section id="pr-related-coverage" class="pr-related-coverage" aria-labelledby="pr-related-title">
   <h2 id="pr-related-title">Related coverage</h2>
   <div class="pr-related-list">
