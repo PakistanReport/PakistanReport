@@ -42,8 +42,8 @@ def main():
     sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
     assert "https://pakistanreport.pk/article-index/" in sitemap, "Index missing from sitemap"
     latest = parse(root / "latest" / "index.html")
-    assert "/article-index/" in latest.links, "Article index not linked from first Latest page"
-    print("Article index valid: 250 unique reachable article links; indexable, canonical, sitemap and Latest page link verified")
+    assert "/article-index/" not in latest.links, "Unexpected article index link on Latest page"
+    print("Article index valid: 250 unique reachable article links; indexable, canonical, sitemap and approved Latest page exclusion verified")
 
 if __name__ == "__main__":
     main()

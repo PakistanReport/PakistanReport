@@ -667,7 +667,7 @@
     </div>
 
     {% if page.category %}
-      {% assign related_posts = site.posts | where: "category", page.category %}
+      {% assign related_posts = page.pr_more_from %}
       {% assign related_count = 0 %}
       <section class="related-stories" aria-labelledby="related-stories-heading">
         <h2 id="related-stories-heading">More from {{ page.category }}</h2>
