@@ -13,6 +13,8 @@ on:
       - "_data/indexing_pilot.yml"
       - "indexing-pilot-preview.html"
       - ".github/workflows/pagination-audit.yml"
+      - "_plugins/**"
+      - "scripts/check_related_coverage.py"
       - "_layouts/**"
       - "_includes/**"
       - "_config.yml"
@@ -42,6 +44,8 @@ jobs:
         run: python3 scripts/check_indexing_pilot.py _site
       - name: Validate public article index and 250 article links
         run: python3 scripts/check_article_index.py _site
+      - name: Validate article recommendation links
+        run: python3 scripts/check_related_coverage.py _site
       - name: Export compact generated-page and archive-link manifest
         run: python3 scripts/export_indexing_manifest.py _site audit-manifest
       - name: Save compact manifest for offline GSC URL comparison
